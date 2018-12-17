@@ -1,0 +1,17 @@
+encoding utf-8
+
+input daguas.th
+input daguas2017
+
+equate 111@daguas 0@daguas2017
+
+input daguas.th2
+input daguas2.th2
+input daguas2bis.th2
+
+join daguasXR4 daguas7b  # fond
+join daguasXR1 daguas5b	# Affluent
+
+input daguas2017.th2
+join Daguas2017 daguasXR3
+

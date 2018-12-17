@@ -1,0 +1,227 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 246.1103 246.1103
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {47.8733 1 1.0} {32.5197 0} union_alta2018.xvi 0 {}
+
+
+
+scrap union-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.502401619999999 0.0 m]
+
+point 112.5 32.5 label -text "céramiques"
+
+point 10.75 44.0 label -text "<center>éboulis<br>construit"
+
+point 29.0 74.0 label -text "<center>pierres<br>dressées"
+
+point 41.25 -1.75 label -text "<it>Lat : -5.89177<br>Long : -78.53031<br>Alt = 2398 m"
+
+point 43.0 22.75 entrance -orientation 30.3
+
+point 116.75 58.0 narrow-end
+
+point 117.25 123.0 narrow-end
+
+point 49.0 134.75 breakdown-choke -orientation 303.4
+
+line arrow
+  103.0 36.5
+  103.0 36.5 91.25 35.75 86.5 49.25
+endline
+
+line arrow
+  111.5 38.25
+  111.5 38.25 99.75 73.75 85.5 75.0
+endline
+
+line arrow
+  23.0 37.5
+  23.0 37.5 40.5 52.75 50.0 38.0
+endline
+
+line arrow
+  34.75 70.5
+  34.75 70.5 58.0 63.25 60.0 50.75
+endline
+
+area blocks
+  l40-99-131
+endarea
+
+line label -id l40-99-131 -close on
+  76.75 137.0
+  76.75 137.0 53.0 121.0 53.0 115.0
+  53.0 109.0 65.0 90.75 70.75 93.25
+  76.5 95.75 105.5 131.0 99.25 131.25
+  93.0 131.5 76.75 137.0 76.75 137.0
+  smooth off
+endline
+
+point 54.5 28.25 altitude -align bottom-right
+
+point 52.5 139.75 altitude -align top-right
+
+point 84.25 54.75 archeo-material
+
+point 80.75 74.75 archeo-material
+
+line pit -close on
+  88.0 89.75
+  88.0 89.75 85.5 83.5 88.25 83.5
+  91.0 83.5 97.75 83.25 95.25 86.25
+  92.75 89.25 88.0 89.75 88.0 89.75
+  smooth off
+endline
+
+line pit -close on
+  91.75 101.5
+  91.75 101.5 88.5 100.0 89.5 97.75
+  90.5 95.5 96.75 93.0 96.25 96.25
+  95.75 99.5 91.75 101.5 91.75 101.5
+  smooth off
+endline
+
+line slope
+  46.25 53.0
+  46.25 53.0 60.0 41.25 61.25 31.75
+  l-size 5.0
+endline
+
+line chimney -close on
+  114.5 94.5
+  114.5 94.5 104.75 87.75 108.75 85.75
+  112.75 83.75 121.0 82.0 120.0 85.75
+  119.0 89.5 114.5 94.5 114.5 94.5
+  smooth off
+endline
+
+line floor-meander
+  96.25 79.25
+  96.25 79.25 104.5 70.0 107.5 69.25
+endline
+
+area blocks
+  l29-109-52
+endarea
+
+line label -id l29-109-52 -close on
+  109.25 51.0
+  55.0 71.75
+  40.75 53.75
+  41.0 38.25
+  57.0 30.0
+  90.5 24.0
+  109.25 51.0
+endline
+
+line rock-border -close on
+  89.5 73.25
+  94.5 71.75
+  91.75 69.0
+  88.0 70.75
+  89.5 73.25
+endline
+
+line rock-border -close on
+  98.75 68.75
+  100.5 66.75
+  97.25 65.5
+  94.5 68.25
+  98.75 68.75
+endline
+
+line rock-border -close on
+  103.0 66.25
+  105.75 65.0
+  104.0 62.25
+  100.75 64.0
+  103.0 66.25
+endline
+
+line rock-border -close on
+  93.25 108.75
+  98.0 111.0
+  100.75 106.0
+  97.5 101.75
+  93.25 108.75
+endline
+
+line rock-border -close on
+  107.0 82.0
+  106.25 86.0
+  102.5 90.5
+  99.0 86.5
+  101.25 82.5
+  107.0 82.0
+endline
+
+point 123.5 64.5 water-flow -orientation 113.3
+
+point 111.0 126.75 water-flow -orientation 191.2
+
+line rock-border -close on
+  52.25 131.75
+  56.25 130.0
+  55.75 126.5
+  51.5 129.25
+  52.25 131.75
+endline
+
+point 35.75 142.75 air-draught -orientation 126.7 -scale xs
+
+point 38.5 26.25 air-draught -orientation 227.0 -scale xs
+
+line wall
+  109.0 119.0
+  109.0 119.0 109.25 112.25 107.75 113.0
+  106.25 113.75 107.0 116.75 101.5 118.75
+  96.0 120.75 72.5 135.0 68.5 134.75
+  64.5 134.5 58.25 137.75 57.0 137.75
+  55.75 137.75 52.5 139.75 52.5 139.75
+  smooth off
+endline
+
+line wall
+  116.0 68.0
+  116.0 68.0 110.25 69.25 114.0 71.75
+  117.75 74.25 121.5 75.5 121.5 80.25
+  121.5 85.0 122.25 88.25 119.75 92.25
+  117.25 96.25 111.0 107.75 110.0 110.0
+  109.0 112.25 110.25 118.25 110.25 118.25
+  smooth off
+endline
+
+line wall
+  54.5 28.25
+  54.5 28.25 52.25 28.5 53.0 31.0
+  53.75 33.5 51.5 33.75 56.75 35.0
+  62.0 36.25 77.75 25.0 82.0 28.0
+  86.25 31.0 91.5 45.0 94.25 49.0
+  97.0 53.0 106.75 60.5 109.25 64.0
+  111.75 67.5 115.5 65.75 115.5 65.75
+  smooth off
+endline
+
+line wall
+  46.75 130.0
+  46.75 130.0 58.25 124.25 59.25 120.25
+  60.25 116.25 59.75 116.0 62.75 110.75
+  65.75 105.5 80.0 95.75 76.25 91.0
+  72.5 86.25 65.5 85.0 64.25 79.75
+  63.0 74.5 63.75 73.75 59.25 69.25
+  54.75 64.75 54.25 54.25 51.0 52.0
+  47.75 49.75 43.75 49.25 43.25 45.5
+  42.75 41.75 46.75 41.75 46.75 39.5
+  46.75 37.25 45.75 34.75 44.25 34.75
+  42.75 34.75 40.5 35.5 40.5 35.5
+  smooth off
+endline
+
+point 55.273300000000006 132.43970000000002 station -name 2@union_alta
+
+point 105.1933 83.5397 station -name 1@union_alta
+
+point 47.8733 32.5197 station -name 0@union_alta
+
+endscrap
+
+

@@ -1,0 +1,33 @@
+encoding utf-8
+
+survey banco -title "Cueva del Banco de Oro" -entrance "0"
+   
+centerline -title "banco de oro"
+	cs lat-long
+	#fix 0	
+	
+	date 2018.09.11
+		team "Jean-Yves Bigot"
+		team "Marc Pouilly"
+		team "Ana Rodriguez"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0          0b                         0.00    0.00    0.00   0.00   0.00   0.00   0.00
+0          2                         6.02   65.00    8.00   0.50   2.00   1.50   1.00
+2          3                         1.92  110.00   20.50   0.50   1.50   0.80   1.50
+3          4                         3.98  162.00    9.00   0.40   0.30   0.70   0.80
+3          5                         6.97  352.00    0.00   1.30   2.00   1.50   0.60
+5          6                         6.39  353.00    8.00   1.40   2.50   1.00   0.30
+6          7                         9.18   51.00   -2.00   0.20   1.50   0.60   0.50
+7          8                         4.20  134.00    6.00   2.20   0.00   0.70   0.60
+8          9                         4.21   27.00    0.50   0.50   1.00   0.30   0.50
+9          10                        4.65   46.00   -6.50   0.30   0.30   0.20   0.00
+
+# Dev = 48 m
+
+endcenterline
+
+endsurvey

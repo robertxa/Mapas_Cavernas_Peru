@@ -1,0 +1,36 @@
+encoding utf-8
+
+survey loco -title "Tragadero del Loco" -entrance "2"
+   
+centerline -title "Loco"
+	cs lat-long
+	fix 2	-5.889682	-77.409119	1417
+	date 2016.09.12
+		#team "ECA"
+		#team "G.S. Vulcain"
+		team "Jean-Sébastien/Moquet"# (ECA)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+	explo-date 2016.09.11
+		#explo-team "ECA"
+		#explo-team "G.S Vulcain"
+		explo-team "Jean-Sébastien/Moquet"# (ECA)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	0.00	0	0	1.50
+extend left
+0	1			16.00	265.00	23.00	6.00	0.00	0	1.50
+extend right
+0	2			18.00	342.00	71.00	15.00	5.00	0	15.00
+0	3			30.01	36.00	-24.00	1.50	1.50	2.00	1.50
+3	4			5.15	34.00	-40.00	1.50	2.00	0.00	1.50
+4	5			3.69	76.00	-35.00	1.00	0.40	1.50	0.00
+5	6			3.61	17.00	-5.00	0.10	0.10	0.00	0.50
+
+	#extend right
+endcenterline
+ 
+endsurvey

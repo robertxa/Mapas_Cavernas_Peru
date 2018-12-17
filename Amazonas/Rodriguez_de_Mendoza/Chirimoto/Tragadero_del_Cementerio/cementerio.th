@@ -1,0 +1,35 @@
+encoding utf-8
+
+survey cementerio -title "Tragadero del Cementerio" -entrance "0"
+   
+centerline -title "Cementerio"
+	cs lat-long
+	fix 0	-6.559176	-77.463341	2242
+	date 2016.08.19
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Jean-Yves/Bigot"# (GSBM)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+	explo-date 2016.08.19
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	1.00	2.00	0.50	0.50
+0	1			4.14	333.00	-31.00	1.20	0.00	0.50	0.50
+1	2			8.60	285.00	-3.00	0.40	2.00	0.50	1.00
+2	3			9.83	338.00	-2.00	1.50	0.50	0.50	0.50
+3	4			5.50	270.00	-21.00	0.30	0.30	0.30	0.30
+1	5			7.4	107	1	1	0	0.5	0.5
+
+	#extend right
+endcenterline
+ 
+endsurvey

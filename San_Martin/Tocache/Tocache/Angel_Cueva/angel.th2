@@ -1,0 +1,121 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 474.0 364.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {324.24399999999997 1 1.0} {172.562 0} angel2017.xvi 0 {}
+
+
+
+scrap angel1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 442.9608 -128.0 0.0 0.0 14.50240432 0.0 m]
+
+line wall
+endline
+
+line wall
+  40.0 123.5
+  40.0 123.5 64.0 42.0 74.0 43.0
+  84.0 44.0 88.0 50.0 101.0 50.0
+  114.0 50.0 137.0 47.0 149.0 61.0
+  161.0 75.0 162.0 92.5 181.0 109.5
+  200.0 126.5 207.5 143.5 233.5 156.0
+  259.5 168.5 288.0 182.5 292.5 178.0
+  297.0 173.5 294.0 162.5 303.0 165.0
+  312.0 167.5 315.5 169.0 319.0 168.0
+  smooth off
+endline
+
+line overhang -clip off
+  319.0 168.0
+  322.5 167.0 308.0 136.5 308.0 136.5
+  smooth off
+endline
+
+point 167.0 107.0 clay
+
+point 144.5 93.5 clay
+
+point 119.5 57.0 clay
+
+point 78.0 51.5 clay
+
+point 99.0 88.0 clay
+
+point 66.0 108.5 clay
+
+point 27.0 105.5 narrow-end
+
+point 40.0 147.5 continuation
+
+point 90.0 162.0 dig
+
+line wall -close on -outline in
+  66.5 75.5
+  66.5 75.5 58.0 95.0 67.0 90.0
+  76.0 85.0 82.0 80.5 78.5 76.5
+  75.0 72.5 66.5 75.5 66.5 75.5
+  smooth off
+endline
+
+point 54.0 120.0 stalactites
+
+point 66.5 137.0 stalactites
+
+point 78.0 68.0 stalactites
+
+point 116.5 74.0 stalactites
+
+point 264.5 190.5 u:boss -scale xs
+
+line flowstone
+  309.5 234.0
+  309.5 234.0 291.5 213.5 281.0 212.5
+  270.5 211.5 244.0 211.5 244.0 211.5
+  smooth off
+endline
+
+point 308.5 104.0 label -text "Lat :-8.20123<br>Long : -76.43959<br>Alt = 922 m "
+
+point 340.0 158.0 entrance -orientation 309.3
+
+line overhang -clip off
+  343.5 208.5
+  343.5 208.5 332.0 175.5 329.0 176.0
+  smooth off
+endline
+
+point 110.0 136.0 u:bats -scale xs
+
+line wall
+  329.0 176.0
+  326.0 176.5 326.0 177.0 327.0 184.0
+  328.0 191.0 329.5 207.0 321.5 214.5
+  313.5 222.0 315.5 235.5 300.5 227.5
+  285.5 219.5 231.0 202.5 210.5 182.5
+  190.0 162.5 152.0 122.5 145.0 109.5
+  138.0 96.5 137.0 78.5 121.0 82.5
+  105.0 86.5 98.5 98.0 95.0 112.0
+  91.5 126.0 90.0 139.0 82.0 143.0
+  74.0 147.0 64.0 151.5 64.0 151.5
+  smooth off
+endline
+
+point 79.204 133.102 station -name 8@angel
+
+point 87.67399999999999 91.462 station -name 7@angel
+
+point 100.67399999999999 62.902 station -name 6@angel
+
+point 136.814 64.47200000000001 station -name 5@angel
+
+point 167.224 118.19200000000001 station -name 4@angel
+
+point 224.504 170.652 station -name 3@angel
+
+point 304.264 208.68200000000002 station -name 2@angel
+
+point 316.104 181.442 station -name 1@angel
+
+point 324.24399999999997 172.562 station -name 0b@angel
+
+endscrap
+
+

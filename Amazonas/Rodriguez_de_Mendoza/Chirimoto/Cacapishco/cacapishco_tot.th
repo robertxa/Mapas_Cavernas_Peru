@@ -1,0 +1,20 @@
+encoding utf-8
+
+input cacapishco.th2
+input cacapishco2.th2
+input cacapishco3.th2
+input cacapishco4.th2
+input cacapishco5.th2
+
+join CacaJY2 CacaJY3
+join CacaJY4 CacaJY5
+join CacaJY6 CacaJY7
+join CacaJY1 cacaXR12
+join CacaJY2 cacaXR11 -count 2
+join CacaJY4 cacaXR10
+join CacaJY5 cacaXR10
+join CacaJY5 CacaXR9
+join CacaJY6 CacaXR7
+join CacaJY6 CacaXR6
+join CacaJY7 CacaXR5
+join CacaJY7 CacaXR2

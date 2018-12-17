@@ -1,0 +1,32 @@
+encoding utf-8
+
+survey bombero -title "Tragadero del Bombero de Primavera" -entrance "0"
+   
+centerline -title "bombero de Primavera"
+	cs lat-long
+	fix 0	-5.96257	-77.34158	969
+	date 2016.09.10
+		#team "ECA"
+		team "Jean-Denis/Klein"# (GSBM)"
+		team "Jean-Sébastien/Moquet"# (ECA)"
+	explo-date 2016.09.10
+		#explo-team "ECA"
+		explo-team "Jean-Denis/Klein"# (GSBM)"
+		explo-team "Juan-Carlos/Villegas"# (ECA)"
+		explo-team "Jean-Sébastien/Moquet"# (ECA)"
+		explo-team "Luca/Rava"# (ECA)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	0	0	0	0			
+0	1			9.50	123.00	-33.00	1.00	3.00	0.50	0.50
+1	2			24.28	16.10	-14.00	5.00	7.00	2.00	0.50
+2	3			7.40	0.00	0.00	1.00	1.00	2.00	7.00
+4	0			5.89	113.10	-50.00	5.00	5.00	4.00	1.00
+
+	#extend right
+endcenterline
+ 
+endsurvey

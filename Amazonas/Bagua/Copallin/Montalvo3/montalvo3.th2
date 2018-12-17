@@ -1,0 +1,231 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 403.5907 285.48040000000003
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {261.885 1 1.0} {83.3844 0} montalvo3_2018.xvi 0 {}
+
+
+
+scrap montalvo3-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+line wall -subtype invisible
+  261.5 76.25
+  261.5 76.25 266.0 84.25 263.5 89.0
+endline
+
+line wall -subtype blocks
+  257.5 59.0
+  257.5 59.0 250.5 58.75 251.0 61.75
+  251.5 64.75 255.0 70.25 254.0 72.75
+  253.0 75.25 247.25 80.75 250.75 81.25
+  254.25 81.75 257.25 82.5 258.75 80.75
+  260.25 79.0 261.5 76.25 261.5 76.25
+  smooth off
+endline
+
+line rock-border -close on
+  229.25 40.75
+  230.0 46.75
+  235.25 46.75
+  235.25 40.75
+  229.25 40.75
+endline
+
+line rock-border -close on
+  232.25 69.75
+  236.25 72.0
+  232.75 63.5
+  228.0 64.5
+  232.25 69.75
+endline
+
+line rock-border -close on
+  242.75 63.0
+  243.25 69.25
+  248.5 69.0
+  247.5 61.25
+  242.75 63.0
+endline
+
+point 218.25 49.25 archeo-material
+
+point 197.75 60.75 archeo-material
+
+point 156.5 137.25 label -text "R2"
+
+line flowstone
+  73.75 121.0
+  73.75 121.0 87.75 114.0 91.0 108.75
+  94.25 103.5 97.25 92.25 97.25 92.25
+  smooth off
+endline
+
+line flowstone
+  76.25 164.25
+  76.25 164.25 70.25 138.0 46.5 139.5
+endline
+
+line flowstone
+  87.0 159.75
+  87.0 159.75 78.5 142.0 71.75 139.0
+  65.0 136.0 50.25 130.5 50.25 130.5
+  smooth off
+  50.25 130.5 61.5 125.0 64.0 117.5
+  66.5 110.0 66.5 97.25 66.5 97.25
+  smooth off
+endline
+
+point 169.75 86.5 u:boss -scale s
+
+point 177.25 96.5 u:boss -scale s
+
+point 180.25 90.5 u:boss -scale s
+
+point 138.5 99.25 u:boss -scale s
+
+point 142.0 108.0 u:boss -scale s
+
+point 132.5 107.0 u:boss -scale s
+
+point 126.0 94.5 u:boss -scale s
+
+point 117.25 107.5 u:boss -scale s
+
+point 86.25 124.0 u:boss -scale s
+
+point 97.25 119.5 u:boss -scale s
+
+point 130.25 87.75 u:boss
+
+point 78.25 129.0 u:boss
+
+point 107.0 115.5 u:boss
+
+point 199.75 84.25 u:boss
+
+line pit
+  188.5 52.5
+  197.0 77.0
+  209.25 87.25
+endline
+
+line pit
+  220.75 33.5
+  226.0 54.5
+  233.25 77.0
+endline
+
+line slope
+  240.75 37.5
+  240.75 37.5 244.75 47.25 252.5 41.75
+  l-size 5.0
+endline
+
+line slope
+  253.75 76.25
+  253.75 76.25 237.0 73.25 231.5 84.75
+  l-size 5.0
+endline
+
+line slope
+  252.25 78.75
+  252.25 78.75 238.0 94.5 245.75 99.0
+  l-size 5.0
+endline
+
+line slope
+  256.5 78.75
+  256.5 78.75 256.75 88.25 259.75 90.5
+  l-size 5.0
+endline
+
+point 261.5 76.25 altitude -align bottom-right
+
+point 138.0 145.0 altitude -align right
+
+line pit -reverse on
+  148.5 127.75
+  148.5 127.75 131.25 119.75 122.75 125.0
+  114.25 130.25 116.0 146.0 117.0 154.75
+  118.0 163.5 120.25 170.75 120.25 170.75
+  smooth off
+endline
+
+point 196.5 91.25 flowstone
+
+point 246.25 24.5 narrow-end
+
+line wall -subtype blocks
+  248.0 31.75
+  248.0 31.75 249.0 37.75 249.5 46.25
+  250.0 54.75 251.0 54.5 252.5 54.5
+  254.0 54.5 256.75 53.25 256.75 53.25
+  smooth off
+endline
+
+line wall
+  263.5 89.0
+  263.5 89.0 261.5 84.25 260.25 85.5
+  259.0 86.75 249.5 97.0 246.25 96.25
+  243.0 95.5 234.25 91.25 234.25 86.25
+  234.25 81.25 237.48 70.17 233.25 74.0
+  228.0 78.75 227.75 75.75 224.5 77.5
+  221.25 79.25 205.75 83.75 206.0 87.25
+  206.25 90.75 208.75 96.5 207.0 101.5
+  205.25 106.5 193.25 103.5 193.75 108.25
+  194.25 113.0 207.25 130.0 198.0 126.5
+  188.75 123.0 159.5 117.5 153.0 118.5
+  146.5 119.5 139.25 140.5 138.0 145.0
+  136.75 149.5 123.51 167.03 115.5 166.5
+  108.0 166.0 106.75 169.0 103.0 165.25
+  99.25 161.5 97.5 157.25 88.75 156.5
+  80.0 155.75 72.0 158.25 68.25 155.25
+  64.5 152.25 57.25 156.75 54.25 145.75
+  51.25 134.75 50.5 112.75 56.0 109.25
+  61.5 105.75 62.75 106.25 72.0 104.75
+  81.25 103.25 94.75 103.75 100.0 99.25
+  105.25 94.75 107.75 98.0 112.25 89.0
+  116.75 80.0 110.25 71.75 121.5 71.5
+  132.75 71.25 148.0 80.25 153.75 77.25
+  159.5 74.25 162.75 75.5 166.25 70.25
+  169.75 65.0 169.75 57.5 177.25 56.75
+  184.75 56.0 191.25 55.5 197.0 53.5
+  202.75 51.5 210.5 41.0 214.75 38.75
+  219.0 36.5 237.0 32.0 238.25 37.5
+  239.5 43.0 241.25 47.25 241.75 41.25
+  242.25 35.25 244.75 31.5 244.75 31.5
+  smooth off
+endline
+
+point 181.75 33.0 label -text "terrasses"
+
+point 266.0 118.5 label -text "<it>Lat : -5.64629<br>Long : -78.38755<br>Alt = 1240 m"
+
+point 262.0 55.5 entrance -orientation 272.7
+
+point 275.75 83.0 entrance -orientation 272.7
+
+point 261.885 83.3844 station -name 0@montalvo3
+
+point 245.985 85.1144 station -name 1@montalvo3
+
+point 244.965 37.5544 station -name 2@montalvo3
+
+point 238.815 64.5644 station -name 3@montalvo3
+
+point 230.865 53.934400000000004 station -name 4@montalvo3
+
+point 126.45500000000001 145.6644 station -name 9@montalvo3
+
+point 56.14500000000001 112.12440000000001 station -name 10@montalvo3
+
+point 195.115 81.18440000000001 station -name 5@montalvo3
+
+point 119.055 113.7844 station -name 8@montalvo3
+
+point 155.82500000000002 97.87440000000001 station -name 6@montalvo3
+
+point 199.215 124.1744 station -name 7@montalvo3
+
+endscrap
+
+

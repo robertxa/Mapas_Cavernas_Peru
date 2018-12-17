@@ -1,0 +1,71 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -177.0 -136.24900000000002 446.0 356.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {298.025 1 1.0} {39.372 1} pircas-coupe2017.xvi 0 {}
+
+
+
+scrap Scrapc1 -projection extended -author 2017 "Constance Picque" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+
+point 105.0 191.0 entrance -orientation 141.1
+
+point 253.0 160.0 label -text "<center><it>Coupe<br>développée" -scale xl
+
+point 269.0 107.0 clay
+
+point 292.0 81.0 clay
+
+point 257.0 74.0 clay
+
+point 225.0 95.0 clay
+
+line water-flow
+  173.0 107.0
+  295.0 33.0
+endline
+
+line wall -subtype invisible
+  208.0 179.0
+  8.0 174.0
+endline
+
+line wall
+  190.0 127.0
+  190.0 127.0 192.0 150.0 192.0 158.0
+  192.0 166.0 198.0 179.0 208.0 179.0
+  smooth off
+endline
+
+line arrow
+  10.0 89.0
+  10.0 89.0 -61.0 144.0 -43.0 174.0
+  -25.0 204.0 28.0 227.0 51.0 223.0
+  74.0 219.0 93.0 198.0 93.0 198.0
+  smooth off
+endline
+
+point 63.0 86.0 label -text "Lat : -6.133623<br>long : -77.988493<br>Alt : 2853 m"
+
+line wall -reverse on
+  190.0 127.0
+  190.0 127.0 312.0 126.0 313.0 110.0
+  314.0 94.0 306.0 28.0 299.0 28.0
+  292.0 28.0 179.0 101.0 179.0 101.0
+  smooth off
+  155.0 103.0
+  33.0 168.0
+  8.0 174.0
+endline
+
+line wall
+endline
+
+point 298.025 39.372 station -name 1@pircas
+
+point 182.095 106.30199999999999 station -name 2@pircas
+
+point 39.36499999999998 172.85199999999998 station -name 3@pircas
+
+endscrap
+
+

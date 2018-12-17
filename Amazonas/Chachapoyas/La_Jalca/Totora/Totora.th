@@ -1,0 +1,65 @@
+encoding utf-8
+
+survey totora -title "Tragadero de Totora" -entrance "19"
+   
+centerline -title "Totora" 
+	cs lat-long
+	#fix 19	
+	date 2013.09.02
+		#team "ECA"
+		#team "GSBM"
+		team "Jean-Yves/Bigot"# (ECA)"
+		team "Jean-Loup/Guyot"# (ECA, GSBM)"
+	explo-date 2013.09.02
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Jean-Loup/Guyot"# (ECA, GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+1          1b                         0.00    0.00    0.00   2.00   0.50   0.00   0.60
+1          2                         5.41  357.00   10.00   0.00   2.52   3.20   1.62
+2          3                         4.47   89.00   27.00   0.00   1.97   5.64   1.22
+3          4                         3.75  144.00   60.00   0.00   1.51   7.90   0.86
+4          5                         6.84  193.00   12.00   0.00   3.89  10.31   1.66
+5          6                         9.85  331.00   67.00   0.00   1.18   2.87   1.57
+6          7                         8.46   19.00   17.00   1.96   0.84   3.94   0.70
+7          8                         4.43   76.00   21.00   3.64   0.00   2.86   2.10
+8          9                        13.74    5.00   16.00   0.00   1.47   9.89   1.56
+9          10                       12.49    3.00   30.00   2.23   1.74   8.28   2.42
+10         11                        1.44    3.00  -90.00      0      0      0      0
+11         12                       10.26   66.00   15.00   2.48   3.43   3.48   1.31
+8          13                       14.45   83.00   12.00   1.74   0.00   4.34   2.30
+13         14                        4.69   70.00    8.00   1.82   0.00   5.43   1.62
+14         15                        5.08   64.00   -6.00   3.00   2.00   9.32   1.77
+14         16                        8.95    8.00   41.00   0.00   5.40   2.84   3.00
+16         17                        4.11   23.00   24.00   0.00   0.80   3.65   0.80
+17         18                        8.94   37.00   70.00      0      0      0      0
+	#extend right
+endcenterline
+
+centerline -title "Totora 2" 
+	cs lat-long
+	fix 19	-6.496332	-77.79116	3039
+	date 2013.09.02
+		#team "ECA"
+		#team "GSBM"
+		team "Jean-Yves/Bigot"# (GSBM)"
+		team "Jean-Loup/Guyot"# (ECA, GSBM)"
+	explo-date 2013.09.02
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Jean-Loup/Guyot"# (ECA, GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length backcompass backclino #left right up down
+18         19                        4.31  260.00   -4.00
+endcenterline
+ 
+endsurvey

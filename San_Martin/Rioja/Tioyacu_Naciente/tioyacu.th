@@ -1,0 +1,38 @@
+encoding utf-8
+
+survey tioyacu -title "Resurgencia de Tioyacu" -entrance "9"
+   
+centerline -title "tioyacu"
+	cs lat-long
+	fix 9	-5.9920	-77.2875	850
+	date 2013.09.05
+		team "Cathy Rousseau"
+		team "William Santini"
+		team "Jean Loup/Guyot"
+	explo-date 2013.09.05
+		explo-team "Cathy Rousseau"
+		explo-team "William Santini"
+		explo-team "Jean Loup/Guyot"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+#Param Deca Deg Clino Deg 0.0000 Dir,Dir,Dir Inc Std ;Topographie rÈalisÈe le 05/09/2013 par Cathy Rousseau, William Santini et Jean Loup Guyot (ECA-GSBM);
+
+1          1c                         0.00    0.00    0.00   0.97   0.50   6.39   5.82
+1          1a                        4.91  260.00  -40.00      0	0	0	0
+1          1b                        6.47  250.00   60.00      0	0	0	0
+1          2                         2.66   50.00   20.00   0.00   0.50   1.00   0.50
+2          3                         1.70   10.00  -32.00   1.00   2.00   5.00   2.00
+3          4                         8.45   87.00   45.00   1.00   1.50   1.50   1.80
+3          5                         6.55    0.00  -20.00   0.00   1.70   3.10   2.97
+5          6                         3.35   90.00  -10.00   0.80   2.30   6.10   2.70
+6          7                        10.00  350.00  -15.00   2.70   0.00   2.70   1.00
+7          8                         6.40   10.00   -6.00   0.00   1.00   1.00   0.00
+8          9                         5.20   65.00   30.00   1.00   0.00   3.00   0.0
+
+endcenterline
+
+
+endsurvey

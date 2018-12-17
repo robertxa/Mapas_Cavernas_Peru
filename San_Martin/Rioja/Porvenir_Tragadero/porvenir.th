@@ -1,0 +1,46 @@
+encoding utf-8
+
+survey porvenir -title "Tragadero de Porvenir" -entrance "0"
+   
+centerline -title "porvenir"
+	cs lat-long
+	fix 0	-5.8842	-77.4005	1230
+	date 2016.09.11
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Constance/Picque"
+		team "Liz/Hidalgo"
+	explo-date 2016.09.11
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Constance/Picque"
+		explo-team "Jean-Denis/Klein"
+		explo-team "Liz/Hidalgo"
+		explo-team "Joseph Galvez"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	3.00	1.00	0.00	0.00
+0	1			5.17	69.00	-43.00	3.00	0.50	0.00	0.00
+1	2			17.72	50.00	-41.00	2.00	5.00	19.00	1.00
+2	3			21.60	346.00	-36.00	0.00	3.00	4.00	2.00
+3	4			5.04	285.00	-64.00	6.00	9.00	1.50	1.00
+4	5			13.20	360.00	-27.00	10.00	5.00	4.00	1.50
+5	6			7.55	18.00	-33.00	2.00	2.00	1.50	1.50
+6	7			8.80	23.00	-42.00	5.00	2.00	2.00	4.00
+7	8			7.48	3.00	-42.00	3.00	0.00	2.00	1.50
+8	9			12.90	295.00	-86.00	0	0	0	0			
+9	10			7.86	89.00	-34.00	1.50	1.50	0	0		
+8	11			8.76	290.00	-28.00	0	0	0	0			
+extend left
+4	12			16.73	307.00	-23.00	1.50	0	0	0			
+12	13			5.60	307.00	-48.00	0	0	0	0			
+
+	#extend right
+endcenterline
+ 
+endsurvey

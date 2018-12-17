@@ -1,0 +1,115 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -135.33900000000003 -161.5 451.5 320.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {275.59 1 1.0} {39.372699999999995 1} pircas2017.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -author 2017 "Constance Picque" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+
+point 27.309999999999988 108.31269999999999 station -name 3@pircas
+
+line wall
+endline
+
+line water-flow
+  163.5 64.0
+  163.5 64.0 189.5 37.5 204.5 36.5
+  219.5 35.5 268.18 35.75 275.59 39.372699999999995
+  smooth off
+endline
+
+line u:doline -close on -reverse on -clip off
+  27.309999999999988 108.31269999999999
+  27.309999999999988 108.31269999999999 47.5 164.5 184.0 146.5
+  320.5 128.5 306.5 112.5 313.5 99.5
+  320.5 86.5 339.0 -29.0 262.0 -31.0
+  185.0 -33.0 91.4 -13.41 79.5 -2.0
+  6.5 68.0 27.309999999999988 108.31269999999999 27.309999999999988 108.31269999999999
+  smooth off
+endline
+
+line floor-step
+  280.5 48.5
+  280.5 48.5 269.5 53.5 268.0 46.5
+  266.5 39.5 268.5 28.5 271.0 31.5
+  smooth off
+endline
+
+line slope
+  241.0 91.5
+  241.0 91.5 260.5 71.0 252.5 50.5
+  244.5 30.0 233.0 17.5 226.0 15.0
+  smooth off
+  l-size 10.0
+endline
+
+line slope
+  211.5 86.5
+  211.5 86.5 217.5 75.0 216.5 55.5
+  215.5 36.0 198.5 20.0 198.5 20.0
+  smooth off
+  l-size 10.0
+endline
+
+point 144.5 79.0 entrance -orientation 114.9
+
+point 236.5 61.5 clay
+
+point 184.5 33.0 clay
+
+point 196.0 87.0 clay
+
+line overhang -reverse on -clip off
+  143.5 25.0
+  129.5 4.0
+endline
+
+line overhang -reverse on -clip off
+  199.5 132.0
+  190.0 113.0
+endline
+
+point 321.0 22.5 label -text "Colmaté"
+
+point 286.0 32.0 water-flow -orientation 124.5
+
+line wall
+  284.5 37.5
+  278.0 43.5
+endline
+
+line wall
+  276.5 37.0
+  281.5 35.5
+endline
+
+line wall
+  143.5 25.0
+  143.5 25.0 201.0 -2.0 234.0 2.0
+  267.0 6.0 276.5 37.0 276.5 37.0
+  smooth off
+endline
+
+point 109.0 190.0 label -text "Lat : -6.133623<br>long : -77.988493<br>Alt : 2853 m"
+
+line wall
+  278.0 43.5
+  278.0 43.5 305.0 89.5 266.5 97.5
+  228.0 105.5 190.0 113.0 190.0 113.0
+  smooth off
+endline
+
+point 275.59 39.372699999999995 station -name 1@pircas
+
+point 161.42999999999998 59.50269999999999 station -name 2@pircas
+
+endscrap
+
+
+
+scrap scrap8 -projection plan -author 2017 "Constance Picque" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+
+endscrap
+
+

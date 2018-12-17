@@ -1,0 +1,12 @@
+encoding utf-8
+
+input frio.th2
+input frio2.th2
+input frio3.th2
+
+join frioDN2 frioDN3
+join frioDN3 frioXR2
+join frioDN4 frioXR3
+
+#input frio-coupe.th2
+#input frio-coupe2.th2

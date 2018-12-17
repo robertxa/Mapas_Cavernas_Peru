@@ -1,0 +1,148 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 246.1103 246.1103
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {125.2783 1 1.0} {86.5324 0} Montalvo2_2018.xvi 0 {}
+
+
+
+scrap montalvo2-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+line wall -subtype blocks
+  92.25 74.75
+  92.25 74.75 65.5 64.0 68.75 70.0
+  smooth off
+endline
+
+line wall
+  68.75 70.0
+  72.0 76.0 76.56 77.42 73.25 88.0
+  72.0 92.0 92.25 97.25 96.5 96.0
+  100.75 94.75 119.76 85.51 117.5 83.25
+  smooth off
+endline
+
+line wall -subtype blocks
+  117.5 83.25
+  114.5 80.25 92.25 74.75 92.25 74.75
+  smooth off
+endline
+
+line wall -subtype invisible
+  118.5 56.75
+  118.5 56.75 149.0 52.0 153.25 61.25
+  smooth off
+endline
+
+point 131.5 11.0 label -text "<it>Lat : -5.64674<br>Long : -78.38793<br>Alt = 1229 m"
+
+point 133.25 49.25 entrance -orientation 348.0
+
+point 20.25 86.5 altitude -align left
+
+point 138.25 92.25 altitude -align right
+
+line pit
+  113.0 85.0
+  113.0 85.0 141.75 96.0 147.25 93.5
+  smooth off
+endline
+
+line rock-border -close on
+  115.0 80.25
+  126.25 82.5
+  128.75 66.25
+  115.5 68.0
+  115.0 80.25
+endline
+
+line rock-border -close on
+  135.75 60.75
+  132.75 77.25
+  145.0 70.5
+  142.75 61.0
+  135.75 60.75
+endline
+
+line rock-border -close on
+  86.5 71.5
+  100.25 75.0
+  102.0 68.5
+  88.25 63.25
+  86.5 71.5
+endline
+
+line rock-border -close on
+  71.75 67.75
+  80.5 69.25
+  80.5 61.5
+  69.0 59.0
+  71.75 67.75
+endline
+
+line rock-border -close on
+  121.25 127.25
+  126.25 134.75
+  135.0 122.5
+  125.25 120.25
+  121.25 127.25
+endline
+
+point 56.5 77.5 archeo-material
+
+line pit
+  84.25 78.5
+  84.25 78.5 54.0 89.25 56.75 104.25
+  smooth off
+endline
+
+line wall -subtype blocks
+  150.25 113.25
+  150.25 113.25 131.75 127.25 130.0 133.0
+  128.25 138.75 126.25 145.0 126.25 145.0
+  smooth off
+endline
+
+line wall
+  153.25 61.25
+  153.25 61.25 138.25 85.0 138.25 92.25
+  138.25 99.5 150.25 113.25 150.25 113.25
+  smooth off
+endline
+
+line wall
+  104.75 66.5
+  104.75 66.5 115.75 66.75 119.75 64.75
+  123.75 62.75 118.5 56.75 118.5 56.75
+  smooth off
+endline
+
+line wall -subtype blocks
+  61.75 56.5
+  61.75 56.5 72.25 56.5 79.25 58.5
+  86.25 60.5 102.25 66.0 104.75 66.5
+  smooth off
+endline
+
+line wall
+  126.25 145.0
+  126.25 145.0 118.5 118.5 110.0 115.0
+  101.5 111.5 96.75 111.5 88.0 108.75
+  79.25 106.0 54.5 99.25 46.0 96.75
+  37.5 94.25 20.75 90.75 20.25 86.5
+  19.75 82.25 27.75 62.0 30.75 57.75
+  33.75 53.5 47.5 50.0 52.75 51.25
+  58.0 52.5 61.75 56.5 61.75 56.5
+  smooth off
+endline
+
+point 24.728299999999997 82.6724 station -name 3@montalvo2
+
+point 59.4483 90.7824 station -name 2@montalvo2
+
+point 127.2483 113.07239999999999 station -name 1@montalvo2
+
+point 125.2783 86.5324 station -name 0@montalvo2
+
+endscrap
+
+

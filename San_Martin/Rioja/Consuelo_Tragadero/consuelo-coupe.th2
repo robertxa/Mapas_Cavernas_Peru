@@ -1,0 +1,103 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 836.6618 551.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {252.57199999999997 1 1.0} {251.92 2} consuelo-coupe2017.xvi 0 {}
+
+
+
+scrap cc1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
+
+point 630.0 198.0 label -text "etr."
+
+point 356.0 298.0 height -value [-14 m]
+
+point 45.0 418.0 label -text "Lat : -6.1247<br>Long : -77.2911<br>Alt : 1690 m"
+
+line border
+  202.0 343.0
+  202.0 343.0 224.0 336.0 256.0 337.0
+  288.0 338.0 304.0 334.0 319.0 340.0
+endline
+
+line u:rope
+  159.0 386.0
+  159.0 386.0 213.0 328.0 213.0 357.0
+  213.0 362.83 215.0 239.0 215.0 239.0
+  smooth off
+endline
+
+point 157.48199999999997 393.7 altitude -align left
+
+point 615.582 167.60999999999999 altitude -align bottom
+
+point 125.0 417.0 entrance -orientation 128.2
+
+point 670.0 172.0 entrance -orientation 265.6
+
+line wall -subtype invisible
+  404.0 397.0
+  404.0 397.0 288.0 405.0 249.0 405.0
+  210.0 405.0 157.0 409.0 154.0 402.0
+  151.0 395.0 154.0 381.0 154.0 381.0
+  smooth off
+endline
+
+line wall
+  643.0 178.0
+  643.0 178.0 628.0 176.0 609.0 183.0
+  590.0 190.0 540.0 207.0 565.0 212.0
+  590.0 217.0 592.0 231.0 608.0 236.0
+  624.0 241.0 632.0 244.0 648.0 248.0
+  664.0 252.0 682.0 260.0 682.0 260.0
+  smooth off
+  682.0 260.0 687.0 276.0 671.0 272.0
+  655.0 268.0 640.0 257.0 630.0 257.0
+  620.0 257.0 606.0 256.0 591.0 249.0
+  576.0 242.0 567.0 221.0 537.0 222.0
+  507.0 223.0 411.0 240.0 384.0 240.0
+  357.0 240.0 322.0 230.0 320.0 255.0
+  318.0 280.0 319.0 307.0 324.0 320.0
+  329.0 333.0 326.0 343.0 348.0 358.0
+  370.0 373.0 404.0 397.0 404.0 397.0
+  smooth off
+endline
+
+line wall
+  154.0 381.0
+  154.0 381.0 196.0 344.0 201.0 333.0
+  206.0 322.0 189.0 321.0 186.0 299.0
+  183.0 277.0 173.0 250.0 163.0 235.0
+  153.0 220.0 117.0 199.0 109.0 194.0
+  101.0 189.0 72.0 184.0 72.0 172.0
+  72.0 160.0 62.0 141.0 86.0 141.0
+  110.0 141.0 178.0 187.0 201.0 202.0
+  224.0 217.0 225.0 225.0 253.0 221.0
+  281.0 217.0 517.0 190.0 532.0 188.0
+  547.0 186.0 601.16 168.22 615.582 167.60999999999999
+  630.0 167.0 643.0 166.0 643.0 166.0
+  smooth off
+endline
+
+point 673.432 263.42 station -name 7b@consuelo
+
+point 637.5219999999999 254.45999999999998 station -name 7@consuelo
+
+point 620.102 250.12 station -name 6@consuelo
+
+point 593.862 238.98 station -name 5@consuelo
+
+point 615.582 167.60999999999999 station -name 4@consuelo
+
+point 539.492 201.32999999999998 station -name 3@consuelo
+
+point 82.27199999999999 153.2 station -name 0@consuelo
+
+point 252.57199999999997 251.92 station -name 2@consuelo
+
+point 210.84199999999998 345.65 station -name 8@consuelo
+
+point 157.48199999999997 393.7 station -name 9@consuelo
+
+endscrap
+
+

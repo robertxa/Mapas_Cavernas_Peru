@@ -1,0 +1,39 @@
+encoding utf-8
+
+input DEM/palestina.th
+
+input palestina_tot.th
+#input PalOl.th2
+
+#input af3000.th2
+#join PalO4 af3000_1
+
+#input aff1.th2
+#join PalO2 Aff_1
+
+#input chicas.th2
+#join PalO2 chicas_1
+
+#input 3perlas.th2
+#join palO3 3perls
+
+#input sifonOld.th2
+#join PalO4 shunt_1
+
+#input inter.th2
+#join shunt_1 palinter1
+
+#input palfin.th2
+#join plafin1 palinter1
+
+#input xr2017.th2
+#join plafin1 XR2016_1
+
+input ../Infiernillo_Tragadero/infiernillo.th
+input ../Infiernillo_Tragadero/infiernillo.th2
+
+input ../GallitodeRocasPalestina_Cueva/grocapal.th
+input ../GallitodeRocasPalestina_Cueva/grocapal.th2
+
+input ../Laberinto_Cueva/palestina2.th
+input ../Laberinto_Cueva/palestina2.th2

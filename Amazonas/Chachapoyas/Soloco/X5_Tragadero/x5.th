@@ -1,0 +1,34 @@
+# 2018.08.19 created by TopoDroid v 4.1.0c
+
+survey x5 -title "Tragadero X5" -entrance 0
+
+  centerline
+    date 2018.08.18
+    	team "Jean-Yves Bigot"
+    	team "Jean-Sébastien Moquet"
+    	team "Constance Picque"
+    	team "Jean Loup/Guyot"
+	explo-date 2018.08.18 
+    	explo-team "Jean-Yves Bigot"
+    	explo-team "Jean-Sébastien Moquet"
+    	explo-team "Constance Picque"
+    	explo-team "Jean Lou/Guyot"
+    	 
+    # team Groupe Spéléologique Vulcain 
+    # declination 0.00 degrees
+    
+    cs lat-long
+    fix 0	 -6.31533	-77.77302	3140
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino	left	right	up	down
+0          0b                         0.00    0.00    0.00   0.00   0.00   0.00   0.00 
+0          2                         5.81  275.00   10.20   0.00   0.00   0.00   0.00
+0          3                         2.35  170.00   26.00   2.50   1.50   3.00   2.00
+3          4                         2.91   72.00   31.00   0.00   2.00   0.70   0.70
+4          5                         3.52  102.00    0.50   0.00   1.50   0.90   0.90
+5          6                         4.37  182.00    2.60   0.60   2.50   4.00   1.75 
+  endcenterline
+
+endsurvey

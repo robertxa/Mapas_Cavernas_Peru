@@ -1,0 +1,101 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 338.0 504.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {78.73899999999999 1 1.0} {275.592 0} Punta_coupe2017.xvi 0 {}
+
+
+
+scrap puntac1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -127.99900000000001 285.48040000000003 -127.99900000000001 0.0 0.0 10.50240216 0.0 m]
+
+point 125.0 34.0 altitude -align bottom-left
+
+point 65.0 279.0 altitude -align left
+
+point 47.5 374.0 label -text "Lat : -6.00918<br>Long : -77.31277<br>Alt = 1445 m"
+
+point 77.5 304.0 entrance -orientation 163.7
+
+line wall -subtype invisible
+  165.5 282.5
+  65.0 279.0
+endline
+
+point 205.0 53.0 label -text "etr."
+
+point 164.0 53.0 flowstone
+
+line flowstone -reverse on
+  192.0 72.5
+  192.0 72.5 177.0 70.0 175.5 65.0
+  170.06 46.87 192.5 58.5 192.5 55.5
+  smooth off
+endline
+
+line wall -subtype invisible
+  195.0 76.5
+  175.0 92.5
+endline
+
+line wall
+  175.0 92.5
+  175.0 76.5 166.5 63.0 162.5 66.0
+  158.5 69.0 157.5 211.0 160.5 229.0
+  163.5 247.0 165.5 282.5 165.5 282.5
+  smooth off
+endline
+
+line wall
+  187.5 33.5
+  187.5 54.0
+  187.5 54.0 175.0 57.5 182.0 66.0
+  189.0 74.5 195.0 76.5 195.0 76.5
+  smooth off
+endline
+
+line u:rope -clip off
+  75.0 288.0
+  75.0 288.0 87.5 276.5 87.5 285.5
+  87.5 287.74 130.0 204.0 138.0 226.0
+  139.0 228.74 138.0 144.0 146.5 167.0
+  147.05 168.48 151.0 37.5 151.0 37.5
+  smooth off
+endline
+
+point 207.5 171.5 label -text "palier"
+
+point 195.0 99.0 narrow-end
+
+point 84.5 168.5 height -value [-30 m]
+
+line border
+  120.0 149.0
+  120.0 149.0 152.0 168.0 168.5 168.0
+  smooth off
+endline
+
+line wall -subtype debris
+  125.0 34.0
+  125.0 34.0 155.5 33.5 167.0 34.5
+  178.5 35.5 187.5 33.5 187.5 33.5
+  smooth off
+endline
+
+line wall
+  65.0 279.0
+  65.0 279.0 120.0 231.0 121.0 218.0
+  122.0 205.0 127.0 125.0 121.0 124.0
+  115.0 123.0 50.0 132.0 56.0 121.0
+  62.0 110.0 118.0 117.0 118.0 105.0
+  118.0 93.0 112.0 41.0 125.0 34.0
+  smooth off
+endline
+
+point 134.41899999999998 38.812 station -name 2@punta
+
+point 134.41899999999998 219.912 station -name 1@punta
+
+point 78.73899999999999 275.592 station -name 0@punta
+
+endscrap
+
+

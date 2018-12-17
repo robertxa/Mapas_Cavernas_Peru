@@ -1,0 +1,40 @@
+encoding utf-8
+
+survey angel -title "Cueva del Angel" -entrance "0"
+   
+centerline -title "cangel"
+	cs lat-long
+	fix 0	-8.20123	-76.43959	922
+	date 2017.09.16
+		team "James Apaestégui"
+		team "Jean Loup/Guyot"
+		team "Xavier Robert"
+	explo-date 2017.09.16
+		explo-team "James Apaestégui"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Xavier Robert"
+		explo-team "Roberto Carlos/Cámara"
+		explo-team "Roni Coral/Vargas"
+		explo-team "Elger Marchena/Flores"
+		explo-team "Karen Rodas/Herrera"
+		explo-team "Amancio Ñahuincopa"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b	0	0	0	0.5	0.5	0.5	0.5	# Entrée
+0	1	2.38	321	-50	3	2	1	1	
+1	2	3.8	340	-7	3	2	1	1	
+2	3	11.25	248	4	2	2	1	0	
+3	4	9.87	231	2	2	1	0.5	0.5	
+4	5	7.84	213	0	1.5	2	0.5	0.5	
+5	6	4.6	271	-3	1.5	2.5	0	1	
+6	7	4	339	-5	2	2	0	1.5	
+7	8	5.48	352	10	1	1	0.5	0.5	# Rideau de concrétions, ça continue derrière, mais il faut désober à la massette
+
+# Dev = 49 m
+
+endcenterline
+
+endsurvey

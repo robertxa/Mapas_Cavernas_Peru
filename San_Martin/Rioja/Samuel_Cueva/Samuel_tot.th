@@ -1,0 +1,28 @@
+encoding utf-8
+
+input th/samuel.th
+input th/Samuel2017.th
+input th/samuel_jour_2.th
+input th/samuel_grumf.th
+
+
+equate C21@samuel 2017-BL-0@samuel2017
+equate 67@samuel_grumf 2017-BL-21@samuel2017
+equate 0@samuel_grumf 0@samuel_jour_2
+
+# Pour le plan
+input th2/Samuel.th2
+input th2/Samuel1.th2
+input th2/Samuel2.th2
+input th2/Samuel3.th2
+input th2/Samuel4.th2
+input th2/Samuel5.th2
+input th2/sam_entree.th2
+
+join Sam17-6 SamOld-1
+join SamOld-2 SamOld-3
+join SamOld-3 SamOld-4
+join SamOld-4 SamOld-5
+join sam_en1 SamOld-1
+join sam_en2 SamOld-5
+

@@ -1,0 +1,39 @@
+encoding utf-8
+
+survey perros -title "Tragadero de los Perros" -entrance "6"
+   
+centerline -title "perros"
+	cs lat-long
+	fix 6	-5.891347	-77.391992	1131
+	date 2016.09.16
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Jean-Denis/Klein"# (GSBM)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+	explo-date 2016.09.16
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Jean-Denis/Klein"# (GSBM)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+		explo-team "Constance/Picque"# (ECA, Vulcain)"
+		explo-team "Nathalie/Klein"# (GSBM)"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	2.00	8.00	6.00	0.50
+0	1			6.68	228.00	19.00	2.00	6.00	20.00	0.00
+1	2			16.99	92.00	89.00	7.00	1.00	3.00	16.00
+2	3			8.16	306.00	54.00	4.00	1.00	1.50	7.00
+3	4			13.43	256.00	33.00	3.00	1.50	1.50	0.00
+4	5			5.96	251.00	22.00	6.00	1.00	2.00	1.50
+5	6			8.02	176.00	20.00	3.00	6.00	0	0.50
+
+	#extend right
+endcenterline
+ 
+endsurvey

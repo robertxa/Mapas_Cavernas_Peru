@@ -1,0 +1,12 @@
+encoding utf-8
+
+input gsoritor.th
+
+# Pour le plan
+input gsoritor.th2
+input gsoritor2.th2
+
+join gsor2017-2 gsoritro1
+
+# Pour la coupe
+#input bellavistaCoupe1.th2

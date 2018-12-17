@@ -1,0 +1,26 @@
+encoding utf-8
+
+survey infiernillo -title "Tragaero Infiernillo" -entrance "2"
+   
+centerline -title "Infiernilo"
+	cs lat-long
+	fix 2	 -5.931416	-77.352542	973
+	
+	date 2015.09.14
+	#	team "Patrice Baby"
+	explo-date 2015.09.15
+		explo-team "Patrice Baby"
+		explo-team "Jean-Denis Klein"
+		explo-team "Daniel Dietz"
+
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino #left right up down
+0	0b			0.00	0.00	0.00
+0	1			27.29	00	90.00
+1	2			12.22	58.00	60.00
+endcenterline
+  
+endsurvey

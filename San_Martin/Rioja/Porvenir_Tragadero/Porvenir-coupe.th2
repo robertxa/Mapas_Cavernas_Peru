@@ -1,0 +1,366 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -129.0 522.0 526.5
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {78.73499999999999 1 1.0} {354.327 0} porvenir-coupe2016.xvi 0 {}
+
+
+
+scrap porveir-c1 -author 2016 "Constance Picque" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -projection extended -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+
+line wall
+endline
+
+point 373.095 127.99699999999999 station -name 11@porvenir
+
+point 371.835 76.22699999999998 station -name 10@porvenir
+
+point 346.185 93.52699999999999 station -name 9@porvenir
+
+point 342.635 144.18699999999998 station -name 8@porvenir
+
+point 320.755 163.897 station -name 7@porvenir
+
+point 295.005 187.077 station -name 6@porvenir
+
+point 270.075 203.267 station -name 5@porvenir
+
+point 223.775 226.857 station -name 4@porvenir
+
+point 215.075 244.697 station -name 3@porvenir
+
+point 146.27499999999998 294.677 station -name 2@porvenir
+
+point 93.625 340.447 station -name 1@porvenir
+
+point 78.73499999999999 354.327 station -name 0@porvenir
+
+point 338.25 76.25 label -text "-71 m"
+
+line water-flow
+  61.0 381.75
+  68.0 374.25 68.75 366.75 77.75 357.0
+  86.75 347.25 98.0 345.5 97.5 340.0
+  95.94 322.81 99.0 319.0 99.0 319.0
+  smooth off
+  99.0 319.0 100.25 301.5 102.25 298.0
+  104.25 294.5 103.5 297.0 114.25 295.25
+  125.0 293.5 140.25 293.0 142.25 292.75
+  144.25 292.5 143.25 291.75 146.5 290.75
+  149.75 289.75 163.5 282.0 163.25 280.0
+  smooth off
+endline
+
+line wall
+endline
+
+line wall -reverse on
+  142.0 371.0
+  142.0 371.0 176.0 350.0 181.0 336.0
+  186.0 322.0 203.0 301.0 205.0 292.0
+  207.0 283.0 220.0 250.0 220.0 250.0
+  smooth off
+  224.0 240.0
+  267.0 222.0
+  267.0 222.0 296.0 202.0 297.0 195.0
+  298.0 188.0 327.0 180.0 341.0 158.0
+  355.0 136.0 371.05 158.53 374.5 128.25
+  375.75 117.25 365.0 122.0 362.0 126.0
+  359.0 130.0 354.0 131.25 354.0 131.25
+  smooth off
+  354.0 131.25 351.0 135.5 351.0 125.75
+  351.0 116.0 347.25 102.25 347.75 100.5
+  348.25 98.75 348.5 94.75 348.5 94.75
+  smooth off
+  374.75 80.5
+  374.75 80.5 378.53 78.47 369.0 74.5
+  366.0 73.25 346.185 93.52699999999999 346.185 93.52699999999999
+  smooth off
+  346.185 93.52699999999999 335.25 133.5 337.0 139.5
+  338.75 145.5 324.25 141.25 320.25 147.75
+endline
+
+point 353.25 285.5 label -text "<it>Coupe développée" -scale xl
+
+line arrow
+  225.25 371.25
+  225.25 371.25 204.75 385.5 180.25 389.5
+  155.75 393.5 122.5 397.5 112.25 397.25
+  102.0 397.0 85.0 392.75 85.0 392.75
+  smooth off
+endline
+
+point 255.5 372.75 label -text "Lat : -5.8842<br>Long : -77.4005<br>Alt : 1230 m"
+
+point 82.0 388.25 entrance -orientation 148.2
+
+line u:rope
+  80.25 359.0
+  80.25 359.0 99.75 336.75 100.5 346.25
+  101.25 355.75 102.75 295.75 102.75 295.75
+  smooth off
+endline
+
+line rock-edge
+  323.0 159.5
+  319.0 154.75
+endline
+
+line rock-edge
+  315.25 159.0
+  324.5 154.5
+endline
+
+line rock-edge
+  308.25 169.5
+  316.25 165.5
+endline
+
+line rock-edge
+  313.25 169.0
+  312.0 163.25
+endline
+
+line rock-edge
+  301.0 180.0
+  302.25 175.75
+endline
+
+line rock-edge
+  289.5 191.25
+  285.0 189.25
+endline
+
+line rock-edge
+  231.75 224.0
+  232.5 217.75
+  228.5 220.0
+  235.5 220.25
+endline
+
+line rock-border -close on
+  283.0 191.75
+  289.5 191.25
+  291.75 185.25
+  285.0 189.25
+  283.0 191.75
+endline
+
+line rock-border -close on
+  227.75 221.25
+  231.75 224.0
+  235.5 218.75
+  232.5 217.75
+  227.75 221.25
+endline
+
+line rock-border -close on
+  308.25 169.5
+  313.5 170.75
+  317.5 164.75
+  312.0 163.25
+  308.25 169.5
+endline
+
+line rock-edge
+endline
+
+point 74.5 354.5 altitude -align bottom-left
+
+point 369.0 74.5 altitude -align bottom
+
+point 392.75 76.5 label -text "colm."
+
+point 389.5 128.0 label -text "colm."
+
+point 269.5 207.75 guano
+
+point 264.75 209.5 guano
+
+point 267.5 214.0 guano
+
+point 259.75 217.5 guano
+
+point 262.0 213.75 guano
+
+point 256.5 212.0 guano
+
+point 254.25 217.5 guano
+
+line rock-border -close on
+  341.0 129.5
+  343.0 125.0
+  339.75 124.75
+  338.5 129.75
+  341.0 129.5
+endline
+
+line rock-edge -close on
+  341.0 129.5
+  338.5 129.75
+  343.0 125.0
+  339.75 124.75
+  341.0 129.5
+endline
+
+line rock-edge
+  339.5 139.0
+  343.25 130.5
+endline
+
+line rock-border
+endline
+
+line rock-edge
+  359.75 134.0
+  351.25 133.5
+endline
+
+line rock-edge
+  354.25 136.25
+  357.5 131.75
+endline
+
+line rock-border -close on
+  354.25 136.25
+  351.25 133.5
+  358.25 130.5
+  359.75 134.0
+  354.25 136.25
+endline
+
+line rock-edge
+  344.25 136.5
+  338.0 133.5
+endline
+
+line rock-border -close on
+  339.5 139.0
+  344.25 136.5
+  343.25 130.5
+  338.0 133.5
+  339.5 139.0
+endline
+
+line rock-edge
+  207.25 250.25
+  198.5 251.75
+endline
+
+line rock-edge
+  200.25 255.25
+  206.25 246.5
+endline
+
+line rock-edge
+  184.25 263.75
+  194.0 258.5
+endline
+
+line rock-edge
+  188.5 266.5
+  190.75 258.25
+endline
+
+line rock-edge
+  175.5 276.0
+  170.5 273.5
+endline
+
+line rock-edge
+  154.25 291.25
+  149.5 288.75
+endline
+
+line rock-border -close on
+  198.5 251.75
+  206.25 246.5
+  207.25 250.25
+  200.25 255.25
+  198.5 251.75
+endline
+
+line rock-border -close on
+  184.25 263.75
+  188.5 266.5
+  194.0 258.5
+  190.75 258.25
+  184.25 263.75
+endline
+
+line rock-border -close on
+  167.75 276.5
+  175.5 276.0
+  176.5 270.5
+  170.5 273.5
+  167.75 276.5
+endline
+
+line rock-border -close on
+  148.25 291.5
+  154.25 291.25
+  153.5 286.5
+  149.5 288.75
+  148.25 291.5
+endline
+
+line rock-border -close on
+  315.25 159.0
+  323.0 159.5
+  324.5 154.5
+  319.0 154.75
+  315.25 159.0
+endline
+
+line wall -subtype debris
+endline
+
+line wall -reverse on -subtype debris
+  320.25 147.75
+  316.25 154.25 300.25 177.0 293.75 182.25
+endline
+
+line rock-border -close on
+  301.0 180.0
+  298.0 179.0
+  303.0 174.25
+  303.75 177.25
+  301.0 180.0
+endline
+
+line wall -reverse on -subtype debris
+  293.75 182.25
+  287.25 187.5 225.0 218.25 224.25 222.75
+  subtype pebbles
+endline
+
+line wall
+  218.25 230.25
+  224.25 222.75
+endline
+
+line wall -reverse on
+  218.25 230.25
+  217.21 232.91 216.0 236.0 214.75 237.5
+  213.5 239.0 146.5 290.75 146.5 290.75
+  smooth off
+endline
+
+line wall -reverse on -subtype pebbles
+  146.5 290.75
+  100.5 294.5
+endline
+
+line wall -reverse on
+  100.5 294.5
+  94.25 311.0
+  92.0 339.5
+  81.0 346.25
+  74.5 354.5
+  71.25 360.25
+  68.25 368.25
+  54.0 382.25
+endline
+
+endscrap
+
+

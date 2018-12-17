@@ -1,0 +1,23 @@
+encoding utf-8
+
+survey embudo -title "Tragadero del Embudo" -entrance 0
+
+centerline
+	cs lat-long
+	fix 0 -5.90086	-78.51909	2463
+	
+	date 2018.11.06
+		team "Xavier Robert"
+		team "Michel Serfati"
+		
+	units length meters
+	units compass clino degrees
+	
+	data normal from to length compass clino left right up down
+	0	0b	0	0	0	2.5	2.5	1	1	# entrée
+	0	1	9.39	235.1	-9.39	2.5	2.5	1	1
+
+
+endcenterline
+
+endsurvey

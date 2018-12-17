@@ -1,0 +1,17 @@
+encoding utf-8
+
+input cascayunga.th
+input cascayunga-siphon.th
+equate 74@cascayunga	s6@cas-siphon
+
+input th2/cascentree.th2
+input th2/casca2.th2
+join casc2003-sp6 casc2003-sp7
+
+input th2/casc2003-fond.th2
+join casc2003-sp7 casc2003-sp9
+join casc2003-sp8 casc2003-sp9
+
+input th2/siphon2018.th2
+join casc2003-sp8 casc2018-sp1
+

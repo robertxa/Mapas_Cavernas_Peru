@@ -1,0 +1,23 @@
+survey penita -title "Pozo de La Penita" -entrance 0
+
+centerline
+	cs lat-Long
+	fix 0	-5.96332	-77.35313	1111   
+	
+    date 2017.08.28
+    	team "Damien Vignoles"
+    	#team "Mathias Echevin"
+    	#team "Bernard Lips" 
+	explo-date 2017.08.28
+    	explo-team "Damien Vignoles"
+    	#explo-team "Mathias Echevin"
+    	#explo-team "Bernard Lips" 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    0	1	7	57	-47
+    1	2	15.5	0	-90
+  endcenterline
+
+endsurvey

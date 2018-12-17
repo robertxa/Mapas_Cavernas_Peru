@@ -1,0 +1,33 @@
+encoding utf-8
+
+survey papua -title "Tragadero Papua" -entrance "5"
+   
+centerline -title "Papua"
+	cs lat-long
+	fix 5	-5.7357	-77.5725	1230
+	
+	date 2014.09.08
+		team "Alexandre Lobo"
+		team "Patrice Baby"
+		team "Jean-Denis Klein"
+	explo-date 2014.09.08
+		explo-team "Alexandre Lobo"
+		explo-team "Patrice Baby"
+		explo-team "Jean-Denis Klein"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+#Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Arr Std ;Topo du 08/09/2014 : Lobinho, Jean Denis, Patrice;
+
+5          5b                         0.00    0.00    0.00      0      0      0      0
+1          2                        16.52   61.00   21.00      0      0      0      0
+1          3                        24.27  255.00   24.00   3.00   4.00  20.80   1.00
+3          4                        38.30   43.00   80.00   3.00   2.50   5.20   1.00
+4          5                        39.80    0.00   90.00      0      0      0      0
+
+endcenterline
+
+
+endsurvey

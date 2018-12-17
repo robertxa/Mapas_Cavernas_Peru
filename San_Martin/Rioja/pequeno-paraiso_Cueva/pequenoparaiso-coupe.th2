@@ -1,0 +1,265 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -129.0 797.2917 442.9608
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {157.485 1 1.0} {177.161 0} pequenoparaiso-coupe2016.xvi 0 {}
+
+
+
+scrap pqXRc1 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
+
+point 438.785 201.971 station -name 13@pequenoparaiso
+
+point 492.75 132.25 label -text "Coupe développée" -scale xl
+
+point 349.0 156.75 label -text "etr."
+
+point 143.25 89.75 altitude -align bottom-left
+
+point 162.5 177.75 altitude -align top-right
+
+point 636.25 273.25 altitude -align bottom-right
+
+line rock-border
+  617.5 263.0
+  619.0 265.25
+  621.75 266.25
+  622.25 264.0
+endline
+
+line rock-border
+  614.75 260.75
+  615.75 263.75
+  619.0 262.75
+endline
+
+line rock-border -close on
+  577.5 251.75
+  581.25 252.25
+  581.25 250.75
+  577.5 251.75
+endline
+
+line rock-border -close on
+  545.0 243.25
+  549.5 242.75
+  547.75 240.5
+  544.5 240.5
+  545.0 243.25
+endline
+
+point 316.25 170.75 air-draught -orientation 243.9 -scale s
+
+point 622.75 278.0 air-draught -orientation 241.6 -scale s
+
+point 549.25 231.5 label -text "R2"
+
+point 519.25 224.75 blocks -scale s
+
+point 533.5 232.0 blocks -scale s
+
+point 211.25 119.25 blocks -scale s
+
+point 223.75 124.0 blocks -scale s
+
+point 258.0 141.5 vegetable-debris
+
+point 268.25 144.75 vegetable-debris
+
+point 262.5 144.0 vegetable-debris
+
+point 208.25 107.5 narrow-end
+
+point 197.0 93.75 narrow-end
+
+point 636.0 275.25 breakdown-choke
+
+point 645.0 279.75 continuation -text "trémie à franchir" -attr Code D
+
+point 175.75 85.0 continuation -text "ramping dans l'eau" -attr Code Q
+
+point 58.75 107.5 continuation -text "ramping dans l'eau" -attr Code Q
+
+point 47.25 94.75 water-flow -orientation 88.4
+
+point 160.25 86.75 water-flow -orientation 111.2
+
+point 228.5 138.5 water-flow -orientation 167.0
+
+point 146.25 181.0 entrance -orientation 115.7
+
+line wall -subtype invisible
+  158.75 184.5
+  158.75 184.5 155.0 178.5 153.5 175.5
+  152.0 172.5 150.75 167.0 148.75 163.5
+  146.75 160.0 146.25 159.25 144.5 159.0
+  142.75 158.75 141.75 157.5 141.75 157.5
+  smooth off
+endline
+
+line wall
+  637.75 278.5
+  637.75 278.5 626.5 272.0 621.5 269.75
+  616.5 267.5 592.75 253.25 587.0 254.0
+  581.25 254.75 579.0 255.75 574.25 254.5
+  569.5 253.25 556.25 248.75 550.25 247.25
+  544.25 245.75 514.5 236.25 507.75 233.25
+  501.0 230.25 488.75 222.5 484.5 221.75
+  480.25 221.0 477.0 215.25 470.5 213.25
+  464.0 211.25 442.75 205.25 436.25 203.5
+  429.75 201.75 419.25 199.25 415.25 197.5
+  411.25 195.75 395.75 192.75 390.5 191.0
+  385.25 189.25 350.75 177.5 341.75 174.25
+  332.75 171.0 290.75 154.5 287.0 153.0
+  283.25 151.5 278.25 150.5 275.25 150.5
+  272.25 150.5 233.5 157.0 222.25 160.5
+  211.0 164.0 197.5 167.75 190.75 169.75
+  184.0 171.75 164.75 177.0 162.5 177.75
+  160.25 178.5 158.5 177.5 158.5 179.5
+  158.5 181.5 158.75 184.5 158.75 184.5
+  smooth off
+endline
+
+line wall
+  199.25 108.5
+  199.25 108.5 192.5 105.0 189.25 105.0
+  186.0 105.0 172.75 105.25 177.0 106.25
+  181.25 107.25 199.75 112.5 203.75 113.5
+  207.75 114.5 225.0 123.0 231.5 125.75
+  238.0 128.5 247.5 133.0 251.0 135.75
+  254.5 138.5 258.5 140.0 263.5 141.5
+  268.5 143.0 272.0 143.5 281.25 145.75
+  290.5 148.0 318.0 157.0 326.75 159.25
+  335.5 161.5 345.25 166.5 349.5 167.25
+  353.75 168.0 352.75 168.25 356.75 168.75
+  360.75 169.25 367.25 168.5 368.25 170.25
+  369.25 172.0 366.25 174.0 370.0 176.5
+  373.75 179.0 380.5 181.25 383.75 182.75
+  387.0 184.25 386.25 186.5 390.5 186.75
+  394.75 187.0 402.25 185.75 407.25 187.0
+  412.25 188.25 416.5 188.75 419.75 188.75
+  423.0 188.75 428.75 190.0 432.25 191.25
+  435.75 192.5 430.5 195.0 438.75 197.0
+  447.0 199.0 479.25 205.0 484.25 206.0
+  489.25 207.0 507.5 212.25 508.75 214.0
+  510.0 215.75 525.0 225.25 529.0 227.5
+  533.0 229.75 538.5 228.25 539.75 230.25
+  541.0 232.25 537.25 234.0 543.25 236.25
+  549.25 238.5 548.25 237.25 555.75 240.75
+  563.25 244.25 570.5 249.75 577.25 249.75
+  584.0 249.75 586.0 248.75 591.0 250.0
+  596.0 251.25 618.25 262.25 622.25 264.0
+  626.25 265.75 633.5 270.75 634.75 271.75
+  636.0 272.75 639.5 274.75 639.5 274.75
+  smooth off
+endline
+
+line wall
+  195.0 100.0
+  195.0 100.0 192.0 103.75 194.0 104.5
+  196.0 105.25 199.25 106.75 199.25 106.75
+  smooth off
+endline
+
+line wall
+  155.0 89.75
+  155.0 89.75 145.0 91.25 147.25 92.0
+  149.5 92.75 157.75 95.75 161.5 97.25
+  165.25 98.75 166.25 103.0 168.5 101.75
+  170.75 100.5 169.75 100.75 175.25 100.75
+  180.75 100.75 187.0 101.25 188.75 101.25
+  190.5 101.25 192.75 98.75 192.75 98.75
+  smooth off
+endline
+
+line wall
+  59.0 93.0
+  59.0 93.0 76.5 93.25 83.25 93.0
+  90.0 92.75 106.0 92.5 114.0 92.75
+  122.0 93.0 128.0 94.25 131.25 92.75
+  134.5 91.25 140.25 90.5 143.25 89.75
+  146.25 89.0 154.0 87.0 154.0 87.0
+  smooth off
+endline
+
+line wall
+  141.75 157.5
+  145.75 157.25
+  145.75 157.25 149.5 159.75 149.75 162.5
+  150.0 165.25 152.5 169.75 153.5 171.5
+  154.5 173.25 155.0 174.5 157.25 174.5
+  159.5 174.5 177.0 168.5 183.75 166.0
+  190.5 163.5 202.75 159.25 210.0 158.0
+  217.25 156.75 228.25 152.75 234.75 150.75
+  241.25 148.75 255.75 149.0 255.25 146.5
+  254.75 144.0 250.0 141.0 245.5 138.75
+  241.0 136.5 235.25 131.25 229.5 130.0
+  223.75 128.75 207.5 124.75 200.25 122.0
+  193.0 119.25 177.0 114.5 172.75 111.75
+  168.5 109.0 168.25 109.0 163.75 106.0
+  159.25 103.0 148.0 97.25 142.5 96.25
+  137.0 95.25 117.5 95.75 110.25 95.75
+  103.0 95.75 59.5 95.75 59.5 95.75
+  smooth off
+endline
+
+point 633.765 273.191 station -name 21@pequenoparaiso
+
+point 621.605 268.281 station -name 20@pequenoparaiso
+
+point 589.315 253.221 station -name 19@pequenoparaiso
+
+point 576.725 254.32099999999997 station -name 18@pequenoparaiso
+
+point 553.0550000000001 245.231 station -name 17@pequenoparaiso
+
+point 541.185 244.611 station -name 16@pequenoparaiso
+
+point 508.06500000000005 221.421 station -name 15@pequenoparaiso
+
+point 484.495 214.221 station -name 14@pequenoparaiso
+
+point 419.145 197.071 station -name 12@pequenoparaiso
+
+point 405.945 193.28099999999998 station -name 11@pequenoparaiso
+
+point 389.895 189.28099999999998 station -name 10@pequenoparaiso
+
+point 370.575 182.631 station -name 9@pequenoparaiso
+
+point 357.825 177.22099999999998 station -name 8@pequenoparaiso
+
+point 349.875 175.09099999999998 station -name 7@pequenoparaiso
+
+point 314.105 161.361 station -name 6@pequenoparaiso
+
+point 281.145 148.701 station -name 5@pequenoparaiso
+
+point 63.70500000000004 94.91099999999999 station -name 29@pequenoparaiso
+
+point 131.465 94.91099999999999 station -name 28@pequenoparaiso
+
+point 143.935 94.47099999999999 station -name 27@pequenoparaiso
+
+point 190.38500000000002 103.16099999999999 station -name 26@pequenoparaiso
+
+point 166.56500000000003 106.50099999999999 station -name 25@pequenoparaiso
+
+point 173.925 109.18099999999998 station -name 24@pequenoparaiso
+
+point 203.115 119.231 station -name 23@pequenoparaiso
+
+point 231.34500000000003 128.411 station -name 22@pequenoparaiso
+
+point 268.46500000000003 150.71099999999998 station -name 4@pequenoparaiso
+
+point 236.10500000000002 154.68099999999998 station -name 3@pequenoparaiso
+
+point 208.25500000000002 162.671 station -name 2@pequenoparaiso
+
+point 183.995 170.551 station -name 1@pequenoparaiso
+
+point 157.485 177.161 station -name 0@pequenoparaiso
+
+endscrap
+
+

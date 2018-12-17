@@ -1,0 +1,94 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -724 978 139.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../OLD/PourTherion/Affluent_plan.ppm 0 {}
+
+
+
+scrap Aff_1 -projection plan -author 2014 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+
+point 170.5 -76.5 narrow-end
+
+point 50.0 -70.0 narrow-end
+
+point 64.5 -30.0 narrow-end
+
+point 107.5 -6.5 narrow-end
+
+point 143.0 -30.5 altitude -align right
+
+line wall
+  84.0 -77.5
+  84.0 -77.5 98.0 -76.5 101.5 -82.5
+  105.0 -88.5 112.5 -98.5 106.0 -98.5
+  99.5 -98.5 92.5 -95.0 88.5 -98.5
+  84.5 -102.0 80.5 -111.5 84.5 -114.0
+  88.5 -116.5 138.5 -133.0 149.5 -133.0
+  160.5 -133.0 184.0 -135.0 199.5 -130.0
+  215.0 -125.0 227.0 -120.5 240.0 -120.0
+  253.0 -119.5 263.0 -118.5 263.0 -118.5
+  smooth off
+endline
+
+line wall
+  88.0 -43.0
+  88.0 -43.0 98.0 -47.0 100.5 -53.0
+  103.0 -59.0 107.0 -66.0 103.0 -70.0
+  99.0 -74.0 86.5 -73.5 86.5 -73.5
+  smooth off
+endline
+
+line wall
+  121.0 -26.5
+  121.0 -26.5 128.5 -29.5 127.0 -31.0
+  125.5 -32.5 113.0 -38.5 106.0 -38.0
+  99.0 -37.5 89.5 -34.5 89.5 -34.5
+  smooth off
+endline
+
+line wall
+  141.5 -75.5
+  141.5 -75.5 124.5 -76.5 128.0 -70.5
+  131.5 -64.5 134.0 -60.5 132.5 -54.5
+  131.0 -48.5 134.0 -48.5 136.5 -44.0
+  139.0 -39.5 144.0 -34.5 143.0 -30.5
+  142.0 -26.5 135.5 -22.0 135.5 -22.0
+  smooth off
+  135.5 -22.0 133.5 -26.0 131.0 -25.5
+  128.5 -25.0 125.5 -21.5 125.5 -21.5
+  smooth off
+endline
+
+line wall
+  261.5 -102.5
+  261.5 -102.5 236.5 -105.5 226.0 -105.5
+  215.5 -105.5 205.5 -110.0 186.0 -109.5
+  166.5 -109.0 152.0 -108.5 142.5 -107.5
+  133.0 -106.5 127.5 -106.0 127.0 -97.5
+  126.5 -89.0 119.0 -83.5 125.0 -82.5
+  131.0 -81.5 140.0 -80.0 140.0 -80.0
+  smooth off
+  144.5 -80.0
+endline
+
+point 137.5 -28.0 station -name 10D@palestina
+
+point 97.0 -38.5 station -name 9D@palestina
+
+point 117.5 -51.0 station -name 8D@palestina
+
+point 115.5 -88.0 station -name 7D@palestina
+
+point 87.5 -104.5 station -name 6D@palestina
+
+point 128.5 -115.0 station -name 5D@palestina
+
+point 158.0 -120.5 station -name 4D@palestina
+
+point 222.5 -110.0 station -name 3D@palestina
+
+point 273.0 -107.0 station -name 2D@palestina
+
+endscrap
+
+

@@ -1,0 +1,39 @@
+encoding utf-8
+
+survey vampiros -title "Cueva de los Vampiros" -entrance "0"
+   
+centerline -title "caracoles"
+	cs lat-long
+	fix 0	-6.54219	-77.562791	1709
+	date 2016.08.23
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Jean-Yves/Bigot"# (GSBM)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+	explo-date 2016.08.23
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+		explo-team "Constance/Picque"# (ECA, Vulcain)"
+		explo-team "Naomi/Mazzilli"# (GSBM)"
+		explo-team "Damien/Vignoles"# (GSBM)"
+		explo-team "Liz/Hidalgo"# (ECA)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	3.00	4.00	2.00	0.00
+0	1			13.29	165.00	11.00	3.00	3.00	2.00	1.50
+1	2			8.25	211.00	5.00	5.00	2.50	3.00	0.50
+2	3			9.52	321.00	-8.00	0.00	2.50	3.00	2.00
+3	4			9.77	31.00	-9.00	0	0.00	2.00	0.50
+4	0			4.13	40.00	-4.00	0	0	0	0			
+
+	#extend right
+endcenterline
+ 
+endsurvey

@@ -1,0 +1,45 @@
+encoding utf-8
+
+survey milagrosa -title "Cueva milagrosa" -entrance "0"
+   
+centerline -title "Milagrosa"
+	cs lat-long
+	fix 0	-8.20106	-76.43944	921
+	date 2017.09.16
+		team "James Apaestégui"
+		team "Jean Loup/Guyot"
+		team "Xavier Robert"
+	explo-date 2017.09.16
+		explo-team "James Apaestégui"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Xavier Robert"
+		explo-team "Roberto Carlos/Cámara"
+		explo-team "Roni Coral/Vargas"
+		explo-team "Elger Marchena/Flores"
+		explo-team "Karen Rodas/Herrera"
+		explo-team "Amancio Ñahuincopa"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b	0	0	0	0.5	0.5	0.5	1.5	# Entrée
+0	1	5.38	10	-33	2	0.5	1.5	3	
+1	2	5.43	358	6	0.5	0.5	0.5	1.5	
+2	3	4.94	29	-13	1	1	1.5	1.5	
+3	4	7	11	-9	0	0.5	0.5	0.5	
+4	5	9.4	11	6	0.5	2	2.5	2	
+5	6	10.4	21	7	0.5	1	1	1.5	
+6	7	10	19	4	2	2	0.5	1.5	
+7	8	6.59	330	8	1	1.5	1	1.5	
+8	9	8.79	306	3	3	5	3	1	
+9	10	12.08	333	0	4	4	2	2	
+10	11	9.77	320	7	2	1	0.5	0.5	
+11	12	4.33	27	1	1	0	0.5	0.5	
+12	13	6.18	345	-6	1.5	1.5	1	1	# Fermé par concrétions et blocs, rien à espérer, pas de courant d'air
+
+# Dev = 100 m
+
+endcenterline
+
+endsurvey

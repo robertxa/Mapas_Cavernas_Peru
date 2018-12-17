@@ -1,0 +1,12 @@
+encoding utf-8
+
+survey laureltot -title "Cueva de Laurel"
+	input laurel.th
+	input laurel-JLG.th
+	
+	centerline
+		equate 40@laurel 15@laurelJLG
+	endcenterline
+	
+endsurvey
+

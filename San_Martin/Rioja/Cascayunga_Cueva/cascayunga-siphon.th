@@ -1,0 +1,32 @@
+encoding utf-8
+
+survey cas-siphon -title "siphon terminal"
+   
+centerline -title "Cascayunga - siphon terminal"
+	
+	date 2018.09.10
+		team "Xavier Robert"
+	explo-date 2018.09.10
+		explo-team "Xavier Robert"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+	
+	calibrate counter 1	1
+
+#data diving station counter depth left right up down
+#s0	435	8	1	1.5	1.5	0.5 # Arret fil au fond du siphon
+
+data diving from to fromcount tocount compass fromdepth todepth left right up down
+#s0	s0b	439	438.9	0	8	8	1	1.5	1.5	0.5 # Arret fil au fond du siphon
+s0	s1	430	435	270	-8	-8	1.5	1.5	0.5	1
+s1	s2	428	430	330	-8	-8.5	1	2	0.8	0.2
+s2	s3	410	428	10	-8.5	-7	1	2	0.6	0.2
+s3	s4	400	410	80	-7	-7	1	2	0.2	0.6	
+s4	s5	340	400	60	-7	-3	0.5	1	0.2	0.2	# Etroiture juste après la cloche
+s5	s6	325	340	120	-3	0	1	0.5	0.5	1	# Entrée du siphon, au niveau de l'eau
+
+
+endcenterline
+
+endsurvey

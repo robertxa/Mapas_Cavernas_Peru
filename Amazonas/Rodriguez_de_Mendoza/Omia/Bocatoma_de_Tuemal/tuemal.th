@@ -1,0 +1,158 @@
+encoding utf-8
+
+survey tuemal -title "Cueva de la Bocatoma de Tuemal" -entrance "ENTREE"
+   
+centerline
+	cs lat-long
+	fix ENTREE   -6.440541	-77.419	1443   
+	date 2016.08.16
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Jean-Yves/Bigot"# (GSBM)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+		team "Constance/Picque"# (ECA, Vulcain)"
+		team "Liz/Hidalgo"# (ECA)"
+		team "Naomi/Mazzilli"# (GSBM)"
+		team "Damien/Vignoles"# (GSBM)"
+	explo-date 2016.09.16
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+		explo-team "Constance/Picque"# (ECA, Vulcain)"
+		explo-team "Liz/Hidalgo"# (ECA)"
+		explo-team "Naomi/Mazzili"# (GSBM)"
+		explo-team "Damien/Vignoles"# (GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0b			0.00	0.00	0.00	1.00	1.00	0.40	0.40
+0	1			5.00	297.00	1.50	0.10	0.10	0.10	0.10
+0	2			1.73	139.00	5.20	1.00	1.00	0.00	0.40
+2	3			2.82	151.00	8.00	0.00	0.60	0.50	0.50
+3	4			3.54	153.00	-10.00	0.00	0.50	0.30	0.20
+4	5			6.99	188.00	2.00	2.00	0.00	0.60	0.20
+5	6			6.76	135.00	-3.00	2.00	0.50	1.00	0.00
+6	7			6.29	180.00	11.00	3.00	3.00	3.00	0.50
+7	8			7.07	161.00	-7.00	3.00	1.00	1.00	0.50
+8	9			5.87	173.00	25.00	2.00	2.00	2.00	0.00
+9	10			5.45	107.00	-7.00	2.00	1.00	3.00	0.00
+10	11			5.29	102.00	-30.00	2.00	1.00	1.50	0.00
+11	12			10.43	76.00	3.00	1.00	4.00	0.50	1.50
+12	13			3.58	55.00	-8.00	1.50	0.00	1.00	0.50
+12	14			4.08	111.00	-16.00	3.00	3.00	1.20	0.30
+14	15			5.15	124.00	4.00	3.00	1.00	1.00	0.50
+15	16			13.40	153.00	0.50	1.50	3.00	2.00	1.50
+16	17			12.84	90.00	-1.00	2.00	3.00	2.00	1.00
+17	18			5.09	51.00	-3.00	0.30	0.30	0.30	0.30
+18	19			2.00	276.00	-1.00	0.30	0.30	0.30	0.30
+19	20			1.86	20.00	-8.00	0.30	0.30	0.30	0.30
+20	21			2.54	299.00	2.00	0.30	0.30	0.30	0.30
+21	22			2.77	33.00	1.00	0.30	0.30	0.30	0.30
+17	23			10.22	125.00	0.00	7.00	2.50	3.00	1.50
+23	24			23.01	167.00	0.00	5.00	2.00	2.00	1.80
+24	25			12.36	99.00	-1.00	1.00	3.00	1.50	1.50
+25	26			17.69	175.00	-2.00	4.00	0.50	1.00	1.50
+26	27			5.82	105.00	3.00	3.00	2.00	1.50	1.50
+27	28			10.18	44.00	-1.00	1.00	3.00	1.50	1.50
+28	29			6.90	161.00	-5.00	3.00	1.50	2.00	1.50
+29	30			5.56	193.00	6.00	0.00	3.00	1.50	1.70
+30	31			6.53	196.00	-1.00	3.00	0.00	2.00	1.50
+31	32			19.23	135.00	0.00	2.50	2.00	2.00	1.80
+32	33			24.16	87.00	0.00	2.50	1.50	2.50	1.70
+33	34			6.22	101.00	-2.00	0.50	2.00	3.50	1.50
+34	35			32.82	88.00	0.00	1.00	1.50	2.50	1.50
+35	36			14.08	114.00	1.00	2.00	0.00	3.00	1.50
+36	37			10.35	87.00	-2.00	0.00	2.00	3.00	1.50
+37	38			15.33	122.00	1.00	2.00	1.50	2.00	1.80
+38	39			14.38	122.00	-1.00	0.00	5.00	1.00	1.80
+39	40			4.39	204.00	17.00	3.00	5.00	3.00	1.80
+40	ENTREE			8.45	109.00	25.00	2.00	1.50	1.00	2.00
+
+	#extend right
+endcenterline
+
+centerline
+	date 2016.08.16
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Jean-Yves/Bigot"# (GSBM)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+		team "Constance/Picque"# (ECA, Vulcain)"
+		team "Liz/Hidalgo"# (ECA)"
+		team "Naomi/Mazzilli"# (GSBM)"
+		team "Damien/Vignoles"# (GSBM)"
+	explo-date 2016.09.16
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+		explo-team "Constance/Picque"# (ECA, Vulcain)"
+		explo-team "Liz/Hidalgo"# (ECA)"
+		explo-team "Naomi/Mazzili"# (GSBM)"
+		explo-team "Damien/Vignoles"# (GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length backcompass backclino #right left up down
+14	N.0			3.17	163.20	5.50	
+N.0	N.1			6.33	209.30	-8.50	
+N.1	N.2			1.67	189.50	3.60	
+N.2	N.3			8.83	198.30	-7.60	
+N.3	N.4			4.86	281.50	-4.20	
+N.4	N.5			6.18	213.60	0.10							# actif récupéré, salle avec bloc, aval = laminoir dans l'eau
+N.5	N.6			4.71	191.10	-1.30							
+N.6	N.7			5.78	156.00	5.60							
+N.7	N.8			2.56	212.20	-7.10							
+N.8	N.9			2.17	151.60	7.50							
+N.9	N.10			1.39	238.20	-1.40							
+N.10	N.11			6.97	158.00	2.60							
+N.11	N.12			3.97	113.00	-4.20							
+N.12	N.13			6.73	148.00	1.20							
+N.13	N.14			3.69	190.40	-6.20							# petite salle d'effondrement;
+N.14	N.15			4.73	127.20	3.90							
+N.15	N.16			4.90	161.40	-3.90							
+N.16	N.17			6.27	125.90	-4.70							
+N.17	N.18			4.19	158.00	-3.90							
+N.18	N.19			5.39	120.60	4.50							
+N.19	N.20			1.38	79.30	-30.30							
+N.20	N.21			2.57	104.90	9.50							
+N.21	N.22			4.37	132.90	-2.20							
+N.22	N.23			2.13	101.70	2.00
+N.23	N.24			2.96	144.80	0.20
+N.24	N.25			5.58	68.00	-0.60							# visee dans laminoir;
+N.25	N.26			2.90	63.40	-21.60
+N.26	N.27			4.45	318.90	-0.50							# petit conduit fossile;
+N.26	N.28			3.86	75.10	10.10
+N.28	N.29			2.27	86.90	-12.90							# galerie double;
+N.29	N.30			3.35	108.40	-6.20							# galerie double;
+N.30	N.31			3.00	78.90	-5.11							# galerie double;
+N.31	N.32			2.85	130.90	18.40							# galerie double trémie calcifiée;
+24	N.33			3.37	68.00	13.20							# l = 1.5 m h = 2 m;
+N.33	N.34			4.00	53.80	-3.40
+N.34	N.35			6.36	104.10	0.50							# l = 0.6 m h = 1 m;
+N.35	N.36			8.20	89.90	-2.10
+N.36	N.37			4.95	140.40	4.60
+N.37	N.38			3.66	71.40	-3.60
+N.38	N.39			4.52	122.80	-5.30
+N.39	N.40			3.90	88.10	5.30
+N.40	N.41			4.49	88.90	-2.10
+N.41	N.42			2.00	44.10	1.80
+N.42	N.43			6.06	91.50	-1.10
+N.43	N.44			3.24	113.10	4.70
+N.44	N.45			5.24	79.00	-3.70
+N.45	N.46			3.88	120.20	-22.00							# Blocs;
+N.46	N.47			2.51	85.40	33.30
+N.47	N.48			2.58	65.80	0.70
+N.48	N.49			2.66	347.50	0.30							# Laminoir impénétrable, rivière, pas de c.a.;
+
+endcenterline
+ 
+endsurvey

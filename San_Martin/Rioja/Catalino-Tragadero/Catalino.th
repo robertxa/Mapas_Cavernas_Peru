@@ -1,0 +1,57 @@
+encoding utf-8
+
+survey catalino -title "Catalino" -entrance "Xa_0"
+   
+centerline -title "Catalino"
+	cs lat-long
+	fix Xa_0	-5.77504	-77.54621	1192
+	date 2017.08.20
+		team "Olivier Fabre"
+		team "Xavier Robert"
+		team "Tifenne/Le Goffic"
+		team "Jean Loup/Guyot"
+		team "Mathias Echevin"
+	explo-date 2017.08.20
+		explo-team "Olivier Fabre"
+		explo-team "Xavier Robert"
+		explo-team "Tifenn/Le Goffic"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Mathias Echevin"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+Xa_0	Xa_0b	0	0	0	2.5	0	2.5	1.5	# Entrée
+Xa_0	Xa_1	8.59	210	-30	2.5	1.4	3.8	1.5
+Xa_1	Xa_2	4.33	195	13	0	1.8	6	3
+Xa_2	Xa_3	3.83	215	-8	0.5	0	6	17 	# Sommet du puits
+
+endcenterline
+
+centerline -title "Catalino"
+	date 2017.08.22
+		team "Olivier Fabre"
+		team "Mathias Echevin"
+		team "Patrice Baby"
+	explo-date 2017.08.21
+		explo-team "Olivier Fabre"
+		explo-team "Mathias Echevin"
+		explo-team "Patrice Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+Xa_3	4	21	0	-90	0.4	0.5	21	0	# Base du Puits
+4	5	4.6	170	0	0	1.9	15	0.3
+5	6	6.4	275	-17	0	0.4	4.3	1.4
+6	7	0.85	205	0	0	0.5	2.18	4
+7	8	4	265	0	0.3	0.3	4	0
+8	9	4.8	280	0	0.8	0	4.5	0.7
+9	10	5.5	265	0	0.5	4.9	2.6	0.6
+10	11	2.5	292	0	0.5	0.5	3.5	0.8	# Colm
+
+endcenterline
+
+endsurvey

@@ -1,0 +1,33 @@
+encoding utf-8
+
+survey augustin -title "Augustin" -entrance "0"
+   
+centerline -title "Augustin"
+	cs lat-long
+	fix 0	-5.96164	-77.35098	1085
+
+	date 2017.08.28
+		team "Damien Vignoles"
+		#team "Bernard Lips"
+		#team "Naomi Mazzilli"
+		#team "Mathias Echevin"
+	explo-date 2017.08.28
+		explo-team "Damien Vignoles"
+		#explo-team "Bernard Lips"
+		#explo-team "Naomi Mazzilli"
+		#explo-team "Mathias Echevin"
+	units lenght meters
+	units compass degrees	# Compass estimé car pas dans les données topos
+	units clino degrees
+   
+data normal from to length compass clino #left right up down
+0	1	7	0	-45
+1	2	25	0	-90
+2	3	12	0	0
+3	4	3	0	-90
+4	5	3	0	0
+5	6	3	0	-90
+
+endcenterline
+
+endsurvey

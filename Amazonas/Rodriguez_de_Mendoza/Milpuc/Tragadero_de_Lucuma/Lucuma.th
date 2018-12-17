@@ -1,0 +1,37 @@
+encoding utf-8
+
+survey lucuma -title "Tragadero de Lucuma" -entrance "7"
+   
+centerline -title "lucuma"
+	cs lat-long
+	fix 7	-6.4953	-77.4143	1740
+	date 2016.08.22
+		#team "ECA"
+		#team "GSBM"
+		team "Jean-Yves/Bigot"# (GSBM°"
+		team "Damien/Vignoles"# (GSBM)"
+		team "Naomi/Mazzilli"# (GSBM)"
+	explo-date 2016.08.22
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Damien/Vignoles"# (GSBM)"
+		explo-team "Naomi/Mazzilli"# (GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length backcompass backclino left right up down
+0	0b			0.00	0.00	0.00	0.00	1.00	2.00	1.00
+0	1			5.83	29.60	-29.00	1.20	0.00	6.00	0.60
+1	2			20.80	27.80	-28.00	5.00	0.00	30.00	15.00
+2	3			27.96	272.00	-88.20	4.00	1.50	30.00	35.00
+3	4			10.36	138.40	-25.10	5.00	7.00	0	1.10
+4	5			8.64	188.90	-29.10	0	0	0	0			
+5	6			7.28	183.70	-22.00	0	0	0	0			
+6	7			4.64	184.10	-21.50	0	0	0	0			
+
+	#extend right
+endcenterline
+ 
+endsurvey

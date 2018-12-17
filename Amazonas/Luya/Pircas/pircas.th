@@ -1,0 +1,27 @@
+encoding utf-8
+
+survey pircas -title "Cueva de Pircas" -entrance "3"
+   
+centerline -title "pircas"
+	cs lat-long
+	fix 3	-6.133623	-77.988493	2853
+	date 2017.02.11
+		team "Constance Picque"
+		team "Jean Loup/Guyot"
+		team "Laurence Gueit"
+		team "Frédéric Gueit"
+	explo-date 2017.02.11
+		explo-team "Constance Picque"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Laurence Gueit"
+		explo-team "Frédéric Gueit"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino #left right up down
+1	2	17	280	30
+2	3	20	290	25
+endcenterline
+ 
+endsurvey

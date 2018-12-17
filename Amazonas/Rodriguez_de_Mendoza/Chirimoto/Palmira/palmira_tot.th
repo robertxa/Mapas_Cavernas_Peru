@@ -1,0 +1,10 @@
+encoding utf-8
+
+input palmira.th2
+input palmira-JYB.th2
+input palmira2015_2016fossile.th2
+#input cacapishco4.th2
+#input cacapishco5.th2
+
+join palmXR1 palmJY1
+#join CacaJY2 cacaXR11 -count 2

@@ -1,0 +1,12 @@
+encoding utf-8
+
+input Tragadero_Yuracyacu/yuracyacu.th
+input Cascada/perte_duriacou.th
+input trous_Yura.th
+
+# Pour le plan
+input Tragadero_Yuracyacu/yuracyacu.th2
+input Cascada/perte_duriacou_plan.th2
+input Yur_pos.th2
+
+

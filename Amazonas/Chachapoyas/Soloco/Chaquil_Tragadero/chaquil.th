@@ -1,0 +1,38 @@
+encoding utf-8
+
+survey chaquil -title "Tragadero de Chaquil" -entrance "0"
+   
+centerline -title "Chaquil 2005"
+	cs lat-long
+	#fix 0	 -6.3042	-77.7524	2960 #2981	# Old Coordinates
+	fix 0	 -6.3044	-77.7525	2960 #2981
+	date 2005.06.29
+		team "Jean-Yves/Bigot"
+		team "Jean-Denis/Klein"
+	explo-date 20005.06.29
+		explo-team "Jean-Yves/Bigot"
+		explo-team "Jean-Denis/Klein"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length backcompass backclino left right up down
+	#	Topo du 29-06-2005 : Jean-Denis Klein et Jean-Yves Bigot;
+
+0          0b                         0.00    0.00    0.00   0.00   0.00   0.00   0.00
+0          1                         6.35  193.00   30.00   0.00   0.00   0.00   0.00
+1          2                        12.00  234.00    5.00   0.00   6.00   5.00   1.50
+2          3                         8.20  253.00   40.00   3.50   3.00   6.00   0.50
+3          4                         4.04  190.00   -2.00   3.00   0.00   3.50   1.50
+4          5                         2.40  134.00   75.00   0.70   0.70   5.50  11.00
+5          6                        11.70   28.00   88.00   4.50   0.00  11.00   0.50
+6          7                        11.75  324.00   10.00   2.00   1.00   6.00   1.50
+7          8                         3.30  299.00  -24.00   0.00   1.20  15.00   2.70
+6          9                         6.62  268.00   12.00   1.50   0.00  15.00   1.20
+9          10                       16.18  180.00   32.00   3.50   0.00  15.00   1.50
+10         11                        4.90  142.00  -14.00   1.00   0.00   0.00   1.00
+6          12                       10.94    5.00   20.00   0.00   1.00  10.00   1.00
+12         13                        4.15   30.00   40.00   1.00   0.00   0.50   1.00	# Arrêt topo sur le noeud
+endcenterline
+
+endsurvey

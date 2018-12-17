@@ -1,0 +1,173 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -129.0 342.75 230.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {189.162 1 1.0} {39.836 0} totoral-coupe2017.xvi 0 {}
+
+
+
+scrap totoralc -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+area water
+  l13-97-51
+endarea
+
+line label -id l13-97-51 -close on
+  117.25 60.25
+  92.0 60.25
+  93.75 50.5
+  113.75 52.75
+  117.25 60.25
+endline
+
+area water
+  l11-144-44
+endarea
+
+line label -id l11-144-44 -close on
+  147.25 56.5
+  120.0 56.5
+  121.75 42.75
+  145.75 44.0
+  147.25 56.5
+endline
+
+area water
+  l9-202-32
+endarea
+
+line label -id l9-202-32 -close on
+  202.0 31.75
+  140.5 31.0
+  145.0 16.75
+  184.75 16.5
+  194.25 16.0
+  202.0 31.75
+endline
+
+area water
+  l15-77-55
+endarea
+
+area water -clip off
+  l17-51-65
+endarea
+
+point 154.25 22.0 flute
+
+point 132.0 40.25 flute
+
+point 102.75 47.25 flute
+
+point 38.5 94.0 label -text "Long : -11.9872<br>Lat : -76.0580<br>Alt = 4460 m"
+
+point 210.75 56.5 label -text "<center>courant<br>trop fort"
+
+point 179.75 72.0 height -value [-5 m]
+
+point 213.5 30.5 continuation -attr Code D -text "Trop de courant pour continuer, danger"
+
+point 65.75 32.5 label -text "<it> Coupe développée" -scale xl
+
+line rock-border -close on
+  79.0 65.75
+  82.25 64.25
+  78.75 62.5
+  79.0 65.75
+endline
+
+line rock-border -close on
+  74.5 65.75
+  76.5 67.75
+  79.0 65.75
+  76.75 64.5
+  74.5 65.75
+endline
+
+line wall -subtype invisible
+  78.75 101.0
+  78.75 101.0 76.0 80.75 73.25 76.25
+  70.5 71.75 67.75 64.25 64.0 63.25
+endline
+
+point 202.25 28.0 water-flow -orientation 105.9
+
+point 90.75 56.25 water-flow -orientation 116.2
+
+point 41.0 55.75 water-flow -orientation 92.7
+
+point 66.5 82.25 entrance -orientation 108.1
+
+line border
+  116.25 70.5
+  116.25 70.5 126.0 71.5 132.0 71.5
+  138.0 71.5 142.25 71.5 142.25 71.5
+  smooth off
+  145.75 65.25
+endline
+
+line u:rope
+  78.75 97.75
+  78.75 97.75 73.25 90.25 79.5 88.0
+  85.75 85.75 120.0 68.0 127.25 76.5
+  128.56 78.03 138.75 68.75 142.75 78.5
+  143.13 79.43 157.25 33.0 157.25 33.0
+  smooth off
+endline
+
+line label -id l17-51-65 -close on
+  74.5 65.75
+  36.75 65.75
+  36.5 60.5
+  36.5 60.5 46.0 60.0 51.75 60.0
+  57.5 60.0 61.5 63.5 64.0 63.25
+  66.5 63.0 64.75 63.75 68.0 64.75
+  71.25 65.75 74.5 65.75 74.5 65.75
+  smooth off
+endline
+
+line label -id l15-77-55 -close on
+  93.0 63.0
+  75.5 63.0
+  77.5 55.0
+  88.25 55.0
+  93.0 63.0
+endline
+
+line wall
+  64.0 63.25
+  64.0 63.25 76.25 68.75 78.75 62.5
+  80.42 58.32 90.0 64.5 93.0 63.0
+  96.0 61.5 93.15 61.07 96.75 57.25
+  100.75 53.0 103.25 50.0 111.5 57.75
+  115.31 61.33 122.25 60.75 123.25 57.0
+  124.25 53.25 123.79 54.84 126.75 50.5
+  130.5 45.0 135.0 43.5 140.75 52.25
+  143.63 56.63 150.75 56.75 152.5 51.25
+  154.25 45.75 148.75 31.25 157.75 29.0
+  161.39 28.09 177.0 13.25 183.25 26.5
+  186.76 33.94 198.0 24.5 198.0 24.5
+  smooth off
+endline
+
+line wall
+  197.0 35.0
+  197.0 35.0 193.0 33.75 192.0 37.0
+  191.0 40.25 192.25 38.0 185.75 44.5
+  179.25 51.0 149.25 81.5 144.75 81.5
+  140.25 81.5 133.25 76.75 125.0 79.25
+  116.75 81.75 80.5 92.25 79.5 95.0
+  78.5 97.75 78.75 101.0 78.75 101.0
+  smooth off
+endline
+
+point 189.162 39.836 station -name 0@Totoral
+
+point 142.562 74.946 station -name 1@Totoral
+
+point 126.822 74.536 station -name 2@Totoral
+
+point 78.74199999999999 78.736 station -name 3@Totoral
+
+endscrap
+
+

@@ -1,0 +1,16 @@
+encoding utf-8
+
+input ../Tragadero_del_Cementerio/cementerio.th
+input ../Tragadero_del_Cementerio/cementerio.th2
+
+input ../Palmira/palmira.th
+input ../Palmira/palmira.th2
+input ../Palmira/palmira-JYB.th2
+input ../Palmira/palmira2015_2016fossile.th2
+join palmXR1 palmJY1
+
+input ../Chalan_Chalan/chalanchalan.th
+input ../Chalan_Chalan/chalanchalan_tot.th
+
+input ../Cacapishco/cacapishco.th
+input ../Cacapishco/cacapishco_tot.th

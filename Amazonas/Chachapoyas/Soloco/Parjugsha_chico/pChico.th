@@ -1,0 +1,249 @@
+encoding utf-8
+
+survey chico -title "Tragadero de Parjugsha Chico" -entrance "PC0"
+   
+centerline -title "Parjugsha Chico"
+	cs lat-long
+	#fix PC0	-6.2978	-77.7379	2920	# Old Coordinates
+	fix PC0	-6.2978	-77.7379	2920
+	
+	date 2005.07.11
+		#team "Jean-Yves/Bigot"
+		#team "Jean-Denis/Klein"
+		#team "Patice/Baby"
+	explo-date 2005.07.11
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean-Denis/Klein"
+		#explo-team "Patrice/Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+PC0        PC0b                       0.00    0.0    0.0   1.00   0.00   4.00   1.00
+PC0        PC1                       2.50   50.0  -27.5   1.00   1.00   0.00   3.77
+PC1        PC2                       4.26   54.0  -58.5   2.00   1.20   1.20   0.00
+PC2        PC3                       4.50  318.0   -8.5   1.00   0.80   2.00   0.00
+PC3        PC4                       3.81  258.0  -70.5   1.00   0.00   2.00   0.00
+PC4        PC5                       2.06  221.0  -15.5   1.00   0.00   2.00   1.60
+PC5        PC6                       1.95  166.0  -30.5   1.00   0.00   1.00   1.00
+PC6        PC7                       3.35  358.0  -44.5   1.20   0.50   1.00   0.00
+PC7        PC8                       2.94   48.0  -27.5   1.20   0.00   1.20   0.00
+PC8        PC9                       4.00  323.0  -75.5   1.50   3.00   4.00   8.00
+PC9        PC10                      7.82   28.0  -65.5   3.00   0.10   5.00   1.20
+PC10       PC11                      8.37    8.0  -31.5   2.00   1.00   3.00  13.00
+PC11       PC12                     12.62  280.0  -71.5   0.00   2.50   5.00   1.30
+PC12       PC13                      8.71  336.0   -1.5   3.00   1.00  10.00   1.30
+PC13       PC14                      6.34  328.0  -25.0   7.00   3.00  10.00   0.00
+PC14       PC15                      7.47  315.0  -76.5   3.00   3.50   4.00   1.20
+PC15       PC16                      7.07  319.0  -14.0   0.00   3.50   1.20   0.80
+PC16       PC17                      3.90    9.0   -6.5   3.00   0.00   3.00   1.50
+PC17       PC18                     11.40  296.0  -53.5   1.50   2.00   7.00   1.00
+PC18       PC19                     17.69  210.0  -68.0   5.00   5.00  10.00   1.30
+PC19       PC20                     19.00  135.0  -35.5   3.50   3.00  15.00   0.50
+PC20       PC21                     19.09  113.0  -45.5   2.50   3.00  28.00   0.00
+endcenterline
+
+
+
+centerline -title "Parjugsha Chico"
+
+	date 2005.07.11
+		#team "Jean-Yves/Bigot"
+		#team "Jean-Denis/Klein"
+		#team "Patice/Baby"
+	explo-date 2005.07.11
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean-Denis/Klein"
+		#explo-team "Patrice/Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+PC21       PC21A                    31.00  134.0   17.5   4.00   2.00  20.00   1.50
+PC21A      PC21B                     2.70  220.0  -70.5   1.20   1.20   2.00   0.00
+PC21B      PC21C                     3.45  144.0   -3.0   2.50   0.00   0.50   0.70
+PC21C      PC21D                     8.50  157.0    4.5   1.00   1.50   0.00   1.00
+endcenterline
+
+
+
+centerline -title "Parjugsha Chico"
+
+	date 2005.07.11
+		#team "Jean-Yves/Bigot"
+		#team "Jean-Denis/Klein"
+		#team "Patice/Baby"
+	explo-date 2005.07.11
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean-Denis/Klein"
+		#explo-team "Patrice/Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+PC21D      PC21D1                   10.00  238.0   39.5   0.75   0.75   1.00   1.00
+endcenterline
+
+
+
+centerline -title "Parjugsha Chico"
+
+	date 2005.07.11
+		#team "Jean-Yves/Bigot"
+		#team "Jean-Denis/Klein"
+		#team "Patice/Baby"
+	explo-date 2005.07.11
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean-Denis/Klein"
+		#explo-team "Patrice/Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+PC21D      PC21E                     7.00  130.0    0.0   0.50   0.50  25.00   1.30
+endcenterline
+
+
+
+centerline -title "Parjugsha Chico"
+
+	date 2005.07.11
+		#team "Jean-Yves/Bigot"
+		#team "Jean-Denis/Klein"
+		#team "Patice/Baby"
+	explo-date 2005.07.11
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean-Denis/Klein"
+		#explo-team "Patrice/Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+PC21C      PC21CA                    4.88   44.0  -40.5   1.00   1.00   1.50   3.60
+PC21CA     PC21CB                    3.40  310.0  -68.5   0.80   0.00   1.20   4.00
+PC21CB     PC21CC                    7.70  315.0   -2.5   0.60   0.50   1.20   4.00
+endcenterline
+
+
+
+centerline -title "Parjugsha Chico"
+
+	date 2005.07.11
+		#team "Jean-Yves/Bigot"
+		#team "Jean-Denis/Klein"
+		#team "Patice/Baby"
+	explo-date 2005.07.11
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean-Denis/Klein"
+		#explo-team "Patrice/Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+PC21       PC22                      5.23  292.0  -18.5   1.00   4.00   3.00   1.30
+PC22       PC23                      3.74  285.0  -50.5   0.00   1.20   1.00   1.00
+PC23       PC24                      5.56  359.0  -21.5   2.00   0.00   5.00   1.00
+PC24       PC25                      4.50  279.0  -11.5   1.00   0.50   5.00   0.50
+PC25       PC26                      3.87  334.0  -45.5   1.20   0.50   1.00   1.00
+PC26       PC27                      5.14  270.0  -10.5   0.00   1.20   3.00   1.00
+PC27       PC28                      3.69  336.0  -33.5   0.50   0.20   0.50      0
+PC28       PC29                      2.20  250.0  -70.5   2.00   1.80   1.50   0.00
+PC29       PC30                      5.41  290.0    9.5   1.50   0.60   5.00   1.20
+PC30       PC31                      3.18  234.0    2.5   0.00   1.00   5.00   1.50
+PC31       PC32                      5.55  330.0   -2.0   0.30   0.30   0.30   0.10
+PC32       PC33                      2.41  312.0   41.5   3.50   0.00   6.00   1.50
+PC33       PC34                      6.54  287.0  -23.5   0.00   2.00   5.00  32.00
+PC34       PC35                     32.00    0.0  -90.0   1.50   4.00  40.00   0.00
+PC35       PC36                      5.66   20.0   13.5   2.50   2.20   6.00   1.00
+PC36       PC37                     10.37  343.0  -38.5   5.00   2.00   1.00   1.00
+PC37       PC38                      1.93    5.0  -35.5   1.00   0.00   1.00   1.00
+PC38       PC39                      5.06  309.0  -36.5   2.00   1.50   6.00   1.50
+PC39       PC40                      4.51  271.0  -17.5   0.00   1.50   1.00   0.50
+PC40       PC41                      2.06   22.0  -34.5   1.00   0.50   1.50   0.20
+PC41       PC42                     11.17  280.0   -3.5   4.00   1.50  20.00   0.00
+PC42       PC43                      4.65  301.0   16.5   2.00   0.00   3.00   1.00
+PC43       PC44                      7.80  318.0  -26.5   0.00   1.50  10.00   1.40
+PC44       PC45                      5.62  322.0    1.5   1.50   1.20  10.00   1.50
+PC45       PC46                     16.12  312.0   -3.5   1.00   0.00  10.00   1.50
+PC46       PC47                      3.09   57.0  -10.5   1.00   1.00  10.00   1.30
+PC47       PC48                      4.44  100.0   -2.0   0.00   1.20  15.00   1.30
+PC48       PC49                      7.06   62.0   -7.0   3.50   0.80   5.00   0.80
+PC49       PC50                      8.84   44.0  -50.0   3.00   0.00   2.50   0.50
+PC50       PC51                      6.78  329.0   -4.5   1.00   0.00   3.00   0.50
+PC51       PC52                      9.08  302.0   -0.5   0.00   1.00   5.00   0.50
+PC52       PC53                      4.52   29.0   -8.5   0.80   0.00   2.00   0.80
+PC53       PC54                      3.23  314.0    3.5   0.00   0.80   2.00   1.20
+PC54       PC55                      3.74   44.0  -19.5   0.80   0.50   2.00   1.20
+PC55       PC56                     12.81  322.0   -2.5   0.80   0.00  15.00   1.00
+PC56       PC57                      1.60   21.0   -2.5   0.80   0.50  10.00   1.50
+PC57       PC58                      2.80  313.0   -5.5   0.00   0.50  10.00   1.50
+PC58       PC59                      1.63   20.0  -40.5   0.00   0.50  10.00   1.00
+PC59       PC60                      1.79   91.0  -29.5   0.70   0.00  10.00   1.00
+PC60       PC61                      1.25  349.0   -4.5   0.00   0.40  10.00   1.00
+PC61       PC62                      3.80   40.0   24.5   0.15   0.15  20.00   4.00
+PC62       PC63                      5.25   22.0   12.5   0.15   0.15  20.00   4.00
+PC63       PC64                      5.80  330.0  -79.5   1.20   0.00  20.00   1.40
+PC64       PC65                      2.07  335.0   -7.5   0.40   0.00  20.00   2.00
+PC65       PC66                      1.30    9.0   -6.5   0.40   0.00  20.00   1.50
+PC66       PC67                      2.20  321.0  -11.5   0.50   0.00  20.00   2.00
+PC67       PC68                      1.70  331.0  -28.5   0.30   0.00  20.00   1.80
+PC68       PC69                      2.60  301.0  -22.5   0.60   0.00  20.00   1.60
+PC69       PC70                      2.65   19.0  -35.5   1.30   0.00  20.00   1.30
+PC70       PC71                      2.65  313.0   11.5   5.00   3.00  20.00  16.60
+PC71       PC72                     16.60    0.0  -90.0   2.00   0.80  36.00   0.00
+PC72       PC73                      2.80  350.0   22.5   0.00   1.50   5.00   2.00
+PC73       PC74                     13.30   22.0  -63.5   1.00   0.00  45.00   8.40
+PC74       PC75                      9.25    5.0  -45.5   0.00   0.80  40.00   2.00
+PC75       PC76                      2.15   63.0  -10.5   0.00   0.50  15.00   1.50
+PC76       PC77                      3.80   40.0   -2.5   0.40   0.00  15.00   1.60
+PC77       PC78                      2.38  337.0    5.5   0.40   0.00  15.00   1.80
+PC78       PC79                      2.60  281.0   -9.5   0.00   0.50  15.00   1.60
+PC79       PC80                      6.92  350.0   -1.5   0.00   0.40  15.00   1.70
+PC80       PC81                      3.82   18.5   -2.5   0.40   0.00  15.00   1.60
+PC81       PC82                      6.36  337.0   -3.5   0.00   0.40  15.00   1.30
+PC82       PC83                      5.35  325.0   -2.5   0.35   0.00  10.00   1.30
+PC83       PC84                      2.04  300.0    0.5   0.50   0.00   5.00   1.50
+PC84       PC85                      8.48  313.0   -1.5   0.00   0.40  10.00   1.80
+PC85       PC86                      2.10  330.0    1.5   0.00   0.50  10.00   1.80
+PC86       PC87                      7.18  317.0    1.5   0.00   0.60  10.00   3.00
+PC87       PC88                      9.85  317.0    1.5   0.00   0.70  10.00   4.00
+PC88       PC89                      2.60   12.0  -43.5   0.50   0.00  10.00   1.50
+PC89       PC90                      8.40  312.0   -3.5   0.50   0.20   5.00   1.50
+PC90       PC91                      9.10  288.0   -0.5   0.50   0.40  10.00   3.50
+PC91       PC92                      4.90  294.0  -11.5   0.00   0.40  10.00   2.00
+PC92       PC93                      1.38  317.0  -23.5   0.00   0.50  10.00   1.40
+PC93       PC94                      4.75  314.0   -0.5   0.40   0.00  10.00   1.50
+PC94       PC95                      2.25  275.0  -17.5   0.20   0.50  10.00   1.50
+PC95       PC96                      1.65  340.0  -25.5   0.70   0.10  10.00   0.50
+PC96       PC97                      6.20  271.0  -10.5   1.00   0.50   7.00   0.50
+PC97       PC98                      6.50  237.0    3.5   0.80   0.00  20.00   1.30
+PC98       PC99                      2.72  252.5    4.0   0.80   0.00  20.00   1.50
+PC99       PC100                     3.10  219.0    0.5   0.00   1.00  20.00   1.50
+PC100      PC101                     5.50  261.0   -2.5   0.00   1.20  20.00   1.40
+PC101      PC102                     4.60  259.5   -1.5   1.00   0.00  15.00   1.40
+PC102      PC103                     6.90  235.0   -0.5   1.30   0.00  10.00   1.50
+PC103      PC104                     6.70  274.0   -5.5   1.40   0.00   8.00   1.50
+PC104      PC105                     6.70  234.0    0.5   0.00   2.30   7.00   1.60
+PC105      PC106                     7.85  295.0   -4.0   0.80   1.00   6.00   1.60
+PC106      PC107                     9.80  258.0   -0.5   0.00   1.00   6.00   1.60
+PC107      PC108                     7.80  291.5   -2.5   1.20   0.00   6.00   1.60
+PC108      PC109                    13.15  249.5   -2.0   0.00   1.20   7.00   1.60
+PC109      PC110                     6.50  257.5   -1.5   0.00   1.30   6.00   1.75
+PC110      PC111                    10.60  291.5   -3.5   0.00   1.80   9.00   1.50
+PC111      PC112                     7.85  317.0    0.0   1.80   0.00   9.00   1.60
+PC112      PC113                     9.35  325.0   -2.5   1.50   1.50   5.00   1.40
+PC113      PC114                     8.35  292.0   -0.5   1.50   0.50   5.00   1.40
+PC114      PC115                     8.50  273.5    0.5   0.50   1.50   6.00   1.50
+PC115      PC116                    17.70  316.5   -2.5   2.00   0.00   2.00   0.80
+PC116      PC117                    16.40  296.0   -0.5   1.40   0.00   6.00   0.90
+PC117      PC118                     6.15  270.0    2.5   3.00   3.50   6.00   1.20
+PC118      PM63                      8.45  356.0   -7.0   8.00   3.00   2.00   0.20
+endcenterline
+
+endsurvey

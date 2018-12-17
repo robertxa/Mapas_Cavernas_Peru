@@ -1,0 +1,9 @@
+encoding utf-8
+
+input ucshapugro.th2
+input ucshapugro2.th2
+
+join Ucsha-1 ucshaXR1
+
+input ucshapugro-coupe.th2
+#input ucschapugro-coupe2.th2

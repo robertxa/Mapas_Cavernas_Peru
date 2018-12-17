@@ -1,0 +1,146 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -129.0 255.75 259.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {68.97279999999999 1 1.0} {107.90110000000001 0} Vampiros2016.xvi 0 {}
+
+
+
+scrap vampiros1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+point 27.0 24.5 label -text "source"
+
+point 99.25 29.5 label -orientation 305.3 -text "vampires"
+
+point 28.75 31.0 spring -orientation 272.6
+
+point 25.0 31.25 water-flow -orientation 280.6
+
+point 63.0 115.25 entrance -orientation 147.7
+
+point 27.25 74.25 entrance -orientation 124.2
+
+line wall -subtype invisible
+  78.75 112.5
+  78.75 112.5 51.75 99.5 49.25 96.75
+  46.75 94.0 38.25 81.75 35.75 76.25
+  33.25 70.75 29.75 56.5 29.75 56.5
+  smooth off
+endline
+
+point 59.0 37.25 guano
+
+point 65.0 27.5 guano
+
+point 75.75 31.75 guano
+
+point 68.0 39.0 guano
+
+point 73.25 49.5 guano
+
+point 74.75 57.75 guano
+
+point 88.5 63.75 guano
+
+point 89.0 54.5 guano
+
+point 96.75 58.75 guano
+
+line slope -reverse on
+  78.75 22.5
+  78.75 22.5 71.5 21.0 64.0 23.25
+  l-size 5.0
+  56.5 25.5 49.25 27.25 47.0 29.75
+  smooth off
+endline
+
+point 59.75 31.25 debris
+
+point 63.25 46.25 debris
+
+point 54.25 42.25 debris
+
+point 56.5 51.5 debris
+
+line wall -close on -reverse on -outline in
+  80.0 45.25
+  80.0 45.25 77.5 42.25 78.0 40.25
+  78.5 38.25 82.0 35.0 83.5 38.75
+  85.0 42.5 89.5 48.5 85.75 47.75
+  82.0 47.0 80.0 45.25 80.0 45.25
+  smooth off
+endline
+
+line wall -close on -reverse on -outline in
+  39.5 77.75
+  39.5 77.75 41.5 71.5 45.75 76.75
+  50.0 82.0 54.75 89.75 54.75 91.75
+  54.75 93.75 50.75 97.0 49.5 94.25
+  48.25 91.5 47.5 90.25 45.5 87.25
+  43.5 84.25 39.5 77.75 39.5 77.75
+  smooth off
+endline
+
+line wall
+  29.75 56.5
+  29.75 56.5 37.5 62.0 39.5 59.25
+  41.5 56.5 44.25 52.75 46.0 48.5
+  47.75 44.25 51.75 39.0 51.75 35.75
+  51.75 32.5 47.25 23.75 52.25 20.25
+  57.25 16.75 59.75 15.5 63.25 16.25
+  66.75 17.0 78.75 15.25 77.0 17.5
+  75.25 19.75 72.0 19.75 72.5 22.75
+  73.0 25.75 75.5 23.75 80.25 26.5
+  85.0 29.25 84.75 33.5 89.25 37.25
+  93.75 41.0 92.25 48.25 96.0 50.25
+  99.75 52.25 106.5 56.25 106.5 56.25
+  smooth off
+  106.5 56.25 108.25 53.25 106.5 57.75
+  104.75 62.25 104.75 63.25 99.0 65.75
+  93.25 68.25 88.5 72.0 86.5 77.5
+  84.5 83.0 75.25 98.5 75.25 102.25
+  75.25 106.0 76.75 109.0 76.75 109.0
+  smooth off
+  78.75 112.5
+endline
+
+line wall -close on -outline in
+  65.25 100.5
+  65.25 100.5 69.0 103.75 69.0 99.0
+  69.0 94.25 71.75 88.25 71.0 82.75
+  70.25 77.25 70.25 66.5 70.25 63.0
+  70.25 59.5 67.5 51.5 65.75 52.25
+  64.0 53.0 50.5 58.25 51.75 62.5
+  53.0 66.75 55.5 74.25 56.5 79.25
+  57.5 84.25 57.75 86.75 59.25 89.5
+  60.75 92.25 65.25 100.5 65.25 100.5
+  smooth off
+endline
+
+point 59.452799999999996 94.5111 station -name 4@vampiros
+
+point 42.2928 60.2911 station -name 3@vampiros
+
+point 67.6828 31.8611 station -name 2@vampiros
+
+point 83.4528 59.801100000000005 station -name 1@vampiros
+
+line arrow
+  104.0 100.5
+  104.0 100.5 90.0 97.75 89.0 105.75
+  88.0 113.75 87.75 133.75 78.5 129.75
+  69.25 125.75 69.25 114.0 69.25 114.0
+  smooth off
+endline
+
+line border -clip off
+  104.0 89.75
+  104.0 112.0
+endline
+
+point 126.5 100.75 label -text "Lat : -6.54219<br>Long : -77.562791<br>Alt : 1709 m"
+
+point 68.97279999999999 107.90110000000001 station -name 0b@vampiros
+
+endscrap
+
+

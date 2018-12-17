@@ -1,0 +1,100 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -127.98999999999978 -152.601 6796.317300000001 1604.3833
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {565.9500000000003 1 1.0} {565.947 0.1} Quiocta-coupe2017.xvi 0 {}
+
+
+
+scrap scrap1 -scale [-127.98999999999978 -152.601 6796.317300000001 -152.601 0.0 0.0 175.87740542 0.0 m]
+
+endscrap
+
+
+
+scrap scrap1 -projection extended -scale [-127.98999999999978 -152.601 6796.317300000001 -152.601 0.0 0.0 175.87740542 0.0 m]
+
+point 6120.57 822.527 station -name 40@quiocta
+
+point 5601.870000000001 822.527 station -name 39@quiocta
+
+point 5396.860000000001 820.737 station -name 38@quiocta
+
+point 5278.49 810.597 station -name 37@quiocta
+
+point 5089.75 789.087 station -name 36@quiocta
+
+point 4913.5 780.157 station -name 35@quiocta
+
+point 4656.51 779.267 station -name 34@quiocta
+
+point 4518.6 766.717 station -name 33@quiocta
+
+point 4410.34 768.037 station -name 32@quiocta
+
+point 4218.05 752.567 station -name 31@quiocta
+
+point 4035.0200000000004 748.727 station -name 30@quiocta
+
+point 3952.5600000000004 742.677 station -name 29@quiocta
+
+point 3736.2700000000004 719.557 station -name 28@quiocta
+
+point 3554.1800000000003 709.377 station -name 27@quiocta
+
+point 3371.34 705.547 station -name 26@quiocta
+
+point 3211.98 687.957 station -name 25@quiocta
+
+point 3036.96 695.907 station -name 24@quiocta
+
+point 2841.79 670.207 station -name 23@quiocta
+
+point 2733.0200000000004 662.407 station -name 22@quiocta
+
+point 2633.0200000000004 653.487 station -name 21@quiocta
+
+point 2518.7700000000004 642.687 station -name 20@quiocta
+
+point 2345.6200000000003 637.547 station -name 19@quiocta
+
+point 2143.8900000000003 633.327 station -name 18@quiocta
+
+point 2010.4200000000003 619.767 station -name 17@quiocta
+
+point 1920.5300000000002 608.887 station -name 16@quiocta
+
+point 1844.7800000000002 599.857 station -name 15@quiocta
+
+point 1763.0900000000001 599.857 station -name 14@quiocta
+
+point 1686.8400000000001 591.837 station -name 13@quiocta
+
+point 1631.88 580.557 station -name 12@quiocta
+
+point 1558.4600000000003 579.667 station -name 11@quiocta
+
+point 1462.3000000000002 578.987 station -name 10@quiocta
+
+point 1360.3400000000001 578.097 station -name 9@quiocta
+
+point 1202.8700000000003 576.457 station -name 8@quiocta
+
+point 1164.3900000000003 577.327 station -name 7@quiocta
+
+point 1040.38 577.327 station -name 6@quiocta
+
+point 977.5700000000002 578.957 station -name 5@quiocta
+
+point 873.7400000000002 577.327 station -name 4@quiocta
+
+point 766.9700000000003 575.457 station -name 3@quiocta
+
+point 736.8200000000002 573.407 station -name 2@quiocta
+
+point 651.2200000000003 571.317 station -name 1@quiocta
+
+point 565.9500000000003 565.947 station -name 0@quiocta
+
+endscrap
+
+

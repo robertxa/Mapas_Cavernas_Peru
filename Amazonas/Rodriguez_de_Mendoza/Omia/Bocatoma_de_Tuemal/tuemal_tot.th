@@ -1,0 +1,7 @@
+encoding utf-8
+
+input tuemal.th2
+input tuemal2.th2
+
+join tuemalND1 tuemal1
+join tuemalND2 tuemal1

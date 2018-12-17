@@ -1,0 +1,140 @@
+encoding utf-8
+
+survey Huaman -title "Tragadero de Huaman" -entrance "0"
+   
+centerline -title "Tragadero de Huaman"
+	cs lat-long
+	fix 0	-5.9703	-77.3176	1150
+	
+	date 2014.09.08
+		team "Jean-Yves Bigot"
+		team "Joël Raimbourg"
+		team "Luciana Alt"
+	explo-date 2014.09.08
+		explo-team "Jean-Yves Bigot"
+		explo-team "Joël Raimbourg"
+		explo-team "Luciana Alt"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+#Param Deca Deg Clino Deg 0.0000 Dir,Dir,Dir Arr Std ;Topo du 8-9-2014 par Jean-Yves Bigot, JoÎl Raimbourg et Luciana Alt.;
+
+0          0b                         0.00    0.00    0.00   0.00   0.00   0.00   0.00
+B1         B1b                        0.00  146.00    0.00   0.80   0.80   5.00   1.70
+B1         B2                        9.60  146.00   55.00   0.60   0.00   0.40   1.60
+B2         B3                        7.05  183.00    8.00   1.20   0.00   1.00   1.50
+B3         B4                        2.65  144.00   10.00   1.00   0.00   1.00   1.00
+B4         B5                        9.05  186.00    2.00   2.70   0.40   4.40   0.90
+B5         B6                        6.15  125.00   43.00   1.50   0.00   6.20   1.40
+B6         B7                        5.60  104.00   28.00   1.00   1.40   2.00   1.20
+B7         B8                        2.40   42.00   73.00   0.00   1.10   0.40   1.60
+B8         B9                        7.90   47.00   35.00   2.70   1.00   8.30   4.70
+B9         B10                      10.05  304.00   82.00   3.10   1.20   2.40   2.40
+B10        B11                       6.60   34.00   72.00   1.50   0.00   3.00   7.00
+B11        B12                       3.60   72.00   61.00   0.00   1.20   2.50   2.00
+B12        B13                       4.10  119.00   45.00   0.00   0.80   1.00   1.20
+B13        B14                       2.90   41.00   34.00   0.50   0.00   0.50   2.00
+B14        B15                       4.80  327.00   29.00   0.00   1.50   3.80   2.20
+B15        B16                       4.25  152.00   46.00   1.20   3.00   1.00   6.20
+B16        21                        0.95  221.00   25.00   0.50   0.80   2.40   0.00
+
+endcenterline
+
+centerline -title "Tragadero de Huaman"
+	
+	date 2014.09.09
+		team "Jean-Yves Bigot"
+		team "Jean-Denis Klein"
+		team "Patrice Baby"
+	explo-date 2014.09.09
+		explo-team "Jean-Yves Bigot"
+		explo-team "Jean-Denis Klein"
+		explo-team "Patrice Baby"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+#Param Deca Deg Clino Deg 0.0000 Dir,Dir,Dir Arr Std ;Topo du 9-9-2014 par Jean-Yves Bigot, Jean-Denis Klein et Patrice Baby.;
+
+C1         C1b                        0.00   15.00    0.00   2.00   1.00   8.00   1.50
+C1         C2                        5.84   15.00   -4.00   0.90   1.30   6.00   0.65
+C2         C3                        6.18    8.00   10.00   0.50   1.70   9.00   1.60
+C3         C4                        8.73   49.00   63.00   5.00   5.00   9.00   7.00
+C4         C5                        9.56  103.00   65.00   3.00   0.50   0.60   1.50
+C5         C6                        4.74   42.00    7.00   1.00   0.00   2.70   0.30
+C6         C7                        5.13   47.00   32.00   0.50   0.00   1.00   0.30
+C7         C8                        3.99   13.00   10.00   0.70   0.40   5.00   1.20
+C8         C9                       10.62   61.00   55.00   0.80   0.00   2.50   1.30
+C9         C10                       4.99   15.00   19.00   1.20   2.00   4.00   1.30
+C10        C11                       6.63  105.00   42.00   0.00   1.50   3.00   1.70
+C11        C12                      10.59  158.00   24.00   0.70   3.50  18.00   2.00
+C12        C13                      17.22  147.00   85.00   0.40   2.00   2.00  18.00
+C13        C14                       2.56  172.00   28.00   1.70   0.60   4.00   1.00
+C14        C15                       5.47  152.00   62.00   1.20   0.30   1.50   0.60
+C15        B1                        2.62  205.00   28.00   1.00   0.80   3.00   1.50
+
+endcenterline
+
+centerline -title "Tragadero de Huaman"
+	cs lat-long
+	fix 0	-5.9703	-77.3176	1150	
+	
+	date 2013.02.11
+		team "James Apaéstegui"
+		team "Jean Loup/Guyot"
+		team "William Santini"
+		team "Fabien Renou"
+	explo-date 2013.02.11
+		explo-team "Jean-Yves Bigot"
+		explo-team "Joël Raimbourg"
+		explo-team "Luciana Alt"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+#Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Inc 0,0,0 ;Topo du 11-2-2013 par James ApaÈstegui, Jean Loup Guyot, William Santini et Fabien Renou.;
+
+A0         A0b                        0.00    0.00    0.00   1.60   2.50  12.00   1.00
+A0         1                         0.00    0.00    0.00   1.60   2.50  12.00   1.00
+1          2                         2.65  340.00  -20.00   0.68   0.80   0.00   0.45
+2          3                         2.70  265.00   -8.00   0.80   1.40   1.10   0.50
+3          4                         3.63    2.80  -22.50   0.00   0.85   1.00   1.80
+4          5                         5.32    4.00  -37.00   1.70   0.00   4.00   1.30
+5          6                         6.48  293.00  -42.00   1.55   0.00   3.43   1.44
+6          7                         3.32  260.00  -22.00   0.00   1.15   1.49   0.96
+7          8                         3.40  336.00  -21.00   1.95   1.34   0.70   2.35
+8          9                         3.68  262.00  -46.00   0.00   1.06   1.52   1.22
+9          10                        5.36   41.00  -32.00   0.00   0.85   0.70   0.60
+10         11                        5.07   35.00   -9.00   1.47   0.00   6.73   0.65
+11         12                       14.08   16.00   -6.00   2.47   0.00   1.95   1.45
+12         13                        5.74  337.00  -11.00   0.00   2.12   2.53   1.41
+13         14                        6.63  252.00  -10.00   0.71   0.52   0.56   0.00
+13         15                        6.00   92.00  -21.00   1.32   0.00   6.31   1.25
+15         16                        1.76  156.00  -10.00   0.00   0.93   1.18   1.45
+16         17                        4.94  128.00  -35.00   1.28   2.01   4.16   1.40
+17         18                        4.83  198.00  -11.00   2.76   0.00   1.32   0.90
+18         19                        8.46  112.00  -20.00   1.37   1.25   0.76   2.95
+19         20                        2.87   34.00  -74.00   0.00   2.33   4.23   1.84
+20         21                       10.38   72.00  -31.00   2.00   2.05   2.04   2.91
+   
+data normal from to length compass clino left right up down
+#Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Inc 0,0,0 ;Topo du 11-2-2013 par James ApaÈstegui, Jean Loup Guyot, William Santini et Fabien Renou.;
+
+1          22                        8.47  144.00   51.00   1.70   4.00   1.80   0.50
+22         23                        4.40  145.00   23.00   0.50   1.00   1.40   1.20
+23         24                        4.50  156.00   47.00   0.60   0.80   0.90   0.70
+24         25                        2.80  141.00   21.00   0.90   2.90   6.40   1.00
+25         26                        6.10  108.00  -40.00   0.20   0.30   3.30   0.60
+26         27                        1.70  125.00  -22.00   0.60   0.30   1.50   0.40
+27         28                        4.30   56.00    1.00   2.10   0.20   5.30   1.10
+28         29                        2.80  325.00   12.00   2.10   0.50   4.50   0.40
+29         30                        3.80  326.00   32.00   2.00   2.30  13.00   1.00
+30         0                         6.30   64.00   61.00   1.10   0.50   0.00   5.60
+
+endcenterline
+
+endsurvey

@@ -1,0 +1,152 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -128.75 238.5 211.25
+##XTHERION## xth_me_area_zoom_to 800
+##XTHERION## xth_me_image_insert {71.33399999999999 1 1.0} {54.6841 0} montalvo1_2018.xvi 0 {}
+
+
+
+scrap Montal-SP1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+line wall -subtype invisible
+  23.5 35.75
+  23.5 35.75 26.75 31.75 29.75 31.5
+  smooth off
+endline
+
+line wall
+  103.75 59.75
+  103.75 59.75 101.75 64.5 101.25 67.25
+  100.75 70.0 104.0 71.0 103.0 72.75
+  102.0 74.5 102.75 74.0 105.0 76.5
+  107.25 79.0 111.0 82.0 109.25 82.0
+  107.5 82.0 106.75 82.25 106.75 82.25
+  smooth off
+endline
+
+point 21.0 28.0 entrance -orientation 57.2
+
+point 63.25 71.5 u:bats -clip off
+
+line pit
+  106.0 71.25
+  106.0 71.25 98.5 74.25 95.25 80.75
+  smooth off
+endline
+
+line wall -subtype blocks
+  51.0 41.25
+  51.0 41.25 55.75 41.0 60.75 41.25
+  65.75 41.5 63.5 43.75 66.75 42.75
+  70.0 41.75 72.0 40.75 76.0 38.25
+  80.0 35.75 85.5 35.25 88.25 37.5
+  91.0 39.75 91.75 42.75 95.0 42.75
+  98.25 42.75 98.25 42.25 101.25 43.0
+  104.25 43.75 107.0 45.5 107.25 47.25
+  107.5 49.0 105.0 56.75 103.75 59.75
+  smooth off
+endline
+
+point 37.5 33.75 altitude -align bottom-right
+
+line wall
+  29.75 31.5
+  29.75 31.5 28.75 33.25 30.75 33.25
+  32.75 33.25 35.0 32.0 37.5 33.75
+  40.0 35.5 48.5 40.75 51.0 41.25
+  smooth off
+endline
+
+line wall -subtype blocks
+  106.75 82.25
+  106.75 82.25 99.5 78.5 96.5 78.5
+  93.5 78.5 89.5 71.0 84.25 68.0
+  smooth off
+endline
+
+line wall
+  84.25 68.0
+  79.0 65.0 59.0 52.25 54.75 50.75
+  50.5 49.25 48.0 47.0 45.75 45.75
+  43.5 44.5 27.5 34.0 26.75 34.25
+  26.0 34.5 23.5 35.75 23.5 35.75
+  smooth off
+endline
+
+point 105.19399999999999 49.2941 station -name 6@montalvo1
+
+point 103.584 46.454100000000004 station -name 7@montalvo1
+
+point 94.014 46.9341 station -name 5@montalvo1
+
+point 82.44399999999999 36.454100000000004 station -name 4@montalvo1
+
+point 35.474 34.444100000000006 station -name 2@montalvo1
+
+point 58.38399999999999 47.7141 station -name 1@montalvo1
+
+point 71.33399999999999 54.6841 station -name 0@montalvo1
+
+point 107.63399999999999 81.1041 station -name 3@montalvo1
+
+endscrap
+
+
+
+scrap montalvo1-sp2 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+line pit
+  87.125 57.625
+  87.125 57.625 86.25 56.0 88.125 55.25
+  90.0 54.5 91.88 55.5 92.25 53.625
+  92.62 51.75 91.62 48.88 91.375 48.25
+  smooth off
+endline
+
+line pit
+  84.125 56.75
+  84.125 56.75 82.88 53.88 84.5 51.5
+  smooth off
+endline
+
+point 70.625 16.75 label -text "<it>Lat : -5.64685<br>Long : -78.38809<br>Alt = 1219 m"
+
+point 77.125 51.125 entrance -orientation 80.9
+
+line wall -subtype invisible
+  81.625 55.75
+  81.625 55.75 80.12 53.38 81.125 51.5
+  82.12 49.62 84.125 49.125 84.125 49.125
+  smooth off
+endline
+
+line wall -subtype invisible
+  93.5 48.25
+  93.5 48.25 95.62 49.5 95.25 52.625
+  94.88 55.75 93.375 56.75 93.375 56.75
+  smooth off
+endline
+
+line wall -subtype blocks
+  84.125 49.125
+  84.125 49.125 81.75 51.25 83.125 51.25
+  84.5 51.25 85.88 52.0 87.875 51.25
+  89.88 50.5 94.0 50.38 93.75 49.875
+  93.5 49.38 93.5 48.25 93.5 48.25
+  smooth off
+endline
+
+line wall -reverse on -subtype blocks
+  81.625 55.75
+  81.625 55.75 83.0 55.0 84.5 54.875
+  86.0 54.75 87.12 56.38 88.5 56.375
+  89.88 56.38 93.75 55.62 93.375 56.75
+  smooth off
+endline
+
+point 84.214 53.0741 station -name 9@montalvo1
+
+point 99.524 50.554100000000005 station -name 8@montalvo1
+
+endscrap
+
+

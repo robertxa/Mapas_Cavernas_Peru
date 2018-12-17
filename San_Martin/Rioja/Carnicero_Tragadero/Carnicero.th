@@ -1,0 +1,35 @@
+encoding utf-8
+
+survey carnicero -title "Carnicero" -entrance "0"
+   
+centerline -title "Carnicero"
+	cs lat-long
+	fix 0	-5.779308	-77.553129	1303
+	
+	date 2017.08.24
+		team "Jean-Yves Bigot"
+		team "Jean Loup/Guyot"
+		team "Mathias Echevin"
+	explo-date 2017.08.20
+		explo-team "Jean-Yves Bigot"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Mathias Echevin"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	1	0	0	0	0	0	0	0	# Entrée
+1	2	4.10	42	-23	3.5	1	0	20
+2	3	21.3	46	-80	1	1.5	20	9
+3	4	9.2	351	-80	2.8	30	8	1.7
+4	5	6.8	85	31	2.3	4.5	4.9	0.8
+extend left
+4	6	8.2	311	-45	0.5	0.3	1.2	1
+extend right
+5	7	6.2	103	43	1.7	0	3.4	0.7
+7	8	7.8	40	21	0.6	0	0.7	0.6
+
+endcenterline
+
+endsurvey

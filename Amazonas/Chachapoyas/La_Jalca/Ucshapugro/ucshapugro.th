@@ -1,0 +1,117 @@
+encoding utf-8
+
+survey ucshapugro -title "Tragadero de Ucshapugro" -entrance "1"
+   
+centerline -title "ucschapugro 2013"
+	cs lat-long
+	fix 1	-6.52292	-77.797292	2743
+	date 2013.09.01
+		#team "ECA"
+		#team "GSBM"
+		team "Jean-Yves/Bigot"# (GSBM)"
+		team "Olivier/Fabre"# (ECA)"
+		team "Maria-Garcia/Bustamante"# (ECA)"
+	explo-date 2013.09.01
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Olivier/Fabre"# (ECA)"
+		explo-team "Maria-Garcia/Bustamante"# (ECA)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+extend left
+1	1b			0.00	0.00	0.00	0.00	0.00	0.00	0.00
+1	2			9.80	349.00	2.00	0.80	0.00	0.20	0.60
+2	3			3.40	344.00	-33.00	2.50	3.00	2.00	0.50
+3	4			3.80	21.00	0.00	3.50	2.00	2.00	0.70
+4	5			5.23	341.00	-7.00	1.00	5.00	1.50	1.50
+5	6			10.58	335.00	-4.00	3.00	1.00	0.50	1.00
+6	7			7.50	293.00	-9.00	0.30	0.90	0.50	1.50
+7	8			5.63	326.00	-8.00	0.80	0.80	0.50	0.60
+8	9			6.67	309.00	5.00	2.00	2.50	1.00	1.20
+9	10			2.30	302.00	13.00	1.80	3.80	0.00	1.10
+10	11			4.50	346.00	-4.00	2.50	1.00	0.00	1.00
+#extend right
+11	12			7.18	32.00	-5.00	6.00	2.00	0.00	2.30
+#extend left
+12	13			9.65	26.00	-8.00	2.00	1.70	0.00	2.35
+13	14			5.34	302.00	-3.00	2.50	3.50	4.50	2.00
+14	15			2.12	343.00	-46.00	0.70	2.00	1.00	0.40
+15	16			8.77	323.00	3.00	1.50	1.50	0.70	1.10
+16	17			2.56	298.00	-3.00	1.50	2.00	1.20	1.00
+17	18			14.10	232.00	-3.00	2.00	3.50	2.00	2.00
+18	19			5.00	227.00	-9.00	2.00	2.00	0.50	2.00
+#extend right
+19	20			3.78	184.00	-3.00	0.30	2.50	4.50	2.00
+extend left
+20	22			7.03	216.00	-9.00	0.00	1.50	4.00	0.70
+22	23			3.92	231.00	0.00	0.20	1.50	4.00	1.50
+23	24			8.36	278.00	-9.00	0.50	2.00	3.00	0.30
+24	25			3.31	257.00	-27.00	0.20	3.50	3.50	1.50
+25	26			1.95	279.00	-21.00	0.90	0.90	3.00	1.70
+26	27			4.80	216.00	9.00	0.90	0.30	2.90	1.70
+
+	#extend right
+endcenterline
+
+centerline -title "ucschapugro 2016" 
+	date 2016.08.27
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Damien/Vignoles"# (GSBM)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+		team "Constance/Picque"# (ECA, Vulcain)"
+	explo-date 2016.08.27
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S. Vulcain"
+		explo-team "Jean-Yves/Bigot"# (GSBM)"
+		explo-team "Damien/Vignoles"# (GSBM)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+		explo-team "Constance/Picque"# (ECA, Vulcain)"
+		explo-team "Naomi/Mazzilli"# (GSBM)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino right left up down 
+extend left
+0	0b			0.00	0.00	0.00	1.50	0.00	1.00	0.50
+0	Xa-1			4.37	300.00	-13.00	0.50	0.50	0.00	0.30	# Siphon
+#extend right
+0	Xa-2			13.00	64.00	42.00	2.00	3.00	0.50	0.50	# Joint de strate
+extend right
+0	Xa-3			3.08	139.00	16.00	0.00	1.00	1.00	1.00
+Xa-3	Xa-4			7.75	92.00	30.00	1.50	1.00	1.50	2.00	# Marmite
+Xa-4	Xa-5			2.17	153.00	0.00	2.00	0.80	1.00	2.00	# Marmite
+Xa-5	Xa-6			9.68	105.00	28.00	6.00	2.00	2.00	1.00
+Xa-6	Xa-7			5.17	185.00	-16.00	1.00	0.00	0.50	0.50
+Xa-7	Xa-8			5.29	189.00	-34.00	1.50	1.00	1.00	0.50
+Xa-8	Xa-9			8.04	137.00	3.00	0.40	1.00	1.00	1.00
+Xa-9	Xa-10			9.11	155.00	4.00	0.20	0.20	1.00	0.50
+Xa-10	Xa-11			6.02	146.00	1.00	0.50	1.00	1.00	0.40
+Xa-11	Xa-12			3.66	93.00	19.00	0.60	0.40	0.50	0.50
+Xa-12	Xa-13			8.41	145.00	3.00	0.00	0.50	0.50	1.00
+Xa-13	Xa-14			7.27	143.00	5.00	0.50	0.20	0.50	0.00
+Xa-14	Xa-15			6.80	124.00	25.00	2.00	2.00	0.50	0.00
+Xa-15	Xa-16			7.60	56.00	14.00	1.00	0.50	0.50	2.50
+Xa-16	Xa-17			4.52	78.00	13.00	2.00	1.00	0.50	2.50
+Xa-17	Xa-18			5.12	131.00	7.00	1.50	1.00	0.50	2.50
+Xa-18	Xa-19			7.65	67.00	15.00	1.00	2.50	0.50	2.50
+Xa-19	Xa-20			11.27	118.00	9.00	1.00	2.00	0.50	0.50
+Xa-20	Xa-21			5.50	77.00	21.00	0.20	0.20	0.50	0.50
+Xa-6	Xa-22			6.83	98.00	17.00	1.50	1.50	2.00	2.50
+Xa-22	Xa-23			3.46	19.00	29.00	2.50	2.00	2.00	3.00
+Xa-23	Xa-24			4.35	14.00	-11.00	0.00	2.00	4.00	1.80
+Xa-24	Xa-25			6.32	53.00	-11.00	0.50	1.50	1.50	0.50
+Xa-25	Xa-26			5.76	135.00	4.00	1.00	0.00	2.00	1.50
+Xa-26	Xa-27			9.77	43.00	0.00	1.00	1.00	4.00	1.00
+Xa-27	27			5.49	220.00	2.00	0.50	0.50	2.00	1.00
+
+endcenterline 
+
+endsurvey

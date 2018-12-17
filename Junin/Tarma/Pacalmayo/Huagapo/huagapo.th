@@ -1,0 +1,33 @@
+# 2018.02.10 created by TopoDroid v 3.4.4u
+
+survey huagapo -title "Cueva de Huagapo" -entrance "0"
+
+  centerline
+    date 1994.08.10 
+    #	team "Pierre Callot"
+    #	team "Xavier Robert"
+    #	team "Constance Picque"
+    #	team "Cesar Huinto"
+    #explo-team "Maoro Arcoc/Gomez"
+    #explo-team "Julio Jeremias"
+    
+    cs lat-long
+    fix 0  -11.2680	-75.7872	3610
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+  endcenterline
+
+  # input "la_olafa-1p.th2"
+  # input "la_olafa-1s.th2"
+
+  # map m1p -projection plan
+  #   la_olafa-1p
+  # endmap
+  # map m1s -projection extended
+  #   la_olafa-1s
+  # endmap
+
+endsurvey

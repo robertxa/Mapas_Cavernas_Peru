@@ -1,0 +1,429 @@
+encoding utf-8
+
+survey rioseco -title "Resurgencia del Rio Seco" -entrance "0"
+   
+centerline -title "Soloco 1"
+	cs lat-long
+	#fix 0	-6.2809	-77.7488	2670	# Old Coordinates
+	fix 0	-6.2807	-77.7487	2670
+	
+	date 2011.09.13
+		team "Jean-Yves/Bigot"
+		team "Raul Espinoza"
+		team "Olivier Fabre"
+	explo-date 2011.09.13
+		explo-team "Jean-Yves/Bigot"
+		explo-team "Raul Espinoza"
+		explo-team "Olivier Fabre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 13-09-2011 : Raul Espinoza, Olivier Fabre et Jean-Yves Bigot;
+0          0b                         0.00    0.00    0.00   3.00   5.00   0.20   1.40
+0          1                         9.83  174.00   -9.00   3.08   2.35   0.10   1.40
+1          2                         5.80  123.00   -4.00   0.50   1.00   0.50   1.20
+2          3                        11.87  157.00   22.00   0.70   0.66   0.75   0.30
+3          4                         0.70  157.00   90.00   1.00   1.50   1.70   1.40
+4          5                        10.60  102.00  -53.00   0.10   7.40   2.00   0.70
+5          6                         5.12  144.00   -2.00   3.00   3.20   1.00   1.20
+6          7                        15.20  272.00  -35.00   2.60   5.40   2.70   1.20
+7          8                         6.40  246.00  -10.00   4.45   0.70   0.00   4.58
+6          9                         7.10   68.00    4.00   4.50   1.60   2.45   0.00
+9          10                        5.00   23.00   32.00   1.85   5.40   0.80   1.00
+10         11                        5.60   51.00    6.00   1.45   0.10   0.00   0.90
+11         12                        4.95  324.00    7.00   1.00   1.80   6.80   1.20
+9          13                        9.20  122.00    6.00   2.50   2.10   0.00   1.55
+13         14                        3.30  155.00   -1.00   0.50   1.65   0.20   0.10
+14         15                        5.85  164.00   17.00   0.00   0.50   0.30   0.10
+15         16                        3.65  182.00   20.00   1.00   0.30   0.40   0.00
+16         17                        7.00  175.00   26.00   1.60   0.60   0.80   0.30
+17         18                        2.95   97.00   28.00   0.37   0.80   0.00   1.00
+18         19                       12.50  139.00   27.00   0.00  10.20   2.00   1.10
+19         20                       19.50    4.00  -44.00   1.00   7.00  12.00   1.00
+19         21                        7.40  212.00    9.00   2.60   4.50   0.00   1.55
+21         22                        7.95  151.00   12.00   4.35   1.45   0.50   1.40
+22         23                        4.50   58.00    2.00   1.85   6.70   1.05   1.30
+23         24                        8.80  129.00   11.00   1.70   2.20   9.85   0.60
+24         25                        9.85  134.00    0.00   5.40   3.25   1.80   5.80
+24         26                        6.70    8.00   36.00   2.75   3.70   4.75   0.50
+26         27                        6.75  319.00    5.00   0.20  12.30   2.00   0.60
+25         28                        4.80   96.00  -30.00   1.30   1.55   4.35   1.00
+28         29                       20.55  139.00    1.00   5.60   3.20   8.70   1.50
+29         30                        7.30   82.00   59.00   2.70  14.90   1.50   1.00
+30         31                        3.54  196.00   28.00   1.50   4.30   1.00   1.35
+31         32                        5.60  159.00   14.00   1.25   0.60   0.90   0.80
+32         33                        4.75  121.00   -7.00   1.00   2.80   1.20   0.25
+33         34                        6.95  178.00  -46.00   2.50   0.50   3.30   1.15
+34         35                        4.18  195.00  -14.00   0.10   1.70   1.30   0.00
+35         36                        2.40  103.00   66.00   0.60   0.10   2.00   0.80
+36         37                        2.90  177.00   -7.00   3.00   0.00   3.60   1.00
+37         38                        4.40  198.00  -11.00   0.80   1.70   1.50   0.60
+38         39                        6.80  173.00    2.00   1.40   3.00   2.40   0.30
+39         40                        3.90  123.00   33.00   2.50   0.10   0.90   0.30
+40         41                        7.20  183.00   -3.00   3.30   0.30   2.60   0.40
+41         42                        4.35  128.00   19.00   1.50   1.30   1.50   1.65
+42         43                        8.50  160.00    3.00   1.15   2.30   1.70   1.25
+43         44                        9.90  186.00  -12.00   2.90   5.20   2.40   1.15
+44         45                        2.00  259.00  -43.00   3.60   4.66   3.60   1.55
+45         46                        2.25  304.00  -37.00   3.00   1.00   4.70   1.00
+46         47                       11.95  354.00    0.00   1.60   2.73   1.73   0.50
+47         41                        8.08  341.00   35.00      0      0      0      0
+45         48                       11.76  144.00  -25.00   1.72   6.86   2.60   0.90
+48         49                        6.75  182.00   33.00   4.05   0.70   3.91   0.80
+49         50                        6.30  192.00   23.00   1.46   0.30   1.07   1.04
+49         51                        7.78   27.00   29.00   2.83   1.24   2.79   1.80
+51         45                       17.60  309.00  -18.00      0      0      0      0
+endcenterline
+
+
+centerline -title "Soloco 2"
+	
+	date 2011.09.14
+		team "Jean-Yves/Bigot"
+		team "Jean Loup/Guyot"
+		team "Olivier Sausse"
+	explo-date 2011.09.14
+		explo-team "Jean-Yves/Bigot"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Olivier Sausse"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 14-09-2011 : Jean loup Guyot, Olivier Sausse et Jean-Yves Bigot. Depart du point B18.;
+B18        B19                       3.00    9.00   -6.00   0.70   0.30   2.00   0.50
+B19        B20                       6.24  328.00    1.00   0.10   0.70   0.70   0.60
+B20        B21                       4.63  303.00    9.00   1.20   0.00   0.60   0.40
+B21        B22                       4.16  281.00    9.00   0.80   0.30   0.60   1.60
+B22        B23                       2.81  235.00   78.00   0.90   0.20   0.30   1.60
+B23        B24                       5.98  219.00   -6.00   0.00   6.00   6.00   4.00
+B24        B25                       5.67  289.00   34.00   5.00   0.00   4.00   1.50
+B25        B26                      14.81  232.00    4.00   0.00   5.00   6.00   1.70
+B26        B27                       9.91  287.00   14.00   3.50   4.00  21.00   1.50
+B27        B28                      10.60  302.00   -9.00   8.00   0.00  15.00   1.50
+B28        B29                       9.86  200.00    3.00   4.00   0.00  10.00   1.80
+B29        B30                      14.82  173.00   -3.00   2.00   3.50   8.00   1.60
+B30        B31                       9.61  260.00   -2.00   1.00   4.00   6.00   1.80
+B31        B32                       4.66  256.00   17.00   4.00   3.00   6.00   1.50
+B32        B33                      17.42  228.00    1.00   2.00   0.00   5.00   1.50
+B33        B34                      16.15  183.00    4.00   3.00   3.80   3.50   2.00
+B34        B35                      21.06  160.00    1.00   0.00   8.00   1.70   1.60
+B35        B36                      19.48  258.00    2.00   9.80   9.00   3.90   1.20
+B36        B37                      10.33  324.00    2.00   6.40   7.40   4.00   1.80
+B37        B38                      15.81  347.00    4.00   3.50   0.00   1.70   1.20
+B38        B39                      19.37  276.00    1.00   3.50   4.66   3.00   1.20
+B39        B40                      17.62  229.00   11.00   5.50   1.50   2.00   1.20
+B40        B41                       7.78  158.00   12.00   3.50   1.20   3.00   1.50
+B41        B42                       3.06  144.00  -13.00   0.50   1.50   3.00   0.30
+B42        B43                       2.84  199.00   25.00   0.60   0.00   3.00   4.00
+B43        B44                       5.07  209.00  -48.00   2.50   2.20   3.00   1.60
+B44        B45                       5.96  238.00   -3.00   2.00   2.00   3.50   0.20
+B45        B46                       2.92  227.00   88.00   0.50   2.00   0.00   3.00
+B46        B47                       2.82  344.00   21.00   0.50   2.00   2.10   0.70
+B47        B48                       4.30  238.00  -18.00   7.60   2.70   1.00   1.50
+B48        B49                       9.00  256.00   -2.00   5.70   9.00   2.70   0.70
+B49        B50                       8.20  222.00   -3.00   8.80   0.00   3.60   2.70
+B50        B51                      22.34  197.00    2.00   0.00   8.80   4.70   4.80
+B51        B52                      21.11  227.00  -35.00   3.20   0.00   6.50   1.60
+B52        B53                      11.43  246.00  -35.00   3.90   4.00  10.00   1.50
+B53        B54                      14.20  207.00  -16.00   1.50   1.50   2.00   0.00
+endcenterline
+
+
+centerline -title "Soloco 3"
+	
+	date 2011.09.14
+		team "Jean-Yves/Bigot"
+		team "Jean Loup/Guyot"
+		team "Olivier Sausse"
+	explo-date 2011.09.14
+		explo-team "Jean-Yves/Bigot"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Olivier Sausse"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 14-09-2011 : Jean loup Guyot, Olivier Sausse et Jean-Yves Bigot. Depart du point B3.;
+B3         C1                       21.01  330.00   -1.00   3.00   5.00   0.00   1.50
+C1         C2                       35.50  348.00   -2.00   7.00   0.60   1.50   1.60
+C2         C3                       21.43  338.00   -1.00   0.00   3.00   2.00   1.50
+C3         C4                        7.74   21.00    2.00   5.00   1.00   2.00   1.30
+C4         C5                       15.51    1.00   -2.00   4.00   1.00   0.00   1.50
+C5         C6                        8.64  308.00   -6.00   4.00   1.00   0.00   1.60
+C6         C7                       10.23  266.00    1.00   5.00   3.50   3.00   1.00
+C7         C8                        8.84  312.00   16.00   0.00   5.00   6.00   1.50
+C8         C9                        6.10  318.00   73.00   2.00   0.90   0.30   1.50
+C9         C10                       9.13  321.00    4.00   1.50   1.50   0.50   1.30
+C10        C11                      18.36  339.00   -2.00   5.00   6.20   8.00   1.00
+C11        C12                      10.40  324.00   -8.00   1.50   2.00   3.00   1.20
+C12        C13                       7.59   58.00    2.00   0.00   5.00  14.00   1.20
+C13        C14                       5.53   24.00  -18.00   0.10   1.50   3.00   1.00
+C14        D15                       4.07   56.00  -17.00   7.00   0.00   5.00   0.50
+endcenterline
+
+
+centerline -title "Soloco 4"
+	
+	date 2011.09.15
+		team "Jean-Yves/Bigot"
+		team "Marc Pouilly"
+		team "Olivier Sausse"
+	explo-date 2011.09.15
+		explo-team "Jean-Yves/Bigot"
+		explo-team "Marc Pouilly"
+		explo-team "Olivier Sausse"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 15-09-2011 : Marc Pouilly, Olivier Sausse et Jean-Yves Bigot. Depart du point B55 (galerie Blanc-boue).;
+B55        B56                      10.77    5.00   -2.00   7.00   0.00   5.70   2.00
+B56        B57                      15.98  318.00   19.00   7.36   0.00   1.48   1.40
+B57        B58                      15.52  275.00   -3.00   3.00   5.00   6.70   1.50
+B58        B59                      19.57  293.00    1.00   5.50   3.50   2.00   0.90
+B59        B60                       9.22  213.00   -8.00   4.50   0.00   0.80   1.50
+B60        B61                      10.01  126.00  -11.00   0.00   5.45   1.64   2.40
+B61        B62                      15.92  242.00   -2.00   4.00   2.70   5.00   1.50
+B62        B63                       7.28  287.00   12.00   2.80   1.90   3.00   1.00
+B63        B64                      22.83  349.00   -3.00   1.30   1.30  10.00   2.00
+B63        B65                      15.90  312.00    1.00   5.00   1.00   4.00   1.50
+B65        B66                      21.63  236.00    0.00   6.00   1.00   3.00   1.50
+B66        B67                      10.50  208.00   -9.00   4.00   4.60   4.70   2.40
+B67        B68                      13.78  308.00   11.00   3.50   6.00   3.50   1.50
+B68        B69                      18.59  241.00   -5.00   4.60   5.00   3.40   1.40
+B69        B70                      13.10  260.00    6.00   3.50   9.50   3.70   2.00
+B70        B71                      10.96  261.00    6.00   6.00   4.00   3.60   2.50
+B71        B72                      17.96  135.00  -11.00   3.00   3.50   5.00   3.00
+B72        B73                      11.10  181.00   14.00   1.00   2.00   3.50   1.20
+B73        B74                      13.00  233.00  -11.00   2.00   2.50   0.00   1.00
+B55        B75                       4.79  146.00  -36.00   3.20   3.50   4.00   0.50
+B75        B76                      12.07   77.00  -29.00   5.00   8.30   7.00   4.60
+B76        B77                       3.44  115.00  -58.00   6.00   1.00   7.00   1.90
+B77        B53                       1.85  184.00  -39.00      0      0      0      0
+endcenterline
+
+
+centerline -title "Soloco 5"
+	
+	date 2011.09.13
+		team "Jean-François Perret"
+		team "Marc Pouilly"
+		team "Olivier Sausse"
+	explo-date 2011.09.13
+		explo-team "Jean-François Perret"
+		explo-team "MArc Pouilly"
+		explo-team "Olivier Sausse"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 13-09-2011 : Marc Pouilly, Olivier Sausse et Jean-FranÁois Perret. Depart du point B1.;
+B1         B2                        7.00  287.00  -13.00   4.00   3.00   2.00   0.00
+B1         B3                       30.25  349.00   -2.00   5.00   0.00   0.50   0.70
+B3         B4                       16.34  261.00   18.00   2.25   0.00   4.80   1.80
+B4         B5                       15.90  177.00    7.00   0.00   2.00   5.80   1.80
+B5         B6                        4.00  188.00   44.00   1.60   0.36   2.50   5.00
+B6         B7                       17.66  149.00    2.00   7.00   3.60   9.00   5.00
+B7         B8                       13.80  200.00   -2.00  12.00   7.00   5.50   2.20
+B8         B9                       21.95  182.00  -12.00  12.00   5.00   3.40   2.00
+B9         B10                      47.70  154.00   -3.00   7.30   4.25   2.00   0.80
+B10        B11                      19.22  186.00   14.00   4.00   8.00   7.00   0.90
+B11        B12                      28.77  310.00   -6.00  11.00   4.00   6.80   1.40
+B12        B13                      27.84  204.00    2.00   3.00  14.00   4.80   1.60
+B13        B14                      23.76  310.00   -2.00   2.50   2.20   0.73   0.70
+B14        B15                       3.00  280.00    4.00   5.40   3.22   1.00   1.40
+B15        B16                      13.20  260.00    0.00   3.90   3.80   3.40   1.00
+B16        B17                      17.23  271.00    2.00   0.00   4.00   0.60   1.40
+B17        B18                      25.47  314.00    3.00   3.50   3.00  13.00   1.50
+endcenterline
+
+
+centerline -title "Soloco 6"
+	
+	date 2011.09.14
+		team "Valérie Tournayre"
+		team "Jean-François Perret"
+	explo-date 2011.09.14
+		explo-team "Jean-François Perret"
+		explo-team "Valérie Tournayre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 14-09-2011 : ValÈrie Tournayre et Jean-FranÁois Perret. Depart du point (E2 = spit du puits de la riviËre) qui correspond au point 8.;
+D1         E1                        1.39   69.00    3.00   0.89   0.50   0.21   1.20
+E1         8                         4.94   48.00   85.00   0.90   0.70   1.70   0.90
+endcenterline
+
+
+centerline -title "Soloco 7"
+	
+	date 2011.09.14
+		team "Jean-François Perret"
+		team "Valérie Tournayre"
+	explo-date 2011.09.14
+		explo-team "Jean-François Perret"
+		explo-team "Valérie Tournayre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino right left up down
+# Topo du 14-09-2011 : ValÈrie Tournayre et Jean-FranÁois Perret. Depart du point D1 (dÈbut de la riviËre). La visÈe D2-D1 est inverse (nage dans le siphon) pour les largeurs. ;
+D2         D1                        7.93   39.00   -2.00   1.40   0.00   2.13   0.75
+endcenterline
+
+
+centerline -title "Soloco 8"
+	
+	date 2011.09.14
+		team "Jean-François Perret"
+		team "Valérie Tournayre"
+	explo-date 2011.09.14
+		explo-team "Jean-François Perret"
+		explo-team "Valérie Tournayre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 14-09-2011 : ValÈrie Tournayre et Jean-FranÁois Perret. Depart du point D2 (dÈbut de la riviËre).;
+D2         D3                       14.82  200.00    0.00   2.40   1.50   4.50   1.40
+D3         D4                        6.12  108.00    9.00   1.65   3.08   5.80   1.60
+D4         D5                       16.21  177.00   -1.00   2.38   0.48   6.36   0.60
+D5         D6                       13.33  131.00    1.00   1.40   0.00   6.82   1.00
+D6         D7                       20.32  197.00    1.00  12.28   3.63   4.76   1.20
+D7         D8                        5.64  105.00   -7.00   0.80   0.90   0.80   0.00
+D7         D9                       10.99  203.00   11.00   3.53   8.14   6.37   1.33
+D9         D10                       3.28  171.00    7.00   0.60   2.09   0.70   0.60
+D10        D11                      12.18  167.00    9.00  11.62   1.75   0.60   1.22
+D11        D12                      24.25  149.00   -8.00   5.47   0.00   0.20   1.47
+D12        D13                      16.70   99.00    0.00   0.00   8.37   1.98   1.26
+D13        D14                      21.87  156.00    3.00  10.72   2.45   4.39   2.22
+D14        D15                      16.66  149.00   18.00   3.20   2.50   3.60   0.80
+D14        D16                      14.26  177.00    2.00   4.91  10.88   1.32   1.73
+endcenterline
+
+
+centerline -title "Soloco 9"
+	
+	date 2011.09.15
+		team "Jean Loup/Guyot"
+		team "Olivier Fabre"
+	explo-date 2011.09.15
+		explo-team "Jean Loup/Guyot"
+		explo-team "Olivier Fabre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 15-09-2011 : Jean Loup Guyot et Olivier Fabre. Depart du point dit Bx (= le point B9).;
+B9         G1                       16.13  126.00   23.00      0      0      0      0
+G1         G2                        5.26  158.00   -5.00   4.60   0.00   3.50   1.30
+G2         G3                        8.27  101.00   -1.00   3.90   0.00   7.20   1.70
+G3         G4                       31.80  128.00    1.00   0.00   7.90   6.11   1.20
+G4         G5                       20.82  217.00    0.00   4.80   0.00   5.20   1.50
+G5         G6                       10.79  173.00   -6.00   0.00   6.70   8.10   1.00
+G6         G7                       20.31  291.00   -5.00   4.83   3.53   7.20   1.40
+G7         B12                      21.04  303.00  -11.00      0      0      0      0	# Bouclage G8 = B12;
+endcenterline
+
+
+centerline -title "Soloco 10"
+	
+	date 2011.09.15
+		team "Jean Loup/Guyot"
+		team "Olivier Fabre"
+	explo-date 2011.09.15
+		explo-team "Jean Loup/Guyot"
+		explo-team "Olivier Fabre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 15-09-2011 : Jean Loup Guyot et Olivier Fabre. Depart du point B13.;
+B13        G9                       28.47  228.00   16.00   2.00   2.50   0.00   1.60
+G9         G10                      10.89  215.00   14.00  12.20   3.80   2.60   1.60
+G10        G11                      16.46  221.00    6.00   8.80   0.00   3.30   1.50
+G11        G12                      25.72  170.00   10.00   1.60   4.20   0.50   0.30
+G12        G13                       8.52  159.00    2.00      0      0      0      0
+endcenterline
+
+
+centerline -title "Soloco 11"
+	
+	date 2011.09.15
+		team "Jean Loup/Guyot"
+		team "Olivier Fabre"
+	explo-date 2011.09.15
+		explo-team "Jean Loup/Guyot"
+		explo-team "Olivier Fabre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# Topo du 15-09-2011 : Jean Loup Guyot et Olivier Fabre. Depart du point dit Bz (= B6).;
+B6         G14                      19.61  346.00   11.00   1.60   4.90   6.10   1.50
+G14        G15                      17.52  349.00   -4.00   6.60   3.40   2.10   1.40
+G15        G16                      16.28  300.00    1.00   3.75   3.21   2.90   1.50
+G16        G17                       8.58  357.00   -3.00   8.00   2.10   3.40   1.50
+G17        G18                      18.41   81.00  -21.00   6.70   0.00   0.50   1.00
+G18        G19                       8.68   60.00  -13.00      0      0      0      0	# Pas de bouclage, mais le point G19 arrive dans le cours connu de la riviËre.;
+endcenterline
+
+
+centerline -title "Soloco 2"
+	
+	date 2011.09.14
+		#team "Jean-Yves/Bigot"
+		#team "Jean Loup/Guyot"
+		#team "Olivier Sausse"
+	explo-date 2011.09.14
+		#explo-team "Jean-Yves/Bigot"
+		#explo-team "Jean Loup/Guyot"
+		#explo-team "Olivier Sausse"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+# N E
+flags duplicate
+0          A                         4.04  313.00    3.00   2.00   2.40   6.95   1.15
+A          B                        11.35  344.00   11.00   1.70   1.35  11.25   1.45
+0          C                        14.40  195.00  -14.00   0.65   1.50   1.25   1.75
+C          D                         5.37  215.00    5.00   0.50   0.00   3.80   1.45
+0          E                         9.44  216.00  -14.00      0      0      0      0
+E          F                        10.59  288.00  -22.00      0      0      0   1.50
+F          G                        11.60  326.00  -11.00      0      0      0   1.50
+G          H                        11.93  270.00   -2.00      0      0      0   1.50
+H          I                        10.55  266.00   -4.00      0      0      0      0
+I          J                         7.08  275.00  -20.00      0      0      0      0
+J          K                         4.98  320.00  -17.00      0      0      0      0
+K          L                         5.64  320.00  -14.00      0      0      0      0
+L          M                         6.49  340.00   -9.00      0      0      0      0
+M          N                         7.20  328.00   -9.00      0      0      0   1.50
+N          O                         8.93  337.00    0.00      0      0      0   1.50
+O          P                         7.79  328.00  -14.00      0      0      0   1.50
+P          Q                         5.50   50.00  -16.00      0      0      0   1.50
+Q          R                         6.73  340.00   -7.00      0      0      0      0
+R          S                         5.17   33.00  -13.00      0      0      0      0
+S          T                         5.89  119.00    3.00      0      0      0      0
+T          U                         4.61   42.00  -28.00      0      0      0      0
+U          V                         6.09  112.00    0.00      0      0      0   0.00
+V          W                         8.76   99.00    1.00      0      0      0   0.00
+W          X                         4.26   35.00    0.00      0      0      0   0.86
+endcenterline
+
+endsurvey

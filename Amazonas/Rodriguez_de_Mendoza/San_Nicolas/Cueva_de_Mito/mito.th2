@@ -1,0 +1,241 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.33999999999997 -134.0483 328.0 277.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {65.608 1 1.0} {76.0055 0} Mito2016.xvi 0 {}
+
+
+
+scrap mito1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+
+point 38.84800000000001 76.9155 station -name 1@mito
+
+point 65.608 76.0055 station -name 0b@mito
+
+point 73.94800000000001 42.6755 station -name 2@mito
+
+line overhang -clip off
+  179.25 96.25
+  179.25 96.25 178.25 89.75 178.25 85.5
+  smooth off
+endline
+
+line border
+  138.0 106.25
+  141.0 108.25
+  143.75 105.0
+  150.08800000000002 109.69549999999998
+endline
+
+line arrow
+  120.5 136.0
+  129.25 126.25
+endline
+
+point 173.25 122.5 blocks
+
+point 161.5 117.75 blocks
+
+point 69.25 62.25 blocks -scale xs
+
+point 71.75 64.75 blocks -scale xs
+
+point 66.0 63.25 blocks -scale xs
+
+point 70.5 82.75 blocks -scale xs
+
+line border -close on
+  84.75 87.5
+  84.75 87.5 89.0 81.5 88.5 79.75
+  88.0 78.0 84.0 78.75 83.25 82.0
+  82.5 85.25 82.5 90.25 83.0 89.25
+  83.5 88.25 84.75 87.5 84.75 87.5
+  smooth off
+endline
+
+line border -close on
+  92.5 90.25
+  96.5 82.25
+  92.75 82.0
+  89.25 87.25
+  92.5 90.25
+endline
+
+line border -close on
+  110.75 98.0
+  110.75 98.0 99.0 94.5 98.5 92.5
+  98.0 90.5 98.0 86.5 100.75 85.25
+  103.5 84.0 109.0 81.75 111.75 85.0
+  114.5 88.25 117.0 94.0 115.75 95.5
+  114.5 97.0 110.75 98.0 110.75 98.0
+  smooth off
+endline
+
+line rock-edge
+  106.048 89.96549999999999
+  111.5 95.5
+endline
+
+line rock-edge
+  103.25 85.75
+  106.048 89.96549999999999
+  109.25 89.5
+endline
+
+line rock-border -close on
+  111.5 95.5
+  100.75 91.0
+  103.25 85.75
+  111.75 87.5
+  111.75 87.5 108.81 87.28 109.25 89.5
+  109.75 92.0 111.5 95.5 111.5 95.5
+  smooth off
+endline
+
+line arrow
+  144.75 46.5
+  144.75 46.5 112.25 50.75 119.5 58.75
+  126.75 66.75 192.5 55.5 198.0 64.5
+  203.5 73.5 184.25 104.25 184.25 104.25
+  smooth off
+endline
+
+line border -clip off
+  144.75 56.5
+  144.75 37.25
+endline
+
+point 168.75 47.25 label -text "Lat : -6.42859<br>Long : -77.430577<br>Alt : 1590 m"
+
+line slope
+  162.75 113.5
+  162.75 113.5 168.0 112.25 170.0 108.75
+  l-size 2.0
+  172.0 105.25 174.0 102.25 174.25 99.25
+  174.5 96.25 174.5 91.5 174.5 91.5
+  smooth off
+endline
+
+line slope
+  152.0 118.25
+  152.0 118.25 156.5 112.0 157.5 109.75
+  158.5 107.5 160.5 108.25 162.75 106.25
+  l-size 2.0
+  165.0 104.25 165.0 95.25 165.0 95.25
+  smooth off
+endline
+
+line pit
+  154.75 132.5
+  154.75 132.5 159.75 121.75 158.5 121.0
+  157.25 120.25 152.0 118.25 152.0 118.25
+  smooth off
+endline
+
+line arrow
+  152.0 144.75
+  146.5 122.75
+endline
+
+line arrow
+  158.25 71.25
+  146.5 103.5
+endline
+
+point 158.25 67.0 label -text "tunnel"
+
+point 151.5 148.5 label -text "mur peint en rouge"
+
+point 116.75 142.0 label -text "mur construit"
+
+line border -reverse on
+  135.25 109.0
+  140.0 112.25
+  144.25 108.75
+  148.25 112.0
+endline
+
+line wall -subtype blocks -outline none
+  125.25 123.0
+  148.25 91.25
+endline
+
+line wall -subtype blocks -outline none
+  160.75 95.75
+  136.25 129.0
+endline
+
+line slope -clip off
+  194.0 138.5
+  194.0 138.5 187.75 131.25 188.75 127.5
+  189.75 123.75 193.5 122.25 193.5 115.75
+  193.5 109.25 193.25 104.75 190.25 99.75
+  l-size 10.0
+  187.25 94.75 184.75 87.5 184.75 86.25
+  smooth off
+endline
+
+point 73.94800000000001 42.6755 altitude -align right
+
+point 179.928 108.15549999999999 altitude -align right
+
+point 76.0 33.75 continuation -text "passage bas et poussièreux" -attr Code Q
+
+point 55.25 105.0 continuation -text "escalade" -attr Code E
+
+line pit
+  67.25 95.25
+  67.25 95.25 65.0 83.75 61.5 85.5
+  58.0 87.25 53.75 89.75 53.75 89.75
+  smooth off
+endline
+
+line overhang -clip off
+  184.0 140.25
+  181.25 128.0
+endline
+
+line wall
+  77.0 39.25
+  77.0 39.25 71.0 53.5 72.5 58.75
+  74.0 64.0 73.75 67.5 83.0 71.25
+  92.25 75.0 99.75 80.75 108.75 82.25
+  117.75 83.75 140.0 89.5 146.25 93.25
+  152.5 97.0 154.0 99.5 162.0 98.5
+  170.0 97.5 179.25 96.25 179.25 96.25
+  smooth off
+endline
+
+line wall
+  54.0 98.0
+  54.0 98.0 62.5 90.75 59.25 88.75
+  56.0 86.75 41.0 81.25 38.75 80.5
+  36.5 79.75 36.5 75.25 37.75 70.75
+  39.0 66.25 36.75 58.75 43.0 56.25
+  49.25 53.75 61.25 61.5 64.0 60.75
+  66.75 60.0 71.5 42.5 71.5 42.5
+  smooth off
+  73.0 38.5
+endline
+
+line wall
+  181.25 128.0
+  181.25 128.0 157.75 131.0 147.5 128.75
+  137.25 126.5 132.0 123.0 125.5 116.0
+  119.0 109.0 108.25 98.0 99.5 97.25
+  90.75 96.5 66.25 86.75 63.25 91.25
+  60.13 95.92 62.25 93.0 62.25 93.0
+  smooth off
+  58.5 100.5
+endline
+
+point 106.048 89.96549999999999 station -name 3@mito
+
+point 140.038 102.3655 station -name 4@mito
+
+point 150.08800000000002 109.69549999999998 station -name 5@mito
+
+point 179.928 108.15549999999999 station -name 6@mito
+
+endscrap
+
+

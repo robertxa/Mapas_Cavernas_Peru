@@ -1,0 +1,107 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 437.0 569.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {78.742 1 1.0} {354.326 0} Augustin-coupe2017.xvi 0 {}
+
+
+
+scrap augustinc1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+line wall -subtype invisible
+  228.5 406.0
+  25.5 382.0
+endline
+
+line wall
+  262.5 377.5
+  262.5 377.5 239.0 290.0 233.5 280.0
+  228.0 270.0 201.5 247.0 201.5 262.5
+  201.5 278.0 193.5 316.0 195.5 332.5
+  197.5 349.0 187.5 385.5 197.0 389.0
+  206.5 392.5 228.5 406.0 228.5 406.0
+  smooth off
+endline
+
+line wall
+  252.5 69.5
+  252.5 69.5 244.5 69.5 243.5 80.5
+  242.5 91.5 237.5 98.0 244.5 98.0
+  251.5 98.0 253.0 105.5 244.0 108.0
+  235.0 110.5 228.0 104.0 223.5 110.5
+  219.0 117.0 210.0 124.0 206.5 131.0
+  203.0 138.0 204.5 152.5 204.0 162.5
+  203.5 172.5 201.0 194.0 207.0 204.5
+  213.0 215.0 244.0 215.5 256.5 226.5
+  269.0 237.5 289.5 302.0 293.5 315.0
+  297.5 328.0 306.5 362.0 306.5 362.0
+  smooth off
+endline
+
+line wall
+  232.0 68.0
+  249.0 63.0
+endline
+
+point 292.0 393.5 continuation -attr Code E -text "Puits remontant à escalader"
+
+point 59.0 400.0 entrance -orientation 160.0
+
+point 51.5 354.0 altitude -align bottom-left
+
+point 252.5 69.5 altitude -align right
+
+point 180.0 88.5 label -text "R3"
+
+point 203.5 56.5 label -text "R3"
+
+point 70.5 225.5 height -value [-25 m]
+
+line u:rope
+  80.0 363.5
+  80.0 363.5 126.0 293.5 125.5 324.5
+  125.47 326.56 128.5 124.0 128.5 124.0
+  smooth off
+endline
+
+point 143.5 439.0 label -text "Lat : -5.96164<br>Long : -77.35098<br>Alt = 1085 m"
+
+point 265.0 44.0 continuation -attr Code A -text "Petite galerie à continuer"
+
+line wall -subtype debris
+  230.5 89.5
+  230.5 89.5 228.5 70.5 232.0 68.0
+  smooth off
+endline
+
+line wall
+  25.5 382.0
+  25.5 382.0 42.0 356.5 51.5 354.0
+  61.0 351.5 71.0 353.5 75.0 350.0
+  79.0 346.5 76.0 334.5 84.0 332.0
+  92.0 329.5 101.0 327.0 105.5 322.0
+  110.0 317.0 108.0 298.5 107.5 267.0
+  107.0 235.5 108.5 170.0 111.5 156.0
+  114.5 142.0 103.5 115.5 116.0 114.0
+  128.5 112.5 203.0 115.5 203.0 109.0
+  203.0 102.5 204.5 89.0 207.0 89.0
+  209.5 89.0 230.5 89.5 230.5 89.5
+  smooth off
+endline
+
+point 235.822 71.26599999999999 station -name 6@augustin
+
+point 235.822 94.886 station -name 5@augustin
+
+point 212.202 94.886 station -name 4@augustin
+
+point 212.202 118.50599999999999 station -name 3@augustin
+
+point 117.71200000000002 118.50599999999999 station -name 2@augustin
+
+point 117.71200000000002 315.356 station -name 1@augustin
+
+point 78.742 354.326 station -name 0@augustin
+
+endscrap
+
+

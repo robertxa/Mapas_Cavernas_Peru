@@ -1,0 +1,51 @@
+encoding utf-8
+
+input bellavista.th
+input bellavista3.th
+equate 1@bellavista3 E.85@bellavista
+
+input bella2018_a
+equate 13@bella2018_a X.29@bellavista
+equate 70@bella2018_a E.70@bellavista
+
+input bella2018_b
+equate 2018b-0@bella2018_b 118@bellavista3
+
+# Pour le plan
+input th2/bellavista.th2
+input th2/bellavista2014.th2
+input th2/bellavista2.th2
+input th2/bellavista3.th2
+input th2/bellavista4.th2
+
+join JL1 BVJY1
+##join bvJY2 EZ1
+join BVJY1 EZ1
+join EZ5 BVXR2
+join EZ6 bvXR1
+
+## plan 2017
+input th2/bellavista2017.th2
+join bella2017_1 EZ7
+
+## plan 2018
+input th2/bellavista2018_1.th2
+join bella2018-sp1 BVXR2 -count 2
+join EZ5 bella2018-sp2
+input th2/bellavista2018_2.th2
+join bella2018b-sp2 bella2017_4
+
+#######
+## Pour la coupe
+input th2/bellavistaCoupe1.th2
+
+## Coupe 2017
+input th2/bellavista-coupe2017.th2
+join bella2017c1 EZc1
+
+## coupe 2018
+input th2/bellavisata-coupe2018a.th2
+input th2/bellavista-coupe2018c.th2
+input th2/bellavista-coupe2018b.th2
+join bella2018b-sc1 Bella2017c4
+

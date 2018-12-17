@@ -1,0 +1,204 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 637.5 538.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {360.118 1 1.0} {101.936 0} perros-coupe2016.xvi 0 {}
+
+
+
+scrap perrosXRc1 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-227.6687 -215.9253 264.5519 -215.9253 0.0 0.0 12.50240324 0.0 m]
+
+line wall
+  52.5 319.5
+  52.5 319.5 71.5 316.0 86.5 310.5
+  101.5 305.0 120.0 303.0 131.5 297.5
+  143.0 292.0 150.0 288.5 150.0 288.5
+  smooth off
+endline
+
+line u:rope
+  153.0 377.5
+  147.0 373.0
+  147.0 373.0 256.0 301.0 272.5 310.5
+  274.67 311.75 268.94 242.68 308.0 265.0
+  311.5 267.0 310.0 106.0 310.0 106.0
+  smooth off
+endline
+
+line u:rope
+  145.0 379.0
+  147.0 373.0
+endline
+
+line wall -subtype invisible
+  140.0 403.5
+  140.0 403.5 134.5 380.5 131.5 369.5
+  128.5 358.5 119.0 342.5 116.5 331.5
+  114.0 320.5 115.0 307.5 109.5 307.5
+  104.0 307.5 52.5 319.5 52.5 319.5
+  smooth off
+endline
+
+line water-flow -subtype intermittent -clip off
+  62.5 326.5
+  62.5 326.5 96.0 315.5 104.0 312.5
+  112.0 309.5 122.5 307.0 122.5 307.0
+  smooth off
+endline
+
+point 150.5 299.5 breakdown-choke -orientation 291.0
+
+line wall
+  485.0 292.0
+  485.0 292.0 466.0 279.5 452.0 274.5
+  438.0 269.5 315.0 264.0 310.0 270.5
+  302.02 280.88 304.0 290.0 294.5 296.0
+  285.0 302.0 280.0 311.5 270.5 316.0
+  261.0 320.5 197.5 368.5 185.0 373.5
+  172.5 378.5 139.0 391.5 139.0 395.5
+  139.0 399.5 140.0 403.5 140.0 403.5
+  smooth off
+endline
+
+point 142.5 374.5 stalagmite
+
+point 78.738 401.576 altitude -align left
+
+point 408.0 99.0 altitude -align bottom-right
+
+point 403.5 117.5 stalagmites
+
+point 340.0 258.5 stalactites
+
+point 370.5 261.0 stalactites
+
+point 398.5 260.0 stalactites
+
+point 424.5 263.5 stalactites
+
+point 472.5 274.5 stalactites
+
+point 464.0 257.5 stalagmites
+
+point 491.0 270.5 flowstone-choke -orientation 279.9
+
+point 507.0 282.0 continuation -text "départ à voir" -attr Code E
+
+line arrow
+  360.5 70.0
+  335.0 99.0
+endline
+
+line arrow
+  371.5 68.5
+  382.0 103.5
+endline
+
+line arrow
+  350.5 68.0
+  292.5 77.0
+endline
+
+point 371.5 56.0 label -text "squelettes de chiens"
+
+line border -clip off
+  74.5 396.0
+  74.5 396.0 85.5 393.0 100.5 387.5
+  115.5 382.0 112.0 381.5 118.0 378.0
+  124.0 374.5 140.5 366.0 140.5 366.0
+  smooth off
+endline
+
+point 98.0 325.5 entrance -orientation 114.2
+
+point 120.0 390.5 entrance -orientation 114.2
+
+point 161.0 407.5 label -text "AN"
+
+point 278.0 336.0 label -text "2AF"
+
+point 321.5 287.5 label -text "2S"
+
+point 311.0 314.0 height -value [-6 m]
+
+point 267.0 191.0 height -value [-17 m]
+
+line flowstone -reverse on
+  474.5 242.0
+  474.5 242.0 473.5 245.5 458.5 222.0
+  443.5 198.5 441.0 185.5 441.0 169.5
+  441.0 153.5 440.0 152.5 438.0 136.0
+  436.0 119.5 437.5 115.5 426.0 112.0
+  414.5 108.5 398.5 110.5 394.5 104.0
+  390.5 97.5 388.5 85.5 388.5 85.5
+  smooth off
+endline
+
+point 226.0 288.0 continuation -text "départ non vu" -attr Code Q
+
+point 266.5 77.5 breakdown-choke -orientation 61.3
+
+point 257.0 89.5 breakdown-choke -orientation 61.3
+
+point 233.0 96.5 height
+
+point 487.0 104.0 label -text "-38 m"
+
+line wall
+  276.5 67.0
+  291.0 68.5 300.0 75.0 303.5 80.5
+  307.0 86.0 305.0 98.5 310.5 98.5
+  316.0 98.5 315.5 100.5 323.5 97.0
+  331.5 93.5 340.5 93.0 352.0 93.5
+  363.5 94.0 374.0 96.5 386.5 98.5
+  399.0 100.5 416.0 98.0 430.5 106.0
+  445.0 114.0 459.5 124.0 462.5 137.5
+  465.5 151.0 460.5 233.5 461.5 240.5
+  462.5 247.5 481.0 258.5 484.0 258.5
+  487.0 258.5 492.0 264.0 492.0 264.0
+  smooth off
+endline
+
+line wall
+  242.5 275.5
+  242.5 275.5 254.0 269.5 264.5 265.0
+  275.0 260.5 283.5 256.5 291.0 254.0
+  298.5 251.5 302.5 257.0 302.5 251.5
+  302.5 246.0 301.0 246.5 296.5 236.0
+  292.0 225.5 294.0 216.0 292.0 198.0
+  290.0 180.0 291.5 151.5 292.5 143.0
+  293.5 134.5 291.5 116.5 285.5 110.5
+  279.5 104.5 256.5 98.5 253.5 100.0
+  smooth off
+endline
+
+line wall
+  152.5 306.5
+  152.5 306.5 136.0 315.0 129.5 319.5
+  123.0 324.0 117.5 322.5 120.5 333.0
+  123.5 343.5 128.5 349.5 130.0 356.5
+  131.5 363.5 132.0 366.0 140.5 366.0
+  149.0 366.0 168.5 357.5 177.0 349.0
+  185.5 340.5 224.0 323.0 236.5 314.0
+  249.0 305.0 266.5 301.5 266.5 297.0
+  266.5 292.5 274.0 276.0 267.0 279.0
+  260.0 282.0 243.5 290.5 243.5 290.5
+  smooth off
+endline
+
+point 360.118 101.936 station -name 0@perros
+
+point 310.378 119.066 station -name 1@perros
+
+point 308.048 252.816 station -name 2@perros
+
+point 270.278 304.806 station -name 3@perros
+
+point 181.598 362.396 station -name 4@perros
+
+point 138.078 379.976 station -name 5@perros
+
+point 78.738 401.576 station -name 6@perros
+
+endscrap
+
+

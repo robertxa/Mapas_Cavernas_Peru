@@ -1,0 +1,153 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 491.0 836.6618
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {178.45800000000003 1 1.0} {280.88199999999995 0} latas-coupe2017.xvi 0 {}
+
+
+
+scrap scrap2 -projection extended -author 2017 "Naomi Mazzilli" -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 442.9608 -128.0 0.0 0.0 14.50240432 0.0 m]
+
+line wall
+endline
+
+line wall -subtype invisible
+  276.0 627.0
+  130.0 614.0
+endline
+
+point 150.5 575.5 altitude -align left
+
+point 126.0 131.0 altitude -align left
+
+line wall -subtype unsurveyed
+  270.0 188.0
+  270.0 188.0 255.0 204.5 255.0 222.5
+  smooth off
+endline
+
+point 360.5 590.5 label -text "Lat : -6.010531<br>Long : -77.293507<br>Alt = 1283 m"
+
+line wall
+  255.0 222.5
+  255.0 240.5 256.0 270.0 256.0 297.0
+  256.0 324.0 260.0 334.0 256.0 354.0
+  252.0 374.0 230.0 398.0 230.0 428.0
+  230.0 458.0 232.0 504.0 227.0 517.0
+  222.0 530.0 189.0 548.0 208.0 563.0
+  227.0 578.0 234.0 582.0 247.0 590.0
+  260.0 598.0 259.0 620.0 276.0 627.0
+  smooth off
+endline
+
+point 231.5 239.0 flowstone
+
+line wall
+  235.0 214.0
+  244.0 215.0
+endline
+
+line wall -subtype unsurveyed
+  244.0 215.0
+  244.0 215.0 258.0 194.0 258.0 185.0
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  235.0 214.0
+  235.0 206.0 241.0 196.0 241.0 196.0
+  smooth off
+  241.0 196.0 243.0 198.0 243.0 190.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  227.0 206.0
+  227.0 206.0 228.0 200.0 228.0 195.0
+  subtype unsurveyed
+  228.0 190.0 228.0 182.0 228.0 182.0
+  smooth off
+endline
+
+line wall
+  130.0 614.0
+  130.0 614.0 132.0 617.0 142.0 598.0
+  152.0 579.0 153.0 585.0 151.0 560.0
+  149.0 535.0 134.0 523.0 134.0 503.0
+  134.0 456.0 134.0 447.0 134.0 440.0
+  134.0 419.0 130.0 408.0 130.0 408.0
+  smooth off
+  131.0 391.0
+  131.0 391.0 128.0 385.0 135.0 350.0
+  142.0 315.0 130.0 297.0 130.0 273.0
+  130.0 249.0 128.0 232.0 128.0 220.0
+  128.0 208.0 127.0 206.0 127.0 191.0
+  127.0 176.0 127.0 176.0 127.0 162.0
+  127.0 148.0 123.08 151.42 126.0 131.0
+  127.0 124.0 130.0 115.0 137.0 121.0
+  smooth off
+endline
+
+point 190.5 635.5 entrance -orientation 183.0
+
+line wall -subtype clay
+  137.0 121.0
+  149.0 122.0 156.5 119.0 156.5 119.0
+  smooth off
+endline
+
+line wall -subtype debris
+  156.5 119.0
+  156.5 119.0 162.2 124.4 167.0 128.0
+  173.0 132.5 176.5 132.5 184.0 128.0
+  smooth off
+endline
+
+line wall
+  184.0 128.0
+  205.0 139.0 209.0 147.0 209.0 152.0
+  209.0 157.0 209.0 166.0 209.0 166.0
+  smooth off
+  209.0 166.0 209.0 171.0 209.0 176.0
+  209.0 181.0 204.94 192.53 209.0 202.0
+  215.0 216.0 203.0 216.0 208.0 216.0
+  213.0 216.0 222.0 216.0 222.0 216.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  222.0 216.0
+  222.0 216.0 226.0 211.5 227.0 206.0
+  smooth off
+endline
+
+point 191.668 574.802 station -name 3@latas
+
+point 178.698 514.852 station -name 2@latas
+
+point 189.77800000000002 407.702 station -name 1@latas
+
+point 178.45800000000003 280.88199999999995 station -name 0@latas
+
+point 277.0 226.5 rope
+
+point 269.0 163.5 continuation -attr code A -text "A descendre"
+
+point 237.5 164.5 continuation -attr code A -text "A descendre"
+
+point 86.0 335.5 height -value [-60 m]
+
+line u:rope
+  272.0 634.0
+  272.0 634.0 189.0 553.0 188.5 580.5
+  188.46 582.56 198.0 478.0 170.0 518.0
+  169.59 518.58 159.5 401.0 179.5 411.0
+  180.78 411.64 194.5 257.0 175.5 285.0
+  174.94 285.83 178.5 135.0 178.5 135.0
+  smooth off
+endline
+
+point 195.02800000000002 133.152 station -name A@latas
+
+endscrap
+
+

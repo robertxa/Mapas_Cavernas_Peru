@@ -1,0 +1,32 @@
+encoding  utf-8
+
+survey Masamata -title "Cueva Masamata" -entrance "0"
+   
+centerline -title "Cueva Masamata"
+	cs lat-long
+	fix 0	-12.363760	-75.762046	3816
+	date 2017.09.27
+	    team "Elmer Condori"
+		team "Fabien Renou"
+		
+	explo-date 2017.09.27
+		explo-team "Fabien Renou"
+		explo-team "Elmer Condori"
+		explo-team "Fluquer Pena"
+		explo-team "Karen Duenas"
+	units lenght meters
+	units left right up down meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	0bis			0	0	0	1	1.5	0.3	0.5
+0	1			6.27	150	14.6	0.7	1.8	2.72	0.66
+1	2			3.79	164	-33.3	0.63	0.77	1.16	0.81
+2	3			2.87	124	-7.1	1.04	0.91	2.26	0.40
+3	4			2.53	97	-21.0	0.1	0.94	0.90	1.12
+4	5			2.91	130	22.9	2.65	0.5	0.20	1.20
+5	6			2.79	130	-39.1	0.10	0.10	0.10	0.10
+endcenterline
+ 
+endsurvey

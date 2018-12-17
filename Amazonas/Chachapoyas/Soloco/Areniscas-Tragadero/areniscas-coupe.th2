@@ -1,0 +1,187 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -170.859 -128.75 372.25 328.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {186.289 1 1.0} {49.36599999999999 0} areniscas-coupe2018.xvi 0 {}
+
+
+
+scrap aren-sc1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-227.91469999999998 -165.054 264.3059 -165.054 0.0 0.0 12.50240324 0.0 m]
+
+line rock-border -close on
+  53.0 125.0
+  49.0 119.5
+  56.5 114.75
+  56.75 122.25
+  53.0 125.0
+endline
+
+point 11.75 174.0 entrance -orientation 122.0
+
+point 15.75 158.5 water-flow -orientation 91.0
+
+point 87.5 58.25 water-flow -orientation 91.0
+
+point 215.75 32.75 water-flow -orientation 124.0
+
+point 161.25 41.0 water-flow -orientation 95.2
+
+area sump
+  l21-208-43
+endarea
+
+line label -id l21-208-43 -close on
+  208.5 42.75
+  203.75 42.25
+  194.0 42.0
+  194.0 34.25
+  207.75 35.25
+  208.5 42.75
+endline
+
+point 203.75 42.25 altitude -align right
+
+point 28.0 155.0 altitude -align bottom-left
+
+point 9.25 198.75 label -text "<it>Lat : -6.328536<br>Long: -77.761649<br>Alt = 3130 m"
+
+point 46.75 90.75 height -value [-4 m]
+
+point 16.75 135.75 height -value [-4 m]
+
+point 111.0 136.25 air-draught -orientation 132.5
+
+point 222.5 90.25 air-draught -orientation 53.1
+
+point 243.0 74.5 continuation -attr Code D -text "étroiture, conrant d'air"
+
+line wall -subtype invisible
+  236.5 61.75
+  233.25 81.75
+endline
+
+line rock-border -close on
+  161.0 54.25
+  155.0 52.5
+  155.25 48.75
+  165.5 48.0
+  165.0 52.5
+  161.0 54.25
+endline
+
+line rock-border -close on
+  77.25 114.5
+  76.25 109.0
+  80.25 109.5
+  80.5 114.0
+  77.25 114.5
+endline
+
+line rock-border -close on -reverse on
+  87.0 115.75
+  93.75 114.75
+  91.25 110.0
+  86.5 110.75
+  87.0 115.75
+endline
+
+line rock-border -close on -reverse on
+  66.5 116.25
+  73.0 114.25
+  69.75 110.0
+  64.5 112.0
+  66.5 116.25
+endline
+
+line u:rope
+  85.25 126.75
+  85.0 89.25
+endline
+
+line u:rope
+  30.5 162.25
+  30.5 162.25 40.75 154.75 42.25 159.5
+  42.36 159.84 42.5 122.0 42.5 122.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  35.75 172.25
+  35.75 172.25 25.75 162.25 28.0 155.0
+endline
+
+line wall
+  233.25 81.75
+  233.25 81.75 229.25 67.25 226.25 64.5
+  223.25 61.75 224.75 59.5 221.25 59.5
+  217.75 59.5 209.0 56.25 208.5 60.0
+  208.0 63.75 214.25 64.25 205.75 66.0
+  197.25 67.75 187.5 65.5 181.75 66.0
+  176.0 66.5 169.25 69.0 165.75 71.25
+  162.25 73.5 162.25 75.0 156.5 75.0
+  150.75 75.0 147.5 73.0 142.25 77.25
+  137.0 81.5 129.5 100.25 122.0 105.75
+  114.5 111.25 96.5 123.75 90.5 127.75
+  84.5 131.75 79.75 136.25 74.5 139.75
+  69.25 143.25 52.5 146.5 49.25 150.25
+  46.0 154.0 45.5 156.75 44.75 159.5
+  44.0 162.25 36.5 164.75 36.0 166.5
+  35.5 168.25 35.75 172.25 35.75 172.25
+  smooth off
+endline
+
+line wall
+  203.75 42.25
+  203.75 42.25 200.75 45.0 199.5 45.75
+  198.25 46.5 198.0 49.0 200.5 49.75
+  203.0 50.5 200.75 50.75 207.0 53.25
+  213.25 55.75 236.5 61.75 236.5 61.75
+  smooth off
+endline
+
+line wall
+  28.0 155.0
+  28.0 155.0 38.5 155.0 38.5 153.75
+  38.5 152.5 34.75 145.75 33.75 139.5
+  32.75 133.25 27.0 119.5 32.25 118.75
+  37.5 118.0 42.25 121.0 46.0 118.25
+  49.75 115.5 50.25 112.5 55.5 109.75
+  60.75 107.0 62.75 110.25 64.0 107.25
+  65.25 104.25 63.0 85.5 63.0 82.25
+  63.0 79.0 68.0 66.25 75.0 66.25
+  82.0 66.25 77.25 66.0 88.75 66.5
+  100.25 67.0 122.25 67.25 123.0 65.5
+  123.75 63.75 127.0 63.0 130.75 64.0
+  134.5 65.0 135.75 65.0 139.5 63.75
+  143.25 62.5 137.75 48.5 141.25 48.5
+  144.75 48.5 183.5 45.25 187.5 45.0
+  191.5 44.75 195.5 44.0 196.0 41.75
+  196.5 39.5 198.75 38.75 201.75 38.0
+endline
+
+point 29.398999999999987 157.476 station -name 11@arenisca
+
+point 41.309 156.296 station -name 10@arenisca
+
+point 53.42899999999999 127.79599999999999 station -name 9@arenisca
+
+point 82.34899999999999 118.18599999999999 station -name 8@arenisca
+
+point 83.17899999999999 99.68599999999999 station -name 7@arenisca
+
+point 105.499 88.506 station -name 6@arenisca
+
+point 137.089 69.526 station -name 5@arenisca
+
+point 152.499 67.716 station -name 4@arenisca
+
+point 164.85899999999998 67.95599999999999 station -name 3@arenisca
+
+point 186.289 49.36599999999999 station -name 0@arenisca
+
+point 199.539 43.54599999999999 station -name 2@arenisca
+
+point 229.67899999999997 61.736 station -name 1@arenisca
+
+endscrap
+
+

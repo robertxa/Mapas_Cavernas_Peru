@@ -1,0 +1,38 @@
+encoding utf-8
+
+survey paraiso -title "Tragadero del Paraiso" -entrance "4"
+   
+centerline -title "paraiso"
+	cs lat-long
+	fix 4	-5.897201	-77.403825	1355
+	date 2016.11.20
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "James Apaéstegui"# (ECA)"
+		team "Xavier Robert"# (ECA, Vulcain)"
+		team "Liz Hidalgo"
+	explo-date 2016.11.20
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "James Apaéstegui"# (ECA)"
+		explo-team "Xavier Robert"# (ECA, Vulcain)"
+		explo-team "Liz Hidalgo"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left	right up down
+	extend right
+	0	0b			0	0	0	1	5	19	1.5
+	0	1			15.16	17	14	7	0	22	1.8
+	extend left
+	1	2			15.59	257	60	12	10	25	15
+	2	3			19.07	355	87	4	3	10	35
+	3	4			9.54	342	63	10	8	0	40
+	4	5			18.41	130	13	0	0	0	1
+	#extend right
+endcenterline
+ 
+endsurvey

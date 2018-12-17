@@ -1,0 +1,35 @@
+encoding utf-8
+
+survey caracoles -title "Pozo de los Caracoles" -entrance "4"
+   
+centerline -title "caracoles"
+	cs lat-long
+	fix 4	-5.898524	-77.404147	1339
+	date 2016.09.11
+		#team "ECA"
+		#team "GSBM"
+		#team "G.S. Vulcain"
+		team "Angela/Ampuero"# (ECA)"
+		team "Xavier/Robert"# (ECA, Vulcain)"
+	explo-date 2016.09.11
+		#explo-team "ECA"
+		#explo-team "GSBM"
+		#explo-team "G.S Vulcain"
+		explo-team "Angela/Ampuero"# (ECA)"
+		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino right left up down
+	extend left
+	0	0b			0	0	0	0.5	0.5	5	1.5
+	0	1			9.8	250	20	0.5	0.5	20	20
+	extend right
+	0	2			11.14	70	-39	1	1	3	1.5
+	2	3			6.1	57	26	2	2	25	1.5
+	3	4			25.55	209	85	2	2	0	25
+	#extend right
+endcenterline
+ 
+endsurvey

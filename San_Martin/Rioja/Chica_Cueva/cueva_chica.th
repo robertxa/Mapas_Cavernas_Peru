@@ -1,0 +1,53 @@
+# 2017.07.13 created by TopoDroid v 3.4.1
+
+survey cueva_chica -title "cueva_chica" -entrance "0"
+
+  centerline
+    date 2017.08.28 
+    	team "Naomi Mazzilli"
+    	team "Damien Vignoles"
+    	team "Mathias Echevin"
+    	team "Bernard Lips"
+    explo-date 2017.08.28 
+    	explo-team "Naomi Mazzilli"
+    	explo-team "Damien Vignoles"
+    	explo-team "Mathias Echevin"
+    	explo-team "Bernard Lips"
+    
+    cs lat-long
+    fix 0 -5.96407	-77.35741	1158
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    0 1 9.44 24.8 -46.3
+    extend ignore
+    1 - 3.35 22.7 -37.3
+    1 - 2.21 54.6 -33.5
+    1 - 5.05 169.2 37.2
+    1 - 3.42 265.6 35.5
+    1 - 1.85 344.5 10.9
+    extend left
+    1 2 4.95 311.4 23.9
+    extend ignore
+    2 - 2.68 185.1 11.6
+    2 - 3.65 158.9 3.4
+    2 - 0.86 270.3 -73.5
+    2 - 6.16 357.2 -35.9
+    2 - 4.21 3.0 -34.2
+    2 - 3.75 352.2 -34.5
+    2 - 0.25 45.5 -7.8
+  endcenterline
+
+  # input "cueva_chica-1p.th2"
+  ## input "cueva_chica-1s.th2"
+
+  # map m1p -projection plan
+  #   cueva_chica-1p
+  # endmap
+  ## map m1s -projection extended
+  ##   cueva_chica-1s
+  ## endmap
+
+endsurvey

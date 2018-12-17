@@ -1,0 +1,25 @@
+encoding utf-8
+
+survey grande -title "Grande" -entrance "0"
+   
+centerline -title "Grande"
+	cs lat-long
+	fix 0	-5.778806	-77.553135	1299
+	date 2017.08.24
+		team "Jean-Yves Bigot"
+		#team "Jean Loup/Guyot"
+		team "Mathias Echevin"
+	explo-date 2017.08.24
+		explo-team "Jean-Yves Bigot"
+		explo-team "Jean Loup/Guyot"
+		explo-team "Mathias Echevin"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length backcompass backclino #left right up down
+0	1	35.83	90	-90
+1	2	5.69	86	-55
+endcenterline
+
+endsurvey

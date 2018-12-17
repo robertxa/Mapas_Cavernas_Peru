@@ -1,0 +1,81 @@
+# 2017.09.08 created by TopoDroid v 3.3.1d
+
+survey perte_duriacou -title "perte_duriacou" -entrance 7
+  centerline
+  	cs lat-long
+  	fix 7 -5.96389	-77.34677	989	# Coordonnées GPS
+  	#fix 7 -5.96389	-77.34686	994 # Coordonnées bidouillées
+    date 2017.09.01
+    	team "Naomi Mazzilli" 
+    explo-date 2017.09.01
+    	explo-team "Damien Vignoles"
+    	explo-team "Naomi Mazzilli" 
+    
+    # team Damien Naomi 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+1	0	9.46	4.9	-70.2
+1	-	2.42	315.7	86.4
+1	-	4.47	11.7	-17.9
+1	-	1.59	359.2	-21.6
+1	-	1.60	37.2	-8.4
+1	-	1.87	99.9	16.7
+1	-	9.80	19.0	-72.2
+1	-	1.20	123.0	-87.8
+2	1	3.18	337.9	-17.0
+2	-	2.16	278.9	-12.0
+2	-	2.58	261.0	-4.5
+2	-	3.41	227.0	77.1
+2	-	1.16	30.9	1.9
+2	-	1.20	89.7	-78.0
+2	-	8.64	106.3	64.0
+2	-	0.90	75.0	66.6
+2	-	2.01	155.3	56.3
+extend right
+3	2	4.87	7.0	-14.2
+3	-	1.53	333.2	-18.0
+3	-	1.02	70.1	3.1
+3	-	0.18	299.0	3.5
+3	-	0.82	111.9	12.3
+3	-	1.01	93.4	81.2
+3	-	1.30	110.2	-80.6
+3	-	1.76	176.2	3.9
+4	3	3.19	7.9	-5.7
+4	-	5.58	326.0	63.9
+4	-	1.36	307.1	65.0
+4	-	1.35	349.0	49.6
+4	-	3.33	158.7	-9.7
+4	-	0.82	136.9	-10.1
+4	-	0.57	166.2	-3.5
+extend right
+5	2	4.54	57.9	-52.5
+5	-	1.28	111.2	-21.4
+5	-	1.13	352.3	-21.9
+5	-	0.86	47.8	-5.0
+5	-	0.76	225.0	-2.0
+5	-	5.16	343.4	-76.9
+6	5	4.97	5.6	-79.0
+6	-	0.95	17.6	-27.8
+6	-	1.39	64.3	-15.9
+6	-	0.69	89.1	-22.5
+6	-	10.31	55.5	-77.9
+6	-	1.28	92.7	-85.8
+6	-	0.40	305.4	-6.2
+6	-	0.87	241.1	-15.1
+6	-	9.78	150.6	-68.5
+extend left
+6	7	4.38	266.0	71.0
+  endcenterline
+
+  ## input "perte_duriacou-1p.th2"
+  ## input "perte_duriacou-1s.th2"
+
+  ## map m1p -projection plan
+  ##   perte_duriacou-1p
+  ## endmap
+  ## map m1s -projection extended
+  ##   perte_duriacou-1s
+  ## endmap
+
+endsurvey

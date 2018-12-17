@@ -1,0 +1,131 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -151.75 -129.0 428.0 482.3309
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {87.85300000000001 1 1.0} {126.359 1@yuracyacu} yuracyacu2014.xvi 0 {}
+
+
+
+scrap Entrees1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 403.5907 -128.0 0.0 0.0 13.502403779999998 0.0 m]
+
+line wall -subtype invisible
+  37.25 192.0
+  37.25 192.0 38.0 188.0 40.25 186.75
+  42.5 185.5 43.5 186.0 43.5 186.0
+  smooth off
+endline
+
+line water-flow
+  54.75 230.5
+  54.75 230.5 60.25 256.5 61.25 260.75
+endline
+
+point 56.0 182.0 water-flow -orientation 353.9
+
+point 73.5 297.75 water-flow -orientation 21.4
+
+area sump
+  l25-75-297
+endarea
+
+line label -id l25-75-297 -close on
+  75.0 296.25
+  75.0 296.25 61.5 299.25 63.5 293.5
+  65.5 287.75 69.5 282.5 73.5 285.0
+  77.5 287.5 75.0 296.25 75.0 296.25
+  smooth off
+endline
+
+point 36.5 197.75 label -text "R4"
+
+line floor-step
+  40.75 198.25
+  40.75 198.25 47.0 193.0 51.5 193.0
+endline
+
+line rock-border -close on
+  45.0 190.75
+  44.25 192.75
+  47.5 192.5
+  45.0 190.75
+endline
+
+line rock-border -close on
+  42.25 190.0
+  41.75 192.25
+  44.25 192.75
+  42.25 190.0
+endline
+
+line wall -subtype unsurveyed
+  69.0 292.75
+  69.0 292.75 55.5 252.0 54.5 246.75
+  53.5 241.5 50.75 225.75 50.75 218.5
+  50.75 211.25 49.0 204.0 49.0 204.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  55.5 191.0
+  55.5 191.0 56.0 217.5 57.0 223.5
+  58.0 229.5 64.5 263.75 65.75 269.5
+  67.0 275.25 73.25 292.0 73.25 292.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  51.5 197.25
+  53.5 190.25
+endline
+
+line wall -reverse on -subtype unsurveyed
+  51.5 197.25
+  51.5 197.25 49.25 194.5 47.5 192.5
+  45.75 190.5 43.0 188.25 43.5 186.0
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  37.25 192.0
+  37.25 192.0 42.5 192.25 44.5 196.25
+  46.5 200.25 49.0 204.0 49.0 204.0
+  smooth off
+endline
+
+point 127.75 121.75 label -text "<bf><center>Tragadero<br>del rio Yuracyacu" -scale l
+
+point 29.5 169.75 label -text "<bf><center>Cueva<br>de los Peces" -scale l
+
+line label -id l20-110-76 -close on
+  -1.0 99.0
+  -38.54 112.8 -22.5 61.5 4.75 47.5
+  32.0 33.5 71.75 35.25 96.25 27.25
+  120.75 19.25 210.5 28.25 226.0 28.0
+  241.5 27.75 273.5 28.0 283.25 34.5
+  293.0 41.0 305.75 91.5 294.75 90.25
+  283.75 89.0 255.0 95.25 229.75 92.5
+  204.5 89.75 133.75 74.0 109.5 74.75
+  85.25 75.5 46.75 79.75 33.0 86.5
+  19.25 93.25 13.38 93.71 -1.0 99.0
+endline
+
+point 271.25 121.0 label -text "<bf><center>Tragadero<br>de la Cascada" -scale l
+
+point 43.5 186.0 altitude -align bottom
+
+point 21.25 209.5 label -text "Lat : -5.96367<br>Long : -77.34718<br>Alt = 1025 m"
+
+point 62.0 190.0 narrow-end
+
+point 60.5 290.0 narrow-end
+
+point 29.5 184.5 entrance -orientation 53.6
+
+point 40.043000000000006 189.749 station -name Peces2017@trousYura
+
+point 87.85300000000001 126.359 station -name Yura2014@trousYura
+
+point 219.253 94.689 station -name Yura2017@trousYura
+
+endscrap
+
+

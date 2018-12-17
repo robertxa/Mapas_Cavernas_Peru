@@ -1,0 +1,28 @@
+encoding utf-8
+
+survey Totoral -title "Tragadero de Totoral" -entrance "3"
+   
+centerline -title "Totoral"
+	cs lat-long
+	fix 3	-11.9872	-76.0580	4460
+	date 2017.05.25
+		team "Xavier Robert"
+		team "Constance Picque"
+		team "Fabien Renou"
+		
+	explo-date 2017.05.25
+		explo-team "Xavier Robert"
+		explo-team "Constance Picque"
+		explo-team "Fabien Renou"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0          0b                         0.00    0.00    0.00   0.20   0.20   0   1.3 # dont 1 m d'eau environ ; eau bouillonne ; risque de crue fort ; DANGER
+0          1                         7.41    15.00    37.00   3	1.5   0.6   0	# Banquette à 3 m au dessus de la flotte
+1          2                        2.00   25.00  -1.50   2   1.50   0.30   0.50	# Banquette à 3 m au dessus de la flotte ; noeud
+2          3                        6.13  85.00   5.00   0.00   2.0   2   2.00	# entrée
+endcenterline
+ 
+endsurvey

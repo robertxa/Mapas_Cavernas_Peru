@@ -1,0 +1,66 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -129.0 4694.9316 7372.098399999999
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {2834.8100000000004 1 1.0} {5917.23 0} palestina2016.xvi 0 {}
+
+
+
+scrap XR2016_1 -projection plan -author 2016 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+
+line rock-border -close on
+  823.5 752.0
+  826.25 758.5
+  829.5 756.5
+  823.5 752.0
+endline
+
+line rock-border -close on
+  820.75 741.75
+  820.75 747.75
+  825.5 747.75
+  820.75 741.75
+endline
+
+line slope
+  840.75 755.5
+  840.75 755.5 834.75 767.25 838.5 772.75
+  l-size 3.0
+endline
+
+point 830.0 771.0 water-flow -orientation 316.8
+
+point 798.5 720.5 water-flow -orientation 41.2
+
+point 812.0 735.0 breakdown-choke -orientation 49.2
+
+line wall
+  819.0 734.5
+  819.0 734.5 824.25 743.25 828.25 747.25
+  832.25 751.25 838.25 761.25 841.0 763.0
+  843.75 764.75 849.25 766.25 847.0 767.0
+  844.75 767.75 838.75 767.5 834.0 771.5
+  829.25 775.5 824.0 779.5 824.0 785.25
+  824.0 791.0 824.0 794.75 823.0 795.5
+  822.0 796.25 821.75 798.0 821.75 798.0
+  smooth off
+endline
+
+line wall
+  818.0 794.5
+  818.0 794.5 816.75 783.25 820.0 778.0
+  823.25 772.75 829.0 769.0 829.0 765.5
+  829.0 762.0 808.75 739.75 808.75 739.75
+  smooth off
+endline
+
+point 816.3000000000002 736.48 station -name X0b@palestina
+
+point 835.1500000000001 759.6599999999999 station -name X1@palestina
+
+point 821.1300000000001 779.4699999999998 station -name X2@palestina
+
+point 820.8800000000001 792.44 station -name X3@palestina
+
+endscrap
+
+

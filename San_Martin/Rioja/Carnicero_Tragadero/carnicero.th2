@@ -1,0 +1,181 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 521.701 679.1814
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {100.77300000000001 1 1.0} {286.68899999999996 0} Carnicero2017.xvi 0 {}
+
+
+
+scrap carnicero1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
+
+point 251.39300000000003 390.029 station -name 8@carnicero
+
+line pit
+  143.0 371.5
+  143.0 371.5 146.0 360.5 154.0 361.5
+  162.0 362.5 169.0 376.0 169.0 376.0
+  smooth off
+endline
+
+line pit -close on
+  141.5 342.0
+  141.5 342.0 131.5 343.5 130.5 338.0
+  129.5 332.5 126.5 324.5 133.5 325.0
+  140.5 325.5 151.0 329.0 150.0 334.5
+  149.0 340.0 141.5 342.0 141.5 342.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  81.5 300.0
+  81.5 300.0 117.0 268.5 122.5 268.5
+  smooth off
+endline
+
+point 111.0 413.5 label -text "<center>crâne<br>humain"
+
+point 114.5 388.5 archeo-material
+
+point 91.5 246.0 entrance -orientation 7.9
+
+line pit -clip off
+  72.5 275.0
+  72.5 275.0 69.0 262.5 78.5 268.5
+  smooth off
+endline
+
+point 72.0 322.5 rope
+
+point 179.0 261.0 label -text "lat : -5.779308<br>Long : -77.553129<br>Alt = 1303 m"
+
+line pit -clip off
+  63.5 238.0
+  63.5 238.0 80.0 275.5 83.0 274.5
+  86.0 273.5 92.5 265.0 95.5 266.0
+  98.5 267.0 98.5 264.5 104.5 262.0
+  110.5 259.5 116.0 256.5 116.0 259.5
+  116.0 262.5 116.5 264.0 116.5 264.0
+  smooth off
+endline
+
+line pit -clip off
+  116.5 264.0
+  116.5 264.0 105.5 265.5 103.0 270.0
+  100.5 274.5 106.5 284.0 104.0 287.5
+  101.5 291.0 99.0 300.5 93.5 297.0
+  88.0 293.5 82.5 293.0 77.0 282.5
+  71.5 272.0 55.0 242.5 55.0 242.5
+  smooth off
+endline
+
+line slope
+  92.5 359.0
+  l-size 10.0
+  92.5 359.0 112.0 344.0 121.0 376.5
+  smooth off
+endline
+
+line slope
+  105.5 344.0
+  105.5 344.0 128.5 342.0 130.5 353.5
+  132.5 365.0 132.5 377.5 132.5 377.5
+  smooth off
+  l-size 10.0
+endline
+
+line slope -reverse on
+  218.0 374.0
+  218.0 374.0 223.0 366.0 220.5 353.0
+  218.0 340.0 215.5 329.0 215.5 329.0
+  smooth off
+  l-size 10.0
+endline
+
+line slope -reverse on
+  189.5 379.5
+  189.5 379.5 190.0 339.5 167.5 330.0
+  smooth off
+  l-size 10.0
+endline
+
+point 157.0 381.5 breakdown-choke
+
+line wall
+  152.0 378.0
+  150.0 367.0
+endline
+
+line wall
+  161.5 367.0
+  163.0 379.5
+endline
+
+line wall
+  122.5 268.5
+  122.5 268.5 105.5 286.0 110.5 290.0
+  115.5 294.0 118.0 298.5 127.0 304.0
+  136.0 309.5 150.0 320.0 149.5 323.0
+  149.0 326.0 136.0 331.5 150.0 334.5
+  164.0 337.5 178.5 345.5 178.5 340.0
+  178.5 334.5 176.0 316.0 179.0 316.0
+  182.0 316.0 190.0 314.0 190.0 317.5
+  190.0 321.0 187.0 327.0 194.5 330.5
+  202.0 334.0 208.5 338.0 214.0 338.0
+  219.5 338.0 226.0 338.5 226.0 341.5
+  226.0 344.5 228.5 352.0 233.0 361.0
+  237.5 370.0 261.0 397.0 254.0 395.5
+  247.0 394.0 248.5 396.0 244.0 390.5
+  239.5 385.0 231.0 372.0 226.0 369.5
+  221.0 367.0 223.0 370.0 214.0 369.0
+  205.0 368.0 206.0 361.5 201.5 363.5
+  197.0 365.5 185.5 377.0 179.0 372.5
+  172.5 368.0 169.5 366.0 161.5 367.0
+  smooth off
+endline
+
+line wall
+  150.0 367.0
+  142.0 368.0 142.5 365.0 134.5 367.0
+  126.5 369.0 109.0 381.0 104.5 379.0
+  smooth off
+endline
+
+point 81.5 300.0 altitude -align left
+
+point 254.0 395.5 altitude -align top
+
+point 97.0 369.5 altitude -align bottom-left
+
+point 88.5 396.0 continuation
+
+line wall
+  104.5 379.0
+  100.5 383.5
+endline
+
+line wall
+  94.5 380.5
+  90.0 378.5 94.0 375.5 97.0 369.5
+  100.0 363.5 105.5 349.0 108.5 344.5
+  111.5 340.0 122.0 332.0 115.0 332.0
+  108.0 332.0 105.0 334.0 98.0 326.0
+  91.0 318.0 85.0 300.5 81.5 300.0
+  smooth off
+endline
+
+point 217.08300000000003 344.079 station -name 7@carnicero
+
+point 181.893 350.12899999999996 station -name 5@carnicero
+
+point 100.373 371.49899999999997 station -name 6@carnicero
+
+point 136.473 343.549 station -name 4@carnicero
+
+point 139.143 331.25899999999996 station -name 3@carnicero
+
+point 119.37300000000002 309.86899999999997 station -name 2@carnicero
+
+point 100.77300000000001 286.68899999999996 station -name 1@carnicero
+
+endscrap
+
+

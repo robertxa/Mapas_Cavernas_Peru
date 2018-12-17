@@ -1,0 +1,96 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -140.5 -130.0 271.0 852.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {78.73920000000001 1 1.0} {385.823 0} Grande-coupe2017.xvi 0 {}
+
+
+
+scrap gande-c1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 128.0 -128.0 0.0 0.0 6.5024 0.0 m]
+
+line wall
+  94.0 364.0
+  94.0 364.0 102.5 435.0 101.0 457.0
+  99.5 479.0 79.0 656.5 84.5 665.5
+  90.0 674.5 108.5 702.5 112.0 703.5
+  115.5 704.5 140.5 706.5 140.5 706.5
+  smooth off
+endline
+
+point 3.0 607.5 label -text "<center>gallito<br>de roca"
+
+point 94.0 364.0 altitude -align bottom
+
+point 112.0 703.5 altitude -align bottom-right
+
+point 110.5 559.5 height -value [-40 m]
+
+line border
+  91.0 695.0
+  94.0 686.0
+  97.5 695.0
+endline
+
+line border
+  69.0 693.0
+  69.5 687.5
+  74.5 690.5
+  77.0 685.0
+  80.0 693.0
+endline
+
+line border
+  42.5 694.0
+  44.5 682.0
+  49.5 692.5
+endline
+
+line border
+  27.0 698.5
+  27.0 698.5 48.5 691.0 63.5 692.5
+  78.5 694.0 107.0 696.5 115.0 698.0
+endline
+
+line u:rope
+  104.0 716.5
+  104.0 716.5 73.5 683.0 73.0 700.5
+  72.5 718.0 72.0 386.5 72.0 386.5
+  smooth off
+endline
+
+point 121.0 721.5 entrance -orientation 234.0
+
+line wall -subtype invisible
+  140.5 706.5
+  140.5 706.5 81.0 714.5 60.0 714.0
+  39.0 713.5 -10.0 708.0 -10.0 708.0
+  smooth off
+endline
+
+line wall -subtype debris
+  29.5 370.5
+  29.5 370.5 51.0 382.0 57.0 382.0
+  63.0 382.0 71.0 385.0 78.5 379.5
+  86.0 374.0 89.5 367.5 94.0 364.0
+endline
+
+line wall
+  -10.0 708.0
+  -10.0 708.0 14.0 706.0 21.0 704.5
+  28.0 703.0 28.5 691.5 31.5 683.5
+  34.5 675.5 36.0 619.5 36.0 605.0
+  36.0 590.5 38.5 530.0 38.0 518.5
+  37.5 507.0 20.0 507.0 20.0 484.0
+  20.0 461.0 21.0 381.5 22.0 376.0
+  23.0 370.5 29.5 370.5 29.5 370.5
+  smooth off
+endline
+
+point 104.4392 704.6429999999999 station -name 2@grande
+
+point 78.73920000000001 667.943 station -name 1@grande
+
+point 78.73920000000001 385.823 station -name 0@grande
+
+endscrap
+
+

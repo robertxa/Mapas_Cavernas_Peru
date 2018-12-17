@@ -1,0 +1,35 @@
+encoding utf-8
+
+survey sierraazul -title "Tragadero Sierra Azul" -entrance "0"
+   
+centerline -title "Sierra Azul"
+	cs lat-long
+	fix 0	-5.7314	-77.5867	1330
+	
+	date 2014.09.07
+		team "Ezio Rubbioli"
+		team "Lilia Senna-Horta"
+		team "Jean-Denis Klein"
+		team "Nathalie Klein"
+		team "William Santini"
+	explo-date 2014.09.07
+		explo-team "Ezio Rubbioli"
+		explo-team "Lilia Senna-Horta"
+		explo-team "Jean-Denis Klein"
+		explo-team "Nathalie Klein"
+		explo-team "William Santini"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino #left right up down
+#Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Arr Std ;Topo du 07/09/2014 : Ezio, Lilia, JD, Nath, William;
+
+0          0b                         0.00    0.00    0.00
+0          1                        35.80    0.00  -90.00
+1          2                        10.78  330.00  -35.00
+
+endcenterline
+
+
+endsurvey

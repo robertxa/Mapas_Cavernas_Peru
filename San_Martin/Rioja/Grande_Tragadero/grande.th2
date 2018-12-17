@@ -1,0 +1,50 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -179.5 -163.0 223.5 206.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {14.828399999999998 1 1.0} {15.380199999999999 0} Grande2017.xvi 0 {}
+
+
+
+scrap grande1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 128.0 -128.0 0.0 0.0 6.5024 0.0 m]
+
+point 50.5 19.75 entrance -orientation 260.9
+
+line u:doline -close on -clip off
+  4.5 75.25
+  4.5 75.25 -47.0 59.5 -50.25 46.5
+  -53.5 33.5 -35.25 -29.75 -26.5 -33.25
+  -17.75 -36.75 55.75 -29.0 68.0 -21.0
+  80.25 -13.0 93.75 29.25 94.25 39.5
+  94.75 49.75 73.75 71.5 68.25 75.75
+  62.75 80.0 4.5 75.25 4.5 75.25
+  smooth off
+endline
+
+line pit -close on
+  -2.25 17.5
+  -2.25 17.5 9.25 21.5 11.25 19.0
+  13.25 16.5 18.25 14.25 14.0 12.5
+  9.75 10.75 1.75 4.0 -2.0 4.75
+  -5.75 5.5 -12.25 7.0 -9.25 9.75
+  -6.25 12.5 -2.25 17.5 -2.25 17.5
+  smooth off
+endline
+
+line wall -close on
+  31.25 0.25
+  31.25 0.25 43.0 12.0 42.25 19.5
+  41.5 27.0 39.25 36.25 33.25 36.5
+  27.25 36.75 10.25 32.5 4.25 27.5
+  -1.75 22.5 -21.0 11.0 -14.25 6.5
+  -7.5 2.0 5.5 0.25 15.5 -0.0
+  25.5 -0.25 31.25 0.25 31.25 0.25
+  smooth off
+endline
+
+point 14.828399999999998 15.380199999999999 station -name 1@grande
+
+point 40.3284 18.6202 station -name 2@grande
+
+endscrap
+
+

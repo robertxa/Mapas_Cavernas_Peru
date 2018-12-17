@@ -1,0 +1,28 @@
+encoding utf-8
+
+input bellavista_tot.th
+
+input ../Caracoles_Pozo/caracoles.th
+input ../Caracoles_Pozo/caracoles.th2
+
+input ../Inca_Cueva/inca.th
+input ../Inca_Cueva/inca.th2
+
+input ../Incasito_Cueva/incasito.th
+input ../Incasito_Cueva/incasito.th2
+
+input ../Paraiso_Tragadero/paraiso.th
+input ../Paraiso_Tragadero/paraiso.th2
+
+input ../pequeno-paraiso_Cueva/pequenoparaiso.th
+input ../pequeno-paraiso_Cueva/pequenoparaiso.th2
+
+input ../Loco_Tragadero/loco.th
+input ../Loco_Tragadero/loco.th2
+
+input ../Perros_Tragadero/perros.th
+input ../Perros_Tragadero/perros.th2
+
+# Trop loin de la zone pour l'instant
+#input ../Porvenir_Tragadero/porvenir.th
+#input ../Porvenir_Tragadero/porvenir.th2

@@ -1,0 +1,37 @@
+encoding  utf-8
+
+
+#definicion de los archivos que necesitamos
+source Masamata.th
+source Masamata.th2
+
+
+#definicion del layout
+layout xviexport
+	scale 1 100
+	grid-size 1 1 1 m
+	grid bottom
+endlayout
+
+layout mapex
+  language es
+  base-scale 1 500
+  scale 1 100
+  scale-bar 10 m
+  doc-author "Fabien Renou"
+  doc-title "Cueva Masamata"
+  cs UTM18
+  color map-fg [100 100 80]
+  statistics explo-length off
+  statistics topo-length on
+  legend on
+endlayout
+
+#exportación del layout
+export map -layout xvi -o Masamata.xvi -projection plan -fmt xvi
+export map -layout xvi -o Masamata.xvi -projection extended -fmt xvi
+export model -o Masamata.lox
+export model -fmt kml -o Masamatam.kml
+export map -fmt kml -o Masamata.kml
+export map -projection plan -o Masamata.pdf -layout mapex
+export map -projection extended -o Masamataex.pdf -layout mapex

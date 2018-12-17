@@ -1,0 +1,251 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -154.5 -129.0 337.5 335.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {101.172 1 1.0} {74.91399999999999 0} loco2016.xvi 0 {}
+
+
+
+scrap loco1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+
+point 181.0 188.75 vegetable-debris
+
+point 168.75 174.5 vegetable-debris
+
+point 157.0 158.25 vegetable-debris
+
+point 144.25 135.0 vegetable-debris
+
+point 127.75 109.5 vegetable-debris
+
+point 119.0 83.75 vegetable-debris
+
+point 99.5 83.75 vegetable-debris
+
+point 98.0 62.75 vegetable-debris
+
+point 68.0 73.25 vegetable-debris
+
+point 200.0 185.25 label -text "-35 m"
+
+point 179.25 135.5 label -text "boue"
+
+point 87.0 41.75 label -text "boue"
+
+point 208.25 205.75 label -text "colm."
+
+line slope
+  12.5 77.25
+  12.5 77.25 8.75 63.75 9.5 57.0
+  l-size 5.0
+  10.25 50.25 13.25 27.25 15.75 25.25
+  smooth off
+endline
+
+line slope
+  24.75 78.5
+  24.75 78.5 18.0 64.5 18.5 59.0
+  l-size 5.0
+  19.0 53.5 21.75 27.75 25.0 26.25
+  smooth off
+endline
+
+line slope
+  34.0 81.0
+  34.0 81.0 25.5 67.75 25.5 58.5
+  l-size 5.0
+  25.5 49.25 27.5 36.25 31.25 29.75
+  smooth off
+endline
+
+line slope
+  61.5 92.5
+  61.5 92.5 65.5 85.0 63.75 80.0
+  62.0 75.0 56.0 76.0 55.0 69.25
+  l-size 5.0
+  54.0 62.5 52.25 62.75 52.75 55.5
+  53.25 48.25 57.75 41.75 57.75 41.75
+  smooth off
+endline
+
+line slope
+  79.5 96.25
+  79.5 96.25 83.5 94.5 85.0 88.0
+  86.5 81.5 87.5 76.5 86.5 67.5
+  l-size 5.0
+  85.5 58.5 80.5 44.5 80.5 44.5
+  smooth off
+endline
+
+line slope
+  89.75 99.0
+  89.75 99.0 97.75 98.0 103.5 93.5
+  109.25 89.0 112.5 86.5 112.75 80.0
+  l-size 5.0
+  113.0 73.5 113.25 55.5 113.25 55.5
+  smooth off
+endline
+
+line slope
+  108.75 118.25
+  108.75 118.25 116.75 104.75 122.0 99.5
+  l-size 5.0
+  127.25 94.25 130.0 90.5 137.5 92.0
+  145.0 93.5 149.75 99.0 149.75 99.0
+  smooth off
+endline
+
+line slope
+  116.25 127.0
+  116.25 127.0 117.5 114.0 123.25 106.0
+  l-size 5.0
+  129.0 98.0 129.75 92.5 135.75 97.0
+  141.75 101.5 149.25 108.0 150.0 109.0
+  smooth off
+endline
+
+point 185.5 206.5 narrow-end
+
+point 182.43200000000002 196.184 altitude -align top-left
+
+point 83.25 93.75 altitude -align top-left
+
+point -7.75 54.5 entrance -orientation 90.0
+
+point 76.0 81.0 clay
+
+point 80.25 58.75 clay
+
+point 91.0 68.0 clay
+
+point 89.25 86.25 clay
+
+point 100.75 90.75 clay
+
+point 109.75 74.0 clay
+
+point 115.25 88.5 clay
+
+point 141.0 91.25 clay
+
+point 121.25 110.0 clay
+
+point 130.5 126.75 clay
+
+point 138.5 116.0 clay
+
+point 143.0 128.0 clay
+
+point 148.5 139.75 clay
+
+point 138.5 138.75 clay
+
+point 144.75 148.75 clay
+
+point 153.5 148.0 clay
+
+point 160.75 162.0 clay
+
+point 151.75 158.5 clay
+
+point 165.0 169.25 clay
+
+point 163.0 177.25 clay
+
+point 173.25 177.5 clay
+
+point 175.25 183.5 clay
+
+line floor-meander
+  131.0 103.0
+  131.0 103.0 129.75 105.0 130.5 112.5
+  131.25 120.0 135.0 128.25 139.75 135.0
+  144.5 141.75 151.75 151.0 154.0 154.5
+  156.25 158.0 156.0 163.5 160.75 169.25
+  165.5 175.0 168.75 180.0 170.25 180.5
+  smooth off
+endline
+
+line overhang
+  21.25 47.5
+  28.26 47.73 31.75 42.25 41.5 42.5
+  51.25 42.75 66.0 51.5 75.75 52.25
+  85.5 53.0 102.5 59.25 105.75 61.75
+  109.0 64.25 113.75 71.5 117.5 74.0
+  121.25 76.5 126.0 80.0 126.0 83.5
+  126.0 87.0 126.5 90.75 122.75 93.25
+  119.0 95.75 115.5 98.25 111.5 98.25
+  107.5 98.25 96.5 99.25 94.0 98.25
+  91.5 97.25 85.5 94.75 83.25 93.75
+  81.0 92.75 52.25 81.0 47.0 79.0
+  41.75 77.0 20.25 72.5 20.25 72.5
+  smooth off
+endline
+
+line arrow
+  -6.0 118.0
+  -6.0 118.0 -23.62 120.68 -25.0 105.0
+  -26.5 88.0 -25.48 87.81 -20.75 72.5
+  -18.64 65.66 -13.0 56.25 -13.0 56.25
+  smooth off
+endline
+
+line border -clip off
+  -6.0 136.5
+  -6.0 97.5
+endline
+
+point 32.75 118.0 label -text "Lat : -5.889682<br>Long : -77.409119<br>Alt : 1417 m"
+
+line wall
+  183.0 199.75
+  183.0 199.75 179.25 187.75 176.75 186.5
+  174.25 185.25 167.75 186.0 163.75 182.5
+  159.75 179.0 155.0 170.5 152.25 165.75
+  149.5 161.0 127.75 128.25 124.25 123.5
+  120.75 118.75 114.25 110.0 108.25 105.75
+  102.25 101.5 91.5 96.75 83.25 93.75
+  75.0 90.75 58.75 83.75 47.0 79.0
+  35.25 74.25 0.5 69.25 0.5 69.25
+  smooth off
+endline
+
+point 109.0 146.25 gradient -orientation 29.5
+
+line wall
+  1.5 42.75
+  1.5 42.75 12.75 47.5 21.25 47.5
+  29.75 47.5 32.75 41.25 41.5 42.5
+  50.25 43.75 63.25 49.75 75.75 52.25
+  88.25 54.75 101.5 58.75 105.75 61.75
+  110.0 64.75 112.75 71.0 117.5 74.0
+  122.25 77.0 134.5 77.75 140.25 79.0
+  146.0 80.25 150.75 79.0 151.25 84.75
+  151.75 90.5 146.75 94.5 145.0 100.5
+  143.25 106.5 154.0 138.5 156.5 145.25
+  159.0 152.0 160.0 156.75 163.75 160.75
+  167.5 164.75 171.5 173.25 174.25 175.75
+  177.0 178.25 179.75 179.0 181.0 182.5
+  182.25 186.0 184.75 198.0 184.75 198.0
+  smooth off
+endline
+
+line wall
+endline
+
+point 182.43200000000002 196.184 station -name 6@loco
+
+point 179.042 182.434 station -name 5@loco
+
+point 167.672 178.924 station -name 4@loco
+
+point 159.712 165.594 station -name 3@loco
+
+point 101.172 74.91399999999999 station -name 0b@loco
+
+point 92.842 96.424 station -name 2@loco
+
+point 43.772000000000006 66.684 station -name 1@loco
+
+endscrap
+
+

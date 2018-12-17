@@ -1,0 +1,156 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -128.75 266.75 300.5
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {118.111 1 1.0} {133.858 0} pantora-coupe2017.xvi 0 {}
+
+
+
+scrap pantoja-SC1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.502401619999999 0.0 m]
+
+line u:rope
+  118.111 133.858
+  118.111 133.858 119.28 102.01 130.391 115.628
+  130.63 115.92 133.6 88.51 127.75 99.0
+  127.51 99.44 119.75 86.25 115.0 97.75
+  114.57 98.78 87.75 83.5 81.5 98.25
+endline
+
+point 130.75 132.5 altitude -align right
+
+point 48.5 46.25 label -text "<center>trémie<br>instable"
+
+point 136.25 94.5 altitude -align bottom-right
+
+point 107.25 141.0 entrance -orientation 129.0
+
+point 87.5 158.0 label -text "Lat : -6.14173<br>Long : -77.65536<br>Alt = 3354 m"
+
+point 86.75 132.25 label -text "piste"
+
+point 130.25 3.25 label -text "détrituts"
+
+point 29.75 86.25 u:danger
+
+point 39.5 68.5 continuation
+
+line rock-border -close on
+  64.75 76.25
+  57.0 73.0
+  62.25 68.75
+  67.25 71.5
+  67.25 73.25
+  64.75 76.25
+endline
+
+line rock-border -close on
+  64.75 76.25
+  68.25 80.75
+  73.25 76.25
+  67.25 73.25
+  64.75 76.25
+endline
+
+line rock-border -close on
+  59.75 102.0
+  53.0 99.5
+  55.5 94.75
+  61.75 96.5
+  59.75 102.0
+endline
+
+line rock-border -close on
+  52.0 103.5
+  48.0 98.75
+  52.0 97.0
+  53.75 101.5
+  52.0 103.5
+endline
+
+line rock-border -close on
+  51.75 106.0
+  59.0 106.25
+  61.25 102.5
+  53.75 101.5
+  51.75 106.0
+endline
+
+point 65.25 60.75 breakdown-choke -orientation 357.7
+
+point 57.75 81.0 breakdown-choke -orientation 357.7
+
+point 43.5 101.75 breakdown-choke -orientation 357.7
+
+point 65.0 105.5 breakdown-choke -orientation 357.7
+
+line wall -reverse on -subtype invisible
+  99.25 124.5
+  99.25 124.5 100.75 130.75 102.75 130.75
+  104.75 130.75 114.5 128.0 114.5 130.75
+  114.5 133.5 118.75 171.25 118.75 171.25
+  smooth off
+endline
+
+line wall -reverse on
+  29.75 109.0
+  29.75 109.0 46.75 117.75 59.75 116.75
+  72.75 115.75 111.0 113.75 113.0 117.5
+  115.0 121.25 119.5 128.5 116.25 128.5
+  113.0 128.5 105.25 128.75 103.75 128.75
+  102.25 128.75 99.25 124.5 99.25 124.5
+  smooth off
+endline
+
+line wall -reverse on
+  123.25 15.0
+  123.25 15.0 125.75 31.75 123.75 40.25
+  121.75 48.75 122.0 49.25 118.5 54.0
+  115.0 58.75 112.0 63.75 113.5 71.0
+  115.0 78.25 120.0 86.25 115.0 87.75
+endline
+
+line wall -subtype invisible
+  29.75 109.0
+  29.75 109.0 61.25 48.25 72.75 43.25
+endline
+
+line wall -subtype debris
+  123.25 15.0
+  123.25 15.0 127.25 25.25 129.25 22.5
+  131.25 19.75 134.5 15.0 134.5 15.0
+  smooth off
+endline
+
+line wall -reverse on -subtype blocks
+  115.0 87.75
+  110.0 89.25 91.0 89.0 87.5 88.75
+  84.0 88.5 77.5 73.0 75.75 66.0
+  74.0 59.0 72.75 43.25 72.75 43.25
+  smooth off
+endline
+
+line wall -reverse on
+  118.75 171.25
+  118.75 171.25 115.0 141.0 117.75 138.25
+  120.5 135.5 129.75 136.0 130.75 132.5
+  131.75 129.0 133.5 119.75 135.5 114.5
+  137.5 109.25 134.25 107.0 135.5 103.5
+  136.75 100.0 140.25 94.5 136.25 94.5
+  132.25 94.5 130.75 92.75 131.0 85.5
+  131.25 78.25 133.5 30.75 133.75 25.0
+  134.0 19.25 134.5 15.0 134.5 15.0
+  smooth off
+endline
+
+point 81.771 95.78800000000001 station -name 4@pantoja
+
+point 116.251 95.19800000000001 station -name 3@pantoja
+
+point 130.391 97.918 station -name 2@pantoja
+
+point 130.391 115.628 station -name 1@pantoja
+
+point 118.111 133.858 station -name 0@pantoja
+
+endscrap
+
+

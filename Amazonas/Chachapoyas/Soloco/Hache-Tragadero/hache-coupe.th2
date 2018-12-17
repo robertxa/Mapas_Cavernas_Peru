@@ -1,0 +1,65 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 364.2206 285.48040000000003
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {97.89200000000001 1 1.0} {204.727 0} hache-coupe2018.xvi 0 {}
+
+
+
+scrap hache-sc1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+line wall
+  285.0 50.0
+  285.0 50.0 272.0 85.0 252.0 96.0
+  232.0 107.0 183.0 161.0 171.0 166.0
+  159.0 171.0 127.0 210.0 122.0 216.0
+  117.0 222.0 117.0 244.0 117.0 251.0
+  117.0 258.0 119.0 273.0 119.0 273.0
+  smooth off
+endline
+
+point 200.0 49.0 archeo-material
+
+point 38.0 301.0 label -text "<it>Lat : -6.331170<br>Long : -77.750893<br>Alt = 2958 m"
+
+point 49.0 198.0 altitude -align left
+
+point 285.0 50.0 altitude -align right
+
+line wall -subtype invisible
+  119.0 273.0
+  119.0 273.0 50.0 217.0 49.0 198.0
+endline
+
+point 64.0 240.0 entrance -orientation 132.7
+
+point 213.0 172.0 air-draught -orientation 310.9
+
+point 282.0 12.0 air-draught -orientation 323.4
+
+line wall -subtype pebbles
+  225.0 50.0
+  225.0 50.0 260.0 46.0 268.0 47.0
+  276.0 48.0 285.0 50.0 285.0 50.0
+  smooth off
+endline
+
+line wall
+  49.0 198.0
+  49.0 198.0 75.0 184.0 87.0 184.0
+  99.0 184.0 102.0 179.0 104.0 168.0
+  106.0 157.0 115.0 162.0 122.0 157.0
+  129.0 152.0 121.0 135.0 129.0 130.0
+  137.0 125.0 151.0 117.0 160.0 108.0
+  169.0 99.0 176.0 95.0 186.0 86.0
+  196.0 77.0 208.0 72.0 212.0 64.0
+  216.0 56.0 225.0 50.0 225.0 50.0
+  smooth off
+endline
+
+point 255.702 58.107 station -name 1@hache
+
+point 97.89200000000001 204.727 station -name 0@hache
+
+endscrap
+
+

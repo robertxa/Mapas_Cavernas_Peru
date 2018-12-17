@@ -1,0 +1,34 @@
+encoding utf-8
+
+survey purum -title "Tragadero de Purum Llacta" -entrance "0"
+   
+centerline -title "purum 1"
+	cs lat-long
+	#fix 0	-6.2903	-77.7412	2960	# Old Coordinates
+	fix 0	-6.2901	-77.7413	2940
+	
+	date 2011.09.11
+		team "Jean-Yves/Bigot"
+		team "Olivier Fabre"
+	explo-date 2011.09.11
+		explo-team "Jean-Yves/Bigot"
+		explo-team "Olivier Fabre"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0          0b                         0.00    0.00    0.00   0.20   0.20   3.00   1.50	# Topo du 16 septembre 2011 par Olivier Fabre et Jean-Yves Bigot. CombinÈ compas-clino suunto en degrÈs, lasermËtre.;
+0          1                         5.20  183.00    0.00   0.50   1.50   6.00   1.50
+1          2                         8.26  234.00   10.00   3.05   2.68   2.73   1.30
+2          3                         4.12  315.00    6.00   1.00   0.50   2.00   0.40
+3          4                         2.92  308.00   60.00   1.50   0.50  12.30   1.50
+4          5                         4.21  204.00   28.00   1.20   1.30   6.60   1.50
+5          6                         4.74  273.00   22.00   3.00   1.20   0.50   0.50
+6          7                         7.38  211.00  -20.00   2.00   1.50   7.84   1.50
+6          8                         2.71  305.00   50.00   0.30   0.40   1.50   0.30
+8          9                         6.39  284.00   53.00   5.35   1.10   6.43   1.15
+9          10                       11.60  240.00   63.00   2.00   2.00   0.00   8.00
+endcenterline
+
+endsurvey

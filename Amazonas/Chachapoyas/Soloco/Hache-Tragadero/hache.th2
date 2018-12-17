@@ -1,0 +1,99 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 285.48040000000003 285.48040000000003
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {64.878 1 1.0} {90.547 0} hache2018.xvi 0 {}
+
+
+
+scrap hache-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 214.0 190.0 altitude -align top-left
+
+point 225.5 144.5 archeo-material
+
+point 228.5 175.5 narrow-end
+
+point 206.5 175.0 debris
+
+point 203.5 155.0 debris
+
+point 197.0 173.0 debris
+
+line slope
+  54.5 121.0
+  54.5 121.0 46.0 95.5 53.0 81.0
+  60.0 66.5 67.0 63.5 74.5 60.0
+  l-size 10.0
+endline
+
+line slope
+  144.0 161.0
+  144.0 161.0 144.5 121.5 167.0 116.0
+  l-size 10.0
+endline
+
+line slope
+  87.5 128.5
+  87.5 128.5 86.5 93.5 111.0 90.5
+  l-size 10.0
+endline
+
+line pit
+  69.0 120.5
+  69.0 120.5 54.0 84.0 83.0 77.5
+endline
+
+line pit
+  121.0 147.5
+  121.0 147.5 128.0 105.0 155.5 104.5
+endline
+
+line pit
+  183.5 183.0
+  183.5 183.0 184.0 152.5 204.5 147.5
+endline
+
+point 90.0 158.5 air-draught -orientation 240.7
+
+point 239.0 198.0 air-draught -orientation 241.1
+
+point 33.0 72.5 entrance -orientation 66.4
+
+point 245.5 181.0 continuation -attr Code D -text "Désobstruction, courant d'air soufflant net"
+
+point -4.0 144.5 label -text "<it>Lat : -6.331170<br>Long : -77.750893<br>Alt = 2958 m"
+
+point 78.0 47.0 altitude -align right
+
+line wall -subtype invisible
+  43.0 117.0
+  43.0 117.0 45.0 64.0 55.0 56.0
+  65.0 48.0 78.0 47.0 78.0 47.0
+  smooth off
+endline
+
+line wall
+  214.0 190.0
+  214.0 190.0 206.0 188.0 191.0 178.0
+  176.0 168.0 133.0 149.0 109.0 134.0
+  85.0 119.0 69.0 112.0 60.0 112.0
+  51.0 112.0 43.0 117.0 43.0 117.0
+  smooth off
+endline
+
+line wall
+  78.0 47.0
+  78.0 47.0 62.0 63.0 71.0 72.0
+  80.0 81.0 120.0 101.0 138.0 108.0
+  156.0 115.0 176.0 132.0 189.0 139.0
+  202.0 146.0 218.0 157.0 216.0 163.0
+  214.0 169.0 212.0 181.0 218.0 183.0
+endline
+
+point 204.098 164.887 station -name 1@hache
+
+point 64.878 90.547 station -name 0@hache
+
+endscrap
+
+

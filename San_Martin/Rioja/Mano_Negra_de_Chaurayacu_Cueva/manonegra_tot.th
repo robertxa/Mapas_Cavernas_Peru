@@ -1,0 +1,19 @@
+encoding utf-8
+
+input manonegra.th
+input manonegra2017.th
+
+equate 28@manonegra 33@manonegra2017
+equate 18@manonegra 34b@manonegra2017
+
+
+input th2/mano.th2
+input th2/mano1.th2
+input th2/mano2.th2
+
+input th2/mano3.th2
+join mano2017_1 manoDV2
+join mano2017_2 manoDV1
+
+join manoDV3 manoDV4
+##join manoDV7 manoXR

@@ -1,0 +1,152 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 949.0 666.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {534.123 1 1.0} {80.99999999999997 0} pariso-coupe2016.xvi 0 {}
+
+
+
+scrap paraiso1c -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+line border
+  500.0 398.0
+  500.0 398.0 556.0 379.0 587.0 384.0
+  618.0 389.0 651.0 406.0 660.0 411.0
+endline
+
+line border
+  443.0 450.0
+  443.0 450.0 502.0 416.0 539.0 415.0
+  576.0 414.0 604.0 410.0 632.0 417.0
+  660.0 424.0 705.0 454.0 705.0 454.0
+  smooth off
+endline
+
+line border -clip off
+  437.0 533.0
+  437.0 490.0
+endline
+
+point 485.0 512.0 label -text "Lat : -5.897201<br>Long : -77.403825<br>Alt : 1355 m"
+
+point 643.0 104.0 vegetable-debris
+
+point 597.0 91.0 vegetable-debris
+
+point 617.0 101.0 vegetable-debris
+
+line border
+  527.0 327.0
+  527.0 327.0 546.0 290.0 546.0 271.0
+  546.0 252.0 551.0 230.0 551.0 222.0
+  551.0 214.0 551.0 199.0 551.0 199.0
+  smooth off
+endline
+
+line border
+  632.0 275.0
+  632.0 275.0 640.0 250.0 643.0 237.0
+  646.0 224.0 651.0 183.0 651.0 183.0
+  smooth off
+endline
+
+line border
+  638.0 324.0
+  638.0 324.0 634.0 306.0 626.0 304.0
+  618.0 302.0 605.0 307.0 604.0 300.0
+  603.0 293.0 596.0 275.0 596.0 275.0
+  smooth off
+endline
+
+point 614.0 232.0 label -text "dev."
+
+point 518.0 474.0 entrance -orientation 150.6
+
+point 449.0 86.0 label -text "-49 m"
+
+point 541.0 41.0 air-draught -orientation 230.2 -scale xs
+
+point 499.0 42.0 narrow-end
+
+point 512.0 74.0 altitude -align left
+
+point 405.363 465.67999999999995 altitude -align left
+
+point 816.0 265.0 continuation
+
+point 736.0 161.0 height -value [+15 m]
+
+point 461.0 313.0 height -value [-40 m]
+
+point 764.0 372.0 label -text "<it><center>Coupe<br>développée" -scale xl
+
+line u:rope
+  572.0 213.0
+  594.0 226.0
+endline
+
+line u:rope
+  533.0 452.0
+  533.0 452.0 550.0 439.0 550.0 452.0
+  550.0 465.0 562.0 351.0 572.0 374.0
+  574.03 378.68 569.0 310.0 561.0 340.0
+  553.0 370.0 560.0 222.0 572.0 213.0
+  573.79 211.66 574.0 101.0 574.0 101.0
+  smooth off
+endline
+
+line wall
+  398.0 458.0
+  398.0 458.0 430.0 441.0 452.0 421.0
+  474.0 401.0 506.0 380.0 508.0 361.0
+  510.0 342.0 534.0 240.0 534.0 229.0
+  534.0 218.0 479.0 211.0 471.0 209.0
+  463.0 207.0 475.0 185.0 478.0 155.0
+  481.0 125.0 501.0 111.0 508.0 97.0
+  515.0 83.0 512.0 74.0 512.0 74.0
+  smooth off
+endline
+
+line wall
+  789.0 289.0
+  789.0 289.0 717.0 270.0 694.0 279.0
+  671.0 288.0 652.0 322.0 652.0 351.0
+  652.0 380.0 642.0 387.0 667.0 398.0
+  692.0 409.0 707.0 429.0 719.0 436.0
+  731.0 443.0 757.0 469.0 757.0 469.0
+  smooth off
+endline
+
+line wall
+  685.0 85.0
+  685.0 85.0 701.0 126.0 692.0 133.0
+  683.0 140.0 665.0 172.0 670.0 186.0
+  675.0 200.0 727.0 208.0 747.0 211.0
+  767.0 214.0 797.0 227.0 797.0 227.0
+  smooth off
+endline
+
+line wall -subtype debris
+  520.0 68.0
+  520.0 68.0 541.0 77.0 547.0 77.0
+  553.0 77.0 560.0 73.0 576.0 77.0
+  592.0 81.0 620.0 96.0 627.0 96.0
+  634.0 96.0 640.0 100.0 652.0 97.0
+  664.0 94.0 678.0 88.0 685.0 85.0
+  smooth off
+endline
+
+point 405.363 465.67999999999995 station -name 5@paraiso
+
+point 546.6030000000001 433.06999999999994 station -name 4@paraiso
+
+point 580.713 366.14 station -name 3@paraiso
+
+point 588.563 216.18999999999997 station -name 2@paraiso
+
+point 649.943 109.87999999999997 station -name 1@paraiso
+
+point 534.123 80.99999999999997 station -name 0@paraiso
+
+endscrap
+
+

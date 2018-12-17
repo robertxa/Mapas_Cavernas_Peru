@@ -1,0 +1,123 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -128.75 285.48069999999996 246.1103
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {125.32749999999999 1 1.0} {51.288999999999994 0} Cementerio2016.xvi 0 {}
+
+
+
+scrap cement1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.502401619999999 0.0 m]
+
+point 53.5 92.75 label -text "etr."
+
+point 43.0 102.25 altitude -align bottom-left
+
+point 125.32749999999999 51.288999999999994 altitude -align right
+
+point 153.0 52.25 entrance -orientation 293.9
+
+point 130.25 44.25 entrance -orientation 323.7
+
+line slope
+  118.25 49.75
+  118.25 49.75 124.5 54.5 126.75 54.75
+  orientation 302.6
+  l-size 10.0
+  129.0 55.0 134.5 56.5 134.5 56.5
+  smooth off
+endline
+
+line arrow
+  32.75 62.5
+  32.75 62.5 22.3 63.86 26.0 52.75
+  32.25 34.0 123.75 43.45 125.75 46.5
+  smooth off
+endline
+
+line border -clip off
+  33.0 74.75
+  33.0 52.25
+endline
+
+point 56.25 63.25 label -text "Lat : -6.559176<br>Long : -77.463341<br>Alt : 2242 m"
+
+line water-flow
+  147.75 59.0
+  147.75 59.0 138.0 60.0 130.75 61.25
+  123.5 62.5 118.5 61.75 112.0 63.5
+  105.5 65.25 95.0 67.5 89.5 73.5
+  84.0 79.5 80.5 89.5 76.25 92.75
+  72.0 96.0 69.0 103.75 65.75 103.75
+  62.5 103.75 50.99 105.11 48.747499999999995 104.429
+  46.5 103.75 44.25 104.0 44.25 104.0
+  smooth off
+endline
+
+point 60.25 114.0 air-draught -orientation 270.0 -scale xs
+
+point 40.5 114.5 continuation -text "Passage bas mais pénétrable" -attr Code Q
+
+point 38.5 103.75 water-flow -orientation 261.1
+
+point 155.25 58.25 water-flow -orientation 273.9
+
+line wall -close off -outline in
+  133.5 54.75
+  133.5 54.75 119.5 61.25 121.5 61.25
+  123.5 61.25 130.25 59.0 133.25 58.0
+  136.25 57.0 144.0 55.0 142.25 54.75
+  140.5 54.5 135.0 54.75 133.5 54.75
+  smooth off
+endline
+
+line wall
+  43.0 102.25
+  43.0 102.25 46.5 103.25 48.25 103.0
+  50.0 102.75 47.25 100.0 50.25 100.0
+  53.25 100.0 64.25 102.75 64.5 101.25
+  64.75 99.75 78.0 76.25 80.25 73.25
+  82.5 70.25 85.75 68.75 88.25 67.75
+  90.75 66.75 95.25 67.25 95.25 65.0
+  95.25 62.75 94.0 58.0 95.75 59.0
+  97.5 60.0 98.5 63.0 101.25 62.75
+  104.0 62.5 113.0 62.75 114.75 59.5
+  116.5 56.25 121.25 50.5 121.0 49.5
+  120.75 48.5 117.75 46.5 117.75 46.5
+  smooth off
+endline
+
+line wall -subtype invisible
+  117.75 46.5
+  117.75 46.5 140.25 49.0 144.75 52.25
+  149.25 55.5 153.5 64.75 153.5 64.75
+  smooth off
+endline
+
+line wall
+  153.5 64.75
+  153.5 64.75 151.5 61.25 147.5 61.25
+  143.5 61.25 121.5 66.0 119.0 65.5
+  116.5 65.0 112.0 66.25 106.75 68.5
+  101.5 70.75 94.5 71.75 91.25 75.75
+  88.0 79.75 82.5 90.5 79.5 94.5
+  76.5 98.5 71.0 107.5 68.75 107.5
+  66.5 107.5 61.25 107.0 58.5 106.75
+  55.75 106.5 48.75 106.0 47.0 105.75
+  45.25 105.5 43.75 105.5 43.75 105.5
+  smooth off
+endline
+
+point 146.6075 56.339 station -name 5@cementerio
+
+point 48.747499999999995 104.429 station -name 4@cementerio
+
+point 68.9375 105.489 station -name 3@cementerio
+
+point 85.27749999999999 70.429 station -name 2@cementerio
+
+point 118.3475 63.388999999999996 station -name 1@cementerio
+
+point 125.32749999999999 51.288999999999994 station -name 0b@cementerio
+
+endscrap
+
+

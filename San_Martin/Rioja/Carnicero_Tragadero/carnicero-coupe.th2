@@ -1,0 +1,137 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -131.0 -206.73999999999998 600.4412 509.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {236.219 1 1.0} {338.581 0} Carnicero-coupe2017.xvi 0 {}
+
+
+
+scrap carn-c1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
+
+line wall -subtype invisible
+  319.0 362.0
+  319.0 362.0 234.0 356.0 220.0 347.0
+  206.0 338.0 193.0 326.0 193.0 326.0
+  smooth off
+endline
+
+point 232.0 243.0 height -value [-35 m]
+
+point 395.0 361.0 label -text "lat : -5.779308<br>Long : -77.553129<br>Alt = 1303 m"
+
+line wall
+  330.0 93.0
+  330.0 93.0 363.0 97.0 373.0 98.0
+  383.0 99.0 371.0 98.0 382.0 113.0
+  393.0 128.0 397.0 130.0 407.0 139.0
+  417.0 148.0 430.0 156.0 440.0 160.0
+  450.0 164.0 465.0 184.0 456.0 183.0
+  447.0 182.0 403.0 181.0 394.0 176.0
+  385.0 171.0 368.0 160.0 359.0 159.0
+  350.0 158.0 313.0 141.0 311.0 150.0
+  309.0 159.0 293.0 303.0 298.0 318.0
+  303.0 333.0 319.0 356.0 319.0 362.0
+  smooth off
+endline
+
+point 247.0 35.0 altitude -align top-left
+
+point 456.0 183.0 altitude -align top
+
+point 307.0 340.0 altitude -align bottom-right
+
+point 212.0 376.0 entrance -orientation 145.4
+
+line u:corde
+  289.0 360.0
+  289.0 360.0 267.0 321.0 266.0 337.0
+  265.0 353.0 266.0 154.0 283.0 167.0
+  289.05 171.63 306.0 99.0 306.0 99.0
+  smooth off
+endline
+
+line border
+  311.0 150.0
+  311.0 150.0 305.0 116.0 323.0 120.0
+  341.0 124.0 350.0 131.0 350.0 131.0
+  smooth off
+endline
+
+line border -close on
+  291.0 124.0
+  291.0 124.0 282.0 103.0 287.0 105.0
+  292.0 107.0 303.0 110.0 299.0 115.0
+  295.0 120.0 291.0 124.0 291.0 124.0
+  smooth off
+endline
+
+point 340.0 28.0 label -text "<center>crâne<br>humain"
+
+point 287.0 28.0 archeo-material
+
+point 146.0 -25.0 narrow-end
+
+line wall -subtype presumed
+  169.0 -26.0
+  169.0 -26.0 195.0 -14.0 206.0 -14.0
+  217.0 -14.0 232.0 -13.0 233.0 -5.0
+  234.0 3.0 227.0 6.0 239.0 12.0
+  251.0 18.0 259.0 27.0 259.0 27.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  247.0 35.0
+  247.0 35.0 252.0 24.0 237.0 22.0
+  222.0 20.0 200.0 16.0 194.0 14.0
+  188.0 12.0 192.0 -4.0 183.0 -7.0
+  174.0 -10.0 168.0 -17.0 168.0 -17.0
+  smooth off
+endline
+
+line wall -subtype debris
+  281.0 50.0
+  281.0 50.0 323.0 93.0 330.0 93.0
+  smooth off
+endline
+
+line wall
+  259.0 27.0
+  259.0 27.0 278.0 46.0 281.0 50.0
+  smooth off
+endline
+
+line wall
+  193.0 326.0
+  193.0 326.0 234.0 326.0 240.0 323.0
+  246.0 320.0 258.0 328.0 258.0 301.0
+  258.0 274.0 253.74 158.89 268.0 155.0
+  279.0 152.0 286.0 153.0 286.0 153.0
+  smooth off
+  283.0 117.0
+  283.0 117.0 252.0 105.0 254.0 100.0
+  256.0 95.0 281.0 101.0 287.0 105.0
+  293.0 109.0 302.0 105.0 297.0 99.0
+  292.0 93.0 261.0 60.0 255.0 53.0
+  249.0 46.0 247.0 35.0 247.0 35.0
+  smooth off
+endline
+
+point 265.939 325.971 station -name 2@carnicero
+
+point 446.579 172.34100000000004 station -name 8@carnicero
+
+point 389.23900000000003 150.33100000000002 station -name 7@carnicero
+
+point 353.539 117.03100000000003 station -name 5@carnicero
+
+point 261.98900000000003 43.801000000000045 station -name 6@carnicero
+
+point 307.639 89.46100000000003 station -name 4@carnicero
+
+point 295.05899999999997 160.80100000000004 station -name 3@carnicero
+
+point 236.219 338.581 station -name 1@carnicero
+
+endscrap
+
+

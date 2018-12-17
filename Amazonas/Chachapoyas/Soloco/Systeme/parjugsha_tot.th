@@ -1,0 +1,38 @@
+encoding utf-8
+
+# add topos :
+#input ../Chaquil_resurgencia/chaquil.th
+#input ../Chaquil_Tragadero/chaquil.th
+
+input ../Parjugsha_alto/alto.th
+input ../Parjugsha_arriba/arriba.th
+input ../Parjugsha_chico/pchico.th
+input ../Parjugsha_grande/grande.th
+input ../Parjugsha_leonidas/leonidas.th
+input ../Parjugsha_mega/mega.th
+
+equate PM63@chico PM63@mega
+equate PM22@grande PM22@mega
+
+#input ../Pumatushuna_Tragadero/pumatushuna.th
+input ../Purum_Llacta/purum_llacta.th
+
+input ../rio_seco/rioseco.th
+
+input ../Vaca_Negra_Tragadero/vacanegra.th
+
+#input ../Trocadero_tragadero/trocadero.th
+
+
+#equate 1@bellavista3 E.85@bellavista
+
+
+# add DEM :
+
+
+# add drawings :
+# Pour le plan
+#input bellavista.th2
+
+
+#join JL1 BVJY1

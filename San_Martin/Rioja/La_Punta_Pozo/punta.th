@@ -1,0 +1,26 @@
+# 2017.07.13 created by TopoDroid v 3.4.1
+
+survey punta -title "punta" -entrance 0
+
+  centerline
+	cs lat-long
+	fix 0 -6.00918	-77.31277	1445
+    date 2017.08.24
+    	#team "Marc Pouilly"
+    	team "Naomi Mazzilli"
+    	#team "Damien Vignoles"
+    explo-date 2017.08.24
+    	explo-team "Marc Pouilly"
+    	explo-team "Naomi Mazzilli"
+    	explo-team "Damien Vignoles"
+    # team damien nao marc 
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+	0	1	10	0	-45
+	1	2	23	0	-90
+
+    endcenterline
+
+endsurvey

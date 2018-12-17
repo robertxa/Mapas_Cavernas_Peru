@@ -1,0 +1,32 @@
+# 2018.08.20 created by TopoDroid v 4.1.0c
+
+survey hache -title "Tragadero del Hache" -entrance 0
+
+  centerline
+    date 2018.08.19 
+    	team "Hugo Salgado"
+    	team "Jean-Yves Bigot"
+    	team "Xavier Robert"
+    explo-date 2018.08.19 
+    	explo-team "Hugo Salgado"
+    	explo-team "Jean-Yves Bigot"
+    	explo-team "Xavier Robert"
+    	
+    # team Groupe Spéléologique Vulcain 
+    # declination 0.00 degrees
+    
+    cs lat-long
+    fix 0	 -6.331170	-77.750893	2958
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 1.66 65.0 -42.9
+    extend ignore
+    0 1 13.68 65.1 -42.9
+    # extend auto
+    0 . 1.65 65.2 -42.9
+  endcenterline
+
+endsurvey

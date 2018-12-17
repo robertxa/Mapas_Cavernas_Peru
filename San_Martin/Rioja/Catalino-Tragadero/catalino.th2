@@ -1,0 +1,198 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 518.5 478.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {294.94 1 1.0} {252.74 Xa_0} Catalino2017.xvi 0 {}
+
+
+
+scrap cat1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 442.9608 -128.0 0.0 0.0 14.50240432 0.0 m]
+
+point 83.5 94.5 debris
+
+point 92.0 112.0 debris
+
+point 80.0 106.0 debris
+
+point 44.0 123.0 label -text "imp."
+
+point 193.0 126.0 rope
+
+point 151.0 114.5 label -text "etr."
+
+line pit
+  210.0 98.5
+  210.0 98.5 204.5 114.0 196.5 116.5
+  smooth off
+endline
+
+point 226.0 146.5 rope
+
+point 71.5 98.5 altitude -align bottom-left
+
+point 314.5 256.5 altitude -align top-right
+
+point 214.0 87.5 height -value [-5 m]
+
+point 270.5 139.0 height -value [-21 m]
+
+line pit
+  254.5 142.5
+  254.5 142.5 244.0 154.0 235.5 142.0
+  smooth off
+endline
+
+line rock-border -close on
+  246.5 151.0
+  250.0 157.5
+  256.0 155.0
+  251.0 148.0
+  246.5 151.0
+endline
+
+line rock-border -close on
+  239.0 164.5
+  242.5 170.0
+  248.5 165.5
+  243.5 159.5
+  239.0 164.5
+endline
+
+line rock-border -close on
+  262.0 174.0
+  268.0 173.5
+  263.0 165.0
+  258.0 169.5
+  262.0 174.0
+endline
+
+line rock-border -close on -reverse on
+  258.0 179.5
+  253.0 181.0
+  250.5 174.5
+  256.5 172.0
+  258.0 179.5
+endline
+
+line rock-border -close on -reverse on
+  285.0 221.5
+  278.5 219.0
+  282.0 210.5
+  288.5 212.5
+  285.0 221.5
+endline
+
+line rock-border -close on
+  287.0 218.0
+  284.5 225.5
+  292.5 224.5
+  293.0 218.5
+  287.0 218.0
+endline
+
+line rock-border -close on
+  294.5 229.5
+  293.5 237.5
+  305.0 238.5
+  300.0 228.5
+  294.5 229.5
+endline
+
+line rock-border -close on
+  289.5 256.0
+  283.0 260.5
+  293.0 265.0
+  301.5 257.5
+  289.5 256.0
+endline
+
+point 300.5 184.0 air-draught -orientation 29.2 -scale xs
+
+point 307.5 279.5 entrance -orientation 215.1
+
+line u:doline -clip off
+  328.0 243.0
+  328.0 243.0 360.0 238.5 369.5 252.0
+  379.0 265.5 392.5 281.0 387.0 294.5
+  381.5 308.0 375.0 319.5 350.5 325.0
+  326.0 330.5 267.0 351.5 252.0 347.5
+  237.0 343.5 226.0 336.5 234.0 319.0
+  242.0 301.5 269.0 276.0 269.0 276.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  328.0 243.0
+  328.0 243.0 311.5 269.5 269.0 276.0
+  smooth off
+endline
+
+line wall
+  53.0 101.5
+  53.0 101.5 65.0 102.0 71.5 98.5
+  78.0 95.0 73.0 91.5 78.0 88.5
+  83.0 85.5 87.0 91.0 97.0 91.5
+  107.0 92.0 120.0 96.0 134.5 96.0
+  149.0 96.0 163.5 95.0 171.0 95.0
+  178.5 95.0 195.0 98.5 201.5 98.5
+  208.0 98.5 201.0 106.0 209.5 106.0
+  218.0 106.0 262.5 102.5 259.5 106.5
+  256.5 110.5 257.0 117.5 253.5 124.0
+  250.0 130.5 247.0 135.5 250.0 141.0
+  253.0 146.5 261.5 164.0 267.5 169.5
+  273.5 175.0 280.0 184.0 287.0 192.5
+  294.0 201.0 307.5 241.0 312.0 242.0
+  316.5 243.0 328.0 243.0 328.0 243.0
+  smooth off
+endline
+
+point 145.5 307.5 label -text "Lat : -5.77504<br>Long : -77.54621<br>Alt = 1192 m"
+
+point 33.0 103.5 narrow-end
+
+line wall
+  269.0 276.0
+  269.0 276.0 275.5 275.0 275.5 266.5
+  275.5 258.0 272.5 231.5 270.5 228.0
+  268.5 224.5 255.0 232.0 258.5 224.5
+  262.0 217.0 262.5 216.0 260.0 205.5
+  257.5 195.0 250.5 182.0 247.5 178.0
+  244.5 174.0 216.5 185.0 216.5 179.5
+  216.5 174.0 211.5 166.5 216.5 164.5
+  221.5 162.5 240.5 166.0 240.5 156.0
+  240.5 146.0 242.5 147.0 242.5 139.0
+  242.5 131.0 244.5 121.5 236.5 119.0
+  228.5 116.5 205.5 115.0 201.5 110.0
+  197.5 105.0 178.0 102.0 168.0 102.0
+  158.0 102.0 137.5 105.5 131.5 105.5
+  125.5 105.5 97.5 100.5 97.5 104.0
+  97.5 107.5 106.5 127.0 96.0 129.5
+  85.5 132.0 73.5 108.5 69.5 108.0
+  65.5 107.5 55.0 107.5 55.0 107.5
+  smooth off
+endline
+
+point 73.54 102.53999999999999 station -name 11@catalino
+
+point 92.19000000000001 96.21999999999998 station -name 10@catalino
+
+point 135.04000000000002 102.42999999999999 station -name 9@catalino
+
+point 203.75 102.50999999999999 station -name 7@catalino
+
+point 172.58 97.99 station -name 8@catalino
+
+point 206.23000000000002 108.72999999999999 station -name 6@catalino
+
+point 254.4 107.25999999999999 station -name 5@catalino
+
+point 246.09 142.51999999999998 station -name 4@catalino
+
+point 261.81 167.91 station -name Xa_2@catalino
+
+point 268.57 200.44 station -name Xa_1@catalino
+
+point 294.94 252.74 station -name Xa_0b@catalino
+
+endscrap
+
+

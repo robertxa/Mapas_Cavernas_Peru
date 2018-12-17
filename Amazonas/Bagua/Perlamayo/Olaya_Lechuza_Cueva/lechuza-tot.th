@@ -1,0 +1,23 @@
+encoding utf-8
+
+survey olaya2 -title "Caverna Olaya de Perlamayo"
+	input data-th/lechuza
+	input data-th/olaya
+	input data-th/olaya2
+	
+	centerline
+		equate 47@lechuza 0@olaya
+		equate 33@lechuza 0@olaya2
+		equate 25@lechuza 8@olaya2
+	endcenterline
+
+#input olaya.th2
+	
+endsurvey
+
+input th2/olaya.th2
+#input th2/olaya3.th2    # Siphon
+#join olaya-sp3 olaya-sp4
+#input th2/olaya2.th2    # Grosse galerie
+#join olaya-sp2 olaya-sp5 -count 3
+

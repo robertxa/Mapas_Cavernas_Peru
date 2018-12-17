@@ -1,0 +1,53 @@
+encoding utf-8
+
+survey samuel2017 -title "Cueva de Samuel 2017"
+   
+centerline -title "Samuel 2017-1"
+	date 2017.08.16
+		team "Bernard Lips"
+		team "Marc Pouilly"
+	explo-date 2017.08.16
+		explo-team "Bernard Lips"
+		explo-team "Marc Pouilly"
+		explo-team "Naomi Mazzilli"
+		explo-team "Damien Vignoles"
+		explo-team "Tini Alvarado"
+		explo-team "Jhensen Quiespe"
+		explo-team "Jhony Culqui/Chavez"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+2017-BL-0	2017-BL-0b	0	0	0	2.6	3.2	1.2	2	# Début du lac; Station C21
+2017-BL-0	2017-BL-1	6.98	336	34	2.6	3.2	1.2	2	
+2017-BL-1	2017-BL-2	4	320	10	1.4	1.6	2	0.5	# Cascade
+2017-BL-2	2017-BL-3	8.91	333	11	1.5	4	2	1.4	
+2017-BL-2	2017-BL-4	5.72	245	-12	1	1.4	11	1.5	
+2017-BL-3	2017-BL-5	6.85	323	-6	3	2	4	0.5	
+2017-BL-5	2017-BL-6	15.7	326	-1	2	4	4	5	
+2017-BL-6	2017-BL-6b	10.52	328	20	0	0	0	0	
+2017-BL-6b	2017-BL-7	6.47	327	-20	6	2	7	1.6	
+2017-BL-7	2017-BL-8	9.02	357	2	2	1.7	11	1.5	
+2017-BL-8	2017-BL-9	10.97	13	1	0	1.5	2.5	1	
+2017-BL-9	2017-BL-9b	7	88	23	0	0	0	0	
+2017-BL-9	2017-BL-10	7.68	346	2	1.6	0	4.5	1	
+2017-BL-10	2017-BL-11	12.14	328	5	0	2.3	3.5	1	
+2017-BL-11	2017-BL-12	14.82	5	1	2	0	4.3	1	
+2017-BL-12	2017-BL-13	13.63	330	1	1.5	1.5	4	1	
+2017-BL-13	2017-BL-14	8.55	329	3	1	1.5	3.5	1	
+2017-BL-14	2017-BL-15	15.85	1	1	2.6	1	3.4	1	
+2017-BL-15	2017-BL-16	11.86	332	0	1.6	2.5	2.5	1	
+2017-BL-16	2017-BL-17	12.93	316	4	2.5	3.5	2	1.3	
+2017-BL-17	2017-BL-18	6.01	289	-2	1.7	4.4	2.5	0.7	
+2017-BL-18	2017-BL-18b	11.49	255	1	0	0	0	0	
+2017-BL-18	2017-BL-19	25.19	358	1	2	2	3	0.5	
+2017-BL-19	2017-BL-20	14.4	98	1	2	0	2.5	0.7	
+2017-BL-20	2017-BL-21	15.82	81	1	2.5	0	3.4	0.7	# Jction avec Equipe Nao et Damien du même jour
+
+	# Dev = 262.51 m
+	
+endcenterline
+
+
+endsurvey

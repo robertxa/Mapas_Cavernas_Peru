@@ -1,0 +1,34 @@
+encoding utf-8
+
+input chalanchalan.th2
+input chalanchalan2.th2
+input chalanchalan3.th2
+
+join NM2 NM4
+join NM5 chalanX1
+
+input chalanC1.th2
+input chalanC2.th2
+input chalanC.th2
+
+join DVc1 DVc2
+
+map rivprinc
+	DVc1
+break
+	DVc2
+break
+	DVc3
+break 
+	XRc1
+endmap
+
+map afft
+	XRc1
+endmap
+
+map tot
+	rivprinc
+break
+	afft [0 60 m] below
+endmap

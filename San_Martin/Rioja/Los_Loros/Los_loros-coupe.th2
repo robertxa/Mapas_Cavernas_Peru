@@ -1,0 +1,222 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1781.5442 1072.8654
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {394.64300000000003 1 1.0} {215.27800000000002 0} Loros-coupe2017.xvi 0 {}
+
+
+
+scrap scrap21 -projection extended -author 2017 "Naomi Mazzilli" -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [0 0 100 0 0 0 1 0 m]
+
+point 195.663 218.348 station -name 2@Los_loros
+
+point 325.663 222.678 station -name 1@Los_loros
+
+point 317.46299999999997 234.798 station -name 3@Los_loros
+
+point 394.64300000000003 215.27800000000002 station -name 0@Los_loros
+
+point 437.89300000000003 274.408 station -name 4@Los_loros
+
+point 1146.0 833.0 label -text "Lat : -6.00753<br>Long : -77.29799<br>Alt = 1196 m"
+
+point 1445.0 854.0 entrance -orientation 182.7
+
+line wall -subtype bedrock
+  458.0 836.0
+  458.0 836.0 462.0 817.0 461.0 805.0
+  460.0 793.0 459.0 751.0 458.0 744.0
+  457.0 737.0 458.0 707.0 457.0 697.0
+  456.0 687.0 457.0 658.0 456.0 651.0
+  455.0 644.0 456.0 621.0 456.0 613.0
+  456.0 605.0 461.0 576.0 460.0 561.0
+  459.0 546.0 466.0 521.0 462.0 516.0
+  458.0 511.0 437.0 501.0 428.0 498.0
+  419.0 495.0 390.0 488.0 385.0 487.0
+  380.0 486.0 336.0 480.0 329.0 479.0
+  322.0 478.0 283.0 470.0 275.0 468.0
+  267.0 466.0 245.0 460.0 235.0 454.0
+  225.0 448.0 212.0 443.0 205.0 434.0
+  198.0 425.0 183.0 394.0 181.0 379.0
+  179.0 364.0 178.0 301.0 178.0 293.0
+  178.0 285.0 181.0 267.0 181.0 260.0
+  181.0 253.0 184.0 226.0 188.0 220.0
+  smooth off
+endline
+
+line wall -reverse on
+  452.0 278.0
+  462.0 277.0 477.0 276.0 477.0 276.0
+  smooth off
+  477.0 276.0 496.0 279.0 500.0 280.0
+  504.0 281.0 522.0 285.0 528.0 286.0
+  534.0 287.0 541.483 283.858 541.483 283.858
+  smooth off
+endline
+
+line water-flow
+  537.0 277.0
+  511.0 276.0
+endline
+
+line wall -reverse on -outline in
+  431.0 266.0
+  431.0 266.0 407.0 258.0 399.0 256.0
+  391.0 254.0 380.0 248.0 375.0 247.0
+  370.0 246.0 353.0 239.0 353.0 239.0
+  smooth off
+  340.0 231.0
+  324.0 228.0
+  304.0 222.0
+endline
+
+point 557.0 278.0 narrow-end
+
+point 365.0 157.0 narrow-end
+
+line wall
+endline
+
+line wall -close on
+  461.0 269.0
+  461.0 269.0
+endline
+
+line wall
+  461.0 269.0
+  475.0 269.0
+  475.0 269.0 495.0 273.0 503.0 273.0
+  511.0 273.0 518.0 273.0 523.0 273.0
+  528.0 273.0 543.0 274.0 543.0 274.0
+  smooth off
+endline
+
+line border
+  431.0 266.0
+  431.0 266.0 450.5 270.0 461.0 269.0
+  smooth off
+endline
+
+line wall -subtype clay
+  188.0 220.0
+  192.0 214.0 230.0 209.0 230.0 209.0
+  smooth off
+  280.0 207.0
+  315.0 206.0
+endline
+
+point 379.0 213.0 u:bats -scale xs
+
+line wall -reverse on -subtype blocks
+  1326.333 677.318
+  1291.0 649.0
+  1236.0 613.0
+  1236.0 613.0 1221.0 604.0 1218.0 601.0
+  1215.0 598.0 1196.0 583.0 1196.0 583.0
+  smooth off
+  1196.0 583.0 1170.0 569.0 1159.0 563.0
+  1148.0 557.0 1106.0 526.0 1099.0 520.0
+  1092.0 514.0 1070.0 497.0 1065.0 495.0
+  1060.0 493.0 1042.0 482.0 1035.0 479.0
+  1028.0 476.0 997.0 464.0 989.0 461.0
+  981.0 458.0 946.0 448.0 935.0 444.0
+  924.0 440.0 894.0 433.0 889.0 431.0
+  884.0 429.0 838.0 419.0 831.0 417.0
+  824.0 415.0 757.0 401.0 752.0 400.0
+  747.0 399.0 717.0 389.0 700.0 387.0
+  683.0 385.0 659.0 380.0 647.0 377.0
+  635.0 374.0 618.0 366.0 610.0 361.0
+  602.0 356.0 589.0 331.0 582.0 327.0
+  575.0 323.0 540.0 304.0 540.0 304.0
+  smooth off
+  540.0 304.0 506.0 291.0 499.0 289.0
+  492.0 287.0 452.0 278.0 452.0 278.0
+  smooth off
+endline
+
+line wall -subtype bedrock
+  1487.0 827.0
+  1465.0 833.0
+endline
+
+line wall -close on -subtype bedrock
+  1478.0 826.0
+  1478.0 826.0
+endline
+
+line wall -reverse on -subtype bedrock
+  1487.0 827.0
+  1483.0 818.0
+  1483.0 818.0 1467.0 813.0 1455.0 806.0
+  1443.0 799.0 1372.0 726.0 1372.0 726.0
+  smooth off
+  1353.0 703.0
+  1353.0 703.0 1334.33 683.32 1326.333 677.318
+  smooth off
+endline
+
+point 523.823 329.13800000000003 station -name 5@Los_loros
+
+point 636.373 382.358 station -name 6@Los_loros
+
+point 895.063 433.148 station -name 7@Los_loros
+
+point 1038.8029999999999 483.148 station -name 8@Los_loros
+
+point 1224.733 609.528 station -name 9@Los_loros
+
+point 1326.333 677.318 station -name 10@Los_loros
+
+point 1458.313 817.318 station -name 11@Los_loros
+
+line wall -reverse on -outline in
+  304.0 222.0
+  325.663 222.678
+  348.0 220.0
+  360.0 221.0
+  381.0 222.0
+  401.0 228.0
+  420.0 238.0
+  431.0 266.0
+endline
+
+point 370.0 188.5 water-flow -orientation 211.8
+
+point 1465.0 833.0 altitude -align top-right
+
+point 230.0 209.0 altitude -align top
+
+line wall -reverse on
+  461.0 269.0
+  461.0 269.0 456.0 272.0 453.0 267.0
+  450.0 262.0 449.0 251.0 449.0 251.0
+  smooth off
+  451.0 241.0
+  453.0 232.0
+  455.0 218.0
+endline
+
+line wall -subtype clay
+  382.0 181.0
+  382.0 181.0 391.0 188.0 394.0 192.0
+  397.0 196.0 435.0 206.0 435.0 206.0
+  smooth off
+  455.0 218.0
+endline
+
+line wall -subtype clay
+  315.0 206.0
+  332.0 203.0
+  357.0 202.0
+  359.0 196.0
+  359.0 196.0 360.56 187.07 360.0 182.0
+  smooth off
+endline
+
+line u:strata
+  1406.0 795.0
+  1117.0 713.0
+endline
+
+endscrap
+
+
