@@ -24,15 +24,45 @@ input ../Vaca_Negra_Tragadero/vacanegra.th
 input ../Trocadero_tragadero/trocadero.th
 
 
-#equate 1@bellavista3 E.85@bellavista
+# Topos 2018
+input ../Ancayrrumo-Tragadero/ancayrrumo.th
 
+input ../Areniscas-Tragadero/areniscas.th
+input ../Areniscas-Tragadero/areniscas.th2
+input ../Areniscas-Tragadero/areniscas-coupe.th2
+
+input ../Bloques_Tragadero/tragz.th
+input ../Bloques_Tragadero/bloques.th2
+input ../Bloques_Tragadero/bloques-coupe.th2
+
+input ../Calavera-Cueva/calavera.th
+
+input ../Hache-Tragadero/hache.th
+input ../Hache-Tragadero/hache.th2
+input ../Hache-Tragadero/hache-coupe.th2
+
+input ../Ojo_Negro_Cueva/ojo_negro.th
+input ../Ojo_Negro_Cueva/ojo_negro.th2
+
+input ../Oso-Tragadero/oso.th
+input ../Oso-Tragadero/oso.th2
+input ../Oso-Tragadero/oso-coupe.th2
+
+input ../Refugio-Cueva/refugio.th
+
+input ../Siphon-Tragadero/siphon1.th
+input ../Siphon-Tragadero/siphon.th2
+input ../Siphon-Tragadero/siphon1-coupe.th2
+
+input ../Torreon-Tragadero/torreon.th
+input ../Torreon-Tragadero/torreon.th2
+input ../Torreon-Tragadero/torreon-coupe.th2
+
+input ../X5_Tragadero/x5.th
 
 # add DEM :
 
 
 # add drawings :
-# Pour le plan
-#input bellavista.th2
 
 
-#join JL1 BVJY1
