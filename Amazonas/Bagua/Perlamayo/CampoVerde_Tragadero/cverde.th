@@ -4,16 +4,19 @@ survey cverde -title "cverde"	-entrance 0
 
   centerline
   	cs lat-long
-  	fix 0	 -5.899594	-78.509350	2370    
+  	fix 0	 -5.899594	-78.509350	2370 
+  	fix perte  -5.900084	-78.509699	2370
+  	
+  	station   perte       "Tragadero de Campo Verde" entrance
   	
   	date 2018.11.06
     	team "Xavier Robert"
     	team "Antonio/De Pomar"
-    	team "Michel ??" 
-    # team Groupe Spéléologique Vulcain 
-    # declination 0.00 degrees
+    	team "Michel Serfati" 
+    
     units length meters
     units compass clino degrees
+    
     data normal from to length compass clino
     # extend auto
     0 . 3.45 129.2 -2.6

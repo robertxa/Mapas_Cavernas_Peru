@@ -1,0 +1,144 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 246.1103 206.74020000000002
+##XTHERION## xth_me_area_zoom_to 800
+##XTHERION## xth_me_image_insert {118.4247 1 1.0} {27.165500000000005 0} zucsha2018.xvi 0 {}
+
+
+
+scrap zucsha-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 39.625 63.75 pebbles
+
+point 62.125 52.875 pebbles
+
+point 74.75 29.5 pebbles
+
+point 60.75 41.875 pebbles
+
+line rock-border -close on
+  107.875 29.125
+  107.875 28.0
+  109.5 28.0
+  109.0 29.125
+  107.875 29.125
+endline
+
+line rock-border
+  107.625 30.75
+  107.875 29.125
+  109.0 29.125
+  109.125 31.0
+endline
+
+line rock-border -close on
+  107.75 32.375
+  107.625 30.75
+  109.125 31.0
+  109.375 32.375
+  107.75 32.375
+endline
+
+line rock-border -close on
+  107.5 33.75
+  107.75 32.375
+  109.375 32.375
+  109.5 33.75
+  107.5 33.75
+endline
+
+line rock-border -close on
+  108.0 36.25
+  107.5 33.75
+  109.5 33.75
+  109.5 35.5
+  108.0 36.25
+endline
+
+point 13.0 51.5 label -text "colm."
+
+point 10.0 86.25 continuation -attr Code D -text "Colmatage à désobstruer"
+
+point 21.0 74.5 altitude -align bottom-left
+
+area u:tronc
+  l17-26-79
+endarea
+
+line contour -id l17-26-79 -close on
+  25.75 78.5
+  23.25 73.5
+  25.25 73.5
+  26.25 75.5
+  25.75 78.5
+endline
+
+area pebbles
+  l15-91-8
+endarea
+
+line label -id l15-91-8 -close on
+  91.0 8.5
+  91.0 8.5 99.5 27.25 93.5 30.75
+  87.5 34.25 56.25 53.5 50.0 49.75
+  43.75 46.0 39.75 19.75 50.75 16.0
+  61.75 12.25 91.0 8.5 91.0 8.5
+  smooth off
+endline
+
+point 184.25 30.75 label -text "<it>Lat : -5.899215<br>Long : -78.516206<br>alt = 2377 m"
+
+point 30.0 92.5 label -text "tronc"
+
+point 110.0 6.25 label -text "mur"
+
+point 110.25 48.0 archeo-material
+
+point 135.25 29.5 entrance -orientation 261.8
+
+line wall -subtype invisible
+  126.0 18.25
+  126.0 18.25 130.0 33.5 124.0 38.75
+  smooth off
+endline
+
+point 124.0 38.75 altitude -align top
+
+line wall
+  21.0 74.5
+  21.0 74.5 24.25 72.25 26.5 70.5
+  28.75 68.75 27.75 64.75 31.5 62.0
+  35.25 59.25 52.75 50.75 52.75 50.75
+  smooth off
+  52.75 50.75 52.25 49.75 51.75 46.0
+  51.25 42.25 53.73 39.74 57.0 36.25
+  60.75 32.25 76.5 20.5 82.5 18.5
+  88.5 16.5 91.5 17.25 95.5 19.0
+  99.5 20.75 99.5 22.75 104.25 22.75
+  109.0 22.75 108.25 22.25 114.0 23.0
+  119.75 23.75 125.5 19.0 126.0 18.25
+  smooth off
+endline
+
+line wall
+  124.0 38.75
+  124.0 38.75 117.21 33.51 113.75 34.25
+  110.25 35.0 104.75 39.75 101.5 38.25
+  98.25 36.75 96.0 32.5 89.5 37.5
+  83.0 42.5 74.25 45.25 69.0 51.75
+  63.75 58.25 57.75 60.75 51.75 63.25
+  45.75 65.75 29.25 75.5 27.5 77.0
+  25.75 78.5 23.5 79.5 23.5 79.5
+  smooth off
+endline
+
+point 27.554700000000004 73.38550000000001 station -name 3@zucsha
+
+point 57.554700000000004 55.825500000000005 station -name 2@zucsha
+
+point 87.63470000000001 24.725500000000004 station -name 1@zucsha
+
+point 118.4247 27.165500000000005 station -name 0@zucsha
+
+endscrap
+
+

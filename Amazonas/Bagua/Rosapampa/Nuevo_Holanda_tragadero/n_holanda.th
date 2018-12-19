@@ -6,13 +6,11 @@ survey n_holanda2 -title "Tragadero de Nuevo Holanda" -entrance 0
     date 2018.08.25
     	team "Jean-Yves Bigot"
     	team "Hugo Salgado"
-    	team "Constance Picque"
+    	#team "Constance Picque"
     explo-date 2018.08.25
     	explo-team "Jean-Yves Bigot"
     	explo-team "Hugo Salgado"
     	explo-team "Constance Picque"
-    # team Groupe Spéléologique Vulcain 
-    # declination 0.00 degrees
     
     cs lat-long
     fix 0	 -5.924574	-78.435286	2527

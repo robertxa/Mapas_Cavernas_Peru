@@ -342,7 +342,7 @@ code metapost
 		draw tmp_pic;
 	enddef;
 
-	 # To change slopes aspects
+	# To change slopes aspects
 	def l_slope (expr P,S)(text Q) = 
 		%show Q;
 		T:=identity;

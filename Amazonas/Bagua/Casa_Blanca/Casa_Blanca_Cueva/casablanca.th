@@ -6,6 +6,9 @@ survey casablanca -title "Tragadero de Casa Blanca" -entrance 0
   	cs lat-long
   	fix 0	-5.92892	-78.31233	1761
   	
+  	station 29 "boyau à continuer" continuation explored 100m
+  	station 39 "suite du réseau à explorer" continuation explored 250m
+  	
     date 2018.11.10
     	team "Xavier Robert" 
     	team "Jean Loup/Guyot"

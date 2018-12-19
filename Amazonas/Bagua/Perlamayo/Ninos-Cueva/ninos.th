@@ -6,6 +6,8 @@ survey ninos -title "ninos" -entrance 0
   	cs lat-long
   	fix 0  -5.894301	-78.521438	2377
   	
+  	station 37 "galerie principale qui continue" continuation explored 150m
+  	
     date 2018.11.05 
      team "Xavier Robert"
      team "Antonio/De Pomar" 
@@ -422,6 +424,7 @@ survey ninos -title "ninos" -entrance 0
     36 . 1.86 92.7 1.0
     extend right
     36 37 4.82 174.6 -1.0
+    
   endcenterline
 
   # input "ninos-1p.th2"
