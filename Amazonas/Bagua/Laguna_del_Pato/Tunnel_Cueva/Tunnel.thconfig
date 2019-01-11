@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source peces_blancos.th
-#source lechuza.th2
+source tunnel.th
+source tunnel.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Tragadero de los Peces Blancos"
+	doc-title "Cueva del Tunnel"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -93,7 +93,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rosa Pampa, Bagua Grande, Amazonas, Perú"
+	map-comment "Laguna del Pato, Bagua, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -120,7 +120,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 110 94 nw
+	map-header 105 100 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -129,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -160,14 +160,14 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de los Peces Blancos} 		
+			\cavename={Cueva del Tunnel} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
-	\newtoks\guide \guide={Abundio Sanchez Delgado}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Daniel Neiler, Yimi Franck}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Bagua 2018}
 	endcode    
 
 endlayout
@@ -181,7 +181,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero de los Peces Blancos"
+	doc-title "Cueva del Tunnel"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -228,7 +228,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Rosa Pampa, Bagua Grande, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Laguna del Pato, Bagua, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -293,14 +293,14 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de los Peces Blancos} 		
+			\cavename={Cueva del Tunnel} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
-	\newtoks\guide \guide={Abundio Sanchez Delgado}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Daniel Neiler, Yimi Franck}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Bagua 2018}
 	endcode  
   
 endlayout
@@ -308,16 +308,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o peces2018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o peces-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o tunnel2018.xvi
+ #export map -projection extended -fmt xvi -layout xviexport -o tunnel-coupe2018.xvi
   
- export map -o peces-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o peces-coupe2018.pdf
- export model -o peces_2018.lox
+ export map -o tunnel-plan2018.pdf -layout my_layout
+ #export map -projection extended -layout my_layout-coupe -o tunnel-coupe2018.pdf
+ export model -o tunnel_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o peces_2018 -layout my_layout
+ export map -proj plan -fmt esri -o tunnel_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o peces_2018.kml -layout my_layout
- export model -fmt kml -o peces_2018m.kml
+ export map -proj plan -fmt kml -o tunnel_2018.kml -layout my_layout
+ export model -fmt kml -o tunnel_2018m.kml

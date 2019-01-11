@@ -15,7 +15,7 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source pato4.th
-#source lechuza.th2
+source pato4.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -120,7 +120,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 80 94 nw
+	map-header 105 100 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -129,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -165,6 +165,7 @@ layout my_layout
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Daniel Neiler, Yimi Franck}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Bagua 2018}
 	endcode    
@@ -292,11 +293,12 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de la Laguna del PAto 4} 		
+			\cavename={Cueva de la Laguna del Pato 4} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Daniel Neiler, Yimi Franck}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Bagua 2018}
 	endcode  

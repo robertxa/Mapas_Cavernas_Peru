@@ -1,0 +1,184 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -128.75 321.25 323.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {96.453 1 1.0} {89.7594 0} pblanco2018.xvi 0 {}
+
+
+
+scrap pblanco-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
+
+point 56.0 18.25 flowstone
+
+point 101.75 31.75 flowstone
+
+line slope
+  92.25 60.25
+  92.25 60.25 97.0 79.5 89.0 79.75
+  l-size 8.0
+endline
+
+line slope
+  78.5 59.25
+  78.5 59.25 91.5 73.0 79.25 77.0
+  l-size 8.0
+endline
+
+point 183.75 136.5 altitude -align bottom-right
+
+line water-flow
+  44.5 65.25
+  44.5 65.25 50.5 80.5 46.0 80.5
+  41.5 80.5 31.25 76.25 31.25 76.25
+  smooth off
+endline
+
+point 32.75 49.5 water-flow -orientation 46.3
+
+line u:sentier
+  173.5 150.0
+  173.5 150.0 176.25 136.75 176.25 133.0
+  176.25 129.25 173.75 124.0 171.5 119.0
+  169.25 114.0 164.75 104.75 162.0 109.25
+  159.25 113.75 154.75 117.75 153.25 119.5
+  151.75 121.25 147.25 120.0 147.5 115.0
+  147.75 110.0 153.0 103.25 148.0 103.25
+  143.0 103.25 139.25 109.0 135.25 110.75
+  131.25 112.5 125.75 119.25 124.5 113.25
+  123.25 107.25 129.5 99.0 127.5 95.5
+  125.5 92.0 120.5 91.25 117.5 91.25
+  114.5 91.25 107.25 92.0 107.25 92.0
+  smooth off
+endline
+
+point 100.5 62.25 cave-pearl
+
+line rock-border -close on
+  86.25 89.75
+  84.5 95.25
+  77.25 94.5
+  78.5 84.25
+  86.25 89.75
+endline
+
+line rock-border -close on
+  75.0 85.5
+  69.5 80.0
+  79.25 77.0
+  84.75 80.75
+  75.0 85.5
+endline
+
+line rock-border -close on
+  96.453 89.7594
+  93.25 94.25
+  86.25 89.75
+  90.0 85.25
+  96.453 89.7594
+endline
+
+line slope
+  137.0 80.75
+  137.0 80.75 110.25 119.0 110.25 131.0
+  l-size 5.0
+endline
+
+line slope
+  146.25 81.25
+  146.25 81.25 119.5 125.0 118.0 136.75
+  l-size 5.0
+endline
+
+line slope
+  163.75 86.5
+  163.75 86.5 130.5 131.25 128.75 145.25
+  l-size 5.0
+endline
+
+line slope
+  184.0 114.25
+  184.0 114.25 167.0 155.5 151.5 158.5
+  l-size 5.0
+endline
+
+line slope
+  170.75 103.5
+  170.75 103.5 148.0 129.5 145.0 142.75
+  l-size 5.0
+endline
+
+line slope
+  179.0 112.25
+  179.0 112.25 149.75 146.5 145.5 156.25
+  l-size 5.0
+endline
+
+line slope
+  36.5 43.25
+  36.5 43.25 68.0 52.75 80.25 35.25
+  l-size 8.0
+endline
+
+line slope
+  39.25 58.0
+  39.25 58.0 73.75 65.0 84.25 46.0
+  l-size 8.0
+endline
+
+line pit
+  60.75 77.75
+  60.75 77.75 65.25 99.25 51.5 100.5
+endline
+
+point 16.5 69.75 water-flow -orientation 238.5
+
+point 21.75 78.25 altitude -align left
+
+point 180.5 194.0 label -text "<it>Lat : -5.87680<br>Long : -78.47840<br>Alt = 1795 m"
+
+line overhang
+  147.75 139.75
+  147.75 139.75 144.0 95.75 155.5 87.5
+endline
+
+point 192.0 153.75 entrance -orientation 239.4
+
+line wall -subtype invisible
+  189.25 112.5
+  189.25 112.5 184.25 146.0 175.0 153.5
+  165.75 161.0 155.0 168.75 155.0 168.75
+  smooth off
+endline
+
+line wall
+  155.0 168.75
+  155.0 168.75 155.0 139.75 147.75 139.75
+  140.5 139.75 135.5 147.0 127.5 139.75
+  119.5 132.5 101.75 114.75 97.0 113.75
+  92.25 112.75 83.0 111.25 76.0 107.5
+  69.0 103.75 21.5 83.75 21.75 78.25
+  22.0 72.75 40.0 64.25 43.5 60.0
+  47.0 55.75 39.5 52.75 41.5 43.75
+  43.5 34.75 57.25 27.25 69.25 35.5
+  81.25 43.75 79.5 52.5 90.25 53.0
+  101.0 53.5 109.75 47.0 114.5 55.25
+  119.25 63.5 118.5 80.5 125.75 83.0
+  133.0 85.5 158.5 84.25 164.25 92.0
+  170.0 99.75 162.75 98.5 167.0 107.0
+  171.25 115.5 177.0 122.5 179.75 121.0
+  182.5 119.5 189.25 112.5 189.25 112.5
+  smooth off
+endline
+
+point 24.01299999999999 78.1094 station -name 1@pblanco
+
+point 96.453 89.7594 station -name 0@pblanco
+
+point 156.183 116.0194 station -name 2@pblanco
+
+point 164.053 105.4294 station -name 3@pblanco
+
+point 176.813 136.9694 station -name 4@pblanco
+
+endscrap
+
+

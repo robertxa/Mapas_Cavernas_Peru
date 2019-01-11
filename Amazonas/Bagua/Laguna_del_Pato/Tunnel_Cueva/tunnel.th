@@ -1,0 +1,20 @@
+encoding utf-8
+
+survey tunnel -title "Cueva del Tunnel"
+
+  centerline
+  	cs lat-long
+  	fix 0	-5.87858	-78.47971	1824
+  	fix 1	-5.87851	-78.48008	1829
+  	
+  	station   0       "entrée 1" entrance
+  	station   1       "entrée 2" entrance
+  	
+    date 2018.11.07
+    	team "Antonio/De Pomar"
+    	team "Xavier Robert"
+    	team "Constance Picque" 
+    	
+  endcenterline
+
+endsurvey
