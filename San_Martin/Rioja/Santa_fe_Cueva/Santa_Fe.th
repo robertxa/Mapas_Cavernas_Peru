@@ -170,4 +170,34 @@ XR2017a-0	9	10.31	310	-33	6	3	3	3	# Jction topo du 19/08/2017, point 9
 
 endcenterline
 
+centerline -title "Santa-Fe 2018"
+
+	date 2018.09.02
+		team "Carol Romero"
+		team "Patricio Raetegui"
+		team "Ana Rodriguez"
+	explo-date 	2018.09.02
+		explo-team "Carol Romero"
+		explo-team "Patricio Raetegui"
+		explo-team "Ana Rodriguez"
+		explo-team "Jean Loup/Guyot"
+		explo-team "James Apaéstegui"
+		explo-team "Marc Pouilly"
+		explo-team "Angela Ampuero"
+		explo-team "Constance Picque"
+
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+CR2018_0	CR2018_1	0	0	0	3.3	1.8	0.8	2.1	
+CR2018_1	XR2017a-68	6.86	277	-39.6	2.6	5.9	1.4	6.7	# Jction depart XR 2017
+XR2017a-68	CR2018_3	3.88	243	1.4	3.8	0	2.8	6
+CR2018_3	CR2018_4	3.85	193	6.5	3.2	0.5	0.7	0.9
+CR2018_4	CR2018_5	2.56	180	23	5.7	2.9	11.1	2
+CR2018_5	CR2018_6	6	304	0	0	0	0	0	# Siphon en septembre 2018
+
+endcenterline
+
 endsurvey

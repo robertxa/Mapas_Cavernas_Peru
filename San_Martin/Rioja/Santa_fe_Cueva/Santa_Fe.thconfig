@@ -306,16 +306,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o th2/santaFe2017.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o th2/SantaFe-coupe2017.xvi
+ export map -fmt xvi -layout xviexport -o th2/santaFe2018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o th2/SantaFe-coupe2018.xvi
   
- export map -o Outputs/2D/SantaFe-plan2017.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o Outputs/2D/SantaFe-coupe2017.pdf
- export model -o Outputs/3D/SantaFe_2017.lox
+ export map -o Outputs/2D/SantaFe-plan2018.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/2D/SantaFe-coupe2018.pdf
+ export model -o Outputs/3D/SantaFe_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Outputs/kmz/SantaFe_2017 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/kmz/SantaFe_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/kmz/SantaFe_2017.kml -layout my_layout
- export model -fmt kml -o Outputs/kmz/SantaFe_2017m.kml
+ export map -proj plan -fmt kml -o Outputs/kmz/SantaFe_2018.kml -layout my_layout
+ export model -fmt kml -o Outputs/kmz/SantaFe_2018m.kml

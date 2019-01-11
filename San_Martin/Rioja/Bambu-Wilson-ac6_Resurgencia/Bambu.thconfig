@@ -110,7 +110,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 17 cm
+	legend-width 19.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -119,7 +119,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 10 nw
+	map-header 0 6 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -159,7 +159,7 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de los Bambus o de Wilson/AC6} 		
+			\cavename={Resurgencia de los Bambus o de Wilson/AC6} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Grupo Bambui de Pesquisas Espeleologicas (GBPE)}
@@ -293,7 +293,7 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de los Bambus o de Wilson/AC6}
+			\cavename={Resurgencia de los Bambus o de Wilson/AC6}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Grupo Bambui de Pesquisas Espeleologicas (GBPE)}

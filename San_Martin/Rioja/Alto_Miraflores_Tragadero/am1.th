@@ -1,0 +1,34 @@
+encoding utf-8
+
+survey AM1 -title "Tragadero AM1" -entrance "0"
+   
+centerline -title "AM1"
+	cs lat-long
+	fix 0	-5.91490	-77.39055	1420
+
+	date 2018.09.01
+		team "Carol Romero"
+		team "Angela Ampuero"
+	explo-date 2018.09.01
+		explo-team "Carol Romero"
+		explo-team "Angela Ampuero"
+		explo-team "James Apaéstegui"
+
+	units lenght meters
+	units compass degrees	# Compass estimé car pas dans les données topos
+	units clino degrees
+   
+data normal from to length compass clino left right up down
+0	1	4.6	319.9	-15.6	0	1.9	0.6	1.2
+1	2	11.6	44.7	-38.8	0	1.6	1.4	1.4
+2	3	4.8	76.1	-26.8	0.3	0.3	1	0.7
+3	4	4.6	56.6	-45.1	0.5	0.4	0.7	0.4
+4	5	5.6	66.6	-54.5	1.9	0.4	4.6	0.7
+5	6	8.8	42.2	-42.2	1.2	0.4	7	2.2
+5	7	7.87	40.6	16.3	1.9	0.4	4.5	0.7	# suite ici au sommet de l'escalade
+
+
+
+endcenterline
+
+endsurvey

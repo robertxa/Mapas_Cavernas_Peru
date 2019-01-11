@@ -4,7 +4,7 @@ survey amor -title "Cueva del Amor" -entrance "0"
    
 centerline -title "Amor"
 	cs lat-long
-	#fix 0	
+	fix 0	-5.96418	-77.34824	1000
 
 	date 2018.09.03
 		team "Marc Pouilly"
