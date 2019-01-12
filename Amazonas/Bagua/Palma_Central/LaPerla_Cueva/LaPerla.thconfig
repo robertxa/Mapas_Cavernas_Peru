@@ -15,7 +15,7 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source laperla.th
-#source lechuza.th2
+source laperla.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -109,7 +109,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 18 cm
+	legend-width 14.5 cm
 	#legend-columns 3
 
     
@@ -120,7 +120,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 80 94 nw
+	map-header 70 50 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -129,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -165,6 +165,7 @@ layout my_layout
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Jocelyn Herredia}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Bagua 2018}
 	endcode    
@@ -297,6 +298,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Jocelyn Herredia}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Bagua 2018}
 	endcode  

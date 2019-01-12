@@ -16,8 +16,8 @@ survey olaya2 -title "Caverna Olaya de Perlamayo"
 endsurvey
 
 input th2/olaya.th2
-#input th2/olaya3.th2    # Siphon
-#join olaya-sp3 olaya-sp4
-#input th2/olaya2.th2    # Grosse galerie
-#join olaya-sp2 olaya-sp5 -count 3
+input th2/olaya3.th2    # Siphon
+join olaya-sp3 olaya-sp4
+input th2/olaya2.th2    # Grosse galerie
+join olaya-sp2 olaya-sp5 -count 3
 

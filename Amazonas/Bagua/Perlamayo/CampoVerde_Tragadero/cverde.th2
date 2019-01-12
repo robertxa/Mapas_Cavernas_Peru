@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 954.7721 561.0711
+##XTHERION## xth_me_area_adjust -128.375 -128.375 954.7721 561.0711
 ##XTHERION## xth_me_area_zoom_to 800
 ##XTHERION## xth_me_image_insert {253.702 1 1.0} {386.30100000000004 0} cverde2018.xvi 0 {}
 
@@ -607,7 +607,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   353.75 155.125
   353.75 155.125 359.5 157.5 360.625 156.625
   361.75 155.75 364.88 152.5 367.125 150.875
@@ -953,7 +953,7 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line wall -subtype unsurveyed
+line wall -subtype unsurveyed -outline in
   377.75 131.875
   377.75 131.875 355.75 129.62 351.0 132.625
   346.25 135.62 335.0 150.5 331.375 154.125
@@ -964,7 +964,7 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line wall
+line wall -outline in
   347.375 180.125
   347.375 180.125 358.62 160.38 359.5 158.75
   360.38 157.12 357.24 157.0 356.62 157.0
@@ -972,7 +972,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   330.125 205.5
   330.125 205.5 334.62 205.0 337.125 205.0
   339.62 205.0 340.75 203.75 342.875 203.75
@@ -1150,6 +1150,7 @@ line slope
   533.25 242.75
   533.25 242.75 524.88 241.5 523.375 240.25
   521.88 239.0 506.62 229.12 506.0 226.875
+  smooth off
   l-size 5.0
 endline
 
@@ -1170,6 +1171,7 @@ line slope
   527.875 247.5 517.38 250.5 515.375 252.625
   513.38 254.75 507.38 258.38 503.0 255.25
   498.62 252.12 492.12 246.75 492.125 242.625
+  smooth off
   l-size 5.0
 endline
 
@@ -1178,16 +1180,19 @@ point 492.125 246.5 altitude -align left
 line flowstone
   513.875 265.125
   513.875 265.125 500.12 255.38 493.5 258.375
+  smooth off
 endline
 
 line flowstone
   512.5 271.125
   512.5 271.125 502.0 261.5 495.75 263.0
+  smooth off
 endline
 
 line flowstone
   512.5 275.625
   512.5 275.625 504.25 266.88 498.25 268.625
+  smooth off
 endline
 
 line chimney -close on
@@ -1211,11 +1216,13 @@ line pit
   523.875 259.125
   523.875 259.125 519.38 258.12 520.5 256.25
   521.62 254.38 525.5 249.5 526.75 249.25
+  smooth off
 endline
 
 line pit
   522.875 260.125
   522.875 260.125 516.75 258.75 515.75 261.25
+  smooth off
 endline
 
 area water
@@ -1361,6 +1368,7 @@ line floor-step
   711.25 118.0
   711.25 118.0 718.5 120.75 719.0 125.875
   719.5 131.0 724.0 141.0 725.375 141.125
+  smooth off
 endline
 
 area blocks
@@ -1392,6 +1400,7 @@ line slope
   555.125 181.25
   555.125 181.25 562.67 176.2 565.375 174.5
   568.75 172.38 573.25 168.5 574.75 166.375
+  smooth off
   l-size 5.0
 endline
 
@@ -1404,6 +1413,7 @@ line slope
   639.88 155.25 626.0 158.5 619.375 160.875
   612.75 163.25 581.75 175.88 578.75 179.5
   575.75 183.12 564.12 193.12 563.0 194.125
+  smooth off
   l-size 5.0
 endline
 
