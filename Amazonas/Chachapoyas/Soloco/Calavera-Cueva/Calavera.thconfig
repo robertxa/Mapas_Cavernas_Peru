@@ -16,7 +16,7 @@ encoding  utf-8
 # "nomcavite.th2")
 source calavera.th
 source calaveraJYB.th2
-#source areniscas-coupe.th2
+source calaveraJYB-coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -239,7 +239,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -257,8 +257,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  

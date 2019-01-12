@@ -48,7 +48,7 @@ extend left
     	explo-team "Jean Loup/Guyot"
     
     cs lat-long
-    #fix 14	 -6.32197	-77.76232	3037
+    #fix 22	 -6.32197	-77.76232	3037
     
     units length meters
     units compass clino degrees

@@ -41,6 +41,8 @@ encoding  utf-8
 # 	- boue/mud (u:boue)
 #	- guano (u:guano)
 #	- chauves-souris/bats (u:bats)
+#	- tronc/tree-trunk (u:tronc)
+#	- feuilles/tree-leaves (u:feuilles)
 
 
 #<en> change the names for the legend
@@ -83,6 +85,14 @@ text es "area u:guano" "guano"
 text fr "area u:boue" "lac de boue"
 text en "area u:boue" "mud lake"
 text es "area u:boue" "lago de barro"
+
+text fr "area u:tronc" "tronc d'arbre"
+text en "area u:tronc" "Tree trunk"
+text es "area u:tronc" "tronca de árbol"
+
+text fr "area u:feuilles" "feuilles/feuillage"
+text en "area u:feuilles" "tree leaves"
+text es "area u:feuilles" "Hojas de árbol"
 
 text en "line u:sentier" "trail"
 text fr "line u:sentier" "sentier"
@@ -506,8 +516,12 @@ layout drawingconfig
 			thfill p withcolor (0.53, 0.26, 0.11);
 		enddef;
 		
-		#<en> To change color of a tree-trunc
+		#<en> To change color of a tree-trunk
+		#     I advise to use a line "border" to delimit the area
+		#	  If used with tree-leaves, add the option -place top
 		#<fr> Pour modifier la couleur de l'aire tronc
+		#	  Je suggère d'utiliser une ligne "border/bord" pour délimiter l'aire
+		#	  Si utilisé conjointement avec l'aire feuilles d'arbres, utiliser l'option -place top
 		def a_u_tronc (expr p) =
 			T:=identity;
 			thfill p withcolor (0.62, 0.24, 0.05);

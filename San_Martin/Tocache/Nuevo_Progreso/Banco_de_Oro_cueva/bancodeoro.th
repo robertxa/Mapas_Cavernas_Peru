@@ -4,7 +4,7 @@ survey banco -title "Cueva del Banco de Oro" -entrance "0"
    
 centerline -title "banco de oro"
 	cs lat-long
-	#fix 0	
+	fix 0	-8.50632	-76.29852	580
 	
 	date 2018.09.11
 		team "Jean-Yves Bigot"
