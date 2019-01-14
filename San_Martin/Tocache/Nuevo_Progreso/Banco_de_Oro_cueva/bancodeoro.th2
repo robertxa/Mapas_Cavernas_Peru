@@ -145,18 +145,21 @@ endline
 line water-flow
   78.0 -1653.0
   78.0 -1653.0 -16.0 -1740.0 -36.0 -1772.0
+  smooth off
 endline
 
 line water-flow
   702.0 -884.0
   702.0 -884.0 669.0 -1067.0 705.0 -1188.0
   741.0 -1309.0 740.0 -1327.0 739.0 -1349.0
+  smooth off
 endline
 
 line water-flow
   1356.0 -517.0
   1356.0 -517.0 1216.0 -706.0 1175.0 -707.0
   1134.0 -708.0 1031.0 -661.0 1012.0 -658.0
+  smooth off
 endline
 
 point 1595.0 -82.0 water-flow -orientation 231.0
@@ -269,6 +272,24 @@ line label -id l17-1566--174 -close on
   1565.0 -177.0
 endline
 
+line slope
+  924.0 -577.0
+  924.0 -577.0 989.0 -419.0 945.0 -394.0
+  l-size 15.0
+endline
+
+line slope
+  955.0 -515.0
+  955.0 -515.0 1004.0 -438.0 965.0 -387.0
+  l-size 15.0
+endline
+
+line slope
+  971.0 -527.0
+  971.0 -527.0 1036.0 -468.0 1016.0 -410.0
+  l-size 15.0
+endline
+
 line wall
   145.0 -1888.0
   145.0 -1888.0 277.0 -1836.0 305.0 -1819.0
@@ -334,11 +355,13 @@ point 282.0 -1082.0 entrance -orientation 130.2
 line pit
   584.0 -1669.0
   584.0 -1669.0 608.0 -1632.0 635.0 -1623.0
+  smooth off
 endline
 
 line pit
   513.0 -1733.0
   513.0 -1733.0 527.0 -1714.0 556.0 -1701.0
+  smooth off
 endline
 
 line wall -close on -outline in
@@ -367,6 +390,7 @@ line overhang
   337.0 -1542.0 310.0 -1492.0 287.0 -1495.0
   264.0 -1498.0 240.0 -1481.0 186.0 -1510.0
   132.0 -1539.0 78.0 -1561.0 59.0 -1579.0
+  smooth off
 endline
 
 line overhang -close on
