@@ -24,7 +24,7 @@ Description
 
 This repository stores the surveys database of numerous caves of Perú. The files are for Visual Topo (data) and/or Therion (data + drawings) softwares.
 
-Only the source files are backup (For reasons of folder size, I choose to not upload the main-made sketches) :
+Only the source files are backup (For reasons of folder size, I choose to not upload the main-made paper-sketches) :
 
 	* .tro for Visual Topo Software
 	
