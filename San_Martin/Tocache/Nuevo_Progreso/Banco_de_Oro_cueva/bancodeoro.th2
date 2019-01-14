@@ -325,7 +325,7 @@ point -275.0 -1461.0 label -text "<it>Lat-8.50632<br>Long : -76.29852<br>Alt = 5
 
 point 145.0 -1888.0 altitude -align bottom
 
-point -172.0 -2054.0 label -text "<center>quabrada<br>Añañauchi"
+point -172.0 -2054.0 label -text "<center>quebrada<br>Añañauchi"
 
 point 27.0 -1804.0 entrance -orientation 59.3
 
