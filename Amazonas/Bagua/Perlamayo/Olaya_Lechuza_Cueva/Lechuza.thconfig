@@ -160,7 +160,8 @@ layout my_layout
 			\cavename={Cueva de la Lechuza} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asocición de Montañismo UNAM}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM, Spéléo Club de la Vallée de la Vis (SCVV)}
+	#\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
 	\newtoks\synth \synth={Xavier Robert}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018, Bagua 2018}
@@ -292,7 +293,7 @@ layout my_layout-coupe
 			\cavename={Cueva de la Lechuza} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asosiación de Montañismo UNAM}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM, Spéléo Club de la Vallée de la Vis (SCVV)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018, Bagua 2018}
