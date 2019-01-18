@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source n_holanda.th
-source nholanda.th2
+source metal.th
+source metal.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de Nuevo Holanda"
+	doc-title "Cueva Metal"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -55,7 +55,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1250
+	base-scale 1 1350
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -91,7 +91,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rosa Pampa, Bagua Grande, Amazonas, Perú"
+	map-comment "Corosha, Bongará, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -118,7 +118,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 50 35 nw
+	map-header 63 100 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -158,10 +158,10 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Nuevo Holanda} 		
+			\cavename={Cueva Metal} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018}
@@ -178,7 +178,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Cueva de la Lechuza"
+	doc-title "Cueva Metal"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -225,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Perla Mayo, Bagua Grande, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Corosha, Bongará, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -290,10 +290,10 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de la Lechuza} 		
+			\cavename={Cueva Metal} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018}
@@ -304,16 +304,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o nholanda2018.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o nholanda-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o metal2018.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o metal-coupe2018.xvi
   
- export map -o nholanda-plan2018.pdf -layout my_layout
-# export map -projection extended -layout my_layout-coupe -o nholanda-coupe2018.pdf
- export model -o nholanda_2018.lox
+ export map -o metal-plan2018.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o metal-coupe2018.pdf
+ export model -o metal_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o nholanda_2018 -layout my_layout
+ export map -proj plan -fmt esri -o metal_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o nholanda_2018.kml -layout my_layout
- export model -fmt kml -o nholanda_2018m.kml
+ export map -proj plan -fmt kml -o metal_2018.kml -layout my_layout
+ export model -fmt kml -o metal_2018m.kml

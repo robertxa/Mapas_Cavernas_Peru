@@ -5,7 +5,7 @@ survey nholanda -title "Cueva de Nuevo Holanda" -entrance 0
   centerline
     date 2018.08.25
     	team "Xavier Robert"
-    	team "Jean-Yves Bigot"
+    	#team "Jean-Yves Bigot"
     	team "Constance Picque"
     	team "Hugo Salgado"
     	team "Araceli Torrejon"
