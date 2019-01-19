@@ -1,0 +1,12 @@
+encoding utf-8
+
+#survey calaveratot -title "Cueva de la Calavera"
+	input calavera.th
+	
+#endsurvey
+
+input th2/calaveraJYB.th2
+#input th2/calaveraJLG.th2
+
+input th2/calaveraJYB-coupe.th2
+#input th2/calaveraJLG-coupe.th2

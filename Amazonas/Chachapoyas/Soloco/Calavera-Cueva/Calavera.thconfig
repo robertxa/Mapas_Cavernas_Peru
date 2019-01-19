@@ -14,9 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source calavera.th
-source calaveraJYB.th2
-source calaveraJYB-coupe.th2
+source calavera-tot.th
 
 # Add config file
 input ../../../../config.thc 
@@ -301,8 +299,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o calavera2018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o calavera-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o th2/calavera2018.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o th2/calavera-coupe2018.xvi
   
  export map -o calavera-plan2018.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o calavera-coupe2018.pdf

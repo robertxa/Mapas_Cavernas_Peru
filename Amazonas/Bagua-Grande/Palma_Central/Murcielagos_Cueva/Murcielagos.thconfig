@@ -165,7 +165,7 @@ layout my_layout
 	\newtoks\synth \synth={}
 	\newtoks\guide \guide={Jocelyn Herredia}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Bagua 2018}
+	\newtoks\expe \expe={Amazonas 2018}
 	endcode    
 
 endlayout
@@ -298,7 +298,7 @@ layout my_layout-coupe
 	\newtoks\synth \synth={}
 	\newtoks\guide \guide={Jocelyn Herredia}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Bagua 2018}
+	\newtoks\expe \expe={Amazonas 2018}
 	endcode  
   
 endlayout
