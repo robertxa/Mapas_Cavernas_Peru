@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source 3n_cortas.th
-source 3nc.th2
+source 3n_grande.th
+source 3ngrande.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -25,9 +25,9 @@ input ../../../../config.thc
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 500
+	scale 1 1000
 	# taille de la grille
-	grid-size 5 5 5 m
+	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de los Tres Najanros Cortas"
+	doc-title "Cueva de los Tres Najanros Grande"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -55,7 +55,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 350
+	base-scale 1 1250
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,10 +66,10 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 250
+	scale 1 1000
 
 	# echelle graphique 100 m ampleur
-	scale-bar 25 m
+	scale-bar 100 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -107,7 +107,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 14.5 cm
+	legend-width 15 cm
 	#legend-columns 3
 
     
@@ -158,7 +158,7 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de los Tres Najanros Cortas} 		
+			\cavename={Cueva Grande de las Tres Naranjas} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
@@ -296,7 +296,6 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
 	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Abundio Sanchez Delgado}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018}
 	endcode  
@@ -306,16 +305,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o 3nc2018.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o 3nc-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o 3ngrande2018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o 3n1-coupe2018.xvi
   
- export map -o 3nc-plan2018.pdf -layout my_layout
-# export map -projection extended -layout my_layout-coupe -o 3nc-coupe2018.pdf
- export model -o 3nc_2018.lox
+ export map -o 3ngrande-plan2018.pdf -layout my_layout
+# export map -projection extended -layout my_layout-coupe -o 3n1-coupe2018.pdf
+ export model -o 3ngrande_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o 3nc_2018 -layout my_layout
+ export map -proj plan -fmt esri -o 3ngrande_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o 3nc_2018.kml -layout my_layout
- export model -fmt kml -o 3nc_2018m.kml
+ export map -proj plan -fmt kml -o 3ngrande_2018.kml -layout my_layout
+ export model -fmt kml -o 3ngrande_2018m.kml
