@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source 3n_cortas.th
-source 3nc.th2
+source 3n1.th
+source 3n1.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de los Tres Najanros Cortas"
+	doc-title "Cueva de los Tres Najanros 1"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -91,7 +91,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rosapampa, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "Rosa Pampa, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -158,7 +158,7 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva Corta de las Tres Naranjas} 		
+			\cavename={Cueva 1  de las Tres Naranjas} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
@@ -226,7 +226,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Perla Mayo, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Rosa Pampa, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -296,7 +296,6 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
 	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Abundio Sanchez Delgado}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018}
 	endcode  
@@ -306,16 +305,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o 3nc2018.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o 3nc-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o 3n12018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o 3n1-coupe2018.xvi
   
- export map -o 3nc-plan2018.pdf -layout my_layout
-# export map -projection extended -layout my_layout-coupe -o 3nc-coupe2018.pdf
- export model -o 3nc_2018.lox
+ export map -o 3n1-plan2018.pdf -layout my_layout
+# export map -projection extended -layout my_layout-coupe -o 3n1-coupe2018.pdf
+ export model -o 3n1_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o 3nc_2018 -layout my_layout
+ export map -proj plan -fmt esri -o 3n1_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o 3nc_2018.kml -layout my_layout
- export model -fmt kml -o 3nc_2018m.kml
+ export map -proj plan -fmt kml -o 3n1_2018.kml -layout my_layout
+ export model -fmt kml -o 3n1_2018m.kml

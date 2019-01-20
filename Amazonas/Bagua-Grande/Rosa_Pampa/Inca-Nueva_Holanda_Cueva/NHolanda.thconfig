@@ -91,7 +91,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rosapampa, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "Rosa Pampa, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -225,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Rosapampa, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Rosa Pampa, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs

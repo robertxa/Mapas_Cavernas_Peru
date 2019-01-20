@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source peces_blancos.th
-#source lechuza.th2
+source 3n_cortas.th
+source 3nc.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -25,9 +25,9 @@ input ../../../../config.thc
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 1000
+	scale 1 500
 	# taille de la grille
-	grid-size 10 10 10 m
+	grid-size 5 5 5 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Tragadero de los Peces Blancos"
+	doc-title "Cueva de los Tres Najanros Cortas"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -55,7 +55,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 750
+	base-scale 1 350
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,12 +66,10 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	#scale 1 1000
-	scale 1 500
+	scale 1 250
 
 	# echelle graphique 100 m ampleur
-	#scale-bar 100 m
-	scale-bar 50 m
+	scale-bar 25 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -93,7 +91,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rosapampa, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "Rosa Pampa, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -109,7 +107,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 18 cm
+	legend-width 14.5 cm
 	#legend-columns 3
 
     
@@ -120,7 +118,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 110 94 nw
+	map-header 100 100 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -129,8 +127,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -160,10 +158,10 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de los Peces Blancos \smallbreak o de Rosapampa} 		
+			\cavename={Cueva Corta de las Tres Naranjas} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
 	\newtoks\guide \guide={Abundio Sanchez Delgado}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
@@ -181,7 +179,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero de los Peces Blancos"
+	doc-title "Cueva de la Lechuza"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -228,7 +226,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Rosapampa, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Rosa Pampa, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -293,12 +291,12 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de los Peces Blancos \smallbreak o de Rosapampa} 		
+			\cavename={Cueva de la Lechuza} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
-	\newtoks\guide \guide={Abundio Sanchez Delgado}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Abundio Sanchez Delgado}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018}
 	endcode  
@@ -308,16 +306,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o peces2018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o peces-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o 3nc2018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o 3nc-coupe2018.xvi
   
- export map -o peces-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o peces-coupe2018.pdf
- export model -o peces_2018.lox
+ export map -o 3nc-plan2018.pdf -layout my_layout
+# export map -projection extended -layout my_layout-coupe -o 3nc-coupe2018.pdf
+ export model -o 3nc_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o peces_2018 -layout my_layout
+ export map -proj plan -fmt esri -o 3nc_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o peces_2018.kml -layout my_layout
- export model -fmt kml -o peces_2018m.kml
+ export map -proj plan -fmt kml -o 3nc_2018.kml -layout my_layout
+ export model -fmt kml -o 3nc_2018m.kml
