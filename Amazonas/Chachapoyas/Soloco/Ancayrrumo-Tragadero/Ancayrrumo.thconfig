@@ -16,7 +16,7 @@ encoding  utf-8
 # "nomcavite.th2")
 source ancayrrumo.th
 source ancayrrumo.th2
-#source areniscas-coupe.th2
+source ancayrrumo-coupe-XR.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -239,7 +239,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 20 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -248,7 +248,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 0 nw
+	map-header 0 -5 nw
 	#map-header 50 50 sw
 
 	# arrière plan de la manchette
@@ -257,8 +257,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -301,7 +301,7 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o ancayrrumo2018.xvi
+ #export map -fmt xvi -layout xviexport -o ancayrrumo2018.xvi
  export map -projection extended -fmt xvi -layout xviexport -o ancayrrumo-coupe2018.xvi
   
  export map -o ancayrrumo-plan2018.pdf -layout my_layout

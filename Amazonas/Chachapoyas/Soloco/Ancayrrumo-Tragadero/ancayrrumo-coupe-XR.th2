@@ -1,0 +1,486 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -128.75 579.25 510.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {393.706 1 1.0} {157.478 0} ancayrrumo-coupe2018.xvi 0 {}
+
+
+
+scrap ancay-SP-2 -projection extended -author 2018 "Xavier Robert" -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
+
+line border
+  245.0 124.25
+  245.0 124.25 214.5 122.25 209.75 122.25
+  205.0 122.25 190.75 127.5 184.5 127.5
+  178.25 127.5 140.75 126.25 140.75 126.25
+  smooth off
+endline
+
+line water-flow
+  249.75 112.0
+  249.75 112.0 188.5 107.0 185.0 106.5
+  smooth off
+endline
+
+line water-flow
+  346.5 122.25
+  346.5 122.25 298.0 116.0 292.5 114.75
+  smooth off
+endline
+
+point 387.5 138.0 vegetable-debris
+
+point 382.0 140.5 vegetable-debris
+
+point 385.5 125.5 vegetable-debris
+
+area u:tronc
+  l60-382-146
+endarea
+
+line border -id l60-382-146 -close on
+  375.75 138.75
+  378.0 137.5
+  381.25 142.0
+  384.0 143.0
+  380.5 143.0
+  381.75 146.25
+  377.75 140.0
+  375.75 138.75
+endline
+
+area u:tronc
+  l58-388-136
+endarea
+
+line border -id l58-388-136 -close on
+  384.0 137.0
+  388.0 133.5
+  387.5 135.5
+  384.25 139.5
+  384.0 137.0
+endline
+
+area u:tronc
+  l56-383-142
+endarea
+
+line border -id l56-383-142 -close on
+  383.0 141.75
+  382.75 137.5
+  384.25 139.5
+  383.0 141.75
+endline
+
+area u:tronc
+  l54-384-138
+endarea
+
+line border -id l54-384-138 -close on
+  380.5 140.25
+  384.25 135.0
+  384.0 137.0
+  380.5 140.25
+endline
+
+area water
+  l52-422-128
+endarea
+
+line label -id l52-422-128 -close on
+  400.5 125.75
+  400.5 125.75 422.0 124.75 422.0 127.75
+  422.0 130.75 422.5 138.0 418.75 137.75
+  415.0 137.5 386.25 134.0 383.0 133.25
+  379.75 132.5 349.25 128.75 344.5 128.5
+  339.75 128.25 311.25 124.75 305.5 124.5
+  299.75 124.25 266.5 120.25 260.75 120.25
+  255.0 120.25 240.75 118.75 231.75 117.25
+  222.75 115.75 198.75 113.5 193.75 113.25
+  188.75 113.0 181.25 111.75 179.25 111.5
+  177.25 111.25 170.25 107.0 170.25 107.0
+  smooth off
+  298.5 116.5
+  400.5 125.75
+endline
+
+line rock-border -close on
+  349.0 130.75
+  347.5 128.5
+  352.0 128.5
+  351.25 131.0
+  349.0 130.75
+endline
+
+line rock-border -close on
+  353.25 132.0
+  352.25 130.25
+  355.5 130.0
+  355.75 132.25
+  353.25 132.0
+endline
+
+line rock-border -close on
+  373.25 139.25
+  372.0 137.0
+  376.5 136.0
+  376.5 140.0
+  373.25 139.25
+endline
+
+line rock-border -close on
+  378.0 137.5
+  374.5 132.75
+  380.5 132.0
+  382.0 135.25
+  378.0 137.5
+endline
+
+line rock-border -close on
+  366.0 138.5
+  364.5 134.75
+  370.25 135.5
+  369.25 139.0
+  366.0 138.5
+endline
+
+line rock-border -close on
+  366.5 133.25
+  360.25 135.25
+  359.0 130.5
+  363.0 130.0
+  366.5 133.25
+endline
+
+line rock-border -close on
+  368.25 134.5
+  365.0 130.0
+  373.75 131.5
+  372.75 134.75
+  368.25 134.5
+endline
+
+line wall
+  344.5 127.0
+  344.5 127.0 384.75 131.5 391.25 133.25
+  397.75 135.0 403.75 134.5 408.25 135.0
+  412.75 135.5 420.5 135.75 420.5 135.75
+  smooth off
+endline
+
+line wall -subtype debris
+  301.0 122.5
+  301.0 122.5 316.25 123.5 323.25 124.75
+  330.25 126.0 344.5 127.0 344.5 127.0
+  smooth off
+endline
+
+line wall -outline in -subtype debris
+  120.0 148.5
+  120.0 148.5 119.75 156.0 121.0 160.0
+  122.25 164.0 124.75 167.75 124.75 167.75
+  smooth off
+endline
+
+line wall -outline in
+  124.75 167.75
+  124.75 167.75 126.5 175.25 128.25 173.75
+  130.0 172.25 133.5 171.0 133.0 167.75
+  132.5 164.5 130.5 159.5 130.25 155.75
+  130.0 152.0 131.5 142.0 128.25 142.75
+  125.0 143.5 120.5 145.75 120.0 148.5
+  smooth off
+endline
+
+area u:galerie
+  l42-196-122
+endarea
+
+area u:galerie
+  l29-216-131
+endarea
+
+line wall -id l29-216-131 -close on -outline none
+  212.75 137.0
+  212.75 137.0 207.78 133.06 208.0 128.75
+  208.25 123.75 206.5 123.25 206.5 123.25
+  smooth off
+  212.25 124.5
+  212.25 124.5 215.75 127.75 215.5 130.75
+  215.25 133.75 212.75 137.0 212.75 137.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  420.5 135.75
+  420.5 135.75 417.0 175.5 411.75 177.75
+  smooth off
+endline
+
+line wall -subtype invisible
+  282.25 174.25
+  282.25 174.25 278.5 182.25 273.25 181.75
+  smooth off
+endline
+
+line wall -subtype invisible
+  316.5 328.75
+  316.5 328.75 305.75 357.5 302.5 364.0
+  299.25 370.5 288.5 381.75 288.5 381.75
+  smooth off
+endline
+
+line wall -subtype debris
+  106.0 159.0
+  106.0 159.0 101.25 138.0 108.25 133.5
+  115.25 129.0 126.25 120.75 131.25 117.75
+  136.25 114.75 139.25 110.75 147.25 110.75
+  155.25 110.75 168.75 110.5 174.0 110.5
+  179.25 110.5 185.0 110.5 185.0 110.5
+  smooth off
+endline
+
+line wall
+  288.5 381.75
+  288.5 381.75 304.0 357.25 300.75 353.0
+  297.5 348.75 274.0 334.25 261.0 326.75
+  248.0 319.25 214.5 296.25 203.75 288.25
+  193.0 280.25 149.25 260.0 146.75 249.5
+  144.25 239.0 132.75 197.75 127.5 192.25
+  122.25 186.75 107.75 188.5 107.25 181.0
+  106.75 173.5 105.75 163.75 106.0 159.0
+  smooth off
+endline
+
+line wall
+  273.25 181.75
+  273.25 181.75 248.75 168.25 235.75 163.25
+  222.75 158.25 193.51 151.86 185.5 147.75
+  145.5 127.25 151.25 163.75 156.5 166.25
+  smooth off
+endline
+
+point 420.5 135.75 altitude -align bottom-right
+
+line arrow
+  430.0 219.75
+  430.0 219.75 452.45 198.42 450.25 186.25
+  446.5 165.5 441.5 166.75 441.5 166.75
+  smooth off
+endline
+
+point 410.0 233.5 label -text "<it>Lat : -6.32078<br>Long : -77.76070<br> Alt = 3040 m"
+
+point 322.0 353.75 entrance -orientation 235.4
+
+point 433.5 163.5 entrance -orientation 260.4
+
+point 290.75 188.0 entrance -orientation 229.0
+
+line wall -id l42-196-122 -close on -outline none
+  193.75 127.5
+  193.75 127.5 190.75 122.5 191.25 119.5
+  191.75 116.5 192.25 116.5 193.75 117.0
+  195.25 117.5 196.0 119.0 196.0 121.0
+  196.0 123.0 193.75 127.5 193.75 127.5
+  smooth off
+endline
+
+point 81.75 157.25 height -value [+8 m]
+
+line arrow
+endline
+
+point 229.5 194.0 altitude -align bottom-right
+
+line wall -subtype debris
+  156.5 166.25
+  168.94 172.17 223.25 188.5 229.5 194.0
+  smooth off
+endline
+
+line wall
+  229.5 194.0
+  235.75 199.5 262.0 242.75 269.5 253.25
+  277.0 263.75 294.75 284.0 298.5 292.25
+  302.25 300.5 304.75 327.75 307.5 331.25
+  310.25 334.75 314.75 330.25 316.5 328.75
+  smooth off
+endline
+
+line wall
+  411.75 177.75
+  411.75 177.75 356.0 154.75 343.75 154.75
+  331.5 154.75 302.75 148.25 297.0 149.25
+  291.25 150.25 266.75 153.25 271.75 157.0
+  276.75 160.75 282.25 174.25 282.25 174.25
+  smooth off
+endline
+
+line wall
+  185.0 110.5
+  185.0 110.5 228.75 115.0 236.5 116.5
+  244.25 118.0 258.0 118.25 265.0 119.25
+  272.0 120.25 296.25 122.5 301.0 122.5
+  smooth off
+endline
+
+point 229.006 207.638 station -name 14@ancayrrumo
+
+point 149.866 175.668 station -name 13@ancayrrumo
+
+point 127.766 180.318 station -name 12@ancayrrumo
+
+point 105.786 147.798 station -name 11@ancayrrumo
+
+point 141.036 132.048 station -name 10@ancayrrumo
+
+point 184.126 138.898 station -name 9@ancayrrumo
+
+point 248.126 131.028 station -name 3@ancayrrumo
+
+point 308.536 141.728 station -name 2@ancayrrumo
+
+point 393.706 157.478 station -name 0@ancayrrumo
+
+endscrap
+
+
+
+scrap ancay-SP-3 -projection extended -author 2018 "Xavier Robert" -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
+
+line wall
+  107.25 105.0
+  107.25 105.0 115.0 105.0 116.75 104.5
+  smooth off
+endline
+
+point 107.25 105.0 altitude -align bottom
+
+point 95.25 126.0 air-draught -orientation 270.0
+
+point 96.75 114.25 continuation -attr Code S -text "Siphon temporaire à revoir ; courant d'air"
+
+area sump
+  l81-147-99
+endarea
+
+line label -id l81-147-99 -close on
+  147.0 99.0
+  163.25 104.25
+  146.0 110.5
+  132.5 111.0
+  132.5 98.0
+  147.0 99.0
+endline
+
+area water
+  l79-133-98
+endarea
+
+line label -id l79-133-98 -close on
+  132.5 111.0
+  107.0 110.25
+  107.25 99.25
+  132.5 98.0
+  132.5 111.0
+endline
+
+area water
+  l77-180-104
+endarea
+
+line label -id l77-180-104 -close on
+  184.25 112.0
+  184.25 112.0 169.75 111.0 166.0 111.0
+  162.25 111.0 146.0 110.5 146.0 110.5
+  smooth off
+  163.25 104.25
+  179.75 103.75
+  184.25 112.0
+endline
+
+line wall -subtype pebbles
+  116.75 104.5
+  118.5 104.0 122.5 102.5 129.5 102.5
+  136.5 102.5 149.75 104.0 159.75 104.75
+  smooth off
+endline
+
+line wall
+  159.75 104.75
+  169.75 105.5 171.0 107.75 175.0 108.5
+  179.0 109.25 189.25 116.0 193.75 117.0
+  smooth off
+endline
+
+line wall
+  193.75 127.5
+  193.75 127.5 171.75 125.75 163.75 125.75
+  155.75 125.75 148.25 126.75 144.25 126.25
+  140.25 125.75 148.0 114.75 148.5 112.75
+  149.0 110.75 150.5 107.5 145.25 107.5
+  140.0 107.5 133.75 109.25 127.0 111.5
+  120.25 113.75 107.0 118.25 107.0 118.25
+  smooth off
+endline
+
+point 148.286 118.898 station -name 8@ancayrrumo
+
+point 181.486 124.098 station -name 7@ancayrrumo
+
+endscrap
+
+
+
+scrap ancay-SP-1 -projection extended -author 2018 "Xavier Robert" -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
+
+point 379.25 191.25 entrance -orientation 238.0
+
+line wall -subtype invisible
+  376.5 162.5
+  376.5 162.5 365.5 170.25 365.5 177.75
+  365.5 185.25 363.5 206.5 361.75 207.5
+  360.0 208.5 358.75 208.5 358.75 208.5
+  smooth off
+endline
+
+line wall
+  348.75 157.75
+  348.75 157.75 366.0 162.5 369.5 162.5
+  373.0 162.5 376.5 162.5 376.5 162.5
+  smooth off
+endline
+
+line wall -subtype debris
+  267.75 138.5
+  267.75 138.5 304.25 149.75 309.0 150.75
+  313.75 151.75 326.25 153.75 332.25 153.75
+  338.25 153.75 348.75 157.75 348.75 157.75
+  smooth off
+endline
+
+line wall
+  212.25 124.5
+  212.25 124.5 264.75 138.0 267.75 138.5
+  smooth off
+endline
+
+line wall
+  358.75 208.5
+  358.75 208.5 361.75 199.0 357.75 198.75
+  353.75 198.5 349.0 198.5 332.75 192.5
+  316.5 186.5 275.5 178.5 267.75 173.75
+  260.0 169.0 238.75 148.5 232.5 146.0
+  226.25 143.5 212.75 137.0 212.75 137.0
+  smooth off
+endline
+
+point 212.286 127.878 station -name 4@ancayrrumo
+
+point 267.75600000000003 140.708 station -name 5@ancayrrumo
+
+point 349.43600000000004 170.468 station -name 6@ancayrrumo
+
+endscrap
+
+

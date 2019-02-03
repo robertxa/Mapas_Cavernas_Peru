@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -131.0 -2467 1828 140.0
+##XTHERION## xth_me_area_adjust -131.0 -1976.0 1751.0 140.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {Old/calavera bigot/Calavera-Bigot-coupe.ppm} 0 {}
 
@@ -10,6 +10,7 @@ scrap calaJYB-SC1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright
 line border
   998.0 -1582.0
   998.0 -1582.0 997.0 -1653.0 1035.0 -1656.0
+  smooth off
 endline
 
 line wall -outline in -subtype presumed
@@ -27,21 +28,25 @@ line wall -outline in
   1370.0 -1534.0 1335.0 -1561.0 1321.0 -1561.0
   1307.0 -1561.0 1300.0 -1563.0 1300.0 -1552.0
   1300.0 -1541.0 1294.0 -1505.0 1301.0 -1499.0
+  smooth off
 endline
 
 line border
   980.0 -1584.0
   980.0 -1584.0 951.0 -1638.0 989.0 -1672.0
+  smooth off
 endline
 
 line border
   946.0 -1584.0
   946.0 -1584.0 940.0 -1647.0 943.0 -1664.0
+  smooth off
 endline
 
 line border
   929.0 -1582.0
   929.0 -1582.0 907.0 -1649.0 888.0 -1662.0
+  smooth off
 endline
 
 line border
@@ -50,13 +55,18 @@ line border
   913.0 -1574.0 1029.0 -1586.0 1029.0 -1586.0
   smooth off
   1029.0 -1586.0 1049.0 -1644.0 1095.0 -1647.0
+  smooth off
 endline
 
 point 426.0 -1843.0 label -text "<center>bruit de<br>cascade"
 
 point 982.0 -1801.0 label -text "remplissages"
 
-line wall -close on -outline none
+area u:galerie
+  l11-708--1575
+endarea
+
+line wall -id l11-708--1575 -close on -outline none
   688.0 -1520.0
   688.0 -1520.0 670.0 -1543.0 667.0 -1554.0
   664.0 -1565.0 655.0 -1642.0 657.0 -1650.0
@@ -134,12 +144,14 @@ line wall -subtype presumed
   1401.0 -1384.0
   1401.0 -1384.0 1360.0 -1418.0 1344.0 -1435.0
   1328.0 -1452.0 1313.0 -1471.0 1292.0 -1479.0
+  smooth off
 endline
 
 line wall
   1614.0 -1265.0
   1614.0 -1265.0 1520.0 -1301.0 1492.0 -1324.0
   1464.0 -1347.0 1404.0 -1383.0 1401.0 -1384.0
+  smooth off
 endline
 
 point 290.0 -535.0 label -text "<it>Lat : -6.32197<br>Long : -77.76232<br>Alt = 3037 m"
@@ -226,7 +238,11 @@ endscrap
 
 scrap calaJYB-SC2 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
-line wall -close on -outline none
+area u:galerie
+  l43-393--1514
+endarea
+
+line wall -id l43-393--1514 -close on -outline none
   362.0 -1453.0
   362.0 -1453.0 337.0 -1497.0 337.0 -1519.0
   337.0 -1541.0 335.0 -1567.0 341.0 -1571.0

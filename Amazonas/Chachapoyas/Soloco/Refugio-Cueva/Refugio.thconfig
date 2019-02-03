@@ -108,7 +108,7 @@ layout my_layout
 	#legend on
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 18 cm
 	#legend-columns 3
 
     

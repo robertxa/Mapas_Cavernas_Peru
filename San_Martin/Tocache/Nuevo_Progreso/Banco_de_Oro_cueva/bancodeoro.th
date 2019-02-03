@@ -15,10 +15,13 @@ centerline -title "banco de oro"
 	units clino degrees
    
 data normal from to length compass clino left right up down
+extend left
 0          0b                         0.00    0.00    0.00   0.00   0.00   0.00   0.00
 0          2                         6.02   65.00    8.00   0.50   2.00   1.50   1.00
 2          3                         1.92  110.00   20.50   0.50   1.50   0.80   1.50
+extend right
 3          4                         3.98  162.00    9.00   0.40   0.30   0.70   0.80
+extend left
 3          5                         6.97  352.00    0.00   1.30   2.00   1.50   0.60
 5          6                         6.39  353.00    8.00   1.40   2.50   1.00   0.30
 6          7                         9.18   51.00   -2.00   0.20   1.50   0.60   0.50

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -131.0 -2178 1889.0 140.0
+##XTHERION## xth_me_area_adjust -131.0 -2178 1828 140.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {Old/Refugio plan ai/Refugio-plan.ppm} 0 {}
 
@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap refugio-SP1 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2178 1828 -2178 0.0 0.0 49.6824 0.0 m]
 
-point 1756.0 -929.0 label -text "<center>partie humide<br>de l'abri"
+point 1615.0 -865.0 label -text "<center>partie humide<br>de l'abri"
 
 point 825.0 -1772.0 label -text "<center>partie sêche<br>de l'abri"
 
@@ -256,6 +256,7 @@ line slope
   1245.0 -1079.0
   1245.0 -1079.0 1227.0 -917.0 1190.0 -899.0
   1153.0 -881.0 1142.0 -874.0 1098.0 -898.0
+  smooth off
   l-size 15.0
 endline
 
@@ -272,96 +273,112 @@ line slope
   1372.0 -896.0
   1372.0 -896.0 1342.0 -756.0 1298.0 -752.0
   1254.0 -748.0 1222.0 -729.0 1174.0 -767.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1444.0 -732.0
   1444.0 -732.0 1441.0 -621.0 1351.0 -663.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1475.0 -655.0
   1475.0 -655.0 1465.0 -517.0 1369.0 -592.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1472.0 -508.0
   1472.0 -508.0 1424.0 -440.0 1371.0 -502.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1455.0 -388.0
   1455.0 -388.0 1411.0 -355.0 1387.0 -396.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1319.0 -432.0
   1319.0 -432.0 1270.0 -468.0 1280.0 -516.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1350.0 -433.0
   1350.0 -433.0 1303.0 -509.0 1319.0 -549.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1369.0 -310.0
   1369.0 -310.0 1316.0 -364.0 1323.0 -398.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1384.0 -322.0
   1384.0 -322.0 1349.0 -389.0 1350.0 -410.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1275.0 -618.0
   1275.0 -618.0 1191.0 -652.0 1190.0 -675.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1288.0 -640.0
   1288.0 -640.0 1201.0 -691.0 1201.0 -714.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1112.0 -715.0
   1112.0 -715.0 1006.0 -739.0 1001.0 -773.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1129.0 -747.0
   1129.0 -747.0 1021.0 -785.0 1021.0 -832.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1146.0 -785.0
   1146.0 -785.0 1052.0 -827.0 1047.0 -868.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1029.0 -882.0
   1029.0 -882.0 932.0 -955.0 926.0 -986.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1042.0 -892.0
   1042.0 -892.0 947.0 -953.0 940.0 -999.0
+  smooth off
   l-size 15.0
 endline
 
@@ -384,42 +401,49 @@ endline
 line slope
   958.0 -808.0
   958.0 -808.0 870.0 -756.0 835.0 -795.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   958.0 -836.0
   958.0 -836.0 864.0 -785.0 833.0 -844.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   600.0 -1082.0
   600.0 -1082.0 555.0 -1018.0 514.0 -1012.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   583.0 -1120.0
   583.0 -1120.0 522.0 -1032.0 494.0 -1032.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   604.0 -1047.0
   598.0 -1039.0 592.0 -962.0 544.0 -976.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   617.0 -1015.0
   617.0 -1015.0 596.0 -936.0 561.0 -952.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   656.0 -936.0
   656.0 -936.0 613.0 -889.0 584.0 -921.0
+  smooth off
   l-size 15.0
 endline
 
@@ -427,18 +451,21 @@ line slope
   663.0 -905.0
   663.0 -905.0 657.0 -831.0 641.0 -840.0
   625.0 -849.0 596.0 -900.0 588.0 -912.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   875.0 -1016.0
   875.0 -1016.0 802.0 -1020.0 805.0 -1071.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   876.0 -1028.0
   876.0 -1028.0 822.0 -1035.0 824.0 -1088.0
+  smooth off
   l-size 15.0
 endline
 
@@ -457,18 +484,21 @@ endline
 line slope
   810.0 -902.0
   810.0 -902.0 830.0 -989.0 883.0 -1008.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   826.0 -869.0
   826.0 -869.0 823.0 -985.0 899.0 -980.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   682.0 -871.0
   682.0 -871.0 715.0 -783.0 768.0 -754.0
+  smooth off
   l-size 15.0
 endline
 
@@ -483,30 +513,35 @@ endline
 line slope
   630.0 -801.0
   630.0 -801.0 575.0 -862.0 571.0 -901.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   625.0 -796.0
   625.0 -796.0 559.0 -851.0 559.0 -889.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   421.0 -954.0
   421.0 -954.0 259.0 -938.0 206.0 -1001.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   217.0 -661.0
   217.0 -661.0 98.0 -638.0 105.0 -731.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   309.0 -752.0
   309.0 -752.0 183.0 -795.0 177.0 -853.0
+  smooth off
   l-size 15.0
 endline
 
@@ -521,12 +556,14 @@ endline
 line slope
   232.0 -1226.0
   232.0 -1226.0 233.0 -1302.0 263.0 -1329.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   195.0 -1080.0
   195.0 -1080.0 189.0 -1172.0 228.0 -1190.0
+  smooth off
   l-size 15.0
 endline
 
@@ -550,36 +587,42 @@ endline
 line slope
   245.0 -1211.0
   245.0 -1211.0 257.0 -1308.0 286.0 -1327.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   219.0 -1053.0
   219.0 -1053.0 198.0 -1133.0 241.0 -1173.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   554.0 -1205.0
   554.0 -1205.0 457.0 -1198.0 460.0 -1259.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   570.0 -1233.0
   570.0 -1233.0 487.0 -1202.0 482.0 -1278.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   437.0 -1260.0
   437.0 -1260.0 348.0 -1242.0 341.0 -1317.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   459.0 -1289.0
   459.0 -1289.0 364.0 -1264.0 357.0 -1354.0
+  smooth off
   l-size 15.0
 endline
 
