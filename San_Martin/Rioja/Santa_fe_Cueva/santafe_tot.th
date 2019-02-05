@@ -3,7 +3,6 @@ encoding utf-8
 input Santa_Fe.th
 input th2/santafe.th2
 input th2/santafe2018.th2
+
 join santa2018-SP-1 santaXR2
 
-input ../Maronal_Cueva/maronal.th
-input ../Maronal_Cueva/maronal.th2

@@ -8,12 +8,26 @@ centerline -title "Cascayunga"
 	
 	date 2003.09.23
 		team "Jean-Louis Galéra"
-		team "Jean Loup/Guyot"
-		#team ""
+		team "Jean-Denis Klein"
+		team "Jean-François Perret"
+		team "Valérie Tournayre"
+		team "Gilles Boutin"
+		team "Benoît/Le Falher"
+		team "Olivier Sausse"
+		team "Carlos Morales"
+		team "Jhon Huaman"
+		team "Daniel Viana"
 	explo-date 2003.09.23
 		explo-team "Jean-Louis Galéra"
-		explo-team "Jean Loup/Guyot"
-		#explo-team ""
+		explo-team "Jean-Denis Klein"
+		explo-team "Jean-François Perret"
+		explo-team "Valérie Tournayre"
+		explo-team "Gilles Boutin"
+		explo-team "Benoît/Le Falher"
+		explo-team "Olivier Sausse"
+		explo-team "Carlos Morales"
+		explo-team "Jhon Huaman"
+		explo-team "Daniel Viana"
 	units lenght meters
 	units compass degrees
 	units clino degrees

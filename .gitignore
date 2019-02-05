@@ -8,13 +8,15 @@
 **.RTF
 **.txt
 **.eml
-**.jpg
 **.txt
 **.ppt
 **.dwg
 **.dgn
+**.cvx
 
 **.tif
+**.jpg
+**.png
 
 # Scan Carnet
 **.JPG
@@ -42,6 +44,7 @@
 **.vtk
 **.zip
 **.sql
+
 # Therion shp outputs
 **.dbf
 **.prj

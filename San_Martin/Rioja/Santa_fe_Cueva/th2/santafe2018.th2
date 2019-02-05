@@ -1,0 +1,115 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -128.75 3198.8678 5561.0738
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {2535.9 1 1.0} {4334.33 0} santaFe2018.xvi 0 {}
+
+
+
+scrap santa2018-SP-1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+
+point 1664.25 508.25 label -text "<center>poissons<br>blancs"
+
+point 1534.25 529.25 label -text "<center>siphon<br>temporaire"
+
+line rock-edge
+  1592.75 595.25
+  1614.75 593.25
+endline
+
+line rock-edge
+  1577.25 592.5
+  1592.75 595.25
+  1597.75 599.75
+endline
+
+line rock-edge
+  1567.0 593.0
+  1577.25 592.5
+  1572.5 584.25
+endline
+
+line rock-border -close on
+  1586.0 611.0
+  1567.0 593.0
+  1572.5 584.25
+  1614.75 593.25
+  1597.75 599.75
+  1586.0 611.0
+endline
+
+point 1514.0 575.25 continuation -attr Code S -text "Siphon temporaire à franchir"
+
+point 1528.5 657.0 air-draught -orientation 86.7
+
+area sump
+  l10-1560-557
+endarea
+
+area water
+  l13-1584-665
+endarea
+
+line label -id l13-1584-665 -close on
+  1617.0 632.5
+  1618.25 641.0
+  1618.25 641.0 1604.25 675.25 1584.25 665.25
+  1564.25 655.25 1528.5 625.5 1528.5 625.5
+  smooth off
+  1528.5 625.5 1542.25 624.5 1544.5 620.75
+  1546.75 617.0 1565.25 568.25 1564.0 562.5
+  1562.75 556.75 1617.75 572.0 1623.75 576.25
+  1629.75 580.5 1639.5 611.0 1628.75 617.5
+  1618.0 624.0 1617.0 632.5 1617.0 632.5
+  smooth off
+endline
+
+point 1540.5 629.75 altitude -align top-left
+
+area sump
+endarea
+
+point 1578.5 551.75 passage-height -value [-1.5 m]
+
+line label -id l10-1560-557 -close on
+  1524.0 620.0
+  1527.25 615.0
+  1551.0 555.0
+  1555.0 552.25
+  1555.0 552.25 1560.0 552.5 1564.0 562.5
+  1565.4 565.99 1549.5 616.25 1544.5 620.75
+  1539.5 625.25 1528.5 625.5 1528.5 625.5
+  smooth off
+  1524.0 620.0
+endline
+
+line wall
+  1589.0 674.25
+  1589.0 674.25 1587.75 655.25 1585.75 649.25
+  1583.75 643.25 1583.5 625.5 1578.0 625.5
+  1572.5 625.5 1545.25 631.0 1540.5 629.75
+  1535.75 628.5 1527.25 615.0 1527.25 615.0
+  smooth off
+endline
+
+line wall
+  1551.0 555.0
+  1551.0 555.0 1552.5 559.0 1565.5 566.5
+  1578.5 574.0 1610.75 577.25 1620.25 586.25
+  1629.75 595.25 1632.75 608.0 1626.75 611.0
+  1620.75 614.0 1612.5 621.75 1609.5 624.25
+  1606.5 626.75 1599.0 627.0 1603.5 633.0
+  1608.0 639.0 1613.5 639.5 1618.25 641.0
+  smooth off
+endline
+
+point 1543.46 627.8699999999999 station -name CR2018_6@santafe
+
+point 1584.17 603.94 station -name CR2018_5@santafe
+
+point 1583.07 622.44 station -name CR2018_4@santafe
+
+point 1588.03 652.21 station -name CR2018_3@santafe
+
+endscrap
+
+

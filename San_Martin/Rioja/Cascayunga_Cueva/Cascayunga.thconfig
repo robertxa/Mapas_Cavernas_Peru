@@ -158,7 +158,7 @@ layout my_layout
 			\cavename={Cueva de Cascayunga} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={CESPE, Groupe Spéléologique Bagnols Marcoule (GSBM), Espeleo Club Andino (ECA), Groupe spéléologique Vulcain, Groupe Spéléologique des Dolomites (GSV)}
+	\newtoks\club \club={CESPE, Groupe Spéléologique Bagnols Marcoule (GSBM), Espeleo Club Andino (ECA), Groupe spéléologique Vulcain, Groupe Spéléologique des Dolomites (GSV), Groupe Bambui de Pesquisas Espeleologicas (GBPE)}
 	\newtoks\synth \synth={Xavier Robert}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={BEC 2003, Pucara 2003, Nor Perú 2018}

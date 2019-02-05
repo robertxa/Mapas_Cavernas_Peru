@@ -154,7 +154,7 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva del Banco de Oro} 		
+			\cavename={Cueva de Tipisca \smallbreak o del Banco de Oro} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
@@ -284,7 +284,8 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva del Banco de Oro} 		
+			#\cavename={Cueva de Tipisca \smallbreak o del Banco de Oro}
+			\cavename={Cueva de Tipisca o del Banco de Oro}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
