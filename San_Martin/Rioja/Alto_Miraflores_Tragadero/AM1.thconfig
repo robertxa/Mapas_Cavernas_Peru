@@ -1,9 +1,5 @@
 encoding  utf-8
-    
-# File written by tro2therion.f90 (Xavier Robert) 
-# Based on the work of Roman Muñoz <tatel@euskalnet.net> and Martin Gerbaux <martin.gerbaux@wanadoo.fr> 
- 
-# Copyright (C) 2010 Xavier Robert <xavier.robert01@gmail.com>
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
 # This work is under the GPLv2
   
     
@@ -15,8 +11,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source am1.th
-#source am1-2018.th2
-#source am1_coupe2018.th2
+source am1_2018.th2
+source am1-coupe2018.th2
 
 # Add config file
 input ../../../config.thc 
@@ -105,10 +101,10 @@ layout my_layout
 	# seulement la legende des symboles dessines sur la topo, si l on veut
 	# pour tous les symboles, utilises ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 14 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -238,7 +234,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 16 cm
+	legend-width 15 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -247,7 +243,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 100 65 w
+	map-header -10 60 nw
   
 	# arrière plan de la manchette
 	map-header-bg off

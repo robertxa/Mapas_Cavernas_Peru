@@ -313,7 +313,7 @@ endlayout
  #export map -projection extended -fmt xvi -layout xviexport -o yuracyacu-coupe2014.xvi
   
  export map -o yuracyacu-plan2017.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o yuracyacu-coupe2017.pdf
+ #export map -projection extended -layout my_layout-coupe -o yuracyacu-coupe2017.pdf
  #export model -o inca_2016.lox
   
  # Export des fichiers ESRI

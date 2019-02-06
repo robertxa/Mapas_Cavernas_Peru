@@ -1,0 +1,83 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -206.73900000000003 -206.7493 283.5 265.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {78.74199999999999 1 1.0} {78.7357 0} peces-coupe2018.xvi 0 {}
+
+
+
+scrap peces-SC-1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+area water
+  l17-154--5
+endarea
+
+line label -id l17-154--5 -close on
+  136.25 -7.25
+  136.25 -7.25 156.0 -7.0 154.5 -5.25
+  153.0 -3.5 153.5 4.5 149.0 4.5
+  144.5 4.5 114.0 5.25 114.0 3.0
+  114.0 -4.5 136.25 -7.25 136.25 -7.25
+  smooth off
+endline
+
+point 153.5 42.25 height -value [-7 m]
+
+point 106.0 101.0 height -value [-3 m]
+
+point 88.25 135.75 label -text "<it>Lat : -5.96369<br>Long : -77.34731<br>Alt = 1000 m"
+
+point 86.0 117.0 entrance -orientation 183.1
+
+line wall -subtype invisible
+  93.25 104.25
+  93.25 104.25 83.25 107.25 77.25 103.0
+endline
+
+line wall
+  77.25 103.0
+  77.25 103.0 67.5 98.25 62.75 104.5
+  58.0 110.75 62.25 119.25 49.75 119.0
+  37.25 118.75 8.25 115.75 7.5 114.25
+  6.75 112.75 4.5 74.0 15.0 76.75
+  25.5 79.5 49.5 88.5 55.0 81.75
+  60.5 75.0 74.75 59.75 79.0 54.25
+  83.25 48.75 81.75 46.5 89.0 46.5
+endline
+
+line wall -subtype debris
+  89.0 46.5
+  96.25 46.5 107.25 52.25 111.5 48.75
+endline
+
+line wall
+  111.5 48.75
+  115.75 45.25 121.5 2.5 121.5 -0.75
+  121.5 -4.0 139.75 -2.75 143.0 -2.75
+  146.25 -2.75 144.5 5.75 144.5 5.75
+  smooth off
+endline
+
+line wall
+  144.5 5.75
+  144.5 5.75 134.0 44.0 132.0 50.5
+  130.0 57.0 120.75 75.25 116.75 81.5
+  112.75 87.75 110.25 89.25 101.75 87.75
+  93.25 86.25 86.25 82.5 86.0 86.75
+  85.75 91.0 91.5 104.25 93.25 104.25
+endline
+
+point 126.502 59.515699999999995 station -name 6@peces
+
+point 113.582 69.91569999999999 station -name 5@peces
+
+point 87.46199999999999 61.095699999999994 station -name 4@peces
+
+point 11.941999999999993 94.7957 station -name 3@peces
+
+point 54.38199999999999 97.39569999999999 station -name 2@peces
+
+point 78.74199999999999 78.7357 station -name 1@peces
+
+endscrap
+
+

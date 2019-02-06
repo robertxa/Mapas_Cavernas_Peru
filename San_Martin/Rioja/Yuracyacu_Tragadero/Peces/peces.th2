@@ -1,0 +1,155 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -141.25 -128.75 206.74360000000001 211.5
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {45.5135 1 1.0} {46.6109 0} peces2018.xvi 0 {}
+
+
+
+scrap peces-SP-1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+point 19.25 72.75 altitude -align left
+
+point 62.0 9.0 altitude -align right
+
+point 43.75 15.25 height -value [+5 m]
+
+point 61.25 60.0 height -value [-3 m]
+
+point 36.25 82.25 height -value [-7 m]
+
+line pit
+  53.5 54.25
+  53.5 54.25 49.75 53.5 47.75 56.0
+  smooth off
+endline
+
+line pit -reverse on
+  65.75 11.5
+  65.75 11.5 57.0 17.75 51.25 15.5
+  smooth off
+endline
+
+point -12.0 15.25 label -text "<it>Lat : -5.96369<br>Long : -77.34731<br>Alt = 1000 m"
+
+line rock-border -close on
+  67.75 46.25
+  65.5 42.75
+  68.25 40.5
+  70.25 44.75
+  67.75 46.25
+endline
+
+line rock-border -close on
+  48.0 52.25
+  44.5 50.0
+  47.5 47.75
+  49.75 50.25
+  48.0 52.25
+endline
+
+line rock-border -close on
+  59.5 47.75
+  57.75 43.75
+  62.0 42.5
+  61.75 46.0
+  59.5 47.75
+endline
+
+line rock-border -close on
+  60.75 52.75
+  58.5 50.25
+  61.75 48.75
+  64.0 52.5
+  60.75 52.75
+endline
+
+line rock-border -close on
+  53.0 50.5
+  53.0 46.5
+  56.75 47.0
+  55.5 50.75
+  53.0 50.5
+endline
+
+line slope
+  47.75 56.0
+  47.75 56.0 34.5 59.75 34.0 62.5
+  33.5 65.25 32.25 74.5 32.25 74.5
+  smooth off
+  l-size 5.0
+endline
+
+line pit -reverse on
+  30.5 76.5
+  30.5 76.5 21.75 69.5 17.5 69.5
+  smooth off
+endline
+
+area water
+  l14-29-78
+endarea
+
+line label -id l14-29-78 -close on
+  18.25 79.25
+  18.25 79.25 14.0 71.25 17.25 71.25
+  20.5 71.25 32.0 76.25 29.0 77.75
+  26.0 79.25 18.25 79.25 18.25 79.25
+  smooth off
+endline
+
+area water
+  l12-38-72
+endarea
+
+line label -id l12-38-72 -close on
+  44.5 67.75
+  44.5 67.75 38.75 74.25 38.25 71.0
+  37.75 67.75 42.25 61.25 43.75 63.5
+  45.25 65.75 44.5 67.75 44.5 67.75
+  smooth off
+endline
+
+point 55.5 65.0 entrance -orientation 217.7
+
+line wall -subtype invisible
+  52.5 55.25
+  47.75 59.25
+endline
+
+line wall
+  47.75 59.25
+  47.75 59.25 50.0 54.75 47.75 56.0
+  45.5 57.25 48.75 62.0 47.5 62.0
+  46.25 62.0 44.0 60.75 42.25 62.75
+  40.5 64.75 45.5 70.0 42.25 70.0
+  39.0 70.0 36.25 67.5 32.5 70.5
+  28.75 73.5 27.75 76.75 25.5 77.0
+  23.25 77.25 18.25 77.0 19.25 72.75
+  20.25 68.5 23.75 63.0 26.25 58.5
+  28.75 54.0 33.75 43.25 36.25 40.25
+  38.75 37.25 42.5 37.0 44.5 37.0
+  46.5 37.0 53.25 44.5 53.25 39.5
+  53.25 34.5 52.0 12.5 53.5 9.75
+  55.0 7.0 60.5 2.75 62.0 9.0
+  63.5 15.25 71.5 32.25 72.25 37.5
+  73.0 42.75 74.0 52.75 68.25 53.25
+  62.5 53.75 56.5 57.25 55.5 54.5
+  54.5 51.75 52.5 53.25 52.5 55.25
+  smooth off
+endline
+
+point 23.8535 74.2509 station -name 6@peces
+
+point 25.7435 61.5009 station -name 5@peces
+
+point 40.2335 39.6809 station -name 4@peces
+
+point 56.6935 10.6309 station -name 3@peces
+
+point 69.4535 51.100899999999996 station -name 2@peces
+
+point 45.5135 46.6109 station -name 1@peces
+
+endscrap
+
+

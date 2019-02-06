@@ -1,0 +1,185 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.75 -140.75 384.75 359.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {100.55100000000002 1 1.0} {25.988 0} am1_2018.xvi 0 {}
+
+
+
+scrap am1-SP-1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 170.75 148.75 stalactites
+
+point 182.75 167.75 stalactites
+
+point 226.5 143.5 stalactites
+
+point 201.5 192.0 height -value [+8 m]
+
+point 106.75 41.75 altitude -align top-right
+
+point 166.25 36.0 label -text "<it>Lat : -5.91490<br>Long : -77.39055<br>Alt = 1420 m"
+
+point 79.75 36.25 entrance -orientation 47.5
+
+line overhang -clip off
+  126.25 2.75
+  126.25 2.75 105.0 23.25 102.5 27.5
+  100.0 31.75 82.25 50.75 73.25 53.25
+  71.73 53.67 53.5 74.75 49.75 77.25
+endline
+
+line overhang -clip off
+  35.75 64.0
+  115.0 -11.75
+endline
+
+line wall -subtype invisible
+  49.75 77.25
+  49.75 77.25 76.5 33.75 86.25 25.5
+  96.0 17.25 126.25 2.75 126.25 2.75
+  smooth off
+endline
+
+line slope
+  85.25 71.0
+  85.25 71.0 93.0 52.5 106.5 52.75
+  l-size 7.0
+endline
+
+line slope
+  100.0 85.75
+  100.0 85.75 106.25 64.5 122.75 65.0
+  l-size 7.0
+endline
+
+line slope
+  114.75 102.25
+  114.75 102.25 126.5 88.75 135.75 86.5
+  l-size 5.0
+endline
+
+line slope
+  129.75 111.25
+  129.75 111.25 131.0 94.25 139.5 93.25
+  l-size 5.0
+endline
+
+line slope
+  136.5 115.0
+  136.5 115.0 140.25 101.0 149.5 100.25
+  l-size 5.0
+endline
+
+line slope
+  144.75 118.25
+  144.75 118.25 150.0 109.25 159.0 104.5
+  l-size 5.0
+endline
+
+line slope
+  154.0 123.5
+  154.0 123.5 157.75 108.0 164.75 106.25
+  l-size 5.0
+endline
+
+line slope
+  163.5 130.25
+  163.5 130.25 165.5 118.25 173.5 117.0
+  l-size 5.0
+endline
+
+line slope
+  173.5 140.25
+  173.5 140.25 176.75 128.75 183.0 125.5
+  l-size 5.0
+endline
+
+line slope
+  179.0 148.0
+  179.0 148.0 182.5 131.75 194.75 127.0
+  l-size 5.0
+endline
+
+line slope
+  191.5 160.25
+  191.5 160.25 198.75 145.0 209.5 144.5
+  l-size 5.0
+endline
+
+line slope
+  196.5 171.25
+  196.5 171.25 207.0 150.75 217.75 151.0
+  l-size 5.0
+endline
+
+line slope
+  200.5 175.5
+  200.5 175.5 212.75 151.5 231.25 159.0
+  l-size 5.0
+endline
+
+point 173.0 129.75 pillar
+
+point 194.75 137.25 pillar
+
+point 193.25 149.0 pillar
+
+line pit
+  237.5 181.0
+  237.5 181.0 226.5 183.0 221.5 190.0
+endline
+
+point 234.5 179.0 altitude -align bottom-right
+
+point 229.25 193.25 altitude -align top-left
+
+point 255.5 230.0 air-draught -orientation 38.0
+
+point 245.5 204.75 continuation -attr Code E -text "Escalade, galerie continue, courant d'air"
+
+line wall
+  126.25 2.75
+  126.25 2.75 102.75 25.5 102.5 27.5
+  102.25 29.5 110.75 37.0 106.75 41.75
+  102.75 46.5 95.25 49.5 101.5 57.75
+  107.75 66.0 125.75 93.25 137.25 99.0
+  148.75 104.75 156.5 113.5 165.75 118.0
+  175.0 122.5 171.25 126.25 179.0 128.75
+  186.75 131.25 199.5 132.75 203.5 140.5
+  207.5 148.25 235.0 177.0 234.5 179.0
+  234.0 181.0 236.0 183.0 238.5 188.0
+  241.0 193.0 243.0 194.5 243.0 194.5
+  smooth off
+endline
+
+line wall
+  236.0 201.75
+  236.0 201.75 224.0 187.75 223.0 186.75
+  222.0 185.75 222.5 191.25 216.5 187.75
+  210.5 184.25 193.0 157.0 187.25 150.25
+  181.5 143.5 165.0 122.5 152.75 116.75
+  140.5 111.0 125.5 110.25 116.75 99.0
+  108.0 87.75 75.75 50.0 73.25 53.25
+  70.75 56.5 49.75 77.25 49.75 77.25
+  smooth off
+endline
+
+point 234.721 189.288 station -name 7@AM1
+
+point 230.941 181.888 station -name 6@AM1
+
+point 198.821 141.888 station -name 5@AM1
+
+point 175.981 130.318 station -name 4@AM1
+
+point 155.591 114.958 station -name 3@AM1
+
+point 123.391 104.808 station -name 2@AM1
+
+point 76.46100000000001 51.258 station -name 1@AM1
+
+point 100.55100000000002 25.988 station -name 0@AM1
+
+endscrap
+
+

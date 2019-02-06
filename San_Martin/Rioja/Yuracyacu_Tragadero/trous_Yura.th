@@ -8,16 +8,19 @@ fix       Yura2014       -5.963816	-77.347071	996
 fix       Yura2017      -5.96389	-77.34677	989	# Coordonnées GPS
 #fix       Yura2017      -5.96389	-77.34686	994	# Coordonnées bidouillées
 fix       Peces2017      -5.96367	-77.34718	1025
+fix       Peces2018      -5.96369	-77.34731	1000
 
 
 station   Yura2014      "" entrance
 station   Yura2017      "" entrance
 station   Peces2017     "Unsurveyed cave" entrance
+station   Peces2018     "" entrance
 
 data nosurvey from to  #definition of relation between points
 flags surface
 Yura2014       Yura2017
 Yura2017      Peces2017
+Yura2017      Peces2018
   
 endcenterline
 
