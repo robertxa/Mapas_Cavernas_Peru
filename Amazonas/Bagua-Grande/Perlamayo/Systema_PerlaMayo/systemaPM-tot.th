@@ -12,7 +12,11 @@ input ../../Palma_Central/LaPerla_Cueva/laperla.th2
 input ../../Palma_Central/Murcielagos_Cueva/murcielagos.th
 input ../../Palma_Central/Murcielagos_Cueva/murcielagos.th2
 
-# R2D2 ?
-# Sr ??
-# Les trous au dessus ?
+# Tragadero R2D2
+input ../R2D2_Tragadero/r2d2-tot.th
+
+
+
+# Sr Martin, non
+# Les trous au dessus, pour l'instant non
 
