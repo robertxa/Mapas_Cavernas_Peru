@@ -315,7 +315,7 @@ endlayout
  #export model -o latas_2016.lox
   
  # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o latas_2017 -layout my_layout
+ export map -proj plan -fmt esri -o latas_2017 -layout my_layout
   
  # Export des fichiers kml
  export map -proj plan -fmt kml -o latas_2017.kml -layout my_layout

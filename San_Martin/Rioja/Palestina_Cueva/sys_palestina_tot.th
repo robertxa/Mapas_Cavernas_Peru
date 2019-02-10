@@ -1,6 +1,6 @@
 encoding utf-8
 
-input DEM/palestina.th
+input DEM/Palestina.th
 
 input palestina_tot.th
 #input PalOl.th2

@@ -21,7 +21,8 @@ source syst_bellavista_tot.th
 #source bellavista2.th2
 
 # Add the DEM
-source DEM/bellavista_grand.th
+#source DEM/bellavista_grand.th
+source DEM/Bella_Daguas.th
 
 # Add config file
 input ../../../config.thc 
@@ -313,5 +314,5 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -o Outputs/2D/systeme-bellavista-plan2017.pdf -layout my_layout
- export model -o Outputs/3D/systeme-bellavista_2017.lox
+ export map -o Outputs/2D/systeme-bellavista-plan2018.pdf -layout my_layout
+ export model -o Outputs/3D/systeme-bellavista_2018.lox

@@ -26,6 +26,8 @@ input ../Trocadero_tragadero/trocadero.th
 
 # Topos 2018
 input ../Ancayrrumo-Tragadero/ancayrrumo.th
+input ../Ancayrrumo-Tragadero/ancayrrumo.th2
+input ../Ancayrrumo-Tragadero/ancayrrumo-coupe.th2
 
 input ../Areniscas-Tragadero/areniscas.th
 input ../Areniscas-Tragadero/areniscas.th2
@@ -35,7 +37,7 @@ input ../Bloques_Tragadero/tragz.th
 input ../Bloques_Tragadero/bloques.th2
 input ../Bloques_Tragadero/bloques-coupe.th2
 
-input ../Calavera-Cueva/calavera.th
+input ../Calavera-Cueva/calavera-tot.th
 
 input ../Hache-Tragadero/hache.th
 input ../Hache-Tragadero/hache.th2
@@ -49,6 +51,7 @@ input ../Oso-Tragadero/oso.th2
 input ../Oso-Tragadero/oso-coupe.th2
 
 input ../Refugio-Cueva/refugio.th
+input ../Refugio-Cueva/refugio.th2
 
 input ../Siphon-Tragadero/siphon1.th
 input ../Siphon-Tragadero/siphon.th2
@@ -59,6 +62,8 @@ input ../Torreon-Tragadero/torreon.th2
 input ../Torreon-Tragadero/torreon-coupe.th2
 
 input ../X5_Tragadero/x5.th
+input ../X5_Tragadero/x5.th2
+input ../X5_Tragadero/x5-coupe.th2
 
 # add DEM :
 

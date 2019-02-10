@@ -1,0 +1,14 @@
+encoding utf-8
+
+#input DEM/RosaPampa.th
+
+# Tragadero de Nueva Holanda
+input ../Nueva_Holanda_tragadero/n_holanda.th
+#input ../Nueva_Holanda_tragadero/nholanda.th2
+input ../Nueva_Holanda_tragadero/nholanda-coupe.th2
+
+# Caverna Cueva del Inca
+input ../Inca-Nueva_Holanda_Cueva/n_holanda.th
+input ../Inca-Nueva_Holanda_Cueva/nholanda.th2
+
+

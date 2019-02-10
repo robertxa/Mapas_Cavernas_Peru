@@ -5,6 +5,7 @@ input th/Samuel2017.th
 input th/samuel_jour_2.th
 input th/samuel_grumf.th
 
+input DEM/Samuel.th
 
 equate C21@samuel 2017-BL-0@samuel2017
 equate 67@samuel_grumf 2017-BL-21@samuel2017

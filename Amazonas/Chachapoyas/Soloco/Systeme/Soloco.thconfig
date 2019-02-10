@@ -21,7 +21,9 @@ source soloco_tot.th
 #source bellavista2.th2
 
 # DEM
-source DEM/Soloco.th
+#source DEM/Soloco.th
+#source DEM/DEM-Solocoproj.th
+source DEM/DEM-Soloco-test.th
 
 # Add config file
 input ../../../../config.thc 
@@ -318,7 +320,7 @@ endlayout
   
  #export map -o soloco-plan2017.pdf -layout my_layout
  #export map -projection extended -layout my_layout-coupe -o Chico-coupe2005.pdf
- export model -o 3D/surveys/soloco_2017.lox
+ export model -o 3D/surveys/soloco_2018.lox
   
  # Export des fichiers ESRI
  #export map -proj plan -fmt esri -o chico_2005 -layout my_layout

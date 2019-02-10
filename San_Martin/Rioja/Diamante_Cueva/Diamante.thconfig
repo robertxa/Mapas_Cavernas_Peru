@@ -315,7 +315,7 @@ endlayout
  export model -o Diamante_2017.lox
   
  # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Diamante_2017 -layout my_layout
+ export map -proj plan -fmt esri -o Diamante_2017 -layout my_layout
   
  # Export des fichiers kml
  export map -proj plan -fmt kml -o Diamante_2017.kml -layout my_layout

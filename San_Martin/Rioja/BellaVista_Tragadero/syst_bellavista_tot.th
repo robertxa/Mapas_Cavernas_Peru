@@ -8,8 +8,8 @@ input ../Caracoles_Pozo/caracoles.th2
 input ../Inca_Cueva/inca.th
 input ../Inca_Cueva/inca.th2
 
-input ../Incasito_Cueva/incasito.th
-input ../Incasito_Cueva/incasito.th2
+input ../Incacito_Cueva/incacito.th
+input ../Incacito_Cueva/incacito.th2
 
 input ../Paraiso_Tragadero/paraiso.th
 input ../Paraiso_Tragadero/paraiso.th2
@@ -24,5 +24,14 @@ input ../Perros_Tragadero/perros.th
 input ../Perros_Tragadero/perros.th2
 
 # Trop loin de la zone pour l'instant
-#input ../Porvenir_Tragadero/porvenir.th
-#input ../Porvenir_Tragadero/porvenir.th2
+input ../Porvenir_Tragadero/porvenir.th
+input ../Porvenir_Tragadero/porvenir.th2
+
+input ../Alto_Miraflores_Tragadero/AM1.th
+input ../Alto_Miraflores_Tragadero/AM1_2018.th2
+
+# input Cueva de Alto Miraflores
+
+input ../Perla_de_Daguas_Cueva/daguas_tot.th
+
+

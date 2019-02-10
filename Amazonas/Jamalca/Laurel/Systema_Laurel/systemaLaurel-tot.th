@@ -1,0 +1,12 @@
+encoding utf-8
+
+#input DEM/RosaPampa.th
+
+# Cueva de Laurel
+input ../Laurel_Cueva/laurel-tot.th
+
+# cueva 1 y 2 de Laurel (chicas)
+#input ../Laurel_1_Cueva/laurel_1.th
+#input ../Laurel_1_Cueva/laurel_1.th2
+
+

@@ -21,7 +21,7 @@ source bellavista_tot.th
 #source bellavista2.th2
 
 # Add the DEM
-source DEM/bellavista.th
+source DEM/Bellavista.th
 
 # Add config file
 input ../../../config.thc 

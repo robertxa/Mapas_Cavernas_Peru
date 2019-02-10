@@ -1,0 +1,18 @@
+encoding utf-8
+
+#input DEM/Perlamayo.th
+
+# Caverna Olaya de Perlamayo
+input ../Olaya_Lechuza_Cueva/lechuza-tot.th
+
+# Caverna La Perla et Cueva de los Murcielagos de Palma Central
+input ../../Palma_Central/LaPerla_Cueva/laperla.th
+input ../../Palma_Central/LaPerla_Cueva/laperla.th2
+
+input ../../Palma_Central/Murcielagos_Cueva/murcielagos.th
+input ../../Palma_Central/Murcielagos_Cueva/murcielagos.th2
+
+# R2D2 ?
+# Sr ??
+# Les trous au dessus ?
+

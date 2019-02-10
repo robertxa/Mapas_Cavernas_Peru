@@ -17,6 +17,9 @@ encoding  utf-8
 source higueron.th
 #source higueron.th2
 
+# Add DEM
+source DEM/Higueron.th
+
 # Add config file
 input ../../../config.thc 
   

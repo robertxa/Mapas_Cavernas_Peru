@@ -17,7 +17,7 @@ encoding  utf-8
 source sys_santafe_tot.th
 
 # Add a DEM
-source DEM/santafe.th
+source DEM/Santafe.th
 
 # Add config file
 input ../../../config.thc 
@@ -308,6 +308,6 @@ endlayout
   
  # 3-EXPORTS   
   
- export map -o Outputs/2D/syst_SantaFe-plan2017.pdf -layout my_layout
- export model -o Outputs/3D/sys_SantaFe_2017.lox
+ #export map -o Outputs/2D/syst_SantaFe-plan2018.pdf -layout my_layout
+ export model -o Outputs/3D/sys_SantaFe_2018.lox
   

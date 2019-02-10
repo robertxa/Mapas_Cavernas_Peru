@@ -23,16 +23,8 @@ input ../Vaca_Negra_Tragadero/vacanegra.th
 
 #input ../Trocadero_tragadero/trocadero.th
 
+# Topo 2018
+input ../Torreon-Tragadero/torreon.th
+input ../Torreon-Tragadero/torreon.th2
+input ../Torreon-Tragadero/torreon-coupe.th2
 
-#equate 1@bellavista3 E.85@bellavista
-
-
-# add DEM :
-
-
-# add drawings :
-# Pour le plan
-#input bellavista.th2
-
-
-#join JL1 BVJY1

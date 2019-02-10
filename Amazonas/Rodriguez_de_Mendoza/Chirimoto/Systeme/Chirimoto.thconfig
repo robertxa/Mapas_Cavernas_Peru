@@ -17,7 +17,7 @@ encoding  utf-8
 source chirimoto.th
 
 # Add DEM
-source DEM/chirimoto.th
+source DEM/DEM-chirimoto_proj.th
 
 # Add config file
 input ../../../../config.thc 
@@ -310,5 +310,5 @@ endlayout
  
   
  # 3-EXPORTS     
- export map -o Outputs/2D/systema_Chirimoto.pdf -layout my_layout
- export model -o Outputs/3D/systema_Chirimoto.lox
+ export map -o Outputs/2D/systema_Chirimoto2018.pdf -layout my_layout
+ export model -o Outputs/3D/systema_Chirimoto2018.lox

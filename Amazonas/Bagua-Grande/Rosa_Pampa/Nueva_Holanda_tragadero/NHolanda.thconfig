@@ -35,6 +35,8 @@ endlayout
 # fin de la définition du layout "xviexport" 
   
 layout my_layout
+#debug first
+#debug second
 
 	#copy northarrowMG 
 	# Call the config settings (Layout config inside the config.thc file)
