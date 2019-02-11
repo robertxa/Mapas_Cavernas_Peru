@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source laurel-tot.th
-#source laurel.th2
+source laurel1-2.th
+#source laurel1-2.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -118,7 +118,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header -20 100 nw
+	#map-header -20 100 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -158,10 +158,10 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Laurel} 		
+			\cavename={Cuevas Chicas 1 y 2 de Laurel} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Spéléo Club de la Vallée de la Vis (SCVV)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Amazonas 2018}
@@ -290,10 +290,10 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Laurel} 		
+			\cavename={Cuevas Chicas 1 y 2 de Laurel} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Spéléo Club de la Vallée de la Vis (SCVV)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Amazonas 2018}
@@ -304,16 +304,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o laurel2018.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o laurel-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o laurel-1-2-2018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o laurel-1-2-coupe2018.xvi
   
- export map -o laurel-plan2018.pdf -layout my_layout
-# export map -projection extended -layout my_layout-coupe -o laurel-coupe2018.pdf
- export model -o laurel_2018.lox
+ export map -o laurel-1-2-plan2018.pdf -layout my_layout
+# export map -projection extended -layout my_layout-coupe -o laurel-1-2-coupe2018.pdf
+ export model -o laurel-1-2_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o laurel_2018 -layout my_layout
+ export map -proj plan -fmt esri -o laurel-1-2_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o laurel_2018.kml -layout my_layout
- export model -fmt kml -o laurel_2018m.kml
+ export map -proj plan -fmt kml -o laurel-1-2_2018.kml -layout my_layout
+ export model -fmt kml -o laurel-1-2_2018m.kml
