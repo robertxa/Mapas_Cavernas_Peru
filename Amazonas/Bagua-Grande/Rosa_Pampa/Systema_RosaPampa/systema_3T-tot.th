@@ -1,6 +1,6 @@
 encoding utf-8
 
-#input DEM/3T.th
+input DEM/3T.th
 
 # Cueva 3n1
 input ../3_Naranjas_1/3n1.th

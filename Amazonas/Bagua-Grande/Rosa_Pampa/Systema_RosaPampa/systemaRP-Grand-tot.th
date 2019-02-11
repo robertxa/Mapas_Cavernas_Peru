@@ -1,0 +1,27 @@
+encoding utf-8
+
+input DEM/RT_Tot.th
+
+# Tragadero de Nueva Holanda
+input ../Nueva_Holanda_tragadero/n_holanda.th
+#input ../Nueva_Holanda_tragadero/nholanda.th2
+input ../Nueva_Holanda_tragadero/nholanda-coupe.th2
+
+# Caverna Cueva del Inca
+input ../Inca-Nueva_Holanda_Cueva/n_holanda.th
+input ../Inca-Nueva_Holanda_Cueva/nholanda.th2
+
+# Cueva 3n1
+input ../3_Naranjas_1/3n1.th
+input ../3_Naranjas_1/3n1.th2
+
+# Cueva 3ncorta
+input ../3_Naranjas_corta/3n_cortas.th
+input ../3_Naranjas_corta/3nc.th2
+
+# Cueva 3ngrande
+input ../3_Naranjas_grande/3n_grande.th
+input ../3_Naranjas_grande/3ngrande.th2
+
+# Cueva de los Peces
+input ../Peces_Blancos/peces_blancos.th
