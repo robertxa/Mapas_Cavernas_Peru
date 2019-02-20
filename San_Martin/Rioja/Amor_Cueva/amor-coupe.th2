@@ -1,6 +1,142 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 679.1814 679.1814
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -129.5 -129.5 679.1814 682.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {78.737 1 1.0} {472.438 0} amor-coupe2018.xvi 0 {}
+
+
+
+scrap amor-SC-1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
+
+point 201.5 436.0 label -text "R2"
+
+point 153.5 534.0 label -text "R2"
+
+point 144.0 461.5 label -text "etr."
+
+line wall -subtype invisible
+  78.5 490.0
+  78.5 490.0 67.5 467.0 69.5 458.0
+endline
+
+point 56.0 486.5 entrance -orientation 117.3
+
+point 78.737 472.438 altitude -align left
+
+point 97.0 400.0 label -text "<it>Lat : -5.96418<br>Long : -77.34824<br>Alt = 1000 m"
+
+line u:rope
+  275.0 458.5
+  275.0 458.5 301.5 443.0 302.5 455.0
+  302.62 456.49 337.0 374.0 345.0 402.5
+  345.85 405.54 499.0 121.5 499.0 121.5
+  smooth off
+endline
+
+point 328.5 523.5 stalagmites
+
+point 296.5 522.0 stalagmites
+
+point 319.0 543.0 stalactites
+
+point 284.5 541.5 stalactites
+
+point 391.0 506.5 height -value [-10 m]
+
+point 385.0 473.0 continuation -attr Code Q -text "Puits à descendre ?"
+
+point 492.77700000000004 142.04800000000003 altitude -align right
+
+point 516.0 117.5 continuation -attr Code A -text "Rampe raide à descendre; ça continue"
+
+line wall
+  313.0 385.5
+  313.0 385.5 345.5 318.5 360.5 298.0
+  375.5 277.5 488.5 78.5 497.0 75.0
+endline
+
+line wall
+  69.5 458.0
+  69.5 458.0 73.5 456.5 81.0 459.0
+  88.5 461.5 128.0 473.5 133.5 476.5
+  139.0 479.5 150.0 498.0 154.0 496.5
+  158.0 495.0 153.0 485.5 158.0 485.5
+  163.0 485.5 175.0 488.5 180.5 487.0
+  186.0 485.5 205.0 478.5 210.5 476.5
+  216.0 474.5 221.5 474.5 224.5 470.0
+  227.5 465.5 226.0 442.0 231.0 441.5
+  236.0 441.0 233.5 440.0 245.5 441.0
+  257.5 442.0 280.0 447.0 284.0 442.0
+  288.0 437.0 300.5 409.0 313.0 385.5
+endline
+
+line wall
+  372.0 477.5
+  372.0 477.5 359.0 492.5 359.0 501.5
+  359.0 510.5 363.5 534.0 353.0 542.5
+  342.5 551.0 341.5 552.0 318.0 552.0
+  294.5 552.0 271.5 545.5 262.5 544.0
+  253.5 542.5 232.5 552.5 222.5 544.0
+  212.5 535.5 203.0 522.5 200.5 516.5
+  198.0 510.5 197.0 503.0 191.5 501.5
+  186.0 500.0 183.0 495.0 177.5 497.5
+  172.0 500.0 156.5 510.5 151.5 507.5
+  146.5 504.5 146.5 502.0 134.5 498.0
+  122.5 494.0 83.0 482.5 80.0 482.5
+  77.0 482.5 79.0 488.5 78.5 490.0
+endline
+
+line wall
+  348.0 472.5
+  367.5 471.5
+endline
+
+line wall
+  503.0 161.0
+  503.0 161.0 467.5 220.5 455.0 240.0
+  442.5 259.5 357.0 423.5 349.0 434.5
+  341.0 445.5 334.5 480.0 324.5 473.5
+  314.5 467.0 305.5 460.5 287.5 462.0
+  269.5 463.5 250.5 465.0 242.5 477.5
+  234.5 490.0 228.5 505.0 224.5 505.0
+  220.5 505.0 212.5 503.5 217.0 508.5
+  221.5 513.5 217.0 518.0 224.5 518.5
+  232.0 519.0 244.0 519.0 249.0 518.5
+  254.0 518.0 255.5 506.5 258.5 506.5
+  261.5 506.5 262.0 518.5 269.0 518.5
+  276.0 518.5 318.5 517.5 324.5 517.5
+  330.5 517.5 344.5 505.0 346.0 501.5
+  347.5 498.0 348.0 472.5 348.0 472.5
+  smooth off
+endline
+
+point 492.77700000000004 142.04800000000003 station -name 14@amor
+
+point 330.557 412.048 station -name 13@amor
+
+point 285.857 456.458 station -name 12@amor
+
+point 242.967 466.69800000000004 station -name 11@amor
+
+point 226.237 479.76800000000003 station -name 10@amor
+
+point 333.087 530.398 station -name 8@amor
+
+point 269.407 534.488 station -name 9@amor
+
+point 253.017 532.518 station -name 6@amor
+
+point 222.347 533.938 station -name 5@amor
+
+point 206.107 495.50800000000004 station -name 4@amor
+
+point 191.457 492.438 station -name 3@amor
+
+point 152.02700000000002 503.468 station -name 2@amor
+
+point 135.52700000000002 491.338 station -name 1@amor
+
+point 78.737 472.438 station -name 0@amor
+
+endscrap
 
 
