@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.5 -129.5 679.1814 682.0
+##XTHERION## xth_me_area_adjust -199.5 -129.5 679.1814 682.0
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {78.737 1 1.0} {472.438 0} amor-coupe2018.xvi 0 {}
 
@@ -16,6 +16,7 @@ point 144.0 461.5 label -text "etr."
 line wall -subtype invisible
   78.5 490.0
   78.5 490.0 67.5 467.0 69.5 458.0
+  smooth off
 endline
 
 point 56.0 486.5 entrance -orientation 117.3
@@ -40,18 +41,58 @@ point 319.0 543.0 stalactites
 
 point 284.5 541.5 stalactites
 
-point 391.0 506.5 height -value [-10 m]
-
-point 385.0 473.0 continuation -attr Code Q -text "Puits à descendre ?"
-
 point 492.77700000000004 142.04800000000003 altitude -align right
 
 point 516.0 117.5 continuation -attr Code A -text "Rampe raide à descendre; ça continue"
 
 line wall
+  346.0 318.5
+  346.0 318.5 357.5 238.5 362.5 227.0
+  367.5 215.5 392.0 220.0 399.0 220.0
+  406.0 220.0 419.5 172.0 423.0 157.5
+  426.5 143.0 455.0 79.5 472.5 79.5
+  490.0 79.5 509.5 77.0 509.5 77.0
+  smooth off
+endline
+
+point -14.5 395.5 pebbles -clip off -place top
+
+point -25.5 390.0 pebbles -clip off -place top
+
+point -38.0 392.5 pebbles -clip off -place top
+
+point -50.0 391.5 pebbles -clip off -place top
+
+point -60.0 396.0 pebbles -clip off -place top
+
+point -37.5 476.5 label -text "<center>rio<br>Yuracyacu"
+
+area water -clip off
+  l48-2-426
+endarea
+
+line label -id l48-2-426 -close on
+  1.0 426.0
+  -68.5 426.0
+  -68.5 426.0 -73.0 399.5 -68.0 392.5
+  -63.0 385.5 -33.0 384.0 -24.0 386.0
+  -15.0 388.0 -11.5 392.0 -3.5 399.5
+  4.5 407.0 1.0 426.0 1.0 426.0
+  smooth off
+endline
+
+point 289.5 227.0 label -text "<center>squelette de<br>mammifère"
+
+point 380.5 228.0 paleo-material
+
+line wall -subtype debris
+  315.0 321.0
+  315.0 321.0 344.0 322.5 346.0 318.5
+endline
+
+line wall
   313.0 385.5
-  313.0 385.5 345.5 318.5 360.5 298.0
-  375.5 277.5 488.5 78.5 497.0 75.0
+  313.0 385.5 307.0 325.5 315.0 321.0
 endline
 
 line wall
@@ -67,6 +108,7 @@ line wall
   236.0 441.0 233.5 440.0 245.5 441.0
   257.5 442.0 280.0 447.0 284.0 442.0
   288.0 437.0 300.5 409.0 313.0 385.5
+  smooth off
 endline
 
 line wall
@@ -83,19 +125,21 @@ line wall
   146.5 504.5 146.5 502.0 134.5 498.0
   122.5 494.0 83.0 482.5 80.0 482.5
   77.0 482.5 79.0 488.5 78.5 490.0
-endline
-
-line wall
-  348.0 472.5
-  367.5 471.5
+  smooth off
 endline
 
 line wall
   503.0 161.0
   503.0 161.0 467.5 220.5 455.0 240.0
-  442.5 259.5 357.0 423.5 349.0 434.5
-  341.0 445.5 334.5 480.0 324.5 473.5
-  314.5 467.0 305.5 460.5 287.5 462.0
+  442.5 259.5 368.0 401.5 371.0 424.5
+  372.76 437.98 376.0 448.5 372.0 477.5
+endline
+
+point 398.0 486.0 height -value [-10 m]
+
+line wall -close on -outline in
+  348.0 472.5
+  338.0 466.0 305.5 460.5 287.5 462.0
   269.5 463.5 250.5 465.0 242.5 477.5
   234.5 490.0 228.5 505.0 224.5 505.0
   220.5 505.0 212.5 503.5 217.0 508.5
@@ -105,8 +149,7 @@ line wall
   261.5 506.5 262.0 518.5 269.0 518.5
   276.0 518.5 318.5 517.5 324.5 517.5
   330.5 517.5 344.5 505.0 346.0 501.5
-  347.5 498.0 348.0 472.5 348.0 472.5
-  smooth off
+  347.5 498.0 358.0 479.0 348.0 472.5
 endline
 
 point 492.77700000000004 142.04800000000003 station -name 14@amor

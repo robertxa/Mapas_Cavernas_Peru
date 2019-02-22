@@ -167,6 +167,8 @@ layout my_layout
 	\newtoks\guide \guide={Elmer Condori}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2018}
+	# TEST
+	\newcount\altref \altref={1000}
 	endcode    
 
 endlayout

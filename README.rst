@@ -32,7 +32,7 @@ Only the source files are backup (For reasons of folder size, I choose to not up
 	
 To get the surveys you need to compile the Therion files.
 
-You can find a description of most of the caves of Perú on `_http://cuevasdelperu.org`
+You can find a description of most of the caves of Perú on `_https://cuevasdelperu.org`
 
 Licence
 -------

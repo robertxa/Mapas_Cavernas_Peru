@@ -7,14 +7,14 @@ encoding utf-8
 
 # Input th2 pour le plan
 	input th2/calaveraJYB.th2
-	#input th2/calaveraJLG.th2
+	input th2/calaveraJLG.th2
 	
 	# join the scraps
-	#join calaveraJYB-SP2 SCRAP-JLG-A-NOMMER
+	join calaveraJYB-SP2 calaveraJL-SP-1
 
 # Input th2 pour la coupe
 	input th2/calaveraJYB-coupe.th2
-	#input th2/calaveraJLG-coupe.th2
+	input th2/calaveraJLG-coupe.th2
 	
 	# join the scraps
-	#join calaJYB-SC1 SCRAP-JLG-A-NOMMER
+	join calaJYB-SC1 scrap23-SC1

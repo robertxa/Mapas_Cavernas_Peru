@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.75 -128.75 544.0 521.701
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -219.0 -161.0 663.0 521.701
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {181.099 1 1.0} {88.738 0} amor2018.xvi 0 {}
 
 
@@ -10,8 +10,6 @@ scrap amor-SP-1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "l
 point 192.25 86.0 altitude -align top-right
 
 point 111.75 355.0 altitude -align top-left
-
-point 197.75 324.75 continuation -attr Code P -text "Puits à descendre ?"
 
 point 181.75 346.0 height -value [-10 m]
 
@@ -144,6 +142,54 @@ line wall
   smooth off
 endline
 
+point 224.0 10.0 label -text "rio Yuracyacu"
+
+line water-flow
+  494.0 15.0
+  531.0 51.0
+endline
+
+line water-flow
+  485.0 37.0
+  515.0 67.0
+endline
+
+line water-flow
+  479.0 66.0
+  520.0 108.0
+endline
+
+line water-flow
+  -87.0 48.0
+  -28.0 31.0
+endline
+
+line water-flow
+  -76.0 83.0
+  -18.0 58.0
+endline
+
+area water -clip off
+  l78-393-64
+endarea
+
+line label -id l78-393-64 -close on
+  3.0 68.0
+  3.0 68.0 -22.0 22.0 -17.0 12.0
+  -12.0 2.0 48.0 -9.0 87.0 -14.0
+  126.0 -19.0 171.0 -22.0 220.0 -25.0
+  269.0 -28.0 310.0 -33.0 327.0 -29.0
+  344.0 -25.0 370.0 -24.0 409.0 -20.0
+  448.0 -16.0 496.0 -5.0 485.0 6.0
+  474.0 17.0 468.0 42.0 463.0 52.0
+  458.0 62.0 427.0 74.0 390.0 63.0
+  353.0 52.0 321.0 57.0 274.0 52.0
+  227.0 47.0 207.0 46.0 168.0 50.0
+  129.0 54.0 73.0 64.0 44.0 65.0
+  15.0 66.0 3.0 68.0 3.0 68.0
+  smooth off
+endline
+
 line wall
   192.25 86.0
   192.25 86.0 184.75 84.75 183.75 88.75
@@ -232,8 +278,12 @@ line wall
   415.0 335.75
   415.0 335.75 329.75 333.5 317.25 332.75
   304.75 332.0 257.25 334.0 243.25 328.5
-  229.25 323.0 198.75 313.0 203.0 299.0
-  207.25 285.0 222.25 288.25 224.0 277.5
+  229.25 323.0 203.75 332.75 186.25 328.0
+endline
+
+line wall
+  195.75 312.0
+  200.0 298.0 222.25 288.25 224.0 277.5
   225.75 266.75 222.75 256.75 224.5 247.25
   226.25 237.75 238.0 207.0 229.5 206.25
   221.0 205.5 215.0 205.25 210.75 205.25
@@ -245,15 +295,18 @@ area blocks
   l72-231-333
 endarea
 
+point 316.0 218.0 label -text "<center>ossements de<br>mammifère"
+
+point 319.25 263.5 paleo-material
+
 line label -id l72-231-333 -close on
   230.5 333.0
-  230.5 333.0 189.75 310.75 200.75 296.5
+  209.25 353.5 189.75 310.75 200.75 296.5
   211.75 282.25 216.75 277.5 221.25 278.0
   225.75 278.5 242.25 276.25 243.5 278.25
   244.75 280.25 236.0 290.5 236.5 294.5
   237.0 298.5 237.25 327.25 235.0 328.75
-  232.75 330.25 230.5 333.0 230.5 333.0
-  smooth off
+  232.75 330.25 232.44 331.12 230.5 333.0
 endline
 
 area blocks
