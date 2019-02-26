@@ -164,10 +164,10 @@ layout my_layout
 			\cavename={Systema del Tragadero del Rio Yuracyacu} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Grupo Bambui de Pesquisas Espelologicas (GBPE)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Grupo Bambui de Pesquisas Espelologicas (GBPE), Groupe Spéléo des Dolomites}
 	\newtoks\synth \synth={Xavier Robert}
 	\newtoks\wpage \wpage={http://cuevasdelperu.org/san-martin-rioja/tragadero-del-rio-yuracyacu/}
-	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017}
+	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017, Nor Perú 2018}
 	endcode    
 
 endlayout
@@ -298,10 +298,10 @@ layout my_layout-coupe
 			\cavename={Tragadero del Rio Yuracyacu} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Grupo Bambui de Pesquisas Espeleologicas (GBPE)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Grupo Bambui de Pesquisas Espeleologicas (GBPE), Groupe Spéléo des Dolomites}
 	\newtoks\synth \synth={Xavier Robert}
 	\newtoks\wpage \wpage={http://cuevasdelperu.org/san-martin-rioja/tragadero-del-rio-yuracyacu/}
-	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017}
+	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017, Nor Perú 2018}
 	endcode  
   
 endlayout
@@ -314,7 +314,7 @@ endlayout
   
  export map -o yuracyacu-plan2017.pdf -layout my_layout
  #export map -projection extended -layout my_layout-coupe -o yuracyacu-coupe2017.pdf
- #export model -o inca_2016.lox
+ export model -o inca_2016.lox
   
  # Export des fichiers ESRI
 # export map -proj plan -fmt esri -o yuracyacu_2017 -layout my_layout

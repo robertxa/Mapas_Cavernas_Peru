@@ -91,7 +91,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Laurel, Jamalca, Utcubamba, Amazonas, Perú"
+	map-comment "Jamalca, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -163,7 +163,7 @@ layout my_layout
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Spéléo Club de la Vallée de la Vis (SCVV)}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/cueva-del-laurel/}
 	\newtoks\expe \expe={Amazonas 2018}
 	endcode    
 
@@ -225,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Laurel, Jamalca, Utcubamba, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Jamalca, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -295,7 +295,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Spéléo Club de la Vallée de la Vis (SCVV)}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/cueva-del-laurel/}
 	\newtoks\expe \expe={Amazonas 2018}
 	endcode  
   

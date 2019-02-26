@@ -39,8 +39,10 @@ layout my_layout
 	#copy northarrowMG 
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
+	#copy Testdeph
 	copy headerl 
 	copy langue-es
+	#copy Testdeph
 
 	# Titre  
 	doc-title "Cueva de l'Amor"
@@ -162,14 +164,55 @@ layout my_layout
 			\cavename={Cueva del Amor} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
-	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Elmer Condori}
-	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
-	# TEST
-	\newcount\altref \altref={1000}
-	endcode    
+		\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
+		\newtoks\synth \synth={}
+		\newtoks\guide \guide={Elmer Condori}
+		\newtoks\wpage \wpage={}
+		\newtoks\expe \expe={Nor Perú 2018}
+		
+		% \altref should be the altitude of the entrance
+		#\newtoks\altref \altref={}	
+		#\edef\altref{1000}	
+	endcode
+
+	# TEST to calcul the relative depth of a cave
+#	code tex-map
+#		\edef\nostring{}
+#		% give the \altref value to a new token \altreft
+#		\newtoks\altreft \altreft={\altref}
+#		% Test if \altreft is empty or not
+#		\edef\tmp{\the\altreft}
+#		\ifx\tmp\empty
+#		\else	% if \altreft is not empty
+#			\ifx\cavemaxz\nostring
+#			\else
+#				% test with nothing, \number, \the, \string and everything crashes !
+#				\edef\cavemaxzc{1008}
+#				#\newcount\cavemaxzc
+#				#\cavemaxzc{\number\cavemaxz}
+#				#\edef\cavemaxzc{\number\cavemaxz}
+#			
+#				\newcount\maxdepthc
+#				\maxdepthc = \numexpr \cavemaxzc - \altref \relax
+#			\fi
+#			\ifx\caveminz\nostring
+#			\else
+#				% test with nothing, \number, \the, \string and everything crashes !
+#				\edef\caveminzc{958}
+#				#\newcount\cavemaxzc
+#				#\cavemaxzc{\number\cavemaxz}
+#				#\edef\cavemaxzc{\cavemaxz}
+#				
+#				\newcount\mindepthc
+#				\mindepthc = \numexpr \caveminzc - \altref \relax
+#			\fi
+#		\fi
+#		
+#		# Several problems :
+#		#	1- The tests do not work as it should. Why ?
+#		#	2- I do not understood how to pass the value of a token to a single variable. How can I do that ?
+#	
+#	endcode    
 
 endlayout
  

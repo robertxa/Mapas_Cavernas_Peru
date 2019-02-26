@@ -1,8 +1,8 @@
 encoding utf-8
 
 survey laureltot -title "Cueva de Laurel"
-	input laurel.th
-	input laurel-JLG.th
+	input th/laurel.th
+	input th/laurel-JLG.th
 	
 	centerline
 		equate 40@laurel 15@laurelJLG
@@ -10,5 +10,8 @@ survey laureltot -title "Cueva de Laurel"
 	
 endsurvey
 
-input laurel.th2
-#input laurelJLG.th2
+input th2/laurel.th2
+input th2/laurelJLG.th2
+
+join Laurel-JLG-SP1 laurel-SP2
+

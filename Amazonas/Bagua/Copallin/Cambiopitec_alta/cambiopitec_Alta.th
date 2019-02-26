@@ -13,7 +13,7 @@ survey cambiopitec_alta -title "cambiopitec_alta" -entrance "7"
     
     cs lat-long
     fix 7  -5.62977  -78.38457  1410
-    
+
     units length meters
     units compass clino degrees
     data normal from to length backcompass clino left right up down

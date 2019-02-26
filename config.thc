@@ -214,6 +214,14 @@ layout langue-es
 		\newtoks\wpage \wpage={}
 		\newtoks\expe \expe={}
 		\newtoks\guide \guide={}
+		
+		
+		# TEST
+		#\newcount\altref
+		#\altref=1000
+		#\newcount\altref \altref={}
+		\newtoks\altreft \altreft={}
+		\edef\altref{}
 	endcode	
 	
 endlayout
@@ -244,8 +252,7 @@ layout langue-en
 		\newtoks\expe \expe={}
 		\newtoks\guide \guide={}
 		
-		# TEST
-		\newcount\altref \altref={}
+		
 		
 	endcode	
 	
@@ -1199,6 +1206,61 @@ layout drawingconfig
 
 endlayout
 
+# TEST###################################
+#layout Testdeph
+
+#	code tex-map
+#		# TEST
+#		#\newcount\altref
+#		#\altref=1000
+#		#\newcount\altref \altref={}
+#		\newtoks\altreft \altreft={}
+#		\edef\altref{}
+#		
+#		\edef\nostring{}
+#		% give the \altref value to a new token \altreft
+#		\newtoks\altreft \altreft={\altref}
+#		% Test if \altreft is empty or not
+#		\edef\tmp{\the\altreft}
+#		\ifx\tmp\empty
+#		\else	% if \altreft is not empty
+#			\ifx\cavemaxz\nostring
+#			\else
+#				% test with nothing, \number, \the, \string and everything crashes !
+#				\edef\cavemaxzc{1008}
+#				#\newcount\cavemaxzc
+#				#\cavemaxzc{\number\cavemaxz}
+#				#\edef\cavemaxzc{\number\cavemaxz}
+#			
+#				\newcount\maxdepthc
+#				\maxdepthc = \numexpr \cavemaxzc - \altref \relax
+#			\fi
+#			\ifx\caveminz\nostring
+#			\else
+#				% test with nothing, \number, \the, \string and everything crashes !
+#				\edef\caveminzc{958}
+#				#\newcount\cavemaxzc
+#				#\cavemaxzc{\number\cavemaxz}
+#				#\edef\cavemaxzc{\cavemaxz}
+#				
+#				\newcount\mindepthc
+#				\mindepthc = \numexpr \caveminzc - \altref \relax
+#			\fi
+#		\fi
+#		
+#		# Several problems :
+#		#	2- I do not understood how to pass the value of a token to a single variable. How can I do that ?
+#	
+#	endcode    
+#endlayout
+# TEST###################################
+
+
+
+
+
+
+
 #------------------------------
 layout headerl
 #<en> Layout to change the header (plan projection)
@@ -1254,19 +1316,27 @@ layout headerl
 		\fi
 		\edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
 			
-			#\edef\tmp{\the\altref}
-			#\ifx\tmp\empty 
-				{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
-			#\else
-			#	#\input xintexpr.sty \relax
-			#	#\def\roundandprint #1{\xinttheiexpr #1\relax }
-			#	
-			#	#\edef\maxdepth{\numexpr \value\cavemaxz - \altref \relax}
-			#	\edef\maxdepth{\advance \number\cavemaxz by -\altref}
-			#	
-			#	{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\maxdepth\par}
-			#	#{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
-			#\fi
+			% Test if the token \altreft is empty or not
+			\edef\tmp{\the\altreft}
+			\ifx\tmp\empty
+				% If the token \altreft is empty, write the total denivelation 
+				{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}	
+			\else
+				% If the token \altreft is not empty
+				\edef\pluss{+}
+				\edef\mm{ m}
+				% Test if the altitude maximum of the cave is the same as the entrance
+				\ifnum \maxdepthc = 0
+					% If the altitude maximum of the cave is the same as the entrance
+					% write only the negative depth in regards to the entrance
+					{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\mindepthc \mm\par}
+				\else
+					% If the altitude maximum of the cave is NOT the same as the entrance
+					% write both the negative and positive depth in regards to the entrance
+					{\the\legendtextsize\si\the\cavedepthtitle: \ss\pluss \ss\the\maxdepthc \mm { /} \ss\the\mindepthc \mm\par}
+				\fi
+			#	{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+			\fi
 			
 		\fi
 		# % start bruces addition

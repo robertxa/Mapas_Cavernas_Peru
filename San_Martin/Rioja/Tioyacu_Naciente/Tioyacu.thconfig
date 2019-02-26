@@ -165,7 +165,7 @@ layout my_layout
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Alto MAyo 2013, Nueva cajamarca 2014}
+	\newtoks\expe \expe={Alto Mayo 2013, Nueva cajamarca 2014}
 
 	endcode    
 

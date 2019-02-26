@@ -130,12 +130,15 @@ line border -close on
   smooth off
 endline
 
+#point 1271.25 2847.5 label -text "<center>pared<br>construida"
 point 1271.25 2847.5 label -text "<center>mur<br>construit"
 
 point 1192.75 2757.25 archeo-material
 
+#point 1255.0 2747.0 label -text "<center>sepultura<br>secundaria"
 point 1255.0 2747.0 label -text "<center>sépulture<br>secondaire"
 
+#point 1115.0 2853.0 label -text "<center>sepultura<br>secundaria"
 point 1115.0 2853.0 label -text "<center>sépulture<br>secondaire"
 
 point 1179.75 2847.75 archeo-material
@@ -337,14 +340,17 @@ point 1130.75 3150.75 u:bats
 
 point 1118.0 3194.75 narrow-end
 
+#point 1203.75 3172.5 label -text "vampiros"
 point 1203.75 3172.5 label -text "vampires"
 
+#point 1293.0 3396.0 label -text "sepultura"
 point 1293.0 3396.0 label -text "sépulture"
 
 point 1246.25 3436.0 archeo-material
 
 point 1262.0 3416.75 archeo-material
 
+#point 1175.5 3398.0 label -text "<center>pared<br>construida"
 point 1175.5 3398.0 label -text "<center>mur<br>construit"
 
 line border -close on
@@ -759,6 +765,7 @@ endline
 
 point 928.25 2207.5 continuation -attr Code A -text "Départ non visité"
 
+#point 1055.25 2165.5 label -text "caos de bloques"
 point 1055.25 2165.5 label -text "trémie"
 
 area blocks
@@ -783,8 +790,10 @@ line rock-border -close on -clip off
   975.5 2237.25
 endline
 
+#point 1054.25 2216.25 label -text "<center>piedra<br>en pie"
 point 1054.25 2216.25 label -text "<center>pierre<br>dressée"
 
+#point 737.0 1180.0 label -text "<center>piedra<br>en pie"
 point 737.0 1180.0 label -text "<center>pierre<br>dressée"
 
 line rock-border -close on
