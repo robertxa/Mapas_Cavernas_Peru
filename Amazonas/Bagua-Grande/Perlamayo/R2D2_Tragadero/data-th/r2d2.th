@@ -36,9 +36,8 @@ survey r2d2 -title "R2D2" -entrance 0
     	explo-team "Pierre Bevengut" 
     	explo-team "Michel Serfati"
     
-    cs lat-long
-    #fix 0 
-    
+    station 25 "exploration à continuer" continuation explored 100m
+        
     units length meters
     units compass clino degrees
     data normal from to length compass clino left right up down

@@ -7,6 +7,7 @@ survey laurelJLG -title "Cueva de Laurel"
     date 2018.11.09 
     	team "Jean Loup/Guyot"
     	team "Pierre Bevengut"
+    	team "Michel Serfati"
     units length meters
     units compass clino degrees
     data normal from to length compass clino	left	right	up	down

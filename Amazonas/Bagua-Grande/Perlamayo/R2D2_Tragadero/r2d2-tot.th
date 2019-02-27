@@ -1,7 +1,7 @@
 encoding utf-8
 
 survey R2D2 -title "Tragadero R2D2"
-	input data-th/r2d2
+	input data-th/r2d2	# Données 2018
 	
 	#centerline
 	#	equate 47@lechuza 0@olaya
@@ -13,7 +13,7 @@ survey R2D2 -title "Tragadero R2D2"
 	
 endsurvey
 
-#input th2/r2d2_2018.th2
+input th2/r2d2_2018.th2
 
 #input th2/olaya3.th2    # Siphon
 #join olaya-sp3 olaya-sp4

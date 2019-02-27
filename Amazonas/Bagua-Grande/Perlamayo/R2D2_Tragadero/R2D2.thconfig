@@ -45,7 +45,7 @@ layout my_layout
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
-	cs UTM18
+	cs UTM17
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -54,7 +54,8 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 750
+	base-scale 1 850
+	#base-scale 1 1200
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,6 +67,7 @@ layout my_layout
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
 	scale 1 500
+	#scale 1 600
 
 	# echelle graphique 100 m ampleur
 	scale-bar 50 m
@@ -90,7 +92,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Perlamayo, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -107,7 +109,6 @@ layout my_layout
   
 	# Par defaut, la legende est de 14 cm de largeur
 	legend-width 14.5 cm
-	#legend-width 20 cm
 	#legend-columns 3
 
     
@@ -119,6 +120,7 @@ layout my_layout
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 37 100 nw
+	map-header -10 90 ne
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -127,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -164,7 +166,7 @@ layout my_layout
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Spéléo Club de la Vallée de la Vis (SCVV)}
 	#\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/tragadero-r2d2/}
 	\newtoks\expe \expe={Amazonas 2018}
 	endcode    
 
@@ -224,7 +226,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Perlamayo, Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -292,7 +294,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Spéléo Club de la Vallée de la Vis (SCVV)}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/tragadero-r2d2/}
 	\newtoks\expe \expe={Amazonas 2018}
 	endcode  
   
@@ -314,3 +316,10 @@ endlayout
  # Export des fichiers kml
  export map -proj plan -fmt kml -o Outputs/SIG/r2d2_2018.kml -layout my_layout
  export model -fmt kml -o Outputs/SIG/r2d2_2018m.kml
+ 
+ # Export statistiques
+#export database -o Outputs/Lists/Database-2018.sql
+export continuation-list -o Outputs/Lists/Continuations-2018.html
+export survey-list -location on -o Outputs/Lists/Topographies_2018.html
+export cave-list -location on -o Outputs/Lists/Cavites_2018.html
+
