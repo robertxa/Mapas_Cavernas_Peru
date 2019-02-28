@@ -1,0 +1,37 @@
+encoding  utf-8
+
+survey senormartin -title "Cueva del Senor Martin" -entrance 0
+
+  centerline
+    date 2018.11.06
+      team "Jean Loup/Guyot"
+      team "Pierre Bevengut" 
+        
+    cs lat-long
+    fix 0 -5.87460  -78.52462  2080
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino left right up down
+    # extend auto
+    0	0b	0		0	0	8.8	9.9	12.4	2.0  # entrée
+    0	1	15.9	35	-30	9.8	4.7	2.9	2.9
+	1	2	29.9	10	-24	9.1	4.1	5.1	1.9
+	2	3	23.8	50	-12	3.9	5.5	4.9	0.6
+	3	4	17.8	79	-12	4.9	1.5	5.1	0.9
+	4	5	16.8	14	-9	8.8	3.7	3.5	1.2
+	5	6	36.0	56	-11	11.3	0	3.2	1.5
+	6	7	16.9	2	-6	5.5	2.8	6.5	1.0
+	7	8	10.0	318	-15	4.7	1.9	8.3	1.8
+	8	9	19.2	39	-8	3.9	3.7	7.0	2.3
+	9	10	23.7	330	-10	1.8	4.9	7.2	1.5
+	10	11	9.9		265	21	1.0	0.0	0.0	0.5
+	10	12	22.7	68	-5	0.0	13.7	3.8	1.0
+	12	13	20.1	162	-3	16.5	0.0	2.8	1.6
+	13	14	16.0	51	-2	2.1	1.0	0.5	0.8
+	14	15	12.1	84	-9	1.5	0.0	0.5	0.0 # fin sur siphon laminoir boueux
+	
+  endcenterline
+  
+endsurvey
+
