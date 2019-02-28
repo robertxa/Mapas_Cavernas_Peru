@@ -1,0 +1,28 @@
+encoding  utf-8
+
+survey moreno -title "Cueva Moreno" -entrance 0
+
+  centerline
+    date 2018.11.11
+      team "Jean Loup/Guyot"
+      team "Pierre Bevengut" 
+	  team "Antonio/de Pomar"
+        
+    cs lat-long
+    fix 0 -6.22190  -77.60751  2470
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino left right up down
+    # extend auto
+    0	0b	0	0	0	3.8	6.5	8.0	1.0  # entrée
+    0	1	33.40	148.5	1.8	6.1	4.7	4.7	1.2
+	1	2	15.19	128.2	2.6	5.7	10.8	4.5	1.4
+	2	3	32.50	126.4	7.3	6.6	4.5	4.2	1.4
+	3	4	24.10	151.4	11.9	8.8	2.8	1.4	1.8
+	4	5	6.3		166.4	23.3	1.0	0	0	1
+	
+  endcenterline
+  
+endsurvey
+
