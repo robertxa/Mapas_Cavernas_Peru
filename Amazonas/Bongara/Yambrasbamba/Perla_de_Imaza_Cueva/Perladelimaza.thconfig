@@ -14,8 +14,9 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source pantora.th
-source pantoja-coupe.th2
+source perladelimaza.th
+source perladelimaza.th2
+# source perladelimaza_coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -42,11 +43,11 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de Pantora"
+	doc-title "Cueva de Perla del Imaza"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
-	cs UTM18
+	# cs UTM18
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -55,7 +56,8 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1350
+	#base-scale 1 1000
+	base-scale 1 1250
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,12 +68,11 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	#scale 1 1000
+	#scale 1 700
 	scale 1 1000
 
 	# echelle graphique 100 m ampleur
 	scale-bar 100 m
-	#scale-bar 50 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -93,7 +94,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Quinjalca, Chachapoyas, Amazonas, Perú"
+	map-comment "Yambrasbamba, Bongará, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -106,12 +107,11 @@ layout my_layout
 	# seulement la legende des symboles dessines sur la topo, si l on veut
 	# pour tous les symboles, utilises ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend all
+	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 18 cm
-	
-	legend-columns 3
+	legend-width 15.5 cm
+	#legend-columns 3
 
     
 	# Specification la position de la manchette : interieur
@@ -121,7 +121,8 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 63 75 nw
+	#map-header 20 -20 nw
+	map-header 35 20 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -131,15 +132,15 @@ layout my_layout
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
 	symbol-hide line survey
-	#debug station-names
+	# debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
-	#grid bottom
+	# grid bottom
   
 	# Specifier le pas de la grille, ici 100x100x100 metres
 	# (Trois dimensions, oui, ça sert pour la coupe aussi) 
-	#grid-size 100 100 100 m
+	# grid-size 100 100 100 m
 	# Si nous ne voulons pas de grille :
 	grid off
   
@@ -161,13 +162,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Pantoja} 		
+			\cavename={Cueva de Perla del Imaza} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Club Action Spéléologique Canyon (CASC)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-chachapoyas/cueva-pantoja-tragadero-la-pubela-la-basura/}
-	\newtoks\expe \expe={Chachapoyas 2017}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-bongara/cueva-de-perla-del-imaza/}
+	\newtoks\expe \expe={Nor Perú 2018}
 	endcode    
 
 endlayout
@@ -181,7 +182,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Cueva de Pantora"
+	doc-title "Cueva de Perla del Imaza"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -190,7 +191,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 500
+	base-scale 1 1200
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -201,10 +202,10 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 250
+	scale 1 750
 
 	# echelle graphique 100 m ampleur
-	scale-bar 25 m  
+	scale-bar 100 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -226,7 +227,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Quinjalca, Chachapoyas, Amazonas, Perú"
+	map-comment "(Alzado) Yambrasbamba, Bongará, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -241,7 +242,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 16 cm
+	legend-width 20 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -250,9 +251,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	#map-header 0 60 nw
-	map-header 110 0 sw
-
+	map-header 10 -10 nw
     
 	# arrière plan de la manchette
 	map-header-bg off
@@ -261,8 +260,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	# symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -291,13 +290,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Pantoja} 		
+			\cavename={Cueva de Perla del Imaza} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Club Action Spéléologique Canyon (CASC)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-chachapoyas/cueva-pantoja-tragadero-la-pubela-la-basura/}
-	\newtoks\expe \expe={Chachapoyas 2017}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-bongara/cueva-de-perla-del-imaza/}
+	\newtoks\expe \expe={Nor Perú 2018}
 	endcode  
   
 endlayout
@@ -305,16 +304,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o pantora2017.xvi
- export map -projection extended -fmt xvi -layout xviexport -o pantora-coupe2017.xvi
+ export map -fmt xvi -layout xviexport -o perladelimaza2018.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o perladelimaza-coupe2018.xvi
   
- export map -o pantora-plan2017.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o pantora-coupe2017.pdf
- export model -o pantora_2017.lox
+ export map -o perladelimaza-plan2018.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o perladelimaza-coupe2018.pdf
+ export model -o perladelimaza_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o pantora_2017 -layout my_layout
+ export map -proj plan -fmt esri -o perladelimaza_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o pantora_2017.kml -layout my_layout
- export model -fmt kml -o pantora_2017m.kml
+ export map -proj plan -fmt kml -o perladelimaza_2018.kml -layout my_layout
+ export model -fmt kml -o perladelimaza_2018m.kml

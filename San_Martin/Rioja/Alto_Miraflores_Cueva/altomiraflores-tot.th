@@ -1,0 +1,17 @@
+encoding utf-8
+
+input th/altomiraflores.th
+#input bellavista3.th
+#equate 1@bellavista3 E.85@bellavista
+
+# Pour le plan
+input th2/altomiraflores.th2
+#input th2/bellavista2014.th2
+#join JL1 BVJY1
+
+
+#######
+## Pour la coupe
+input th2/altomiraflores_coupe.th2
+#input th2/bellavista-coupe2017.th2
+#join bella2017c1 EZc1
