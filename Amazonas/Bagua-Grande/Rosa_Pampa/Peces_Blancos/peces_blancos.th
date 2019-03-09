@@ -9,8 +9,6 @@ survey peces -title "Tragadero de los Peces Blancos" -entrance 0
     	team "Angela Ampuero"
     	team "Ana Rodriguez"
     	team "Marc Pouilly"
-    # team Groupe Spéléologique Vulcain 
-    # declination 0.00 degrees
     
     cs lat-long
     fix 0	 -5.92291	-78.44854	2525
