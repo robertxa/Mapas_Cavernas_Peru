@@ -32,7 +32,9 @@ Only the source files are backup (For reasons of folder size, I choose to not up
 	
 To get the surveys you need to compile the Therion files.
 
-You can find a description of most of the caves of Perú on `_https://cuevasdelperu.org`
+You can find a description of most of the caves of Perú on `_https://cuevasdelperu.org` and some 3D visualisations on `_https://www.groupe-speleo-vulcain.com/explorations/topographies-3d/`.
+
+The caving reports are also available on `_https://www.groupe-speleo-vulcain.com/explorations/expeditions-a-letranger/` or `_http://www.gsbm.fr/bulletin-rapport/`
 
 Licence
 -------
