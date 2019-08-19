@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 774.0 836.6677999999999
+##XTHERION## xth_me_area_adjust -129.5 -129.5 774.0 836.7058
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {534.399 1 1.0} {630.203 1} Palestina2_2017.xvi 0 {}
 
@@ -7,7 +7,22 @@ encoding  utf-8
 
 scrap pal2_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 757.9216 -128.0 0.0 0.0 22.50240864 0.0 m]
 
-line wall
+line wall -outline in -subtype invisible
+  335.25 224.0
+  338.25 225.0
+endline
+
+line wall -outline in -subtype invisible
+  327.25 228.5
+  329.0 226.75
+endline
+
+line wall -outline in -subtype invisible
+  306.75 191.0
+  306.0 194.0
+endline
+
+line wall -outline in
   361.5 184.25
   361.5 184.25 347.5 182.75 344.5 182.75
   341.5 182.75 331.0 187.75 324.5 188.0
@@ -54,6 +69,16 @@ line wall -close on -outline in
   smooth off
 endline
 
+line wall -subtype invisible
+  215.0 258.25
+  212.25 255.75
+endline
+
+line wall -subtype invisible
+  199.5 130.25
+  199.5 130.25 197.0 132.0 194.5 130.25
+endline
+
 line wall
   303.0 162.0
   303.0 162.0 305.0 166.0 308.75 162.25
@@ -92,7 +117,7 @@ line wall
   306.0 194.0
 endline
 
-line wall
+line wall -outline in
   338.25 225.0
   338.25 225.0 337.0 231.25 341.0 233.75
   345.0 236.25 344.5 238.5 349.75 236.5
@@ -116,7 +141,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   305.75 227.0
   305.75 227.0 301.5 228.75 305.5 231.25
   309.5 233.75 311.25 234.75 312.25 233.75
@@ -127,7 +152,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   306.0 194.0
   306.0 194.0 298.0 190.5 297.25 192.0
   296.5 193.5 299.0 198.25 296.5 202.0
