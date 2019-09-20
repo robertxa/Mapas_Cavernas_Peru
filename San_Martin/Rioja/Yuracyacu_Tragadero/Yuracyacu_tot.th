@@ -1,14 +1,20 @@
 encoding utf-8
 
+# Tragadero de Yuracyacu
 input Tragadero_Yuracyacu/yuracyacu.th
-input Cascada/perte_duriacou.th
-input trous_Yura.th
-input Peces/peces.th
-
-# Pour le plan
 input Tragadero_Yuracyacu/yuracyacu.th2
+
+# Tagadero de la Cascada
+input Cascada/perte_duriacou.th
 input Cascada/perte_duriacou_plan.th2
-input Yur_pos.th2
+
+# Cueva de los Peces
+input Peces/peces.th
 input Peces/peces.th2
 
+# Autres
+input trous_Yura.th
+input Yur_pos.th2
 
+# Cueva del Amor
+input Amor_Cueva/data/amor-tot

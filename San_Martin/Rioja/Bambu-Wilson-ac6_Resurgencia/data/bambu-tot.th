@@ -1,0 +1,30 @@
+encoding utf-8
+
+input Bambu.th
+input bambus2019a.th
+equate 14@bambu 0@bambus2019a
+
+input bambus2019b.th
+equate 36A@bambus2019b 36@bambus2019a
+equate 35A@bambus2019b 35@bambus2019a
+equate 30A@bambus2019b 30@bambus2019a
+
+input tunnelG.th
+equate 29BIS@tunnelG	29@bambus2019b
+equate PUITD@tunnelG	74@bambus2019a
+
+
+# Pour le plan
+input Bambu.th2
+input bambu2019.th2
+join Bambu2019-SP1 bambu2017
+
+input tunnelG.th2
+join Bambu2019-SP5 Tunnel2019-SP2
+
+#######
+## Pour la coupe
+#input amor-coupe2018.th2
+#input amor-coupe2019.th2
+
+

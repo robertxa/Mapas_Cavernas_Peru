@@ -1,0 +1,27 @@
+encoding utf-8
+
+input th/altomiraflores.th
+input th/AM_xr.th
+equate 22@AM_xr 18@altomiraflores
+
+input th/AM_xr2.th
+equate 0@AM_xr 0B@AM_xr2
+
+# Pour le plan
+input th2/altomiraflores.th2
+input th2/altomiraflores2019a.th2
+join AM_2019_SP1 mira1
+
+input th2/altomiraflores2019b.th2
+join AM_2019_SP2 AM2019b_SP2
+
+
+#######
+## Pour la coupe
+input th2/altomiraflores_coupe2019.th2
+input th2/altomiraflores_coupe.th2
+join AM2019_SC1 mira1c
+
+#input th2/altomiraflores_coupe2019b.th2
+#join AM2019_SC3 ???
+

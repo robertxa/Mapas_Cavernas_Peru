@@ -1,0 +1,18 @@
+encoding utf-8
+
+input amor.th
+input amor2019.th
+equate 13@amor 13@amor2019
+
+# Pour le plan
+#input amor2018.th2
+#input amor2019.th2
+
+#join JL1 BVJY1
+
+#######
+## Pour la coupe
+#input amor-coupe2018.th2
+#input amor-coupe2019.th2
+
+

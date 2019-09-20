@@ -1,0 +1,32 @@
+# 2019.09.14 created by TopoDroid v 4.1.3u
+
+survey G12 -title "G12" -entrance 0
+
+  centerline
+    date 2019.09.14
+    	team "Xavier Robert" 
+    explo-date 2019.09.13
+		explo-team "Xavier Robert"
+		explo-team "Antonio\De Palma" 
+    
+    cs lat-long
+    #fix 0 ?? ?? ??
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 0.52 186.4 1.8
+    0 . 0.62 224.6 50.4
+    0 . 0.78 178.6 -80.8
+    0 . 1.22 244.9 -6.3
+    0 . 2.90 255.0 -11.2
+    0 . 1.58 255.9 -26.5
+    0 . 0.71 267.4 -12.3
+    0 . 2.69 263.1 -12.2
+    0 . 1.55 256.0 9.8
+    extend left
+    0 1 5.31 259.8 -22.9
+  endcenterline
+
+endsurvey

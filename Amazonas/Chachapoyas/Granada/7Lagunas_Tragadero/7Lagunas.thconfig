@@ -14,8 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source 7_lagunas.th
-source 7lagunas.th2
+source Data/7lagunas-tot.th
 
 # Add config file
 input ../../../../config.thc 
@@ -166,7 +165,7 @@ layout my_layout
 	\newtoks\synth \synth={}
 	\newtoks\guide \guide={Dario Labajos Conila}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -299,7 +298,7 @@ layout my_layout-coupe
 	\newtoks\synth \synth={}
 	\newtoks\guide \guide={Dario Labajos Conila}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -307,16 +306,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o 7lagunas2018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o 7lagunas-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o Data/th2/7lagunas2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/th2/7lagunas-coupe2019.xvi
   
- export map -o 7lagunas-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o 7lagunas-coupe2018.pdf
- export model -o 7lagunas_2018.lox
+ export map -o Outputs/7lagunas-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/7lagunas-coupe2019.pdf
+ export model -o Outputs/7lagunas_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o 7lagunas_2018 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/7lagunas_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o 7lagunas_2018.kml #-layout my_layout
- export model -fmt kml -o 7lagunas_2018m.kml
+ export map -proj plan -fmt kml -o Outputs/7lagunas_2019.kml #-layout my_layout
+ export model -fmt kml -o Outputs/7lagunas_2019m.kml

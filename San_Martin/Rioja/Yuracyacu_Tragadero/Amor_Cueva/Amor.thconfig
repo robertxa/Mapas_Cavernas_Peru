@@ -14,10 +14,12 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source cascayunga-tot.th
+source data/amor-tot.th
+#source data/amor.th2
+#source data/amor-coupe.th2
 
 # Add config file
-input ../../../config.thc 
+input ../../../../config.thc 
   
   
 # 2-LAYOUT   
@@ -37,11 +39,13 @@ layout my_layout
 	#copy northarrowMG 
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
+	#copy Testdeph
 	copy headerl 
 	copy langue-es
+	#copy Testdeph
 
 	# Titre  
-	doc-title "Cueva de Cascayunga"
+	doc-title "Cueva de l'Amor"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -54,7 +58,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1850
+	base-scale 1 500
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -65,10 +69,12 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 1500
+	#scale 1 1000
+	scale 1 500
 
 	# echelle graphique 100 m ampleur
-	scale-bar 150 m
+	#scale-bar 100 m
+	scale-bar 50 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -90,7 +96,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rioja, San Martín, Perú"
+	map-comment "Nueva Cajamarca, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -106,7 +112,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 17 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -115,7 +121,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 45 50 nw
+	map-header 0 -5 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -155,14 +161,58 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Cascayunga} 		
+			\cavename={Cueva del Amor} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={CESPE, Groupe Spéléologique Bagnols Marcoule (GSBM), Espeleo Club Andino (ECA), Groupe spéléologique Vulcain, Groupe Spéléologique des Dolomites (GSV), Groupe Bambui de Pesquisas Espeleologicas (GBPE)}
-	\newtoks\synth \synth={Xavier Robert}
-	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={BEC 2003, Pucara 2003, Nor Perú 2018, Nor Perú 2019}
-	endcode    
+		\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
+		\newtoks\synth \synth={}
+		\newtoks\guide \guide={Elmer Cruz}
+		\newtoks\wpage \wpage={}
+		\newtoks\expe \expe={Nor Perú 2018}
+		
+		% \altref should be the altitude of the entrance
+		#\newtoks\altref \altref={}	
+		#\edef\altref{1000}	
+	endcode
+
+	# TEST to calcul the relative depth of a cave
+#	code tex-map
+#		\edef\nostring{}
+#		% give the \altref value to a new token \altreft
+#		\newtoks\altreft \altreft={\altref}
+#		% Test if \altreft is empty or not
+#		\edef\tmp{\the\altreft}
+#		\ifx\tmp\empty
+#		\else	% if \altreft is not empty
+#			\ifx\cavemaxz\nostring
+#			\else
+#				% test with nothing, \number, \the, \string and everything crashes !
+#				\edef\cavemaxzc{1008}
+#				#\newcount\cavemaxzc
+#				#\cavemaxzc{\number\cavemaxz}
+#				#\edef\cavemaxzc{\number\cavemaxz}
+#			
+#				\newcount\maxdepthc
+#				\maxdepthc = \numexpr \cavemaxzc - \altref \relax
+#			\fi
+#			\ifx\caveminz\nostring
+#			\else
+#				% test with nothing, \number, \the, \string and everything crashes !
+#				\edef\caveminzc{958}
+#				#\newcount\cavemaxzc
+#				#\cavemaxzc{\number\cavemaxz}
+#				#\edef\cavemaxzc{\cavemaxz}
+#				
+#				\newcount\mindepthc
+#				\mindepthc = \numexpr \caveminzc - \altref \relax
+#			\fi
+#		\fi
+#		
+#		# Several problems :
+#		#	1- The tests do not work as it should. Why ?
+#		#	2- I do not understood how to pass the value of a token to a single variable. How can I do that ?
+#	
+#	endcode    
 
 endlayout
  
@@ -175,7 +225,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Cueva de Cascayunga"
+	doc-title "Cueva del Amor"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -195,11 +245,9 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	#scale 1 1000
 	scale 1 500
 
 	# echelle graphique 100 m ampleur
-	#scale-bar 100 m
 	scale-bar 50 m  
 
 	# Pour faire une rotation
@@ -221,12 +269,8 @@ layout my_layout-coupe
 	# Pourcentage de transparence, marche seulement si transparency est "on"
 	opacity 75
   
-	# echelle graphique 100 m ampleur
-	#scale-bar 100 m
-	scale-bar 50 m
-  
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss> - Rioja, San Martín, Perú"
+	map-comment "<it>Alzado<ss> - Nueva Cajamarca, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -241,7 +285,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 16 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -289,13 +333,14 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Cascayunga}
+			\cavename={Cueva del Amor} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={CESPE, Groupe Spéléologique Bagnols Marcoule (GSBM), Espeleo Club Andino (ECA), Groupe spéléologique Vulcain, Groupe Spéléologique des Dolomites (GSV)}
-	\newtoks\synth \synth={Xavier Robert}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique des Dolomites}
+	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Elmer Cruz}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={BEC 2003, Pucara 2003, Nor Perú 2018, Nor Perú 2019}
+	\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -303,16 +348,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o th2/cascayunga2019.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o cascayunga-coupe2019.xvi
+ export map -fmt xvi -layout xviexport -o data/amor2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o data/amor-coupe2019.xvi
   
- export map -o cascayunga-plan2019.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o cascayunga-coupe2019.pdf
- export model -o cascayunga_2019.lox
+ export map -o amor-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o amor-coupe2019.pdf
+ export model -o amor_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o cascayunga_2019 -layout my_layout
+ export map -proj plan -fmt esri -o amor_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o cascayunga_2019.kml -layout my_layout
- export model -fmt kml -o cascayunga_2019m.kml
+ export map -proj plan -fmt kml -o amor_2019.kml -layout my_layout
+ export model -fmt kml -o amor_2019m.kml

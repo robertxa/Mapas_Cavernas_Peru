@@ -1,0 +1,19 @@
+encoding utf-8
+
+input th/7_lagunas.th
+
+#input th/AM_xr.th
+#equate 22@AM_xr 18@altomiraflores
+
+
+# Pour le plan
+input th2/7lagunas.th2
+#input th2/altomiraflores2019a.th2
+#join AM_2019_SP1 mira1
+
+
+#######
+## Pour la coupe
+#input th2/altomiraflores_coupe2019.th2
+#input th2/altomiraflores_coupe.th2
+#join AM2019_SC1 mira1c

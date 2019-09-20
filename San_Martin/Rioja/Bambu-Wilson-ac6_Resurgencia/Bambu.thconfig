@@ -1,7 +1,4 @@
 encoding  utf-8
-    
-# File written by tro2therion.f90 (Xavier Robert) 
-# Based on the work of Roman Muñoz <tatel@euskalnet.net> and Martin Gerbaux <martin.gerbaux@wanadoo.fr> 
  
 # Copyright (C) 2010 Xavier Robert <xavier.robert01@gmail.com>
 # This work is under the GPLv2
@@ -14,9 +11,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Bambu.th
-source bambu.th2
-#source inca-coupe.th2
+source data/bambu-tot.th
+#source bambu.th2
 
 # Add config file
 input ../../../config.thc 
@@ -43,7 +39,8 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de los Bambús o de Wilson/AC6"
+	#doc-title "Cueva de los Bambús o de Wilson/AC6"
+	doc-title "Cueva de los Bambús o Tunnel de los Guacharos"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -56,7 +53,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 700
+	base-scale 1 1250
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -68,14 +65,14 @@ layout my_layout
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
 	#scale 1 1000
-	scale 1 500
+	scale 1 1000
 
 	# echelle graphique 100 m ampleur
 	#scale-bar 100 m
-	scale-bar 50 m
+	scale-bar 150 m
   
 	# Pour faire une rotation
-	#rotate 2.25
+	#rotate 90
   
 	#origin 12 22 0 m
 	#origin-label 100 K
@@ -99,6 +96,7 @@ layout my_layout
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
 	statistics explo-length off
+	statistics explo off
   
 	# Afficher developpement et profondeur de la cavite
 	statistics topo-length off
@@ -119,7 +117,8 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 6 nw
+	map-header 50 100 nw
+	#map-header 05 60 nw	# Si logos
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -159,15 +158,21 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Resurgencia de los Bambus o de Wilson/AC6} 		
+			%\cavename={Resurgencia de los Bambus \smallbreak o de Wilson/AC6}
+			\cavename={Resurgencia de los Bambus \smallbreak o Tunnel de los Guacharos}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Grupo Bambui de Pesquisas Espeleologicas (GBPE)}
 	\newtoks\synth \synth={Xavier Robert}
+	\newtoks\guide \guide={Señor Wilson, Norbil Rodriguez Fernandez, Jose Heli Rodriguez Fernandez, Ciro Anderson Alegria Katpo}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017}
+	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017, Nor Perú 2019}
 	endcode    
 
+	## Add ECA Logo
+	#map-image 80 95	sw	data/ECA_small.png
+	#map-image 75 85	sw	data/GSBM_small.png
+	#map-image 85 85	sw	data/vulcain.png
 endlayout
  
  
@@ -293,13 +298,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Resurgencia de los Bambus o de Wilson/AC6}
+			\cavename={Resurgencia de los Bambus \smallbreak o de Wilson/AC6}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Grupo Bambui de Pesquisas Espeleologicas (GBPE)}
 	\newtoks\synth \synth={Xavier Robert}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017}
+	\newtoks\expe \expe={Nueva Cajamarca 2014, Cerro Blanco 2017, Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -307,16 +312,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Bambu2017.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o Bambu-coupe2017.xvi
+ export map -fmt xvi -layout xviexport -o data/Bambu2019b.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o data/Bambu-coupe2019b.xvi
   
- export map -o Bambu-plan2017.pdf -layout my_layout
-# export map -projection extended -layout my_layout-coupe -o Bambu-coupe2017.pdf
- export model -o Bambu_2017.lox
+ export map -o Outputs/Bambu-plan2019.pdf -layout my_layout
+# export map -projection extended -layout my_layout-coupe -o Outputs/Bambu-coupe2019.pdf
+ export model -o Outputs/Bambu_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Bambu_2017 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/Bambu_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Bambu_2017.kml -layout my_layout
- export model -fmt kml -o Bambu_2017m.kml
+ export map -proj plan -fmt kml -o Outputs/Bambu_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/Bambu_2019m.kml

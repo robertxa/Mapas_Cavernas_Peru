@@ -1,0 +1,54 @@
+# 2019.09.01 created by TopoDroid v 4.1.3u
+
+survey AM5 -title "AM5" -entrance 0
+
+  centerline
+    date 2019.08.31 
+    	team "Bernard Lips"
+    	team "Josiane Lips"
+    	team "Constance Picque"
+    	team "Patricio Reátegui"
+    
+    cs lat-long
+    #fix 0 ?? ?? ??
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 2.94 119.0 5.7
+    0 . 1.86 68.0 38.3
+    0 . 2.89 349.1 36.1
+    0 . 5.53 328.6 25.8
+    0 . 7.85 328.9 8.8
+    0 . 0.77 3.0 -76.3
+    0 . 0.78 346.2 -2.0
+    0 . 6.84 352.2 -4.2
+    0 . 5.68 29.4 -19.8
+    0 . 3.82 44.5 -33.2
+    0 . 8.42 63.2 -22.2
+    0 . 2.97 62.1 -1.9
+    0 . 7.86 102.5 -14.3
+    extend left
+    0 1 11.35 339.4 -2.8
+    extend right
+    0 2 6.85 79.7 -17.9
+    # extend auto
+    2 . 0.87 124.1 -75.0
+    2 . 1.44 84.8 -14.4
+    2 . 2.28 134.6 -2.3
+    2 . 2.36 161.3 -7.4
+    2 . 3.28 159.7 9.8
+    2 . 6.67 163.8 -0.9
+    2 . 2.56 206.0 4.2
+    2 . 1.82 243.0 -35.2
+    2 . 5.10 273.7 7.9
+    2 . 4.39 357.5 -11.3
+    2 . 5.70 313.8 3.8
+    2 . 14.86 285.9 19.3
+    2 . 3.53 295.1 24.8
+    extend right
+    2 3 6.96 164.7 -0.5
+  endcenterline
+
+endsurvey

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 5561.0738 6584.6964
+##XTHERION## xth_me_area_adjust -129.5 -129.5 5561.0638 6584.6964
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1346.8500000000001 1 1.0} {5834.81 0@cascayunga} cascayunga2003.xvi 0 {}
 
@@ -29,8 +29,6 @@ line slope
   l-size 5.0
 endline
 
-point 1050.5 682.0 continuation -attr Code S -text "SIphon à continuer, vue sur 10 à 15 m jusqu'à un virage, probablement -12 m"
-
 line water-flow
   1060.5 925.5
   1060.5 925.5 1176.0 1010.0 1195.0 1023.5
@@ -38,13 +36,11 @@ line water-flow
   smooth off
 endline
 
-point 1028.0 790.0 label -text "-12 m"
-
 point 787.0 717.5 label -text "-10 m"
 
 point 898.0 729.5 altitude -align bottom
 
-point 920.5 786.0 passage-height -value [1.5 m]
+point 919.5 802.0 passage-height -value [1.5 m]
 
 point 1139.0 1093.0 passage-height -value [1 m]
 
@@ -54,21 +50,17 @@ point 1330.5 1063.5 label -text "cloche"
 
 point 1417.5 1047.5 label -text "<center>S1<br>(2 m / -1 m)"
 
-point 980.0 1050.0 label -text "<center>S2<br>(120 m / -12 m)"
+point 980.0 1050.0 label -text "<center>S2<br>(200 m / -15 m)"
 
-line wall -subtype presumed
-  1057.0 714.0
-  1057.0 714.0 1047.0 753.0 1035.0 757.0
-  1023.0 761.0 999.5 759.5 980.0 759.5
-  960.5 759.5 898.0 752.0 898.0 752.0
+line wall
+  915.5 755.5
+  896.0 755.5 898.0 752.0 898.0 752.0
   smooth off
 endline
 
-line wall -subtype presumed
+line wall
   898.0 729.5
-  898.0 729.5 955.0 736.5 965.0 735.5
-  975.0 734.5 1018.0 736.5 1020.0 729.0
-  1022.0 721.5 1029.0 707.5 1029.0 707.5
+  898.0 729.5 904.0 735.0 914.0 734.0
   smooth off
 endline
 

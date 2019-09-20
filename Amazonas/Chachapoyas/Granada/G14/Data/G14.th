@@ -1,0 +1,31 @@
+# 2019.09.14 created by TopoDroid v 4.1.3u
+
+survey G14 -title "G14" -entrance 0
+
+  centerline
+    date 2019.09.14
+    	team "Xavier Robert" 
+    explo-date 2019.09.13
+		explo-team "Xavier Robert"
+		explo-team "Antonio\De Palma" 
+    
+    cs lat-long
+    #fix 0 ?? ?? ??
+     
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 1.31 247.8 -13.0
+    0 . 1.08 310.5 -42.8
+    0 . 0.71 166.4 -57.8
+    0 . 3.16 334.4 -88.1
+    0 . 4.05 283.9 -64.6
+    0 . 2.35 247.9 -61.2
+    0 . 5.13 275.6 -54.9
+    extend left
+    0 1 5.10 275.3 -52.4
+    1 2 5.0 275.3 -52.4	# Visée fictive approxiative
+  endcenterline
+
+endsurvey

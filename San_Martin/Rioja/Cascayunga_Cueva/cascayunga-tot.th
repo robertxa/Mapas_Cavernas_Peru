@@ -17,3 +17,5 @@ join casc2003-sp8 casc2003-sp9
 input th2/siphon2018.th2
 join casc2003-sp8 casc2018-sp1
 
+input th2/siphon2019.th2
+join casc2018-sp1 Casc2019-SP1
