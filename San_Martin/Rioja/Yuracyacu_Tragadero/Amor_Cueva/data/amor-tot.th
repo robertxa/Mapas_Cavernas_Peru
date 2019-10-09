@@ -5,14 +5,13 @@ input amor2019.th
 equate 13@amor 13@amor2019
 
 # Pour le plan
-#input amor2018.th2
-#input amor2019.th2
-
-#join JL1 BVJY1
+input amor2018.th2
+input amor2019.th2
+join Amor2018-SP2 Amor2019-SP1
 
 #######
 ## Pour la coupe
-#input amor-coupe2018.th2
-#input amor-coupe2019.th2
-
+input amor-coupe2018.th2
+input amor-coupe2019.th2
+join amor-SC-1 Amor2019-SC1
 

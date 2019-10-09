@@ -1,6 +1,192 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.00199999999995 -128.0 600.4392 521.701
+##XTHERION## xth_me_area_adjust -129.5 -129.5 662.5 555.0
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {181.104 1 1.0} {88.74199999999999 0@amor} amor2019.xvi 0 {}
+
+
+
+scrap Amor2019-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
+
+line wall
+  513.0 301.0
+  513.0 301.0 491.5 312.5 477.5 314.5
+  463.5 316.5 456.0 319.5 435.0 323.0
+  414.0 326.5 406.0 330.0 396.5 327.5
+  387.0 325.0 381.5 314.0 370.5 315.5
+  359.5 317.0 361.5 312.5 351.5 318.0
+  341.5 323.5 339.0 331.5 332.0 334.5
+  325.0 337.5 332.0 347.5 312.5 349.5
+  293.0 351.5 292.0 358.5 278.5 358.0
+  265.0 357.5 251.5 369.0 244.5 362.0
+  237.5 355.0 238.5 332.0 238.5 332.0
+  smooth off
+endline
+
+line slope -close on
+  490.0 224.5
+  490.0 224.5 481.5 208.5 481.5 198.0
+  481.5 187.5 472.5 161.0 486.0 161.0
+  499.5 161.0 507.5 165.0 507.5 181.5
+  507.5 198.0 513.0 206.0 505.5 213.5
+  498.0 221.0 490.0 224.5 490.0 224.5
+  smooth off
+  l-size 8.0
+endline
+
+line slope -close on
+  507.0 285.5
+  507.0 285.5 469.0 272.0 480.5 262.5
+  492.0 253.0 504.5 250.5 508.0 253.5
+  511.5 256.5 507.0 285.5 507.0 285.5
+  smooth off
+  l-size 8.0
+endline
+
+line slope
+  468.0 320.5
+  468.0 320.5 459.5 168.5 441.5 158.5
+  l-size 12.0
+endline
+
+line slope
+  436.5 329.5
+  436.5 329.5 437.0 264.0 431.0 234.5
+  425.0 205.0 414.5 176.5 414.5 176.5
+  smooth off
+  l-size 12.0
+endline
+
+line slope
+  390.0 329.0
+  390.0 329.0 394.0 304.0 393.0 283.0
+  392.0 262.0 374.0 218.0 374.0 218.0
+  smooth off
+  l-size 12.0
+endline
+
+line slope
+  348.0 332.0
+  348.0 332.0 352.5 256.5 341.0 244.5
+  l-size 12.0
+endline
+
+line slope
+  320.0 356.0
+  320.0 356.0 330.5 291.0 317.0 272.0
+  l-size 12.0
+endline
+
+point 532.0 243.0 continuation -attr Code D -text "Soutirages argileux, trace de mises en charge, mais passage possible d'après le guide Elmer"
+
+point 513.0 301.0 altitude -align top-right
+
+point 276.5 424.5 label -text "<center>ossements<br>de mammifère"
+
+point 282.0 320.5 archeo-material
+
+line rock-border -close on
+  251.5 295.0
+  251.5 303.0
+  284.0 292.5
+  266.0 282.5
+  251.5 295.0
+endline
+
+line rock-border -close on
+  260.5 337.0
+  290.0 347.5
+  296.0 306.0
+  262.5 309.0
+  260.5 337.0
+endline
+
+line rock-border -close on
+  250.0 357.5
+  249.0 329.0
+  269.0 329.0
+  269.5 350.0
+  250.0 357.5
+endline
+
+area blocks
+  l24-512-305
+endarea
+
+line label -id l24-512-305 -close on
+  338.0 363.0
+  338.0 363.0 299.0 376.5 298.5 357.5
+  298.0 338.5 302.0 302.0 302.5 287.0
+  303.0 272.0 334.5 217.0 353.5 201.0
+  372.5 185.0 497.5 114.5 502.0 120.5
+  506.5 126.5 505.0 120.5 509.0 151.5
+  513.0 182.5 515.5 233.0 515.5 258.5
+  515.5 284.0 515.5 296.5 511.5 306.0
+  507.5 315.5 415.0 355.0 394.5 355.5
+  374.0 356.0 338.0 363.0 338.0 363.0
+  smooth off
+endline
+
+line water-flow
+  354.5 254.0
+  354.5 254.0 364.5 269.5 372.0 265.5
+  379.5 261.5 390.0 269.5 393.0 257.5
+  396.0 245.5 400.0 238.5 405.5 231.0
+  411.0 223.5 422.5 219.5 422.5 219.5
+  smooth off
+endline
+
+point 344.5 226.0 water-flow -orientation 26.0
+
+line wall
+  246.5 281.0
+  246.5 281.0 253.0 275.5 262.5 275.5
+  272.0 275.5 281.5 273.5 287.5 276.0
+  293.5 278.5 297.0 279.5 307.5 278.5
+  318.0 277.5 321.0 277.5 328.0 272.0
+  335.0 266.5 342.0 245.5 349.0 241.0
+endline
+
+line wall
+  356.0 237.0
+  363.0 232.5 360.0 251.5 364.5 245.0
+  369.0 238.5 389.5 217.0 394.5 208.5
+  399.5 200.0 392.0 192.5 402.5 189.5
+  413.0 186.5 426.0 179.5 431.5 171.0
+  437.0 162.5 472.5 136.5 479.5 129.5
+  486.5 122.5 506.5 125.5 506.5 125.5
+  smooth off
+endline
+
+point 295.11400000000003 291.812 station -name 10@amor2019
+
+point 242.204 292.052 station -name 13@amor2019
+
+point 245.824 312.202 station -name 12@amor2019
+
+point 288.184 334.49199999999996 station -name 11@amor2019
+
+point 289.60400000000004 316.222 station -name 9@amor2019
+
+point 314.644 319.052 station -name 8@amor2019
+
+point 339.84400000000005 292.522 station -name 7@amor2019
+
+point 345.434 266.932 station -name 6@amor2019
+
+point 357.324 263.072 station -name 5@amor2019
+
+point 403.384 273.782 station -name 14@amor
+
+point 385.66400000000004 254.88199999999998 station -name 3@amor2019
+
+point 413.384 256.772 station -name 2@amor2019
+
+point 457.634 232.60199999999998 station -name 0@amor2019
+
+point 492.83400000000006 248.272 station -name 4@amor2019
+
+point 494.95400000000006 246.69199999999998 station -name 1@amor2019
+
+endscrap
 
 

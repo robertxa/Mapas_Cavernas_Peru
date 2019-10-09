@@ -362,9 +362,13 @@ centerline -title "Palestina2015-1"
 		explo-team "Jean-Denis/Klein"
 		explo-team "Jean-Yves/Bigot"
 		explo-team "Daniel/Dietz"
+	explo-date 2019.09.03
+		explo-team "Xavier Robert"
 	units lenght meters
 	units compass degrees
 	units clino degrees
+
+	station F25 "Siphon" continuation explored 30m
    
 data normal from to length compass clino left right up down
 30	F8			3.93	118.00	24.00	2.00	0.50	0.20	1.10

@@ -216,7 +216,7 @@ layout my_layout
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={James Apaéstegui, Jean-yves Bigot, Olivier Fabre, Xavier Robert}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Torreon 2011, Alto Mayo 2013, Nueva Cajamarca 2014, Cerro Blanco 2015, Nord Pérou 2016, Cerro Blanco 2017}
+	\newtoks\expe \expe={Torreon 2011, Alto Mayo 2013, Nueva Cajamarca 2014, Cerro Blanco 2015, Nord Pérou 2016, Cerro Blanco 2017, Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -358,17 +358,17 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o th2/palestina2016.xvi
- export map -projection extended -fmt xvi -layout xviexport -o th2/palestina-coupe2016.xvi
+ #export map -fmt xvi -layout xviexport -o th2/palestina2016.xvi
+ #export map -projection extended -fmt xvi -layout xviexport -o th2/palestina-coupe2016.xvi
   
- export map -o Outputs/2D/palestina-plan2016.pdf -layout my_layout
- export map -o Outputs/2D/palestina-plan2016_3000.pdf -layout my_layout3000
- export map -projection extended -layout my_layout-coupe -o Outputs/2D/palestina-coupe2016.pdf
- export model -o Outputs/3D/palestina_2016.lox
+ export map -o Outputs/2D/palestina-plan2019.pdf -layout my_layout
+ export map -o Outputs/2D/palestina-plan2019_3000.pdf -layout my_layout3000
+ export map -projection extended -layout my_layout-coupe -o Outputs/2D/palestina-coupe2019.pdf
+ export model -o Outputs/3D/palestina_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Outputs/SIG/palestina_2016 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/SIG/palestina_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/SIG/palestina_2016.kml -layout my_layout
- export model -fmt kml -o Outputs/SIG/palestina_2016m.kml
+ export map -proj plan -fmt kml -o Outputs/SIG/palestina_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/SIG/palestina_2019m.kml

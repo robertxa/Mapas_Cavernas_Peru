@@ -15,8 +15,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/th/am5.th
-#source altomiraflores.th2
-#source altomiraflores_coupe.th2
+source Data/th2/am5.th2
+#source Data/th2/am5_coupe.th2
 
 # Add config file
 #input ../../../../config.thc	# chemin JLG
@@ -57,7 +57,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1000
+	base-scale 1 350
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -68,10 +68,10 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 700
+	scale 1 250
 
 	# echelle graphique 100 m ampleur
-	scale-bar 50 m
+	scale-bar 25 m
   
 	# Pour faire une rotation
 	#rotate 2.25

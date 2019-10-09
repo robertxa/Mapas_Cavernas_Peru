@@ -112,7 +112,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 14.5 cm
+	legend-width 15.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -168,7 +168,7 @@ layout my_layout
 		\newtoks\synth \synth={}
 		\newtoks\guide \guide={Elmer Cruz}
 		\newtoks\wpage \wpage={}
-		\newtoks\expe \expe={Nor Perú 2018}
+		\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
 		
 		% \altref should be the altitude of the entrance
 		#\newtoks\altref \altref={}	
@@ -303,8 +303,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  

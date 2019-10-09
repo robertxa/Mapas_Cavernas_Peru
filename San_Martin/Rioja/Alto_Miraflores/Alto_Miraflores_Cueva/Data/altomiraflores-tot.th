@@ -22,6 +22,6 @@ input th2/altomiraflores_coupe2019.th2
 input th2/altomiraflores_coupe.th2
 join AM2019_SC1 mira1c
 
-#input th2/altomiraflores_coupe2019b.th2
-#join AM2019_SC3 ???
+input th2/altomiraflores_coupe2019b.th2
+join AM2019-SC2 AM2019b-SC1
 

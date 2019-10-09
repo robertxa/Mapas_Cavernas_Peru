@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -219.0 -161.0 663.0 521.701
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -217.0 -160.0 661.0 521.701
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {181.099 1 1.0} {88.738 0} amor2018.xvi 0 {}
 
 
@@ -226,19 +226,7 @@ endscrap
 
 
 
-scrap scrap52 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
-
-line pit
-  368.75 339.25
-  368.75 339.25 327.75 259.25 340.0 231.0
-  smooth off
-endline
-
-line pit
-  312.0 339.75
-  312.0 339.75 284.25 251.25 305.75 237.5
-  smooth off
-endline
+scrap Amor2018-SP2 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
 
 line pit
   240.75 330.25
@@ -261,10 +249,6 @@ line pit
   smooth off
 endline
 
-point 414.0 283.0 continuation -attr Code A -text "Rampe raide à descendre, ça continue"
-
-point 398.75 222.75 altitude -align bottom
-
 line wall -close on -reverse on -outline in
   230.5 196.75
   230.5 196.75 218.5 198.5 215.75 198.5
@@ -275,10 +259,9 @@ line wall -close on -reverse on -outline in
 endline
 
 line wall
-  415.0 335.75
-  415.0 335.75 329.75 333.5 317.25 332.75
-  304.75 332.0 257.25 334.0 243.25 328.5
+  243.25 328.5
   229.25 323.0 203.75 332.75 186.25 328.0
+  smooth off
 endline
 
 line wall
@@ -295,10 +278,6 @@ area blocks
   l72-231-333
 endarea
 
-point 316.0 218.0 label -text "<center>ossements de<br>mammifère"
-
-point 319.25 263.5 paleo-material
-
 line label -id l72-231-333 -close on
   230.5 333.0
   209.25 353.5 189.75 310.75 200.75 296.5
@@ -309,19 +288,6 @@ line label -id l72-231-333 -close on
   232.75 330.25 232.44 331.12 230.5 333.0
 endline
 
-area blocks
-  l70-300-341
-endarea
-
-line label -id l70-300-341 -close on
-  291.5 236.5
-  291.5 236.5 310.0 338.75 299.75 340.25
-  289.5 341.75 246.25 347.75 246.0 336.5
-  245.75 325.25 254.25 279.25 256.0 270.0
-  257.75 260.75 291.5 236.5 291.5 236.5
-  smooth off
-endline
-
 line wall
   195.75 199.5
   195.75 199.5 198.75 199.0 205.25 196.5
@@ -330,13 +296,7 @@ line wall
   242.75 202.75 250.75 203.0 245.0 212.25
   239.25 221.5 231.5 244.5 232.0 251.5
   232.5 258.5 238.25 288.25 249.25 286.0
-  260.25 283.75 261.25 257.75 273.25 255.5
-  285.25 253.25 393.25 221.75 398.75 222.75
-  404.25 223.75 412.75 223.5 412.75 223.5
-  smooth off
 endline
-
-point 403.389 273.778 station -name 14@amor
 
 point 242.209 292.048 station -name 13@amor
 
