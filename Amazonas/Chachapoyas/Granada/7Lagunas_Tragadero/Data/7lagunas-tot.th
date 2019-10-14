@@ -1,9 +1,8 @@
 encoding utf-8
 
 input th/7_lagunas.th
-
-#input th/AM_xr.th
-#equate 22@AM_xr 18@altomiraflores
+input th/7_lagunas2019.th
+equate 7@7lagunas 0@7lagunas2019
 
 
 # Pour le plan

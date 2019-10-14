@@ -7,7 +7,7 @@ survey G12 -title "G12" -entrance 0
     	team "Xavier Robert" 
     explo-date 2019.09.13
 		explo-team "Xavier Robert"
-		explo-team "Antonio\De Palma" 
+		explo-team "Antonio/De Palma" 
     
     cs lat-long
     #fix 0 ?? ?? ??

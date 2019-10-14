@@ -11,10 +11,10 @@ survey llave -title "Hueco de la Llave" -entrance 3
 		explo-team "Jean-Yves Bigot"
 		explo-team "Bernard Lips"
 		explo-team "Xavier Robert"
-		explo-team "Antonio\De Palma"
+		explo-team "Antonio/De Pomar"
 	
 	cs lat-long
-	# fix 3 ?? ?? ??
+	fix 3 -6.067602	-77.568963	3813
 	
     units length meters
     units compass clino degrees
@@ -57,6 +57,7 @@ survey llave -title "Hueco de la Llave" -entrance 3
     2 . 27.15 102.7 -61.9
     2 . 1.36 59.0 -55.0
     extend ignore
+    extend right
     2 3 11.03 168.8 17.9
   endcenterline
 

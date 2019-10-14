@@ -1,0 +1,89 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -167.3715 -128.75 181.75 189.5
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {39.3716 1 1.0} {39.3675 0} G12.xvi 0 {}
+
+
+
+scrap G12-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-167.3715 -128.0074 167.3687 -128.0074 0.0 0.0 8.502401079999999 0.0 m]
+
+line rock-border -close on
+  23.0 37.25
+  22.25 35.0
+  25.5 36.75
+  23.0 37.25
+endline
+
+line rock-border -close on
+  33.25 39.0
+  31.0 36.5
+  34.75 36.75
+  34.75 38.5
+  33.25 39.0
+endline
+
+point -0.75 10.75 label -text "Lat : <br>Long : <br>Alt =  m"
+
+point -10.5 30.0 narrow-end
+
+point 46.75 40.5 entrance -orientation 261.3
+
+line pit -clip off
+  41.0 60.5
+  41.0 60.5 45.0 58.0 47.75 53.5
+  50.5 49.0 52.75 43.5 52.75 37.75
+  52.75 32.0 52.25 27.5 51.25 20.75
+  50.25 14.0 47.5 4.5 47.5 4.5
+  smooth off
+endline
+
+line pit -reverse on -clip off
+  42.75 5.0
+  42.75 5.0 45.75 15.25 45.5 22.0
+  45.25 28.75 47.25 30.5 46.75 36.5
+  46.25 42.5 48.25 47.25 43.75 50.25
+  39.25 53.25 37.0 55.5 35.25 56.5
+endline
+
+line overhang -clip off
+  29.5 55.75
+  29.5 55.75 33.0 52.75 35.5 51.0
+  38.0 49.25 38.25 47.75 39.25 45.25
+  40.25 42.75 39.12 43.37 39.3716 39.3675
+  39.62 35.37 40.0 34.5 39.5 30.0
+  38.78 23.48 38.25 21.75 38.25 18.0
+  38.25 14.25 39.25 8.0 36.0 6.75
+endline
+
+line wall -subtype invisible
+  39.5 30.0
+  39.5 30.0 42.25 36.25 41.25 40.5
+  40.25 44.75 39.25 45.25 39.25 45.25
+  smooth off
+endline
+
+line wall
+  -4.75 30.25
+  -4.75 30.25 9.0 33.0 11.75 33.25
+  14.5 33.5 12.25 32.75 17.5 33.25
+  22.75 33.75 26.75 35.0 31.25 35.0
+  35.75 35.0 39.25 37.5 39.25 34.75
+  39.25 32.0 39.5 30.0 39.5 30.0
+  smooth off
+endline
+
+line wall
+  39.25 45.25
+  39.25 45.25 40.5 41.75 38.0 41.0
+  35.5 40.25 24.75 38.25 17.75 36.75
+  10.75 35.25 -5.25 31.75 -5.25 31.75
+  smooth off
+endline
+
+point 1.4916000000000018 32.5075 station -name 1@G12
+
+point 39.3716 39.3675 station -name 0@G12
+
+endscrap
+
+

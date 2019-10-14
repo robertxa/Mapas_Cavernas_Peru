@@ -10,7 +10,7 @@ survey AM5 -title "AM5" -entrance 0
     	team "Patricio Reátegui"
     
     cs lat-long
-    #fix 0 ?? ?? ??
+    fix 0 -5.91495	-77.39404	1526
     
     units length meters
     units compass clino degrees

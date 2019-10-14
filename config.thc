@@ -507,7 +507,9 @@ layout drawingconfig
 				%pickup pencircle scaled 3pt;
 				%for i=0 upto li: draw point i of P; endfor;
 		enddef; 
-
+	#symbol-assign line gradient BCRA
+	#symbol-assign point gradient BCRA
+ 
 		#<en> To change color of Mud area
 		#<fr> Pour modifier la couleur de l'aire Boue
 		def a_u_boue (expr p) =

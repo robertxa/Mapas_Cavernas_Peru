@@ -14,8 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Data/Juan_Manuel.th
-source Data/Juan_Manuel.th2
+source Data/infiernillo.th
 
 # Add config file
 input ../../../../config.thc 
@@ -25,9 +24,9 @@ input ../../../../config.thc
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 500
+	scale 1 1000
 	# taille de la grille
-	grid-size 5 5 5 m
+	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -42,11 +41,11 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de Juan Manuel"
+	doc-title "Tragadero del Infiernillo de Perlamayo"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
-	cs UTM18
+	cs UTM17
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -55,7 +54,8 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 135
+	base-scale 1 850
+	#base-scale 1 1200
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,10 +66,11 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 100
+	scale 1 500
+	#scale 1 600
 
 	# echelle graphique 100 m ampleur
-	scale-bar 10 m
+	scale-bar 50 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -91,7 +92,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Granada, Chachapoyas, Amazonas, Perú"
+	map-comment "Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -108,7 +109,6 @@ layout my_layout
   
 	# Par defaut, la legende est de 14 cm de largeur
 	legend-width 14.5 cm
-	
 	#legend-columns 3
 
     
@@ -119,7 +119,8 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 100 100 nw
+	#map-header 37 100 nw
+	map-header -10 90 ne
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -159,14 +160,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Juan Manuel} 		
+			\cavename={Tragadero del Infiernillo de Perlamayo} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Spéléo Club de la Vallée de la Vis (SCVV), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Dario Labajos Conila, Mario}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2019}
+	\newtoks\expe \expe={Amazonas 2018, Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -180,7 +180,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Cueva de Juan Manuel"
+	doc-title "Tragadero del Infiernillo de Perlamayo"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -189,7 +189,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1750
+	base-scale 1 750
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -200,12 +200,10 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 1500
-	#scale 1 500
+	scale 1 500
 
 	# echelle graphique 100 m ampleur
-	#scale-bar 100 m
-	scale-bar 150 m  
+	scale-bar 50 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -227,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>, Granada, Chachapoyas, Amazonas, Perú"
+	map-comment "<it>Alzado<ss>, Bagua Grande, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -251,9 +249,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	#map-header 0 60 nw
-	map-header 50 50 sw
-
+	map-header 0 0 nw
     
 	# arrière plan de la manchette
 	map-header-bg off
@@ -262,8 +258,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -292,14 +288,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Juan Manuel} 		
+			\cavename={Tragadero del Infiernillo de Perlamayo} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Spéléo Club de la Vallée de la Vis (SCVV), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Dario Labajos Conila, Mario}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2019}
+	\newtoks\expe \expe={Amazonas 2018, Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -307,16 +302,23 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/Juan_Manuel2019.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/Juan_Manuel-coupe2019.xvi
+ export map -fmt xvi -layout xviexport -o th2/infiernillo.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o th2/infiernillo-coupe.xvi
   
- export map -o Outputs/Juan_Manuel-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o Outputs/Juan_Manuel-coupe2019.pdf
- export model -o Outputs/Juan_Manuel_2019.lox
+ export map -o Outputs/infiernillo-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/infiernillo-coupe.pdf
+ export model -o Outputs/infiernillo.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Outputs/Juan_Manuel_2019 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/infiernillo -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/Juan_Manuel_2019.kml -layout my_layout
- export model -fmt kml -o Outputs/Juan_Manuel_2019m.kml
+ export map -proj plan -fmt kml -o Outputs/infiernillo.kml -layout my_layout
+ export model -fmt kml -o Outputs/infiernillo.kml
+ 
+ # Export statistiques
+#export database -o Outputs/Lists/Database-2018.sql
+#export continuation-list -o Outputs/Lists/Continuations-2018.html
+#export survey-list -location on -o Outputs/Lists/Topographies_2018.html
+#export cave-list -location on -o Outputs/Lists/Cavites_2018.html
+

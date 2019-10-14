@@ -11,10 +11,10 @@ survey Juan_manuel -title "Juan_manuel" -entrance 0
 		explo-team "Jean-Yves Bigot"
 		explo-team "Bernard Lips"
 		explo-team "Xavier Robert"
-		explo-team "Antonio\De Palma" 
+		explo-team "Antonio/De Palma" 
 
 	cs lat-long
-	#fix 0 ?? ?? ??  
+	fix 0 -6.07521	-77.57059	3641
 	
     units length meters
     units compass clino degrees

@@ -14,7 +14,7 @@ line overhang -clip off
   smooth off
 endline
 
-point -8.0 23.5 label -text "Lat : -6.??????<br>Long : -77.??????<br>Alt = 14?? m"
+point -8.0 23.5 label -text "Lat : -5.91495<br>Long : -77.39404<br>Alt = 1526 m"
 
 line overhang -clip off
   48.75 26.25

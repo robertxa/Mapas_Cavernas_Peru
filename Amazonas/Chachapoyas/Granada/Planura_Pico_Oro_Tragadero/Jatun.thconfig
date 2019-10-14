@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Data/Juan_Manuel.th
-source Data/Juan_Manuel.th2
+source jatun.th
+source jatun.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -25,9 +25,9 @@ input ../../../../config.thc
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 500
+	scale 1 1000
 	# taille de la grille
-	grid-size 5 5 5 m
+	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de Juan Manuel"
+	doc-title "Hueco Atun"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -55,7 +55,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 135
+	base-scale 1 750
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,10 +66,10 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 100
+	scale 1 500
 
 	# echelle graphique 100 m ampleur
-	scale-bar 10 m
+	scale-bar 50 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -159,14 +159,14 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Juan Manuel} 		
+			\cavename={Jatun Uchco} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Dario Labajos Conila, Mario}
+	\newtoks\guide \guide={Dario Labajos Conila}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2019}
+	\newtoks\expe \expe={Nor Perú 2018}
 	endcode    
 
 endlayout
@@ -180,7 +180,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Cueva de Juan Manuel"
+	doc-title "Hueco Atun"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -292,14 +292,14 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de Juan Manuel} 		
+			\cavename={Jatun Uchco} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\guide \guide={Dario Labajos Conila, Mario}
+	\newtoks\guide \guide={Dario Labajos Conila}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2019}
+	\newtoks\expe \expe={Nor Perú 2018}
 	endcode  
   
 endlayout
@@ -307,16 +307,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/Juan_Manuel2019.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/Juan_Manuel-coupe2019.xvi
+ export map -fmt xvi -layout xviexport -o jatun2018.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o jatun-coupe2018.xvi
   
- export map -o Outputs/Juan_Manuel-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o Outputs/Juan_Manuel-coupe2019.pdf
- export model -o Outputs/Juan_Manuel_2019.lox
+ export map -o jatun-plan2018.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o jatun-coupe2018.pdf
+ export model -o jatun_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Outputs/Juan_Manuel_2019 -layout my_layout
+ export map -proj plan -fmt esri -o jatun_2018 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/Juan_Manuel_2019.kml -layout my_layout
- export model -fmt kml -o Outputs/Juan_Manuel_2019m.kml
+ export map -proj plan -fmt kml -o jatun_2018.kml -layout my_layout
+ export model -fmt kml -o jatun_2018m.kml

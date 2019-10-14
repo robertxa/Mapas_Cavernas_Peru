@@ -1,0 +1,87 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -167.8425 -128.75 170.75 181.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {39.370599999999996 1 1.0} {39.3672 0} G14.xvi 0 {}
+
+
+
+scrap G12-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-167.3707 -128.0072 167.3695 -128.0072 0.0 0.0 8.502401079999999 0.0 m]
+
+line rock-border -close on
+  10.0 41.0
+  9.25 43.75
+  11.75 43.5
+  12.0 41.0
+  10.0 41.0
+endline
+
+line rock-border -close on
+  -6.75 44.25
+  -5.5 43.0
+  -8.979400000000005 43.8472
+  -6.75 44.25
+endline
+
+line rock-border -close on
+  3.0 43.75
+  5.25 41.75
+  1.25 41.75
+  3.0 43.75
+endline
+
+line rock-border -close on
+  17.25 42.75
+  18.75 40.25
+  14.960599999999996 41.6472
+  17.25 42.75
+endline
+
+point -13.0 42.25 altitude -align bottom-left
+
+point 41.25 36.75 altitude -align bottom-right
+
+point 16.25 25.75 label -text "Lat : -6.09215<br>Long : -77.56412<br>Alt = 3624 m"
+
+point 35.25 52.0 label -text "R2"
+
+point -17.25 44.75 narrow-end
+
+point 35.25 28.25 entrance -orientation 0.0
+
+line overhang -close on
+  41.25 36.75
+  42.75 39.25 41.5 39.5 40.5 41.25
+  39.5 43.0 37.25 44.25 35.5 44.25
+  33.75 44.25 29.5 42.0 29.0 39.75
+  28.5 37.5 29.5 33.75 32.25 34.0
+  35.0 34.25 39.81 34.36 41.25 36.75
+endline
+
+line wall
+  -13.0 42.25
+  -13.0 42.25 13.5 39.75 16.5 39.25
+  19.5 38.75 24.0 39.5 26.0 37.75
+  28.0 36.0 25.5 33.0 32.25 34.0
+  39.0 35.0 41.25 34.5 41.25 36.75
+  41.25 39.0 40.5 41.25 40.5 41.25
+  smooth off
+endline
+
+line wall
+  40.5 41.25
+  40.5 41.25 38.0 45.0 35.5 44.25
+  33.0 43.5 31.25 43.0 25.0 43.25
+  18.75 43.5 17.25 42.75 11.75 43.5
+  6.25 44.25 -12.5 45.75 -12.5 45.75
+  smooth off
+endline
+
+point -8.979400000000005 43.8472 station -name 2@G14
+
+point 14.960599999999996 41.6472 station -name 1@G14
+
+point 39.370599999999996 39.3672 station -name 0@G14
+
+endscrap
+
+

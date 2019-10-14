@@ -15,7 +15,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/G14.th
-#source Data/G14.th2
+source Data/G14.th2
+source Data/G14-coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -25,9 +26,9 @@ input ../../../../config.thc
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 1000
+	scale 1 500
 	# taille de la grille
-	grid-size 10 10 10 m
+	grid-size 5 5 5 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -55,7 +56,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 750
+	base-scale 1 100
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -66,10 +67,10 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 500
+	scale 1 75
 
 	# echelle graphique 100 m ampleur
-	scale-bar 50 m
+	scale-bar 5 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -189,7 +190,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1750
+	base-scale 1 100
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -200,12 +201,10 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 1500
-	#scale 1 500
+	scale 1 75
 
 	# echelle graphique 100 m ampleur
-	#scale-bar 100 m
-	scale-bar 150 m  
+	scale-bar 5 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -242,7 +241,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 13.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -252,7 +251,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 50 50 sw
+	map-header 55 -15 sw
 
     
 	# arrière plan de la manchette
