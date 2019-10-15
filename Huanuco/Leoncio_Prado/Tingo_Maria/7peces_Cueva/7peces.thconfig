@@ -14,9 +14,9 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Huayna.th
-source huayna.th2
-source huayna-coupe.th2
+source Data/7peces.th
+#source Data/7peces.th2
+#source Data/7peces-coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -43,7 +43,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Tragadero de Huayna Capac"
+	doc-title "Cueva de los 7 Peces"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -127,8 +127,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -158,13 +158,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de Huayna Capac} 		
+			\cavename={Cueva de los 7 Peces} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Vulcain}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique des Dolomites}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Cerro Blanco 2017}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -178,7 +178,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero de Huayna Capac"
+	doc-title "Cueva de los 7 peces"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -257,8 +257,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -287,13 +287,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de Huayna Capac} 		
+			\cavename={Cueva de los 7 Peces} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Vulcain}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique des Dolomites}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Cerro Blanco 2017}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -301,16 +301,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Huayna2017.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Huayna-coupe2017.xvi
+ export map -fmt xvi -layout xviexport -o Data/7peces2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/7peces-coupe2019.xvi
   
- export map -o Huayna-plan2017.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o Huayna-coupe2017.pdf
- export model -o Huayna_2016.lox
+ export map -o Outputs/7peces-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/7peces-coupe2019.pdf
+ export model -o Outputs/7peces_2019.lox
   
  # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Huayna_2017 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/7peces_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Huayna_2017.kml -layout my_layout
- export model -fmt kml -o Huayna_2017m.kml
+ export map -proj plan -fmt kml -o Outputs/7peces_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/7peces_2019m.kml
