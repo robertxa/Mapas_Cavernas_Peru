@@ -1,0 +1,36 @@
+encoding utf-8
+
+survey matapalo -title "Mata Palo" -entrance "7"
+   
+centerline -title "Mata Palo"
+	cs lat-long
+	#fix 7	-6.099502	-77.240204	880
+	
+	date 2019.09.22
+		team "Gino Staccioli"
+		team "Jean-Denis Klein"
+		team "Jean-Yves Bigot"
+		team "Antonio/de Pomar"
+	explo-date 2019.09.22
+		explo-team "Jean-Yves Bigot"
+		explo-team "Jean-Denis Klein"
+		explo-team "Gino Staccioli"
+		explo-team "Antonio/de Pomar"
+	units lenght meters
+	units compass degrees
+	units clino degrees
+   
+	data normal from to length compass clino left right up down
+		1	0	4	58	-50	0	0	0	0	# Visée fictive vers le fond
+		1	2	9.13	58	-50	3	0	15	1.7
+		3	1	12.43	89	-34	0	1.7	15	1.1
+		4	3	3.75	37	-34	1.8	0	15	0
+		5	4	26.24	24	-83	6	4	3	25
+		6	5	4.5	259	-56	4	0	35	1
+	data normal from to length backcompass backclino left right up down
+		6	7	41.28	257	-85	4	0	0	40	# Entrée
+
+
+endcenterline
+
+endsurvey

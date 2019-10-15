@@ -14,7 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source r2d2-tot.th
+source Data/sanjose.th
 
 # Add config file
 input ../../../../config.thc 
@@ -41,7 +41,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Tragadero R2D2"
+	doc-title "Cueva de San Jose"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -160,14 +160,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero R2D2} 		
+			\cavename={Cueva de San Jose} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Spéléo Club de la Vallée de la Vis (SCVV)}
-	#\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Asociación de Montañismo UNAM}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/tragadero-r2d2/}
-	\newtoks\expe \expe={Amazonas 2018}
+	\newtoks\wpage \wpage={}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -181,7 +180,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero R2D2"
+	doc-title "Cueva de San Jose"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -289,13 +288,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de R2D2} 		
+			\cavename={Cueva de San Jose} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Spéléo Club de la Vallée de la Vis (SCVV)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/tragadero-r2d2/}
-	\newtoks\expe \expe={Amazonas 2018}
+	\newtoks\wpage \wpage={}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -303,23 +302,19 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o th2/r2d22018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o th2/r2d2-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o Data/sanjose.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/sanjose-coupe2019.xvi
   
- export map -o Outputs/2D/r2d2-plan2018b.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o Outputs/2D/r2d2-coupe2018.pdf
- export model -o Outputs/3D/r2d2_2018b.lox
+ export map -o Outputs/sanjose-plan.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/sanjose-coupe.pdf
+ export model -o Outputs/sanjose.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Outputs/SIG/r2d2_2018 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/sanjose8 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/SIG/r2d2_2018.kml -layout my_layout
- export model -fmt kml -o Outputs/SIG/r2d2_2018m.kml
+ export map -proj plan -fmt kml -o Outputs/sanjose.kml -layout my_layout
+ export model -fmt kml -o Outputs/sanjose_m.kml
  
  # Export statistiques
-#export database -o Outputs/Lists/Database-2018.sql
-export continuation-list -o Outputs/Lists/Continuations-2018.html
-export survey-list -location on -o Outputs/Lists/Topographies_2018.html
-export cave-list -location on -o Outputs/Lists/Cavites_2018.html
 
