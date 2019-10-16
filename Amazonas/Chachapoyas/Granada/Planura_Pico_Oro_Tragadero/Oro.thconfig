@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source jatun.th
-source jatun.th2
+source Data/oro.th
+#source Data/oro.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -42,7 +42,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Hueco Atun"
+	doc-title "Tragadero de la planura del Pico del Oro"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -128,8 +128,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -159,14 +159,14 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Jatun Uchco} 		
+			\cavename={Tragadero de la planura del Pico del Oro} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\guide \guide={Dario Labajos Conila}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -180,7 +180,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Hueco Atun"
+	doc-title "Tragadero de la planura del Pico del Oro"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -262,8 +262,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -292,14 +292,14 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Jatun Uchco} 		
+			\cavename={Tragadero de la planura del Pico del Oro} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\guide \guide={Dario Labajos Conila}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -307,16 +307,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o jatun2018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o jatun-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o Data/oro-plan2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/oro-coupe2019.xvi
   
- export map -o jatun-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o jatun-coupe2018.pdf
- export model -o jatun_2018.lox
+ export map -o Outputs/oro-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/oro-coupe2019.pdf
+ export model -o Outputs/oro_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o jatun_2018 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/oro_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o jatun_2018.kml -layout my_layout
- export model -fmt kml -o jatun_2018m.kml
+ export map -proj plan -fmt kml -o Outputs/oro_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/oro_2019m.kml

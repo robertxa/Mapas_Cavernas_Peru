@@ -1,0 +1,28 @@
+# 2018.09.01 created by TopoDroid v 4.1.0c
+
+survey oro -title "Tragadero de la Planura del Pico del Oro"	-entrance 7
+
+  centerline
+    date 2018.09.01 
+    	team "Jean-Yves Bigot"
+    	team "Antoine/De Pomar"
+    	team "Gino Staccioli"
+    
+    cs lat-long
+    #fix 7 -6.061184	-77.592503	3570
+    
+    units length meters
+    units compass clino degrees
+	data normal from to length compass clino	left	right	up	down
+		0	1	5.47	38	-17	0	1.5	5	3
+		1	2	5	1	36	0	1.5	7	3
+		2	3	2.98	27	32	0.7	0.6	5	2
+	data normal from to length compass clino
+		1	4	11.3	275	65
+		4	5	16	264	-9
+		5	6	20	340	-16
+		6	7	6.8	142	0
+		
+  endcenterline
+
+endsurvey
