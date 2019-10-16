@@ -1,0 +1,19 @@
+encoding utf-8
+
+survey Casablanca -title "Cueva de Casablanca"
+	input Data/casablanca.th
+	input Data/casablanca2019.th
+	
+	centerline
+		equate 1@casablanca2019 37@casablanca
+	endcenterline
+
+#input olaya.th2
+	
+endsurvey
+
+#input Data/casablanca.th2
+
+#join olaya-sp3 olaya-sp4
+
+

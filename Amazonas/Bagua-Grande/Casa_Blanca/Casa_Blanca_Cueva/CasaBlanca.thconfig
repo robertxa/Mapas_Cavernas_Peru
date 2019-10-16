@@ -14,11 +14,10 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source casablanca.th
-source casablanca.th2
+source casablanca-tot.th
 
 # Add DEM
-source DEM/CasaBlanca.th
+#source DEM/CasaBlanca.th
 
 # Add config file
 input ../../../../config.thc 
@@ -130,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -263,8 +262,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -299,7 +298,7 @@ layout my_layout-coupe
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Spéléo Club de la Vallée de la Vis (SCVV)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Amazonas 2018}
+	\newtoks\expe \expe={Amazonas 2018, Nor Perú}
 	endcode  
   
 endlayout
@@ -307,16 +306,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o casablanca2018.xvi
- export map -projection extended -fmt xvi -layout xviexport -o casablanca-coupe2018.xvi
+ export map -fmt xvi -layout xviexport -o Data/casablanca2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/casablanca-coupe2019.xvi
   
- export map -o casablanca-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o casablanca-coupe2018.pdf
- export model -o casablanca_2018.lox
+ export map -o Outputs/casablanca-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/casablanca-coupe2019.pdf
+ export model -o Outputs/casablanca_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o casablanca_2018 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/casablanca_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o casablanca_2018.kml -layout my_layout
- export model -fmt kml -o casablanca_2018m.kml
+ export map -proj plan -fmt kml -o Outputs/casablanca_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/casablanca_2019m.kml

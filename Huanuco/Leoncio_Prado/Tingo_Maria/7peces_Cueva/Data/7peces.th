@@ -1,6 +1,6 @@
 
 
-survey 7peces -title "Cueva de los 7 Peces" -entrance "0"
+survey 7peces -title "Cueva de los 7 Peces" -entrance "10"
 
 	# Quel est le point d'entrée ????
 	
@@ -11,7 +11,7 @@ survey 7peces -title "Cueva de los 7 Peces" -entrance "0"
     	team "Carol Romero"
     
     cs lat-long
-    #fix 0 -9.25289	-76.04263	909
+    #fix 10 -9.25289	-76.04263	909
 
     units length meters
     units compass clino degrees

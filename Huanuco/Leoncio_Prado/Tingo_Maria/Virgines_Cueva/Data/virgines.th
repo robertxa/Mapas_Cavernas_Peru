@@ -1,6 +1,6 @@
 
 
-survey virgines -title "Cueva de las Virgines" -entrance "0"
+survey virgines -title "Cueva de las Virgines" -entrance "22"
 
 	# C'est quelle station, l'entrée ?
 	
@@ -11,7 +11,7 @@ survey virgines -title "Cueva de las Virgines" -entrance "0"
     	team "Carol Romero"
     
     cs lat-long
-    #fix 0 -9.25289	-76.04263	909
+    #fix 22 -9.25289	-76.04263	909
 
     units length meters
     units compass clino degrees
