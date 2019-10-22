@@ -14,8 +14,8 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Lobo_perdido.th
-source loboperdido.th2
+source Data/Lobo_perdido.th
+source Data/loboperdido.th2
 #source inca-coupe.th2
 
 # Add config file
@@ -128,8 +128,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -165,7 +165,7 @@ layout my_layout
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Cerro Blanco 2017}
+	\newtoks\expe \expe={Cerro Blanco 2017, Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -307,16 +307,16 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o LoboPerdido2017.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o LoboPerdido-coupe2017.xvi
+# export map -fmt xvi -layout xviexport -o Data/LoboPerdido2019.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Data/LoboPerdido-coupe2019.xvi
   
- export map -o LoboPerdido-plan2017.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o LoboPerdido-coupe2017.pdf
- export model -o LoboPerdido_2017.lox
+ export map -o Outputs/LoboPerdido-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/LoboPerdido-coupe2019.pdf
+ export model -o Outputs/LoboPerdido_2017.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o LoboPerdido_2017 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/LoboPerdido_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o LoboPerdido_2017.kml -layout my_layout
- export model -fmt kml -o LoboPerdido_2017m.kml
+ export map -proj plan -fmt kml -o Outputs/LoboPerdido_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/LoboPerdido_2019m.kml

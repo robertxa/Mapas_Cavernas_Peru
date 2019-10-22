@@ -11,8 +11,9 @@ survey altomiraflores -title "Cueva de Alto Miraflores" -entrance 0
 	  team "Marc Pouilly"
         
     cs lat-long
-    fix 0 -5.91454  -77.39412  1520
-    
+    #fix 0 -5.91454  -77.39412  1520
+	fix 0	-5.91501	-77.39398	1520
+	
     units length meters
     units compass clino degrees
     data normal from to length backcompass backclino left right up down

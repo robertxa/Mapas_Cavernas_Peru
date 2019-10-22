@@ -129,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -302,8 +302,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/sanjose.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/sanjose-coupe2019.xvi
+# export map -fmt xvi -layout xviexport -o Data/sanjose.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Data/sanjose-coupe2019.xvi
   
  export map -o Outputs/sanjose-plan.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/sanjose-coupe.pdf

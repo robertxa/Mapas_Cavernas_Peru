@@ -365,7 +365,7 @@ endlayout
   
  #export map -o Outputs/viento-plan2019.pdf -layout my_layout
  #export map -projection extended -layout my_layout-coupe -o Outputs/viento-coupe2019.pdf
- export model -o Outputs/Guyaquil_2019.lox
+ export model -o Outputs/Guayaquil_2019.lox
   
  # Export des fichiers ESRI
  #export map -proj plan -fmt esri -o Outputs/viento_2019 -layout my_layout

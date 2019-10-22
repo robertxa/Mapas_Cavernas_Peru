@@ -252,7 +252,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 50 50 sw
+	map-header 50 70 sw
 
     
 	# arrière plan de la manchette
