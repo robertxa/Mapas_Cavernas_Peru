@@ -56,7 +56,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1000
+	base-scale 1 750
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -68,10 +68,10 @@ layout my_layout
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
 	#scale 1 1000
-	scale 1 1000
+	scale 1 500
 
 	# echelle graphique 100 m ampleur
-	scale-bar 100 m
+	scale-bar 50 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -118,7 +118,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 40 40 nw
+	map-header 0 0 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
