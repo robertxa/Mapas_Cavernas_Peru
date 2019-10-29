@@ -13,7 +13,7 @@ survey casablanca -title "Tragadero de Casa Blanca" -entrance 0
     	team "Xavier Robert" 
     	team "Jean Loup/Guyot"
     	team "Michel Serfati"
-    	team "Antonio/De Palma"
+    	team "Antonio/de Pomar"
 
     units length meters
     units compass clino degrees

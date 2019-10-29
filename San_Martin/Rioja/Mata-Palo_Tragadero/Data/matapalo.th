@@ -4,7 +4,7 @@ survey matapalo -title "Mata Palo" -entrance "7"
    
 centerline -title "Mata Palo"
 	cs lat-long
-	#fix 7	-6.099502	-77.240204	880
+	fix 7	-5.73932	-77.57023	1305
 	
 	date 2019.09.22
 		team "Gino Staccioli"
@@ -21,7 +21,7 @@ centerline -title "Mata Palo"
 	units clino degrees
    
 	data normal from to length compass clino left right up down
-		1	0	4	58	-50	0	0	0	0	# Visée fictive vers le fond
+		2	0	4	58	-70	0	0	0	0	# Visée fictive vers le fond
 		1	2	9.13	58	-50	3	0	15	1.7
 		3	1	12.43	89	-34	0	1.7	15	1.1
 		4	3	3.75	37	-34	1.8	0	15	0

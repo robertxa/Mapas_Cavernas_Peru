@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 1310.5 1466.5834
+##XTHERION## xth_me_area_adjust -129.5 -129.5 1255.5 1347.5
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {880.202 1 1.0} {1024.772 2017a0} LoboPerdido2017.xvi 0 {}
 
 
 
-scrap lobo1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap lobo1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 point 157.11200000000002 183.66199999999992 station -name 2017a21@LoboPerdido
 
@@ -52,8 +52,6 @@ line label
   543.0 598.0 554.0 616.5 554.0 616.5
   smooth off
 endline
-
-point 90.0 150.5 continuation
 
 point 237.5 251.0 sand
 
@@ -138,11 +136,13 @@ line label -id l102-598-638 -close on
   smooth off
 endline
 
-point 1180.0 1192.0 label -text "Lat : -5.75178<br>Long : -77.5<br>Alt = 975 m"
+point 1053.0 1033.5 label -text "Lat : -5.75178<br>Long : -77.5<br>Alt = 975 m"
 
-point 116.5 242.0 label -text "<center>siphon<br>temporaire"
+point 148.0 191.5 altitude -align left
 
-point 952.5 1026.5 label -text "<center>siphon<br>temporaire"
+point 262.5 155.5 label -text "<center>siphon/v.m.<br>temporaire"
+
+point 858.5 1153.5 label -text "<center>siphon<br>temporaire"
 
 point 780.5 930.0 sand
 
@@ -339,6 +339,7 @@ line wall
   1076.0 1175.5
   1076.0 1175.5 1073.5 1164.5 1066.5 1166.5
   1059.5 1168.5 1038.5 1212.0 1031.0 1215.5
+  smooth off
 endline
 
 line wall -subtype invisible
@@ -349,8 +350,8 @@ line wall -subtype invisible
 endline
 
 line wall
-  142.0 168.0
-  142.0 168.0 194.0 190.0 196.5 192.0
+  156.0 175.5
+  156.0 175.5 194.0 190.0 196.5 192.0
   199.0 194.0 217.5 206.5 223.5 212.0
   229.5 217.5 222.0 224.0 226.5 232.0
   231.0 240.0 259.5 271.5 266.0 277.0
@@ -416,9 +417,7 @@ line wall
   274.0 290.5 259.5 278.0 254.0 274.0
   248.5 270.0 239.0 260.0 225.0 248.0
   211.0 236.0 199.0 208.5 189.0 206.0
-  179.0 203.5 149.0 209.0 140.0 199.5
-  131.0 190.0 128.5 185.0 128.5 185.0
-  smooth off
+  179.0 203.5 157.0 201.0 148.0 191.5
 endline
 
 point 621.622 700.002 station -name 2017a8@LoboPerdido

@@ -15,6 +15,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/larga.th
+source Data/larga.th2
+source Data/larga-coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -129,8 +131,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -258,8 +260,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -302,8 +304,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/larga.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/larga-coupe2019.xvi
+# export map -fmt xvi -layout xviexport -o Data/larga.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Data/larga-coupe2019.xvi
   
  export map -o Outputs/larga-plan.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/larga-coupe.pdf
@@ -315,5 +317,3 @@ endlayout
  # Export des fichiers kml
  export map -proj plan -fmt kml -o Outputs/larga8.kml -layout my_layout
  export model -fmt kml -o Outputs/largam.kml
- 
-

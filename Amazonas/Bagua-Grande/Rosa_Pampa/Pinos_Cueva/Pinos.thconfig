@@ -15,6 +15,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/pinos.th
+source Data/pinos.th2
+source Data/pinos-coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -54,7 +56,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 850
+	base-scale 1 100
 	#base-scale 1 1200
      
 	# "scale" : specification de l echelle,
@@ -66,11 +68,10 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 250
-	#scale 1 600
+	scale 1 100
 
 	# echelle graphique 100 m ampleur
-	scale-bar 25 m
+	scale-bar 10 m
   
 	# Pour faire une rotation
 	#rotate 2.25
@@ -120,7 +121,7 @@ layout my_layout
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 37 100 nw
-	map-header -10 90 ne
+	map-header 20 0 se
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -129,8 +130,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -190,7 +191,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 350
+	base-scale 1 100
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -201,10 +202,10 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 250
+	scale 1 100
 
 	# echelle graphique 100 m ampleur
-	scale-bar 25 m  
+	scale-bar 10 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -241,7 +242,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 17 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -259,8 +260,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -304,8 +305,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/pinos.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/pinos-coupe.xvi
+# export map -fmt xvi -layout xviexport -o Data/pinos.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Data/pinos-coupe.xvi
   
  export map -o Outputs/pinos-plan.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/pinos-coupe.pdf
@@ -323,4 +324,3 @@ endlayout
 #export continuation-list -o Outputs/Lists/Continuations-2018.html
 #export survey-list -location on -o Outputs/Lists/Topographies_2018.html
 #export cave-list -location on -o Outputs/Lists/Cavites_2018.html
-

@@ -306,8 +306,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/casablanca2019.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/casablanca-coupe2019.xvi
+# export map -fmt xvi -layout xviexport -o Data/casablanca2019.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Data/casablanca-coupe2019.xvi
   
  export map -o Outputs/casablanca-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/casablanca-coupe2019.pdf

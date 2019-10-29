@@ -165,6 +165,7 @@ layout my_layout
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
+	\newtoks\guides \guides={Norbil Delgado, Gilmer Delgado}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
@@ -293,6 +294,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
+	\newtoks\guides \guides={Norbil Delgado, Gilmer Delgado}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  

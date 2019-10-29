@@ -15,6 +15,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/matapalo.th
+source Data/mata-palo.th2
+source Data/mata-palo-coupe.th2
 
 # Add config file
 input ../../../config.thc 
@@ -54,7 +56,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 350
+	base-scale 1 450
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -124,8 +126,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -160,6 +162,7 @@ layout my_layout
 		\fi
 	\newtoks\club \club={Groupe Spéléologique Bagnols Marcoule (GSBM), Espeleo Club Andino (ECA)}
 	\newtoks\synth \synth={}
+	\newtoks\guides \guides={Norbil Robriguez Fernandez, José Heli Rodriguez Fernandez}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
@@ -236,7 +239,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -245,7 +248,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 100 65 w
+	map-header 80 65 w
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -254,8 +257,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -289,6 +292,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Groupe Spéléologique Bagnols Marcoule (GSBM), Espeleo Club Andino (ECA)}
 	\newtoks\synth \synth={}
+	\newtoks\guides \guides={Norbil Robriguez Fernandez, José Heli Rodriguez Fernandez}
 	\newtoks\wpage \wpage={}
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  

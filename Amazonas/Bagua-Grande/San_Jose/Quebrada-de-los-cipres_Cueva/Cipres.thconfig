@@ -162,6 +162,7 @@ layout my_layout
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
+	\newtoks\guides \guides={Norbil Delgado}
 	#\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/cueva-pequena-1-del-laurel/, https://cuevasdelperu.org/amazonas-utcubamba/cueva-pequena-2-del-laurel/}
 	\newtoks\expe \expe={Nord Pérou 2019}
 	endcode    
@@ -294,6 +295,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
+	\newtoks\guides \guides={Norbil Delgado}
 	#\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/cueva-pequena-1-del-laurel/, https://cuevasdelperu.org/amazonas-utcubamba/cueva-pequena-2-del-laurel/}
 	\newtoks\expe \expe={Nord Pérou 2019}
 	endcode  

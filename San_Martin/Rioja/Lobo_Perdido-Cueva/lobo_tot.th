@@ -1,0 +1,10 @@
+encoding utf-8
+
+input Data/Lobo_perdido.th
+
+# Pour le plan
+input Data/loboperdido.th2
+input Data/loboperdido2019.th2
+join lobo2019-SP1 lobo1
+
+#input Data/loboperdido-coupe.th2

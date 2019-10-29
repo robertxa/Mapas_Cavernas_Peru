@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.75 -128.75 1033.5122999999999 521.701
+##XTHERION## xth_me_area_adjust -151.0 -160.0 1049.8824 529.0711
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {106.731 1 1.0} {163.113 0@altomiraflores} altomiraflores2019b.xvi 0 {}
+##XTHERION## xth_me_image_insert {106.29000000000002 1 1.0} {162.885 0@altomiraflores} altomiraflores2019c.xvi 0 {}
 
 
 
@@ -10,36 +11,56 @@ scrap AM2019b-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 
 line pit
   782.75 223.5
   782.75 223.5 782.0 213.75 784.25 213.25
+  smooth off
 endline
 
 line pit
   788.75 226.25
   788.75 226.25 792.5 221.0 796.0 224.25
+  smooth off
 endline
 
 line pit
   791.0 247.0
   791.0 247.0 793.0 244.5 797.75 245.75
+  smooth off
 endline
 
 line pit
   794.5 259.0
   794.5 259.0 800.5 253.5 806.0 255.0
+  smooth off
 endline
 
 line pit
   804.25 272.25
   804.25 272.25 811.25 264.75 813.25 264.75
+  smooth off
 endline
 
 line pit -reverse on
   817.5 270.0
   817.5 270.0 811.5 268.5 808.25 273.75
+  smooth off
 endline
 
-point 813.5 295.5 continuation -attr Code P -text "Puits à continuer"
+point 832.31 289.695 station -name 2.2@AM_xr2
 
-point 816.0 278.5 altitude -align right
+line pit
+  827.5 293.5
+  827.5 293.5 819.0 287.25 818.0 281.5
+  817.0 275.75 819.0 267.0 819.0 267.0
+  smooth off
+endline
+
+line overhang
+  819.25 269.75
+  827.75 276.75 825.75 280.0 826.25 284.0
+  826.72 287.78 825.25 288.0 825.25 288.0
+  smooth off
+endline
+
+point 834.5 286.25 altitude -align right
 
 line wall
   781.25 216.5
@@ -47,11 +68,8 @@ line wall
   788.5 219.0 795.0 219.5 794.25 222.0
   793.5 224.5 793.0 224.0 794.25 227.25
   795.5 230.5 793.25 241.25 795.75 245.25
-  798.25 249.25 794.5 247.0 800.5 253.5
-  806.5 260.0 809.5 270.0 812.25 272.75
-  815.0 275.5 816.0 275.5 816.0 278.5
-  816.0 281.5 815.5 286.25 815.5 286.25
-  smooth off
+  798.25 249.25 797.25 250.75 801.0 253.25
+  811.44 260.21 814.75 267.25 817.5 270.0
 endline
 
 point 822.75 257.5 height -value [-20 m]
@@ -59,15 +77,27 @@ point 822.75 257.5 height -value [-20 m]
 point 779.25 249.0 height -value [-15 m]
 
 line wall
-  811.5 284.75
-  811.5 284.75 813.5 278.0 810.25 275.0
-  807.0 272.0 805.25 268.25 801.5 263.75
-  797.75 259.25 798.25 259.25 794.75 257.5
+  817.5 270.0
+  817.5 270.0 819.75 272.75 824.75 275.5
+  829.75 278.25 833.75 283.0 834.5 286.25
+  835.25 289.5 836.25 293.75 833.25 292.75
+  830.25 291.75 828.25 288.25 825.25 288.0
+  822.25 287.75 832.14 300.96 826.5 298.75
+  815.0 294.25 816.75 291.0 815.75 285.5
+  814.75 280.0 810.25 275.0 810.25 275.0
+  smooth off
+endline
+
+line wall
+  810.25 275.0
+  807.0 272.0 806.44 266.89 801.5 263.75
+  798.75 262.0 798.25 259.25 794.75 257.5
   791.25 255.75 792.75 253.0 792.75 248.0
   792.75 243.0 791.0 235.0 790.75 231.75
   790.5 228.5 790.75 224.75 790.0 223.5
   789.25 222.25 786.25 220.5 784.5 221.0
   782.75 221.5 781.5 222.25 779.5 221.5
+  smooth off
 endline
 
 point 791.6510000000001 220.78300000000002 station -name 5@AM_xr2
@@ -90,6 +120,7 @@ line slope
   760.75 239.0
   760.75 239.0 763.0 232.0 759.5 228.5
   756.0 225.0 745.0 226.75 745.0 218.25
+  smooth off
   l-size 5.0
 endline
 
@@ -119,52 +150,62 @@ endline
 line pit
   727.0 204.0
   727.0 204.0 723.5 196.75 718.25 196.75
+  smooth off
 endline
 
 line pit
   722.5 210.25
   722.5 210.25 713.75 208.0 713.5 204.0
+  smooth off
 endline
 
 line pit
   748.75 206.25
   748.75 206.25 750.5 197.75 757.75 195.5
+  smooth off
 endline
 
 line pit
   727.25 187.0
   727.25 187.0 728.5 189.0 733.75 186.75
+  smooth off
 endline
 
 line pit
   738.5 203.5
   738.5 203.5 735.0 199.5 735.0 194.75
   735.0 190.0 732.75 190.5 737.0 187.0
+  smooth off
 endline
 
 line pit
   730.5 200.0
   730.5 200.0 729.75 191.75 721.75 194.25
+  smooth off
 endline
 
 line pit
   735.75 257.5
   735.75 257.5 737.5 252.5 746.0 252.25
+  smooth off
 endline
 
 line pit
   763.5 199.0
   763.5 199.0 769.5 206.25 777.0 208.25
+  smooth off
 endline
 
 line pit
   745.0 193.0
   745.0 193.0 749.25 196.0 755.0 196.5
+  smooth off
 endline
 
 line pit
   772.0 216.5
   772.0 216.5 758.75 209.25 752.25 207.75
+  smooth off
 endline
 
 line pit
@@ -177,16 +218,19 @@ endline
 line pit
   798.0 224.25
   798.0 224.25 801.0 210.75 808.0 204.75
+  smooth off
 endline
 
 line pit
   789.5 197.5
   789.5 197.5 792.0 191.75 800.5 192.25
+  smooth off
 endline
 
 line pit
   791.25 208.75
   791.25 208.75 794.5 201.25 804.5 198.75
+  smooth off
 endline
 
 line pit
@@ -197,6 +241,7 @@ line pit
   779.25 216.0 779.5 216.0 781.25 216.5
   783.0 217.0 783.0 217.25 785.0 217.5
   787.0 217.75 793.75 221.0 794.25 222.0
+  smooth off
 endline
 
 line wall -close on -outline in
@@ -313,6 +358,7 @@ endline
 line wall
   808.0 226.25
   808.0 226.25 808.25 226.75 805.5 228.5
+  smooth off
 endline
 
 line wall
@@ -364,6 +410,7 @@ scrap AM2019b_SP3 -projection plan -author 2019 "Xavier Robert" -copyright 2019 
 line pit
   836.75 160.25
   836.75 160.25 836.5 184.0 841.0 184.75
+  smooth off
 endline
 
 line pit
@@ -378,12 +425,14 @@ endline
 line pit -reverse on
   813.5 186.25
   813.5 186.25 820.5 185.25 822.75 179.5
+  smooth off
 endline
 
 line pit
   817.5 198.25
   817.5 198.25 820.5 200.5 823.0 193.25
   825.5 186.0 825.5 186.25 825.5 180.75
+  smooth off
 endline
 
 point 830.0 218.5 air-draught -orientation 150.8
@@ -452,6 +501,7 @@ line pit
   680.75 224.0
   680.75 224.0 683.25 212.5 688.0 208.75
   692.75 205.0 700.25 205.0 703.25 204.75
+  smooth off
 endline
 
 line pit
@@ -481,6 +531,7 @@ line wall
   675.5 162.25 682.25 169.75 684.0 173.5
   685.75 177.25 691.75 200.0 694.0 198.5
   696.25 197.0 694.5 191.25 695.5 186.75
+  smooth off
 endline
 
 line wall
