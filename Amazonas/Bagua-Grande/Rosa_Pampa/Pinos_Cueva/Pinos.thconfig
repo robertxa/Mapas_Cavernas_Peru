@@ -317,7 +317,7 @@ endlayout
   
  # Export des fichiers kml
  export map -proj plan -fmt kml -o Outputs/pinos.kml -layout my_layout
- export model -fmt kml -o Outputs/pinos.kml
+ export model -fmt kml -o Outputs/pinos_m.kml
  
  # Export statistiques
 #export database -o Outputs/Lists/Database-2018.sql
