@@ -12,7 +12,7 @@ survey pinos -title "Cueva de los Pinos" -entrance 0
     
     units length meters
     units compass clino degrees
-    data normal from to length backcompass clino left right up down
+    data normal from to length compass clino left right up down
 	0	1	0	0	0	1.2	2.8	2	0.5
 	1	2	2.34	114	0	0	1.1	0.3	0.5
 	2	3	4.87	136	-5.5	1	0.3	1	0.5
