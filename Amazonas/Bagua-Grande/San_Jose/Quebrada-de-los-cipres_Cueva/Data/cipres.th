@@ -1,10 +1,10 @@
 encoding utf-8
 
-survey cipres -title "Tragadero de los Cipres" -entrance 1
+survey cipres -title "Tragadero de los Cipres" -entrance 0
 
 centerline
   	cs lat-long
-  	fix 1	  -5.91593	-78.49256	2445
+  	fix 0	  -5.91593	-78.49256	2445
 	
     date 2019.10.03 
      	team "Jean Yves/Bigot"
@@ -15,7 +15,7 @@ centerline
     units length meters
     units compass clino degrees
     data normal from to length compass clino left right up down
-		1	1b	0		0	0		0	3.5	1	1.4
+		0	1	0		0	0		0	3.5	1	1.4
 		1	2	7.15	118	-5		4.5	0.6	0.3	1
 		2	3	8.09	44	-7		3.5	0	1.8	0.6
 		3	4	11.73	293	0		0	3.1	1.2	0.6
@@ -44,7 +44,7 @@ centerline
 		12	13	16.84	19	-61		9	0	10	0
 		13	14	6.52	260	-3		4	3	10	0.6
 		14	15	4.37	305	-31		0.4	0.4	1	0
-		extend left
+		#extend left
 		13	16	8.58	175	9		5	2	10	1.2
 		16	17	5.16	139	-47		0.3	0.2	0.3	0.4		
 		
