@@ -1,0 +1,60 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -1828 2467 128
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Mais-Plan1.gif 0 {}
+
+
+
+scrap mais-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+
+point 476.5 -370.5 station -name 24@mais
+
+point 569.5 -481.0 station -name 23@mais
+
+point 653.5 -495.5 station -name 22@mais
+
+point 833.0 -638.0 station -name 21@mais
+
+point 940.5 -707.0 station -name 20@mais
+
+point 1950.0 -476.0 station -name 19@mais
+
+point 1859.0 -526.0 station -name 18@mais
+
+point 1829.5 -508.0 station -name 17@mais
+
+point 1720.5 -533.0 station -name 16@mais
+
+point 1647.5 -551.5 station -name 15@mais
+
+point 1580.5 -579.5 station -name 14@mais
+
+point 1516.0 -581.5 station -name 13@mais
+
+point 1462.5 -590.0 station -name 12@mais
+
+point 1408.0 -621.0 station -name 11@mais
+
+point 1342.0 -637.5 station -name 10@mais
+
+point 1163.5 -710.5 station -name 9@mais
+
+point 1009.0 -762.0 station -name 8@mais
+
+point 1128.0 -874.0 station -name 7@mais
+
+point 1092.5 -1077.5 station -name 6@mais
+
+point 990.5 -1253.0 station -name 5@mais
+
+point 907.5 -1329.0 station -name 4@mais
+
+point 682.5 -1378.5 station -name 3@mais
+
+point 592.0 -1301.0 station -name 2@mais
+
+point 507.5 -1269.0 station -name 1@mais
+
+endscrap
+
+

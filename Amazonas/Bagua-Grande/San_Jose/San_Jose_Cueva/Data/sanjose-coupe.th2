@@ -21,7 +21,7 @@ line wall
   2174.5 -663.5 2175.5 -653.5 2179.5 -652.0
 endline
 
-point 2143.0 -538.5 label -text "<center>inscription à la<br>peinture vert<br>'ABRO'"
+point 2143.0 -538.5 label -text "<center>inscription à la<br>peinture verte<br>'ABRO'"
 
 point 2130.5 -773.5 label -text "<center>boue<br>grise"
 
