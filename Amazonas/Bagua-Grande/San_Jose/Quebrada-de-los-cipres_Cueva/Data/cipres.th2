@@ -126,7 +126,7 @@ line rock-border -close on
   smooth off
 endline
 
-point 608.0 -1233.5 pillar -clip off
+#point 608.0 -1233.5 pillar -clip off
 
 line rock-edge
   898.5 -836.0
@@ -169,9 +169,9 @@ line wall -close on -reverse on -outline in
   1036.0 -782.0
 endline
 
-point 1071.5 -862.5 pillar
+#point 1071.5 -862.5 pillar
 
-point 1028.5 -726.0 pillar
+#point 1028.5 -726.0 pillar
 
 line pit
   996.5 -695.5
