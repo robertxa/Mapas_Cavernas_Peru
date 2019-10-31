@@ -1,0 +1,11 @@
+encoding utf-8
+
+input Data/mais.th2
+input Data/mais2.th2
+join mais-SP2 mais-SP3
+
+input Data/mais-coupe.th2
+input Data/mais-coupe2.th2
+join mais-SC1 mais-SC4
+join mais-SC2 mais-SC5
+join mais-SC3 mais-SC6

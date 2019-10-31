@@ -15,8 +15,7 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/mais.th
-source Data/mais.th2
-source Data/mais2.th2
+source mais-tot.th
 
 # Add config file
 input ../../../../config.thc 
@@ -130,6 +129,7 @@ layout my_layout
 	# les points et le nom des stations topos
 	symbol-hide line survey
 	#debug station-names
+	#debug on
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -252,7 +252,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 60 0 nw
+	map-header 0 0 nw
 
     
 	# arrière plan de la manchette
@@ -262,8 +262,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
