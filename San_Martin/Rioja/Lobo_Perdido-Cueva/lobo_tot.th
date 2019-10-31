@@ -7,4 +7,6 @@ input Data/loboperdido.th2
 input Data/loboperdido2019.th2
 join lobo2019-SP1 lobo1
 
-#input Data/loboperdido-coupe.th2
+#input Data/loboperdido-coupe2017.th2
+#input Data/loboperdido-coupe2019.th2
+#join lobo2017-SC1 lobo2019-SC1
