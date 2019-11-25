@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.75 -265.5 1230.3628 1112.2525
+##XTHERION## xth_me_area_adjust -128.75 -265.5 1364.5 1152.25
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {192.00799999999992 1 1.0} {202.324 0} casablanca2018.xvi 0 {}
 
@@ -37,13 +37,11 @@ point 364.25 391.25 continuation -attr Code E -text "Cheminée"
 line pit
   475.0 445.75
   475.0 445.75 466.0 446.5 457.0 439.0
-  smooth off
 endline
 
 line pit -reverse on
   618.25 548.75
   618.25 548.75 628.25 550.5 634.25 561.25
-  smooth off
 endline
 
 point 595.75 559.0 continuation -attr Code E -text "Départ en hauteur"
@@ -55,6 +53,8 @@ point 39.25 -136.25 continuation -attr Code A -text "Boyau humide à continuer, 
 point 200.25 193.0 altitude -align bottom-right
 
 point 304.5 132.0 altitude -align bottom-right
+
+point 949.0 844.0 altitude -align bottom-right
 
 point 948.75 827.25 rope
 
@@ -94,7 +94,6 @@ line water-flow
   624.0 432.0
   624.0 432.0 648.5 481.5 648.5 486.0
   648.5 490.5 646.75 505.0 646.75 509.0
-  smooth off
 endline
 
 area flowstone
@@ -156,7 +155,6 @@ endline
 line pit
   348.5 195.5
   348.5 195.5 362.0 193.75 356.5 206.0
-  smooth off
 endline
 
 point 377.75 262.25 rimstone-dam
@@ -349,7 +347,6 @@ point 900.5 817.75 pebbles
 line pit
   907.5 815.75
   907.5 815.75 913.25 819.0 917.75 818.25
-  smooth off
 endline
 
 line pit
@@ -373,7 +370,6 @@ line border
   653.25 583.5
   653.25 583.5 651.25 567.25 645.75 562.75
   640.25 558.25 621.0 541.25 614.0 544.5
-  smooth off
 endline
 
 point 817.0 800.25 passage-height -value [0.8 m]
@@ -383,7 +379,6 @@ point 846.25 812.25 dig
 line pit
   836.5 768.25
   836.5 768.25 840.5 780.25 842.25 782.0
-  smooth off
 endline
 
 line chimney -close on
@@ -449,6 +444,18 @@ point 378.0 395.0 height -value [+5 m]
 
 point 924.5 854.0 height -value [-4 m]
 
+line chimney
+  943.75 855.25
+  943.75 855.25 939.25 846.25 937.75 843.0
+  936.25 839.75 931.5 835.5 934.0 835.5
+  936.5 835.5 943.5 839.25 943.5 839.25
+  smooth off
+endline
+
+point 1235.25 1023.0 continuation -attr Code A -text "Arrêt sur ressaut, à continuer, courant d'air"
+
+point 1132.0 1022.5 label -orientation 329.5 -text "250 m explorés non topo."
+
 point 164.25 60.0 label -orientation 313.7 -text "100 m explorés non topo."
 
 point 115.75 246.75 label -text "<it>Lat : -5.92892<br>Long : -78.31233<br>Alt = 1761 m"
@@ -505,8 +512,11 @@ line wall
 endline
 
 line wall
-  933.75 840.25
-  930.5 837.75 923.75 832.75 921.0 831.0
+  995.5 892.0
+  995.5 892.0 946.25 861.75 946.25 859.25
+  946.25 856.75 946.75 855.0 942.5 851.25
+  938.25 847.5 935.5 840.75 932.25 838.25
+  929.0 835.75 923.75 832.75 921.0 831.0
   918.25 829.25 918.25 825.25 915.25 824.5
   912.25 823.75 906.75 821.75 904.0 820.75
   901.25 819.75 898.5 820.0 896.25 818.75
@@ -530,6 +540,21 @@ line wall
   smooth off
 endline
 
+line wall -subtype unsurveyed
+  1218.75 1017.5
+  1218.75 1017.5 1128.75 971.5 1120.25 965.5
+  1111.75 959.5 1054.25 930.5 1046.0 922.5
+  1037.75 914.5 1002.25 896.75 995.5 892.0
+endline
+
+line wall -subtype unsurveyed
+  1003.75 874.5
+  1003.75 874.5 1053.5 903.0 1065.5 911.25
+  1077.5 919.5 1136.75 959.5 1136.75 959.5
+  smooth off
+  1226.0 1009.5
+endline
+
 line wall
   845.25 783.25
   845.25 783.25 838.25 778.75 839.5 780.25
@@ -546,7 +571,12 @@ line wall
   909.75 814.25 912.0 810.0 914.0 814.5
   916.0 819.0 914.5 819.5 917.75 820.5
   921.0 821.5 932.75 828.0 932.75 829.25
-  932.75 830.5 935.25 834.75 938.0 836.25
+  932.75 830.5 936.75 836.5 939.5 838.0
+  942.25 839.5 945.25 842.25 949.0 844.0
+  952.75 845.75 956.75 846.25 962.5 848.25
+  968.25 850.25 985.0 862.75 990.75 864.5
+  996.5 866.25 1003.75 874.5 1003.75 874.5
+  smooth off
 endline
 
 line wall

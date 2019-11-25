@@ -129,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -189,7 +189,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1750
+	base-scale 1 1950
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -205,7 +205,7 @@ layout my_layout-coupe
 
 	# echelle graphique 100 m ampleur
 	#scale-bar 100 m
-	scale-bar 150 m  
+	scale-bar 200 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -242,7 +242,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 30 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -252,7 +252,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 50 70 sw
+	map-header 0 50 nw
 
     
 	# arrière plan de la manchette
@@ -262,8 +262,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -307,7 +307,7 @@ endlayout
   
  # 3-EXPORTS   
 # export map -fmt xvi -layout xviexport -o Data/casablanca2019.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o Data/casablanca-coupe2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/casablanca-coupe2019.xvi
   
  export map -o Outputs/casablanca-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/casablanca-coupe2019.pdf

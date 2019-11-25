@@ -21,6 +21,7 @@ centerline
 	units compass clino degrees
 	data normal from to length compass clino	left	right	up	down
 	#Topo du 7 octobre 2019, Jean Loup Guyot, James Apaestegui, Antonio de Pomar, Jean-Yves Bigot. LasermËtre.;
+	extend right
 	0          1                         0.00    0.00    0.00   0.00   0.80   1.30   0.50
 1          2                         3.44    2.50   -4.00   0.90   0.00   1.20   0.20
 2          3                         3.52  286.00    2.00   0.00   1.30   0.50   1.50

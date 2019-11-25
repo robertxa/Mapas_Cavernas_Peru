@@ -7,9 +7,11 @@ encoding  utf-8
 
 scrap mais-SC4 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
+point 110.5 -949.0 paleo-material
+
 point 167.0 -931.0 root
 
-point 211.0 -948.0 altitude -align bottom-left
+point 211.0 -948.0 altitude -align bottom-right
 
 point 223.0 -929.0 breakdown-choke -orientation 267.0
 
@@ -71,7 +73,11 @@ point 1066.5 -761.5 label -text "céramiques"
 
 point 1436.5 -761.0 label -text "céramiques"
 
-point 1756.0 -607.5 label -text "R2"
+point 1072.5 -676.0 archeo-material
+
+point 1431.5 -683.0 archeo-material
+
+point 1816.0 -637.5 label -text "R2"
 
 point 1696.0 -560.0 entrance -orientation 181.1
 
@@ -200,9 +206,7 @@ endscrap
 
 scrap mais-SC6 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
-point 229.5 -1207.5 label -text "g. des Gours"
-
-point 454.0 -1202.5 label -text "<center>pilier<br>rocheux"
+point 324.5 -1216.0 label -text "g. des Gours"
 
 point 553.5 -1120.5 altitude -align bottom-right
 

@@ -11,7 +11,7 @@ survey 7peces -title "Cueva de los 7 Peces" -entrance "10"
     	team "Carol Romero"
     
     cs lat-long
-    #fix 10 -9.25289	-76.04263	909
+    fix 10 -9.20593	-75.95316	660
 
     units length meters
     units compass clino degrees

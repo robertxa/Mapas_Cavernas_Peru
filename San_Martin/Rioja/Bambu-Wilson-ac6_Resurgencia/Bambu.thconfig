@@ -325,3 +325,6 @@ endlayout
  # Export des fichiers kml
  export map -proj plan -fmt kml -o Outputs/Bambu_2019.kml -layout my_layout
  export model -fmt kml -o Outputs/Bambu_2019m.kml
+ 
+ # Export listes
+  export survey-list -location on -o Outputs/Surveys2019.html

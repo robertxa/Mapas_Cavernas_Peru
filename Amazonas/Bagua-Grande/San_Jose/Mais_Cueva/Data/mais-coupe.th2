@@ -28,12 +28,14 @@ line u:surf -clip off
   431.0 -814.0 440.0 -814.0 445.0 -815.0
   450.0 -816.0 545.0 -821.0 568.0 -816.0
   591.0 -811.0 637.0 -808.0 647.0 -803.0
+  smooth off
 endline
 
 line u:surf -clip off
   314.0 -790.0
   314.0 -790.0 346.0 -799.0 360.0 -802.0
   374.0 -805.0 403.0 -811.0 407.0 -813.0
+  smooth off
 endline
 
 line u:surf -clip off
@@ -96,6 +98,10 @@ endline
 
 point 1153.0 -1154.0 label -text "<center>g. de la<br>Colonne Brisée"
 
+point 1554.0 -994.0 paleo-material
+
+point 1639.0 -1007.0 paleo-material
+
 line wall
   940.0 -971.0
   940.0 -971.0 993.0 -982.0 1009.0 -991.0
@@ -114,7 +120,9 @@ line wall
   smooth off
 endline
 
-point 559.0 -677.0 label -text "Lat : -5.90635<br>Long : -78.49165<br>Alt = 2360 m"
+point 555.0 -792.0 entrance -orientation 149.2
+
+point 546.0 -586.0 label -text "Lat : -5.90635<br>Long : -78.49165<br>Alt = 2360 m"
 
 point 432.0 -983.0 label -text "<center>champ<br>de maïs"
 
@@ -313,7 +321,7 @@ endscrap
 
 scrap mais-SC3 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
-point 2138.0 -1172.0 label -text "g. des Gours"
+point 1806.0 -1036.0 paleo-material
 
 line wall
   1767.0 -1040.0

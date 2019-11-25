@@ -3,12 +3,16 @@ encoding utf-8
 survey infiernillo -title "Infiernillo de Perlamayo" -entrance 0
 
   centerline
-    date 2018.11.06
+    date 2019.10.06
     	team "Jean Loup/Guyot"
-    	team "Pierre Bevengut" 
-    explo-date 2018.11.01
-    	explo-team "Jean Loup/Guyot"
-    	explo-team "Pierre Bevengut" 
+    	team "Gino Staccioli"
+    	team "Jean-Denis Klein"
+    	team "Antonio/de Pomar" 
+    explo-date 2019.10.01
+    	team "Jean Loup/Guyot"
+    	team "Gino Staccioli"
+    	team "Jean-Denis Klein"
+    	team "Antonio/de Pomar" 
     
     cs lat-long
     fix 0 -5.90457	-78.52020	2529
@@ -19,7 +23,8 @@ survey infiernillo -title "Infiernillo de Perlamayo" -entrance 0
     # extend auto
 		0	1	0	0	0	2.11	6	0	0.8	# entrée
 		1	2	8.75	215	7.6		4.5	3	0	0.5
-		2	3	35.81	25	56	1.4	1.5	0	15.84
+		#2	3	35.81	25	56	1.4	1.5	0	15.84
+		2	3	35.81	25	90	1.4	1.5	0	15.84	# Visée verticale, et non de 56 deg.
 		3	4	15.44	248	35	2.5	4.8	2	1	
 	# Dev =  m
   endcenterline

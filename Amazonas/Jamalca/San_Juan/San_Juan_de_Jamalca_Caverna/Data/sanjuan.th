@@ -18,7 +18,7 @@ survey sanjuan -title "Caverna de San Juan" -entrance 1
     data normal from to length compass clino left right up down
 		extend right
 		1	2	13.19	159	-33		0.0	9.0	4.0	1.6
-		extend left
+		extend right
 		2	3	16.60	242	-10		5.0	8.2	3.2	1.0
 		3	4	14.20	235	-11		3.0	10.0	7.0	1.5
 		4	5	15.62	248	23		3.0	9.0	3.2	0.0

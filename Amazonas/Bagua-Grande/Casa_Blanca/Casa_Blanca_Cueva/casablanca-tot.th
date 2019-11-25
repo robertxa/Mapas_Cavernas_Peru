@@ -7,13 +7,24 @@ survey Casablanca -title "Cueva de Casablanca"
 	centerline
 		equate 1@casablanca2019 37@casablanca
 	endcenterline
-
 #input olaya.th2
-	
+
+input Data/casablanca.th2
+input Data/casablanca2019a.th2
+join cblanca-sp1 casa2019-SP1
+
+input Data/casablanca2019b.th2
+join casa2019-SP1 casa2019-SP2
+
+# Coupe
+input Data/casablanca2018-coupe.th2
+input Data/casablanca2019a-coupe.th2
+join casa2018-SC1 casa2019-SC1
+input Data/casablanca2019b-coupe.th2
+#join casa2019-SC1 casa2019-SC2
+
 endsurvey
 
-#input Data/casablanca.th2
 
-#join olaya-sp3 olaya-sp4
 
 

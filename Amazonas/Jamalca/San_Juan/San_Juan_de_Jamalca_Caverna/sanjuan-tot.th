@@ -1,0 +1,21 @@
+encoding utf-8
+
+survey SanJuan -title "Cueva de San Juan de Jamalca"
+	input Data/sanjuan.th
+
+	input Data/sanjuan.th2
+	input Data/sanjuanb.th2
+	join sanjuan-SP1 sanjuan-SP2
+
+
+	# Coupe
+	input Data/sanjuan-coupe.th2
+	input Data/sanjuanb-coupe.th2
+	join sanjuan-SC2 sanjuan-SC3
+	join sanjuan-SC1 sanjuan-SC4
+	
+endsurvey
+
+
+
+

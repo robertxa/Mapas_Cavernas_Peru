@@ -14,7 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Data/sanjuan.th
+source sanjuan-tot.th
 
 # Add config file
 input ../../../../config.thc 
@@ -117,7 +117,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 100 nw
+	map-header 0 130 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -126,8 +126,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -157,13 +157,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Caverna de San Juan} 		
+			\cavename={Caverna de San Juan de Jamalca} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	#\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/cueva-pequena-1-del-laurel/, https://cuevasdelperu.org/amazonas-utcubamba/cueva-pequena-2-del-laurel/}
-	\newtoks\expe \expe={Nord Pérou 2019}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -249,7 +249,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 50 55 sw
+	map-header 0 20 nw
 
     
 	# arrière plan de la manchette
@@ -259,8 +259,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -289,7 +289,7 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Caverna de San Juan} 		
+			\cavename={Caverna de San Juan de Jamalca} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
@@ -303,7 +303,7 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/sanjuan-2019.xvi
+ #export map -fmt xvi -layout xviexport -o Data/sanjuan-2019.xvi
 # export map -projection extended -fmt xvi -layout xviexport -o Data/sanjuan-coupe2019.xvi
   
  export map -o Outputs/sanjuan-plan2019.pdf -layout my_layout

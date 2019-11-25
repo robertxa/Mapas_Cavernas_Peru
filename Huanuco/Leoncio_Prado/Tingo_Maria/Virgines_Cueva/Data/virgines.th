@@ -11,7 +11,7 @@ survey virgines -title "Cueva de las Virgines" -entrance "22"
     	team "Carol Romero"
     
     cs lat-long
-    #fix 22 -9.25289	-76.04263	909
+    fix 22 -9.37154	-75.95640	830
 
     units length meters
     units compass clino degrees
