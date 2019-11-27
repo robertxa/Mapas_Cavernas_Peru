@@ -38,7 +38,7 @@ layout my_layout
 	copy drawingconfig
 	copy headerl 
 	copy langue-es
-	doc-title "Pozo del Viento"
+	doc-title "Cueva del Viento"
   
 	cs UTM18
 	base-scale 1 750
@@ -71,12 +71,13 @@ layout my_layout
 		\edef\temp{\the\cavename}   % cavename from Therion
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
-			\cavename={Pozo del Viento} 		
+			\cavename={Cueva del Viento} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
+	\newtoks\guide \guide={}
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
 
@@ -91,7 +92,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Pozo del Viento"
+	doc-title "Cueva del Viento"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -203,12 +204,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Pozo del Viento} 		
+			\cavename={Cueva del Viento} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
+	\newtoks\guide \guide={}
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  
   
