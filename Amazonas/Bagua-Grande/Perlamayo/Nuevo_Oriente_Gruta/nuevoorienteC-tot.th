@@ -1,0 +1,19 @@
+encoding utf-8
+
+survey Gnuevooriente -title "Gruta de Nuevo Oriente"
+	input Data/nuevooriente1.th
+
+	# Plan
+	input Data/nuevooriente1.th2
+
+
+	# Coupe
+	input Data/nuevooriente1-coupe1.th2
+	input Data/nuevooriente1-coupe2.th2
+	join gno-SC1 gno-SC2
+
+endsurvey
+
+
+
+

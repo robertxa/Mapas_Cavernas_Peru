@@ -705,7 +705,7 @@ endline
 
 point 1275.5 -738.0 height -value [-14 m]
 
-point 1320.0 -402.0 label -text "<center>salón de las<br>Catareatas"
+point 1320.0 -402.0 label -text "<center>salón de las<br>Cataratas"
 
 line slope
   864.5 -497.5

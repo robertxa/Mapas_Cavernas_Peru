@@ -1,0 +1,20 @@
+encoding utf-8
+
+survey Tnuevooriente -title "Tragadero de Nuevo Oriente"
+	input Data/nuevooriente2.th
+
+	#input Data/nuevooriente1.th2
+
+
+	# Coupe
+	#input Data/casablanca2018-coupe.th2
+	#input Data/casablanca2019a-coupe.th2
+	#join casa2018-SC1 casa2019-SC1
+	#input Data/casablanca2019b-coupe.th2
+	#join casa2019-SC1 casa2019-SC2
+
+endsurvey
+
+
+
+

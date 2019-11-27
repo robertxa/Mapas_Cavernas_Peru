@@ -14,8 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Data/nuevooriente2.th
-# source nuevooriente2.th2
+source nuevoorienteT-tot.th
 
 # Add config file
 input ../../../../config.thc 
@@ -165,6 +164,7 @@ layout my_layout
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	#\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Jaime Vasquez Perez}
 	#\newtoks\wpage \wpage={https://cuevasdelperu.org/amazonas-utcubamba/cuevas-gemelas/}
 	\newtoks\expe \expe={Nord Pérou 2019}
 	endcode    
@@ -293,6 +293,7 @@ layout my_layout-coupe
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
+	\newtoks\guide \guide={Jaime Vasquez Perez}
 	#\newtoks\wpage \wpage={httpshttps://cuevasdelperu.org/amazonas-utcubamba/cuevas-gemelas/}
 	\newtoks\expe \expe={Nord Pérou 2019}
 	endcode  

@@ -7,8 +7,9 @@ survey 7peces -title "Cueva de los 7 Peces" -entrance "10"
   centerline
     date 2019.09.18 
     	team "Marc Pouilly"
-    	team "Thibault Declos"
+    	team "Thibault Desclos"
     	team "Carol Romero"
+    	team "Debra Moya"
     
     cs lat-long
     fix 10 -9.20593	-75.95316	660

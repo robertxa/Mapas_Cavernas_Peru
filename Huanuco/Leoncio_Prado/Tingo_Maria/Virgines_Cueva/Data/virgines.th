@@ -7,8 +7,9 @@ survey virgines -title "Cueva de las Virgines" -entrance "22"
   centerline
     date 2019.09.17 
     	team "Marc Pouilly"
-    	team "Thibault Declos"
+    	team "Thibault Desclos"
     	team "Carol Romero"
+    	team "Debra Moya"
     
     cs lat-long
     fix 22 -9.37154	-75.95640	830

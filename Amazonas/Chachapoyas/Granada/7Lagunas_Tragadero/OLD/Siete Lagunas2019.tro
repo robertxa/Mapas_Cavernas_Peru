@@ -1,0 +1,27 @@
+Version 5.02
+
+Trou Tragadero de las Siete Lagunas ou de la Laguna Maria Gondolan,454.769,4786.372,1025,LT3
+Entree 0
+Couleur 255,215,0
+
+Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Inc Std
+
+0          0                         0.00    0.00    0.00   2.00   8.00   3.00   0.40 N I ;Le point topo 0 est celui de l'intersection de galeries située un peu avant le terminus (impossible à atteindre, car trop d'eau). Topo du 15 septembre 2019, Jean Loup Guyot, Gino Staccioli, Jean-Yves Bigot. Lasermètre.;
+0          1                        19.61  236.50    0.00   1.50   2.00   0.00   1.30 N I
+1          2                        12.36  196.00  -26.00   2.50   3.00   4.00   3.00 N I
+2          3                         9.65  228.00  -13.00   3.00   2.70   4.00   3.50 N I
+
+[Configuration 5.02]
+
+Visual Topo=2,3,-1,-1,-1,-1,50,50,1086,787
+Options=1,1
+Calcul=0,1,-1,-1,-8,-30,0,0,816,402
+Options=27,1,0,1,0
+ExportDxf=0,100,391,0,0,1,6,7,4,4,3,3,2,7,9
+Colonnes=8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,2.00,2.00,4.00,0.38,8.00,8.00,8.00,8.00,8.00,0.38,0.00,0.00
+Plan=0,1,-1,-1,-8,-30,25,25,1645,648
+Options=52255,1.00,10,0,1,1,1,250,1
+Projection=0,1,-1,-1,-8,-30,75,75,1695,698
+Options=52479,1.00,10,182,0,1,0,1,1,250,0
+Coupe développée=0,1,-1,-1,-8,-30,75,75,1695,698
+Options=52327,1.00,0,0,1,1,250,0

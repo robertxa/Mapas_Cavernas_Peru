@@ -1,6 +1,6 @@
 encoding utf-8
 
-survey SanJuan -title "Cueva de San Juan de Jamalca"
+survey SanJuan -title "Caverna de San Juan de Jamalca"
 	input Data/sanjuan.th
 
 	input Data/sanjuan.th2

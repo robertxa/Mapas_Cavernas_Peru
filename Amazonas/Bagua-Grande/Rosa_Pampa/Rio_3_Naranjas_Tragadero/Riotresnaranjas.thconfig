@@ -14,8 +14,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Data/riotresnaranjas.th
-# source nuevooriente1.th2
+source riotresnaranjas-tot.th
 
 # Add config file
 input ../../../../config.thc 
@@ -294,7 +293,7 @@ layout my_layout-coupe
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	#\newtoks\wpage \wpage={httpshttps://cuevasdelperu.org/amazonas-utcubamba/cuevas-gemelas/}
-	\newtoks\expe \expe={Nord Pérou 2019}
+	\newtoks\expe \expe={Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -302,8 +301,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/riotresnaranjas.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/riotresnaranjas-coupe.xvi
+ #export map -fmt xvi -layout xviexport -o Data/riotresnaranjas.xvi
+ #export map -projection extended -fmt xvi -layout xviexport -o Data/riotresnaranjas-coupe.xvi
   
  export map -o Outputs/riotresnaranjas-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/riotresnaranjas-coupe2019.pdf
