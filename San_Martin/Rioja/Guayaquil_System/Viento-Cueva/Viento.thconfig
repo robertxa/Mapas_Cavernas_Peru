@@ -53,15 +53,15 @@ layout my_layout
 	statistics explo-length off
 	statistics topo-length off
 	statistics copyright all
-	legend on
+	legend off
 	legend-width 14.5 cm	# pour 1/1000
 	legend-columns 3
 	map-header 0 0 nw # pour du 1/1000
 	map-header-bg off
 	layers on
 
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
 
 	#grid bottom
 	#grid-size 100 100 100 m
@@ -174,8 +174,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  

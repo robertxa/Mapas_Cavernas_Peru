@@ -3,15 +3,21 @@ encoding utf-8
 survey Tnuevooriente -title "Tragadero de Nuevo Oriente"
 	input Data/nuevooriente2.th
 
-	#input Data/nuevooriente1.th2
-
+	input Data/nuevoorienteT.th2
+	input Data/nuevoorienteT2.th2
+	join noT-SP1 noT-SP3
+	input Data/nuevoorienteT3.th2
+	join noT-SP3 noT-SP4
 
 	# Coupe
-	#input Data/casablanca2018-coupe.th2
-	#input Data/casablanca2019a-coupe.th2
-	#join casa2018-SC1 casa2019-SC1
-	#input Data/casablanca2019b-coupe.th2
-	#join casa2019-SC1 casa2019-SC2
+	input Data/nuevoorienteT-coupe.th2
+	input Data/nuevoorienteT-coupe2.th2
+	join noT-SC1 noT-SC2
+	input Data/nuevoorienteT-coupe3.th2
+	join noT-SC2 noT-SC4
+	input Data/nuevoorienteT-coupe4.th2
+	join noT-SC4 noT-SC5
+
 
 endsurvey
 

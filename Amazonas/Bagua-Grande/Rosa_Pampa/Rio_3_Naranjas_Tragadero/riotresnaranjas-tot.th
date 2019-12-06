@@ -4,8 +4,15 @@ survey RioTresNaranjas -title "Tragadero del Rio de las Tres Naranjas"
 	input Data/riotresnaranjas.th
 
 	# Plan
-	#input Data/nuevooriente1.th2
-
+	input Data/riotresnaranjas.th2
+	input Data/riotresnaranjas2.th2
+	join RT-SP2 RT-SP5
+	join RT-SP4 RT-SP5
+	input Data/riotresnaranjas3.th2
+	join RT-SP5 RT-SP6
+	join RT-SP5 RT-SP7
+	input Data/riotresnaranjas4.th2
+	join RT-SP6 RT-SP8
 
 	# Coupe
 	#input Data/casablanca2018-coupe.th2

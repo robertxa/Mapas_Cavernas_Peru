@@ -1,18 +1,24 @@
 encoding utf-8
 
 survey Viento -title "Cueva del Viento"
-	input Data/vientp.th
+	input Data/viento.th
 
 	# Plan
-	#input Data/nuevooriente1.th2
+	input Data/viento.th2
+	input Data/viento2.th2
+	join viento-SP1 viento-SP8
+	
+	#input Data/viento3.th2
+	#join viento-SP9 ????
 
 
 	# Coupe
-	#input Data/casablanca2018-coupe.th2
-	#input Data/casablanca2019a-coupe.th2
-	#join casa2018-SC1 casa2019-SC1
-	#input Data/casablanca2019b-coupe.th2
-	#join casa2019-SC1 casa2019-SC2
+	input Data/viento-coupe.th2
+	input Data/viento-coupe2.th2
+	join viento-SC1 viento-SC4
+	
+	#input Data/viento-coupe3.th2
+	#join viento-SC4 ???
 
 endsurvey
 
