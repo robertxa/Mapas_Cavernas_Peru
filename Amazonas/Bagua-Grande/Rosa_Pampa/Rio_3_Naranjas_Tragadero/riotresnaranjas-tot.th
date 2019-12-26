@@ -15,11 +15,41 @@ survey RioTresNaranjas -title "Tragadero del Rio de las Tres Naranjas"
 	join RT-SP6 RT-SP8
 
 	# Coupe
-	#input Data/casablanca2018-coupe.th2
-	#input Data/casablanca2019a-coupe.th2
-	#join casa2018-SC1 casa2019-SC1
-	#input Data/casablanca2019b-coupe.th2
-	#join casa2019-SC1 casa2019-SC2
+	input Data/riotresnaranjas-coupe.th2
+	input Data/riotresnaranjas-coupe2.th2
+	join RT-SC1 RT-SC5	# Rivière principale
+	join RT-SC3 RT-SC7	# Galerie du GSBM
+	join RT-SC4 RT-SC6
+	input Data/riotresnaranjas-coupe3.th2
+	join RT-SC5 RT-SC9	# Rivière principale
+	join RT-SC7 RT-SC10	# Galerie du GSBM
+	
+	map RT-tot #-projection extended
+		RT-SC1
+		break
+		RT-SC2
+		break
+		RT-SC3
+		break
+		RT-SC4
+		break
+		RT-SC5
+		break
+		RT-SC6
+		break
+		RT-SC7
+		break
+		RT-SC8
+		break
+		RT-SC9
+		break
+		RT-SC10
+		break
+		RT-SC11
+	
+	break
+	
+endmap
 
 endsurvey
 

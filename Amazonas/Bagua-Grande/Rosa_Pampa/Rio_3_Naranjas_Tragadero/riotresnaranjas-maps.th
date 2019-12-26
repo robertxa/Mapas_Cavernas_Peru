@@ -1,0 +1,27 @@
+encoding utf-8
+
+map RT-tot #-projection extended
+	RT-SC11
+	break
+	RT-SC10
+	break
+	RT-SC9
+	break
+	RT-SC8
+	break
+	RT-SC7
+	break
+	RT-SC6
+	break
+	RT-SC5
+	break
+	RT-SC4
+	break
+	RT-SC3
+	break
+	RT-SC2
+	break
+	RT-SC1
+endmap
+
+

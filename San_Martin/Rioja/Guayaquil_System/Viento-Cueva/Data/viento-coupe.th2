@@ -108,6 +108,10 @@ endline
 
 point 255.0 -350.5 dig
 
+point 229.75 -121.25 label -text "<center>salle<br>Gino"
+
+point 281.5 -464.25 air-draught -orientation 267.3
+
 point 277.5 -387.0 label -text "etr."
 
 point 243.5 -234.0 stalagmites

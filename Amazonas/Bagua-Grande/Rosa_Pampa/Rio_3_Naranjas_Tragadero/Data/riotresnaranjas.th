@@ -12,6 +12,8 @@ survey rio3T -title "Tragadero del Rio de las Tres Naranjas" -entrance 1
         
     cs lat-long
     fix 1 -5.92953  -78.46706  2478
+    #fix 81	-5.92801	-78.46836	2461
+
     
     units length meters
     units compass clino degrees
