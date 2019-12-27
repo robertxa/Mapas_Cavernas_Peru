@@ -29,7 +29,8 @@ point 276.0 378.0 label -text "<center>ossements<br>de mammifère"
 
 point 424.0 484.0 paleo-material
 
-line u:rope -clip off
+#line rope -clip off
+line rope -clip off
   411.0 500.0
   411.0 500.0 439.0 493.0 438.0 507.0
   437.77 510.15 458.0 414.0 473.0 440.0

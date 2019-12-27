@@ -25,7 +25,8 @@ point 78.737 472.438 altitude -align left
 
 point 97.0 400.0 label -text "<it>Lat : -5.96418<br>Long : -77.34824<br>Alt = 1000 m"
 
-line u:rope
+#line rope
+line rope
   275.0 458.5
   275.0 458.5 301.5 443.0 302.5 455.0
   302.62 456.49 327.5 383.0 335.5 411.5
