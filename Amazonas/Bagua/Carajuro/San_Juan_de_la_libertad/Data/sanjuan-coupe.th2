@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap sanjuanl-SC1 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [727.0 -331.0 727.0 -372.0 0.0 0.0 0 -2.0 m]
+scrap sanjuanl-SC1 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [727.0 -331.0 727.0 -372.0 0.0 0.0 0 -2.0 m]
 
 area u:galerie
   l14-455--888
@@ -87,7 +87,7 @@ endscrap
 
 
 
-scrap sanjuanl-SC2 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [727.0 -331.0 727.0 -372.0 0.0 0.0 0 -2.0 m]
+scrap sanjuanl-SC2 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [727.0 -331.0 727.0 -372.0 0.0 0.0 0 -2.0 m]
 
 area u:galerie
   l40-768--902

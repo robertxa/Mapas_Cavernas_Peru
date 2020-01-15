@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap tunnel-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-314.73271 -153.59075 138.11779 -153.59075 0.0 0.0 11.5024027 0.0 m]
+scrap tunnel-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-314.73271 -153.59075 138.11779 -153.59075 0.0 0.0 11.5024027 0.0 m]
 
 point -177.75 94.0 label -text "<it>Lat : -5.87851<br>Long : -78.48008<br>Alt = 1829 m"
 

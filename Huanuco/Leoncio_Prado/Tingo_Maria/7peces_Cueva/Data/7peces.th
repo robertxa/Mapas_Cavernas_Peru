@@ -1,8 +1,8 @@
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-
-survey 7peces -title "Cueva de los 7 Peces" -entrance "10"
-
-	# Quel est le point d'entrée ????
+survey 7peces -title "Cueva de los 7 Peces" -entrance "11"
 	
   centerline
     date 2019.09.18 
@@ -12,12 +12,13 @@ survey 7peces -title "Cueva de los 7 Peces" -entrance "10"
     	team "Debra Moya"
     
     cs lat-long
-    fix 10 -9.20593	-75.95316	660
+    fix 11 -9.20593	-75.95316	660
 
     units length meters
     units compass clino degrees
     data normal from to length clino	compass	left	right	up	down
-		0	1	15	5	80	2	2.5	6	1
+		#0	1	15	5	80	2	2.5	6	1
+		0	1	15	5	360	2	2.5	6	1
 		1	2	22	-3	315	1.8	1	1	1.7
 		2	3	6.9	0	350	1.5	1.7	0.6	0.8
 		3	4	14.2	2	8	1	2.5	0.6	0.9

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap RT-SC5 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap RT-SC5 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 line wall
   1432.0 -998.0
@@ -314,7 +314,7 @@ endscrap
 
 
 
-scrap RT-SC6 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap RT-SC6 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 252.5 -789.5 u:ex_voto
 
@@ -388,7 +388,7 @@ endscrap
 
 
 
-scrap RT-SC7 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap RT-SC7 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 line wall -outline in -subtype presumed
   1697.0 -880.5
@@ -655,7 +655,7 @@ endscrap
 
 
 
-scrap RT-SC8 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap RT-SC8 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 635.0 -731.5 narrow-end
 

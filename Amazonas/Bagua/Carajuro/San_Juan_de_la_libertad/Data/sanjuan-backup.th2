@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap sanjuanl-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap sanjuanl-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 1984.5 -783.5 altitude -align bottom-right
 
@@ -876,7 +876,7 @@ endscrap
 
 
 
-scrap sanjuanl-SS1 -projection none -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [727.0 -331.0 727.0 -372.0 0.0 0.0 0 2.0 m]
+scrap sanjuanl-SS1 -projection none -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [727.0 -331.0 727.0 -372.0 0.0 0.0 0 2.0 m]
 
 point 802.5 -256.0 u:bats
 

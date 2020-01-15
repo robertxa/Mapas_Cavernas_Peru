@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Huaynac1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap Huaynac1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
 
 line water-flow
   438.25 1228.5
@@ -170,7 +170,7 @@ endscrap
 
 
 
-scrap huynac2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap huynac2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
 
 point 4339.46 414.159 station -name 42@huayna
 

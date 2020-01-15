@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap fertilidad-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
+scrap fertilidad-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
 line wall
   1151.0 -1541.0
@@ -347,7 +347,7 @@ endscrap
 
 
 
-scrap scrap45 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
+scrap scrap45 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
 line wall
   1395.0 -623.0

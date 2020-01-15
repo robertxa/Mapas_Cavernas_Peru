@@ -1,10 +1,8 @@
 encoding  utf-8
-    
-# File written by tro2therion.f90 (Xavier Robert) 
-# Based on the work of Roman Muñoz <tatel@euskalnet.net> and Martin Gerbaux <martin.gerbaux@wanadoo.fr> 
  
-# Copyright (C) 2010 Xavier Robert <xavier.robert01@gmail.com>
-# This work is under the GPLv2
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
   
     
 # 1-SOURCES 
@@ -15,6 +13,8 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/infiernillo.th
+source Data/infiernillo.th2
+source Data/infiernillo-coupe.th2
 
 # Add config file
 input ../../../../config.thc 
@@ -240,7 +240,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -249,7 +249,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 0 nw
+	map-header 100 100 nw
     
 	# arrière plan de la manchette
 	map-header-bg off
@@ -258,8 +258,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -302,8 +302,8 @@ endlayout
  
   
  # 3-EXPORTS   
- #export map -fmt xvi -layout xviexport -o th2/infiernillo.xvi
- #export map -projection extended -fmt xvi -layout xviexport -o th2/infiernillo-coupe.xvi
+ export map -fmt xvi -layout xviexport -o Data/infiernillo.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/infiernillo-coupe.xvi
   
  export map -o Outputs/infiernillo-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/infiernillo-coupe.pdf
@@ -314,11 +314,10 @@ endlayout
   
  # Export des fichiers kml
  export map -proj plan -fmt kml -o Outputs/infiernillo.kml -layout my_layout
- export model -fmt kml -o Outputs/infiernillo.kml
+ export model -fmt kml -o Outputs/infiernillom.kml
  
  # Export statistiques
 #export database -o Outputs/Lists/Database-2018.sql
 #export continuation-list -o Outputs/Lists/Continuations-2018.html
 #export survey-list -location on -o Outputs/Lists/Topographies_2018.html
 #export cave-list -location on -o Outputs/Lists/Cavites_2018.html
-

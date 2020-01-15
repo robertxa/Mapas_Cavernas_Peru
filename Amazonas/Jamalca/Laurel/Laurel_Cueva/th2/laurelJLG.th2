@@ -3,7 +3,7 @@ encoding  utf-8
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1265.356 1 1.0} {3426.02 0@laurel.laureltot} laurel2018.xvi 0 {}
 
-scrap Laurel-JLG-SP1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
+scrap Laurel-JLG-SP1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
 
 area blocks
   l223-621-764

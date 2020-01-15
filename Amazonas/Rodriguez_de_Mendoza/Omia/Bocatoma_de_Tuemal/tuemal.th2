@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap tuemal1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1348.4731 -128.0 0.0 0.0 37.502416739999994 0.0 m]
+scrap tuemal1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 1348.4731 -128.0 0.0 0.0 37.502416739999994 0.0 m]
 
 point 221.75 607.75 blocks
 
@@ -761,7 +761,7 @@ endscrap
 
 
 
-scrap tuemal2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1348.4731 -128.0 0.0 0.0 37.502416739999994 0.0 m]
+scrap tuemal2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 1348.4731 -128.0 0.0 0.0 37.502416739999994 0.0 m]
 
 point 441.096 560.078 station -name 22@tuemal
 

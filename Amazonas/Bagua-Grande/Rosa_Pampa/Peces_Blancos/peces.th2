@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap peces-SP1 -projection plan -author 2019 "Marc Pouilly" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -4259 5975 -4259 0.0 0.0 155.0162 0.0 m]
+scrap peces-SP1 -projection plan -author 2019 "Marc Pouilly" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -4259 5975 -4259 0.0 0.0 155.0162 0.0 m]
 
 point 2950.0 -3275.0 altitude -align bottom-left
 

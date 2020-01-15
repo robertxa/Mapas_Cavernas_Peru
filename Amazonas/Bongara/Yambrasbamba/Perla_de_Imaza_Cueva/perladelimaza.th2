@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap perla1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1269.7329 -128.0 0.0 0.0 35.50241566 0.0 m]
+scrap perla1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1269.7329 -128.0 0.0 0.0 35.50241566 0.0 m]
 
 point 530.8439999999999 267.246 station -name 21@perladelimaza
 
@@ -306,7 +306,7 @@ endscrap
 
 
 
-scrap perla2 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1269.7329 -128.0 0.0 0.0 35.50241566 0.0 m]
+scrap perla2 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1269.7329 -128.0 0.0 0.0 35.50241566 0.0 m]
 
 point 1046.554 507.966 station -name 45@perladelimaza
 

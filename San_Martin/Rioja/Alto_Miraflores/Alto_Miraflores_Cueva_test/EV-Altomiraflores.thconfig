@@ -1,0 +1,126 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the GPLv2
+  
+    
+# 1-SOURCES 
+source Data/altomiraflores-tot.th
+
+# Add config file
+input ../../../../config.thc	# chemin XR
+
+  
+layout my_layout
+
+	copy drawingconfig
+	copy headerl 
+	copy langue-es
+
+	doc-title "Cueva de Alto Miraflores"
+
+	cs UTM18
+  
+	base-scale 1 1000
+	scale 1 700
+	scale-bar 100 m
+
+	#color map-bg 85
+	color map-fg [100 100 80]
+	transparency on
+	opacity 75
+    
+	map-comment "Nueva Cajamarca, Rioja, San Martín, Perú"
+  
+	statistics explo-length off
+	statistics topo-length off
+  
+	legend off
+  
+	legend-width 31 cm
+
+	map-header 0 0 nw
+  
+	map-header-bg off
+  
+	layers on
+  
+	symbol-hide line survey
+	#debug station-names
+  
+	grid off
+  
+	statistics copyright all
+      
+	code tex-map
+		\edef\temp{\the\cavename}
+		\edef\nostring{}
+		\ifx\temp\nostring
+			\cavename={Cueva de Alto Miraflores} 		
+		\else
+		\fi
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique les Dolomites (GSD), Groupe Spéléologique Vulcain}
+	\newtoks\synth \synth={}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/san-martin-rioja/cueva-de-alto-miraflores/}
+	\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
+	endcode    
+	
+	map-image 0 96 sw Outputs/altomiraflores-coupe2019-EV.pdf
+
+endlayout
+ 
+ 
+layout my_layout-coupe
+  
+  	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy header_coupe
+	copy langue-es
+	
+	#debug on
+
+	doc-title "Cueva de Alto Miraflores"
+  
+	base-scale 1 1350
+	scale 1 1000
+	scale-bar 100 m  
+
+	color map-fg [100 100 80]
+  
+	transparency on
+  
+	opacity 75
+  
+	map-comment "<it>Alzado<ss>"# - Nueva Cajamarca, Rioja, San Martín, Perú"
+  
+	statistics explo-length off
+	statistics topo-length off
+	statistics explo off
+	statistics topo off
+	statistics copyright off
+	statistics carto off
+	code tex-map
+		\cavelength={} %empty
+		\cavedepth={}  %empty
+	endcode
+	
+	legend off
+ 
+ symbol-hide line survey
+  
+	legend-width 20 cm
+  
+	map-header 0 50 nw
+    
+	map-header-bg off
+  
+	layers on
+
+	grid off
+  
+endlayout
+
+
+ # 3-EXPORTS   
+export map -projection extended -layout my_layout-coupe -o Outputs/AM-coupe_rope.pdf
+#export map -o Outputs/altomiraflores-plan2019-EV.pdf -layout my_layout

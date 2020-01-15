@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap huayna1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap huayna1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
 
 point 1420.0 2720.6100000000006 station -name 51@huayna
 
@@ -568,7 +568,7 @@ endscrap
 
 
 
-scrap huyan2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap huyan2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
 
 point 816.5 2651.0 water-flow -orientation 92.4
 
@@ -731,7 +731,7 @@ endscrap
 
 
 
-scrap huayna3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap huayna3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
 
 line wall
   890.0 2340.0
@@ -1487,7 +1487,7 @@ endscrap
 
 
 
-scrap huayna4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap huayna4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
 
 point 924.0 2667.5 altitude -align top-left
 

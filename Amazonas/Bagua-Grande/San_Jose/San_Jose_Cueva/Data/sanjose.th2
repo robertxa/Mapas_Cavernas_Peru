@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap sanjose-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
+scrap sanjose-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
 line wall -id l21-536--450
   380.0 -1975.5
@@ -728,7 +728,7 @@ endscrap
 
 
 
-scrap sanjose-SS1 -projection none -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [560.0 -2100.0 936.0 -2098.0 0.0 0.0 25 0.0 m]
+scrap sanjose-SS1 -projection none -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [560.0 -2100.0 936.0 -2098.0 0.0 0.0 25 0.0 m]
 
 line border -clip off
   1111.0 -1707.0

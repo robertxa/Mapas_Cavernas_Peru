@@ -14,19 +14,20 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Data/virgines.th
-#source Data/virgines.th2
-#source Data/virgines-coupe.th2
+source Data/altomiraflores-tot.th
+#source altomiraflores.th2
+#source altomiraflores_coupe.th2
 
 # Add config file
-input ../../../../config.thc 
+#input ../../../../config.thc	# chemin JLG
+input ../../../../config.thc	# chemin XR
   
   
 # 2-LAYOUT   
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 500
+	scale 1 1000
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
@@ -43,11 +44,11 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Cueva de las Virgines"
+	doc-title "Cueva de Alto Miraflores"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
-	cs UTM18
+	# cs UTM18
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -56,7 +57,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 750
+	base-scale 1 1000
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -67,8 +68,7 @@ layout my_layout
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	#scale 1 1000
-	scale 1 500
+	scale 1 700
 
 	# echelle graphique 100 m ampleur
 	scale-bar 50 m
@@ -93,7 +93,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rupa Rupa, Leoncio Prado, Huánuco, Perú"
+	map-comment "Nueva Cajamarca, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -109,8 +109,10 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 14 cm
-  
+	legend-width 16 cm
+	#legend-columns 3
+
+    
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
 	# les cordonnes du point de la topo ou l on veut la manchette :
@@ -118,7 +120,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 0 nw
+	map-header 0 -20 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -127,16 +129,16 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
-	#grid bottom
+	# grid bottom
   
 	# Specifier le pas de la grille, ici 100x100x100 metres
 	# (Trois dimensions, oui, ça sert pour la coupe aussi) 
-	#grid-size 100 100 100 m
+	# grid-size 100 100 100 m
 	# Si nous ne voulons pas de grille :
 	grid off
   
@@ -158,13 +160,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de las Virgines} 		
+			\cavename={Cueva de Alto Miraflores} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique des Dolomites}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique les Dolomites (GSD), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2019}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/san-martin-rioja/cueva-de-alto-miraflores/}
+	\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -178,7 +180,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Cueva de las Virgines"
+	doc-title "Cueva de Alto Miraflores"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -187,7 +189,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1000
+	base-scale 1 1200
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -198,11 +200,10 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	#scale 1 1000
-	scale 1 1000
+	scale 1 750
 
 	# echelle graphique 100 m ampleur
-	scale-bar 100 m 
+	scale-bar 100 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -224,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss> - Rupa Rupa, Leoncio Prado, Huánuco, Perú"
+	map-comment "<it>Alzado<ss> - Nueva Cajamarca, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -248,8 +249,8 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 0 nw
-  
+	map-header 0 50 nw
+    
 	# arrière plan de la manchette
 	map-header-bg off
   
@@ -257,8 +258,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -287,13 +288,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de las Virgines} 		
+			\cavename={Cueva de Alto Miraflores} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique des Dolomites}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique les Dolomites (GSD), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
-	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2019}
+	\newtoks\wpage \wpage={https://cuevasdelperu.org/san-martin-rioja/cueva-de-alto-miraflores/}
+	\newtoks\expe \expe={Nor Perú 2018, Nor Perú 2019}
 	endcode  
   
 endlayout
@@ -301,16 +302,19 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/virgines2019.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/virgines-coupe2019.xvi
+ export map -fmt xvi -layout xviexport -o Data/th2/altomiraflores2019c.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/th2/altomiraflores-coupe2019c.xvi
   
- export map -o Outputs/virgines-plan2019.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o Outputs/virgines-coupe2019.pdf
- export model -o Outputs/virgines_2019.lox
+ export map -o Outputs/altomiraflores-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/altomiraflores-coupe2019.pdf
+ export model -o Outputs/altomiraflores_2019.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o Outputs/virgines_2019 -layout my_layout
+ export map -proj plan -fmt esri -o Outputs/altomiraflores_2019 -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/virgines_2019.kml -layout my_layout
- export model -fmt kml -o Outputs/virgines_2019m.kml
+ export map -proj plan -fmt kml -o Outputs/altomiraflores_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/altomiraflores_2019m.kml
+ 
+ # Export listes
+ export survey-list -location on -o Outputs/Surveys2019.html

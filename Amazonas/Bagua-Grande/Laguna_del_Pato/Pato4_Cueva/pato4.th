@@ -1,5 +1,9 @@
 # 2018.11.07 created by TopoDroid v 4.1.1h
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey pato4 -title "pato4" -entrance 0
 
   centerline

@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap scrap2015 -projection plan -author 2016 "Naomi Mazzilli" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap scrap2015 -projection plan -author 2016 "Naomi Mazzilli" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 point 1233.68 814.4200000000001 station -name 8@palmira
 
@@ -433,7 +433,7 @@ endscrap
 
 
 
-scrap PalmNM2 -projection plan -author 2016 "Naomi Mazzilli" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap PalmNM2 -projection plan -author 2016 "Naomi Mazzilli" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 point 889.47 1421.3000000000002 station -name 27@palmira
 
@@ -476,7 +476,7 @@ endscrap
 
 
 
-scrap scrap-fossileamont -projection plan -author 2016 "Naomi Mazzilli" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap scrap-fossileamont -projection plan -author 2016 "Naomi Mazzilli" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 line flowstone
 endline

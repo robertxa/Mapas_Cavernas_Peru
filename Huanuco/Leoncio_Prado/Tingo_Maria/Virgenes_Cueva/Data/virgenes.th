@@ -1,8 +1,8 @@
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-
-survey virgines -title "Cueva de las Virgines" -entrance "22"
-
-	# C'est quelle station, l'entrée ?
+survey virgenes -title "Cueva de las Virgenes" -entrance "22"
 	
   centerline
     date 2019.09.17 

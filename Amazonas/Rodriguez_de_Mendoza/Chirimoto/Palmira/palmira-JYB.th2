@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap palmJY1 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1828 2468 -1828 0.0 0.0 65.9384 0.0 m]
+scrap palmJY1 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -1828 2468 -1828 0.0 0.0 65.9384 0.0 m]
 
 line slope
   1647.0 -600.5

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap nhol-SC1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1262 1081 -1262 0.0 0.0 30.708599999999997 0.0 m]
+scrap nhol-SC1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1262 1081 -1262 0.0 0.0 30.708599999999997 0.0 m]
 
 point 858.0 -739.0 altitude -align left
 

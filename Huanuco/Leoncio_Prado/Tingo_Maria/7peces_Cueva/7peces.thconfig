@@ -1,11 +1,7 @@
 encoding  utf-8
-    
-# File written by tro2therion.f90 (Xavier Robert) 
-# Based on the work of Roman Muñoz <tatel@euskalnet.net> and Martin Gerbaux <martin.gerbaux@wanadoo.fr> 
- 
-# Copyright (C) 2010 Xavier Robert <xavier.robert01@gmail.com>
-# This work is under the GPLv2
-  
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>  
     
 # 1-SOURCES 
 # La ligne source specifie le fichier ou sont les donnees topo
@@ -15,7 +11,7 @@ encoding  utf-8
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
 source Data/7peces.th
-#source Data/7peces.th2
+source Data/7peces.th2
 #source Data/7peces-coupe.th2
 
 # Add config file
@@ -56,7 +52,7 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1000
+	base-scale 1 1250
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -109,7 +105,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 14 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -118,7 +114,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 40 40 nw
+	map-header 35 80 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -127,8 +123,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier qu il faut imprimer une grille
 	# au dessous de la topo  
@@ -158,7 +154,7 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de los 7 Peces} 		
+			\cavename={Cueva de los Siete Peces} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique des Dolomites}
@@ -287,7 +283,7 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Cueva de los 7 Peces} 		
+			\cavename={Cueva de los Siete Peces} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique des Dolomites}
@@ -301,8 +297,8 @@ endlayout
  
   
  # 3-EXPORTS   
- export map -fmt xvi -layout xviexport -o Data/7peces2019.xvi
- export map -projection extended -fmt xvi -layout xviexport -o Data/7peces-coupe2019.xvi
+ #export map -fmt xvi -layout xviexport -o Data/7peces2019.xvi
+ #export map -projection extended -fmt xvi -layout xviexport -o Data/7peces-coupe2019.xvi
   
  export map -o Outputs/7peces-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/7peces-coupe2019.pdf

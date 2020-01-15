@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
+scrap scrap1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
 
 line wall -reverse on
   157.5 439.0
@@ -292,7 +292,7 @@ endscrap
 
 
 
-scrap scrap30 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
+scrap scrap30 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
 
 point 1246.25 195.25 continuation -attr Code A -text "étroit, ça continue"
 
@@ -411,7 +411,7 @@ endscrap
 
 
 
-scrap scrap48 -projection extended -author 2019 "James Apaéstegui" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
+scrap scrap48 -projection extended -author 2019 "James Apaéstegui" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
 
 point 1435.25 141.5 continuation -attr Code A -text "étroit, ça continue"
 
@@ -581,7 +581,7 @@ endscrap
 
 
 
-scrap Polulo-SC1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
+scrap Polulo-SC1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1663.4339 -128.0 0.0 0.0 45.502421059999996 0.0 m]
 
 line wall
   1382.25 190.0

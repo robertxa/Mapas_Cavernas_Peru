@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap banco-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1769 1771 -1769 0.0 0.0 48.2346 0.0 m]
+scrap banco-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1769 1771 -1769 0.0 0.0 48.2346 0.0 m]
 
 line wall
   966.0 -303.0

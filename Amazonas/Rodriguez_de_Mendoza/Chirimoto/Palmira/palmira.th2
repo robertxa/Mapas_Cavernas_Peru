@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap palmXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap palmXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 line label -id l90-2323-820
   2318.0 815.0
@@ -405,7 +405,7 @@ endscrap
 
 
 
-scrap palmXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap palmXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 line water-flow
   1819.0 566.5
@@ -1012,7 +1012,7 @@ endscrap
 
 
 
-scrap palmdol -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap palmdol -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 line u:sentier -clip off
   1454.5 372.5
@@ -1419,7 +1419,7 @@ endscrap
 
 
 
-scrap palmXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap palmXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 line pit
   343.75 1381.25
@@ -1800,7 +1800,7 @@ endscrap
 
 
 
-scrap palmXR6 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap palmXR6 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 point 633.25 1416.0 pebbles
 
@@ -1912,7 +1912,7 @@ endscrap
 
 
 
-scrap palmXR7 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
+scrap palmXR7 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-146.09000000000012 -142.81399999999996 2905.1871 -142.81399999999996 0.0 0.0 77.50243834 0.0 m]
 
 point 965.5799999999999 1307.8220000000001 station -name 2.33@palmira
 

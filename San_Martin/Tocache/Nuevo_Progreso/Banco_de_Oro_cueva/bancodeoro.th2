@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap boro-SP1 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2333 1777 -2333 0.0 0.0 48.387 0.0 m]
+scrap boro-SP1 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2333 1777 -2333 0.0 0.0 48.387 0.0 m]
 
 line rock-border -close on
   466.0 -877.0

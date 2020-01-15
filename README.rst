@@ -40,7 +40,12 @@ Licence
 -------
 
 Released under a Creative Commons Attribution-ShareAlike-NonCommecial License:
-	<http://creativecommons.org/licenses/by-nc-sa/3.0/>
+	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+Author
+------
+
+Xavier Robert
 
 Contact
 -------

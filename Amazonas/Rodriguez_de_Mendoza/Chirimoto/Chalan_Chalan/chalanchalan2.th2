@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap NM1 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
+scrap NM1 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
 
 point 3005.5 -250.0 altitude -align bottom-right
 
@@ -354,7 +354,7 @@ endscrap
 
 
 
-scrap NM2 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
+scrap NM2 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
 
 line water-flow
   2621.0 -725.0

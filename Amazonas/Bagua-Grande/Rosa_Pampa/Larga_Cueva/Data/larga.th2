@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap larga-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
+scrap larga-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
 line overhang -clip off
   1002.0 -412.0

@@ -4,7 +4,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 639.8113000000001 -128.0 0.0 0.0 19.50240702 0.0 m]
+scrap scrap1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 639.8113000000001 -128.0 0.0 0.0 19.50240702 0.0 m]
 
 point 472.44399999999996 78.74100000000001 station -name 7@cambiopitec_alta
 

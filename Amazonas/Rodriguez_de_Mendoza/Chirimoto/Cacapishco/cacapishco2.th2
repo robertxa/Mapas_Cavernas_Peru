@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CacaJY1 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
+scrap CacaJY1 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
 
 point 1013.5 -1731.5 station -name 1@cacapishco
 
@@ -889,7 +889,7 @@ endscrap
 
 
 
-scrap CacaJY2 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
+scrap CacaJY2 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
 
 point 1226.5 -328.5 gradient -orientation 8.7
 

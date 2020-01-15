@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap casa2018-SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
+scrap casa2018-SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
 
 point 115.35699999999997 320.862 station -name 40@casablanca
 
@@ -288,7 +288,7 @@ endscrap
 
 
 
-scrap casa2018-SC2 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
+scrap casa2018-SC2 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
 
 line water-flow
   883.5 253.25

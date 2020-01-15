@@ -1,5 +1,9 @@
 # 2018.02.25 created by TopoDroid v 3.4.5d
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey murcielagos -title "Cueva de los Murcielagos de ???" -entrance "0"
 
   centerline

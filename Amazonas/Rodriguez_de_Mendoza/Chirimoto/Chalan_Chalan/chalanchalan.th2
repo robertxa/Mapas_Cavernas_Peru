@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap chalanX1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2253.9854 -128.0 0.0 0.0 60.50242916 0.0 m]
+scrap chalanX1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2253.9854 -128.0 0.0 0.0 60.50242916 0.0 m]
 
 area water
   l26-1338-1632
@@ -320,7 +320,7 @@ endscrap
 
 
 
-scrap ChalanX2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 2253.9854 -128.0 0.0 0.0 60.50242916 0.0 m]
+scrap ChalanX2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 2253.9854 -128.0 0.0 0.0 60.50242916 0.0 m]
 
 point 1264.75 1621.0 continuation -text "départ après E5" -attr Code E
 

@@ -4,7 +4,7 @@ encoding  utf-8
 
 
 
-scrap Cambio1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 600.4412 -128.0 0.0 0.0 18.502406479999998 0.0 m]
+scrap Cambio1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 600.4412 -128.0 0.0 0.0 18.502406479999998 0.0 m]
 
 point 76.88888888888889 252.0 breakdown-choke -orientation 309.1 -scale xl
 

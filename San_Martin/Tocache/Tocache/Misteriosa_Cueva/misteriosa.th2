@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap mis1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+scrap mis1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
 
 point 1123.036 593.894 station -name 23@misteriosa
 
@@ -514,7 +514,7 @@ endscrap
 
 
 
-scrap mis2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+scrap mis2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
 
 point 974.9259999999999 929.5340000000001 station -name 36@misteriosa
 
@@ -1053,7 +1053,7 @@ endscrap
 
 
 
-scrap mis4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+scrap mis4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
 
 point 639.0 1413.0 clay
 

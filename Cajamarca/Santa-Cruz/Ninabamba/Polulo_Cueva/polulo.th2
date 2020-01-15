@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap polulo1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
+scrap polulo1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
 
 point 636.6569999999999 489.988 station -name 22@polulo
 
@@ -499,7 +499,7 @@ endscrap
 
 
 
-scrap polulo2 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
+scrap polulo2 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
 
 point 747.127 554.438 station -name 31@polulo
 
@@ -612,7 +612,7 @@ endscrap
 
 
 
-scrap polulo3 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
+scrap polulo3 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
 
 point 964.1569999999999 569.068 station -name 38@polulo
 
@@ -763,7 +763,7 @@ endscrap
 
 
 
-scrap polulo4 -projection plan -author 2019 "James Apaéstegui" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
+scrap polulo4 -projection plan -author 2019 "James Apaéstegui" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1190.9927 -128.0 0.0 0.0 33.50241458 0.0 m]
 
 point 686.9169999999999 420.698 station -name 61@polulo
 

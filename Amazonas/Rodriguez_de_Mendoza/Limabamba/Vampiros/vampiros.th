@@ -1,8 +1,12 @@
 encoding utf-8
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey vampiros -title "Cueva de los Vampiros" -entrance "0"
    
-centerline -title "caracoles"
+centerline -title "Vampiros"
 	cs lat-long
 	fix 0	-6.54219	-77.562791	1709
 	date 2016.08.23

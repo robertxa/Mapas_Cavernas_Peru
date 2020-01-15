@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Laurel-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
+scrap Laurel-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
 
 line u:sentier -clip off
   1164.5 3483.75
@@ -547,7 +547,7 @@ endscrap
 
 
 
-scrap laurel-SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
+scrap laurel-SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
 
 line pit -close on
   732.5 1326.25
