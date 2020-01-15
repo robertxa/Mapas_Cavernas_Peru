@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-195.80530000000002 -183.0155 296.4153 -183.0155 0.0 0.0 12.50240324 0.0 m]
+scrap scrap1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-195.80530000000002 -183.0155 296.4153 -183.0155 0.0 0.0 12.50240324 0.0 m]
 
 line slope
   168.75 123.0

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bella2017_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
+scrap bella2017_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
 
 line flowstone
   1732.75 1388.5
@@ -366,7 +366,7 @@ endscrap
 
 
 
-scrap bella2017_2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
+scrap bella2017_2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
 
 line slope
   2251.5 1296.25
@@ -871,7 +871,7 @@ endscrap
 
 
 
-scrap bella2017_3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
+scrap bella2017_3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
 
 line water-flow
 endline
@@ -1120,7 +1120,7 @@ endscrap
 
 
 
-scrap bella2017_4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
+scrap bella2017_4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
 
 line rock-border -close on
   2471.75 1815.0

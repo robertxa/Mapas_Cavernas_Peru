@@ -1,5 +1,9 @@
 # 2017.09.08 created by TopoDroid v 3.3.1d
 
+# Copyright (C) 2019 Naomi Mazzilli
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey perte_duriacou -title "perte_duriacou" -entrance 7
   centerline
   	cs lat-long

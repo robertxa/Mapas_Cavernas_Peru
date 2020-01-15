@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap porveir-c1 -author 2016 "Constance Picque" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -projection extended -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+scrap porveir-c1 -author 2016 "Constance Picque" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -projection extended -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
 
 line wall
 endline
@@ -48,9 +48,6 @@ line water-flow
   144.25 292.5 143.25 291.75 146.5 290.75
   149.75 289.75 163.5 282.0 163.25 280.0
   smooth off
-endline
-
-line wall
 endline
 
 line wall -reverse on
@@ -161,9 +158,6 @@ line rock-border -close on
   308.25 169.5
 endline
 
-line rock-edge
-endline
-
 point 74.5 354.5 altitude -align bottom-left
 
 point 369.0 74.5 altitude -align bottom
@@ -205,9 +199,6 @@ endline
 line rock-edge
   339.5 139.0
   343.25 130.5
-endline
-
-line rock-border
 endline
 
 line rock-edge
@@ -309,9 +300,6 @@ line rock-border -close on
   324.5 154.5
   319.0 154.75
   315.25 159.0
-endline
-
-line wall -subtype debris
 endline
 
 line wall -reverse on -subtype debris

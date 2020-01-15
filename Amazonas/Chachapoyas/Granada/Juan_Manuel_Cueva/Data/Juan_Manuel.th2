@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap JM-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-163.6649 -133.1996 210.4454 -133.1996 0.0 0.0 9.502401619999999 0.0 m]
+scrap JM-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-163.6649 -133.1996 210.4454 -133.1996 0.0 0.0 9.502401619999999 0.0 m]
 
 line wall -subtype invisible
   65.0 1.25

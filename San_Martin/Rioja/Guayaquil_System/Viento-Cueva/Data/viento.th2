@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap viento-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 area water
   l43-1314--1040
@@ -257,7 +257,7 @@ endscrap
 
 
 
-scrap viento-SP2 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP2 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 1436.0 -897.0 station -name 77@viento
 
@@ -636,7 +636,7 @@ endscrap
 
 
 
-scrap viento-SP3 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP3 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 line wall
   1242.5 -553.0
@@ -689,7 +689,7 @@ endscrap
 
 
 
-scrap viento-SP5 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP5 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 1218.5 -477.5 continuation -attr Code A -text "Départ à voir ?"
 
@@ -734,7 +734,7 @@ endscrap
 
 
 
-scrap viento-SP6 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP6 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 1245.5 -743.0 altitude -align right
 

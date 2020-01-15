@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap cascayunga2003-sp1 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap cascayunga2003-sp1 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 line pit
   2466.0 -1459.0
@@ -264,7 +264,7 @@ endscrap
 
 
 
-scrap casca2018-aff-sp2 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap casca2018-aff-sp2 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 area flowstone
   l141-3562--1416
@@ -1290,7 +1290,7 @@ endscrap
 
 
 
-scrap casca2003-sp3 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap casca2003-sp3 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 line wall -subtype presumed
   1402.5 -196.5
@@ -1866,7 +1866,7 @@ endscrap
 
 
 
-scrap casc2003-sp4 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap casc2003-sp4 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 point 2194.0 -603.5 continuation -attr Code E -text "A revoir ?"
 
@@ -2267,7 +2267,7 @@ endscrap
 
 
 
-scrap casc2003-sp6 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap casc2003-sp6 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 line pit
   2301.5 -895.5
@@ -2903,7 +2903,7 @@ endscrap
 
 
 
-scrap casc2018-sp5 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap casc2018-sp5 -projection plan -author 2003 "Jean-Louis Galera" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 point 1986.5 -735.0 station -name B11@cascayunga
 

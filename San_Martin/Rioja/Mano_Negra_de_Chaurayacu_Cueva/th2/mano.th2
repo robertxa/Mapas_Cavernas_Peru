@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap manoXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 point 2500.4700000000003 3113.0699999999997 station -name 104@manonegra
 
@@ -207,7 +207,7 @@ endscrap
 
 
 
-scrap manoXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 point 2464.5 3206.75 continuation -text "siphon à plonger" -attr Code S
 
@@ -390,7 +390,7 @@ endscrap
 
 
 
-scrap manoXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 point 2519.8599999999997 3254.74 station -name 124@manonegra
 

@@ -1,20 +1,18 @@
 encoding utf-8
 
+# Copyright (C) 2019 Constance Picque
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey porvenir -title "Tragadero de Porvenir" -entrance "0"
    
 centerline -title "porvenir"
 	cs lat-long
 	fix 0	-5.8842	-77.4005	1230
 	date 2016.09.11
-		#team "ECA"
-		#team "GSBM"
-		#team "G.S. Vulcain"
 		team "Constance/Picque"
 		team "Liz/Hidalgo"
 	explo-date 2016.09.11
-		#explo-team "ECA"
-		#explo-team "GSBM"
-		#explo-team "G.S Vulcain"
 		explo-team "Constance/Picque"
 		explo-team "Jean-Denis/Klein"
 		explo-team "Liz/Hidalgo"

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bvXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
+scrap bvXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
 
 line pit
   1567.0 884.0
@@ -803,7 +803,7 @@ endscrap
 
 
 
-scrap BVXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
+scrap BVXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
 
 line wall
   1073.75 839.5

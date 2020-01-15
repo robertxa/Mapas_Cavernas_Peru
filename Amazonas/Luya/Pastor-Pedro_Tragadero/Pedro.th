@@ -1,8 +1,12 @@
 encoding  utf-8
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey pedro -title "Tragadero del pastor Pedro" -entrance "8"
    
-centerline -title "lemchanda"
+centerline -title "Pedro"
   cs lat-long
   fix 8  -6.117119  -78.011552  2959
   date 2017.01.21

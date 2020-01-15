@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap incaXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
+scrap incaXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
 
 point 50.8945 59.61 station -name 12@inca
 
@@ -190,7 +190,7 @@ endscrap
 
 
 
-scrap Inca-2017_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
+scrap Inca-2017_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
 
 point 139.5 96.0 height -value [-5 m]
 
@@ -296,7 +296,7 @@ endscrap
 
 
 
-scrap Inca2017-b1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
+scrap Inca2017-b1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
 
 line flowstone
   248.25 165.0
@@ -416,7 +416,7 @@ endscrap
 
 
 
-scrap inca-b2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
+scrap inca-b2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-n-sac/4.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
 
 line pit
   323.5 148.75
@@ -462,7 +462,7 @@ endscrap
 
 
 
-scrap inca-b3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
+scrap inca-b3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-162.6045 -167.31 250.8759 -167.31 0.0 0.0 10.50240216 0.0 m]
 
 line wall
   462.5 630.75

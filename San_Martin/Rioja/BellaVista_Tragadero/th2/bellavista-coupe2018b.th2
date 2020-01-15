@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bella2018b-sc1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
+scrap bella2018b-sc1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
 
 line wall -reverse on -outline in
   273.0 -632.5

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Plan-1 -projection plan -author 2017 "Olivier Fabre" -scale [-128.0 -128.0 595.5197000000001 -128.0 0.0 0.0 18.37740038 0.0 m]
+scrap Plan-1 -projection plan -author 2017 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 595.5197000000001 -128.0 0.0 0.0 18.37740038 0.0 m]
 
 point 101.316 795.27 station -name 9@quiocta
 
@@ -107,7 +107,7 @@ endscrap
 
 
 
-scrap scrap18 -scale [-128.0 -128.0 595.5197000000001 -128.0 0.0 0.0 18.37740038 0.0 m]
+scrap scrap18 -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 595.5197000000001 -128.0 0.0 0.0 18.37740038 0.0 m]
 
 line wall
 endline

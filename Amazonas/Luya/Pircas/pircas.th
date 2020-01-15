@@ -1,5 +1,9 @@
 encoding utf-8
 
+# Copyright (C) 2019 Constance Picque
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey pircas -title "Cueva de Pircas" -entrance "3"
    
 centerline -title "pircas"

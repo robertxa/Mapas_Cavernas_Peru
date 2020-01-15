@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap guev1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 679.1814 -128.0 0.0 0.0 20.50240756 0.0 m]
+scrap guev1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 679.1814 -128.0 0.0 0.0 20.50240756 0.0 m]
 
 line wall -subtype invisible
   504.5 116.0

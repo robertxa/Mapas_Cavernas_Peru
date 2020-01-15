@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap frioXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap frioXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 point 766.2289999999999 168.30599999999998 altitude -align top-left
 
@@ -387,7 +387,7 @@ endscrap
 
 
 
-scrap frioXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap frioXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 line pit -reverse on
   865.0 316.25
@@ -697,7 +697,7 @@ endscrap
 
 
 
-scrap frioXR3 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap frioXR3 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 line pit
   1081.75 159.25

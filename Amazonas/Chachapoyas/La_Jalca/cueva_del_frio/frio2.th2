@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap frioDN1 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
+scrap frioDN1 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
 
 point 1226.0 -680.0 label -text "R3"
 
@@ -286,7 +286,7 @@ endscrap
 
 
 
-scrap frioDN2 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
+scrap frioDN2 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
 
 point 1827.5 -1181.0 water-flow -orientation 321.7
 

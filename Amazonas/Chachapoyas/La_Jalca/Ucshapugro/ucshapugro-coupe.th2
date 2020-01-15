@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap UcshaXR-C1 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
+scrap UcshaXR-C1 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
 
 point 157.18400000000003 130.48 station -name Xa-5@ucshapugro
 
@@ -213,7 +213,7 @@ endscrap
 
 
 
-scrap ucshaXR-c2 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
+scrap ucshaXR-c2 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
 
 point 573.75 193.0 altitude -align top-left
 
@@ -302,7 +302,7 @@ endscrap
 
 
 
-scrap ucshaXR-c3 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
+scrap ucshaXR-c3 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
 
 line wall
   715.25 202.5

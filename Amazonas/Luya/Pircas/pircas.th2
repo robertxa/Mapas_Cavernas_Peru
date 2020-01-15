@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection plan -author 2017 "Constance Picque" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+scrap scrap1 -projection plan -author 2017 "Constance Picque" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
 
 point 27.309999999999988 108.31269999999999 station -name 3@pircas
 
@@ -107,9 +107,5 @@ point 161.42999999999998 59.50269999999999 station -name 2@pircas
 endscrap
 
 
-
-scrap scrap8 -projection plan -author 2017 "Constance Picque" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
-
-endscrap
 
 

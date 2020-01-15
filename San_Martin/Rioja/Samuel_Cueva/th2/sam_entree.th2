@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap sam_en1 -projection plan -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5090 7144 -5090 0.0 0.0 184.7088 0.0 m]
+scrap sam_en1 -projection plan -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5090 7144 -5090 0.0 0.0 184.7088 0.0 m]
 
 line pit -reverse on
   6216.5 -2723.5
@@ -2436,7 +2436,7 @@ endscrap
 
 
 
-scrap sam_en2 -projection plan -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5090 7144 -5090 0.0 0.0 184.7088 0.0 m]
+scrap sam_en2 -projection plan -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5090 7144 -5090 0.0 0.0 184.7088 0.0 m]
 
 point 1446.0 -2252.0 station -name B42@samuel
 
@@ -4864,7 +4864,7 @@ point 2879.5 -2171.0 station -name B23@samuel
 
 endscrap
 
-scrap scrapCS1 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [272.0 -2578.0 299.5 -2576.5 0.0 0.0 2 0.0 m]
+scrap scrapCS1 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [272.0 -2578.0 299.5 -2576.5 0.0 0.0 2 0.0 m]
 
 line wall -close on -reverse on
   270.0 -2562.5
@@ -4894,7 +4894,7 @@ endscrap
 
 
 
-scrap scrapCS2 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [708.0 -2141.0 762.5 -2141.0 0.0 0.0 5 0.0 m]
+scrap scrapCS2 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [708.0 -2141.0 762.5 -2141.0 0.0 0.0 5 0.0 m]
 
 point 761.5 -2101.5 stalactite
 
@@ -4924,7 +4924,7 @@ endscrap
 
 
 
-scrap scrapCS3 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [1095.0 -2391.5 1116.5 -2392.0 0.0 0.0 2 0.0 m]
+scrap scrapCS3 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1095.0 -2391.5 1116.5 -2392.0 0.0 0.0 2 0.0 m]
 
 line wall -reverse on
   1116.0 -2377.0
@@ -4949,7 +4949,7 @@ endscrap
 
 
 
-scrap scrapCS4 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [1235.5 -2033.0 1270.0 -2031.0 0.0 0.0 4 0.0 m]
+scrap scrapCS4 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1235.5 -2033.0 1270.0 -2031.0 0.0 0.0 4 0.0 m]
 
 area water
   l662-1274--2089
@@ -4987,7 +4987,7 @@ endscrap
 
 
 
-scrap scrapCS5 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [1394.0 -2107.0 1448.5 -2106.0 0.0 0.0 6 0.0 m]
+scrap scrapCS5 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1394.0 -2107.0 1448.5 -2106.0 0.0 0.0 6 0.0 m]
 
 line flowstone
   1445.0 -2062.0
@@ -5029,7 +5029,7 @@ endscrap
 
 
 
-scrap scrapCS6 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [1692.0 -2111.5 1739.0 -2111.5 0.0 0.0 8 0.0 m]
+scrap scrapCS6 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1692.0 -2111.5 1739.0 -2111.5 0.0 0.0 8 0.0 m]
 
 line wall -close on -reverse on
   1727.0 -2016.0
@@ -5062,7 +5062,7 @@ endscrap
 
 
 
-scrap scrapCS7 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [1812.5 -2462.5 1903.0 -2462.0 0.0 0.0 10 0.0 m]
+scrap scrapCS7 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1812.5 -2462.5 1903.0 -2462.0 0.0 0.0 10 0.0 m]
 
 line wall -reverse on
   1826.5 -2512.0
@@ -5114,7 +5114,7 @@ endscrap
 
 
 
-scrap scrapCS8 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [2481.5 -2664.0 2519.5 -2666.0 0.0 0.0 4 0.0 m]
+scrap scrapCS8 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [2481.5 -2664.0 2519.5 -2666.0 0.0 0.0 4 0.0 m]
 
 line wall -close on
   2492.5 -2552.5
@@ -5139,7 +5139,7 @@ endscrap
 
 
 
-scrap scrapCS9 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [3448.0 -1601.0 3518.0 -1600.5 0.0 0.0 7 0.0 m]
+scrap scrapCS9 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [3448.0 -1601.0 3518.0 -1600.5 0.0 0.0 7 0.0 m]
 
 area water
   l688-3463--1638
@@ -5174,7 +5174,7 @@ endscrap
 
 
 
-scrap scrapCS10 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [4074.5 -1657.5 4132.0 -1655.0 0.0 0.0 6 0.0 m]
+scrap scrapCS10 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [4074.5 -1657.5 4132.0 -1655.0 0.0 0.0 6 0.0 m]
 
 line wall -reverse on
   4132.0 -1705.5
@@ -5199,7 +5199,7 @@ endscrap
 
 
 
-scrap scrapCS11 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [5130.0 -1756.5 5181.0 -1756.5 0.0 0.0 6 0.0 m]
+scrap scrapCS11 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [5130.0 -1756.5 5181.0 -1756.5 0.0 0.0 6 0.0 m]
 
 point 5153.5 -1812.5 blocks
 
@@ -5229,7 +5229,7 @@ endscrap
 
 
 
-scrap scrapCS12 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [5301.0 -1973.5 5347.5 -1974.0 0.0 0.0 6 0.0 m]
+scrap scrapCS12 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [5301.0 -1973.5 5347.5 -1974.0 0.0 0.0 6 0.0 m]
 
 line flowstone
   5339.0 -1991.5
@@ -5272,7 +5272,7 @@ endscrap
 
 
 
-scrap scrapCS13 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [5524.5 -2148.0 5589.0 -2146.0 0.0 0.0 6 0.0 m]
+scrap scrapCS13 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [5524.5 -2148.0 5589.0 -2146.0 0.0 0.0 6 0.0 m]
 
 line wall -reverse on
   5529.0 -2137.5
@@ -5299,7 +5299,7 @@ endscrap
 
 
 
-scrap scrapCS14 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [5801.0 -2203.0 5860.5 -2200.5 0.0 0.0 6 0.0 m]
+scrap scrapCS14 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [5801.0 -2203.0 5860.5 -2200.5 0.0 0.0 6 0.0 m]
 
 point 5840.0 -2225.0 blocks
 
@@ -5337,7 +5337,7 @@ endscrap
 
 
 
-scrap scrapCS15 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [5986.5 -2274.5 6081.0 -2274.5 0.0 0.0 10 0.0 m]
+scrap scrapCS15 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [5986.5 -2274.5 6081.0 -2274.5 0.0 0.0 10 0.0 m]
 
 line wall -reverse on
   6029.0 -2231.5
@@ -5474,7 +5474,7 @@ endscrap
 
 
 
-scrap scrapCS18 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [6250.5 -3116.5 6330.0 -3117.0 0.0 0.0 10 0.0 m]
+scrap scrapCS18 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [6250.5 -3116.5 6330.0 -3117.0 0.0 0.0 10 0.0 m]
 
 line wall -reverse on
   6298.5 -3039.0
@@ -5532,7 +5532,7 @@ endscrap
 
 
 
-scrap scrapCS19 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [6706.0 -2786.0 6797.5 -2785.0 0.0 0.0 10 0.0 m]
+scrap scrapCS19 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [6706.0 -2786.0 6797.5 -2785.0 0.0 0.0 10 0.0 m]
 
 line wall -close on -reverse on
   6719.5 -2731.0
@@ -5575,7 +5575,7 @@ endscrap
 
 
 
-scrap scrapCS20 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [6819.5 -2987.0 6901.5 -2986.5 0.0 0.0 10 0 m]
+scrap scrapCS20 -projection none -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [6819.5 -2987.0 6901.5 -2986.5 0.0 0.0 10 0 m]
 
 area water
   l728-6894--2990

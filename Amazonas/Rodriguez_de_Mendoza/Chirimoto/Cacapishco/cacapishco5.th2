@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CacaJY7 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaJY7 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 782.5 -1080.0 label -text "seuil"
 

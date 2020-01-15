@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap AM2019_SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
+scrap AM2019_SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
 
 line wall -close on -outline in
   725.75 235.0
@@ -176,7 +176,7 @@ endscrap
 
 
 
-scrap AM2019-SC2 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
+scrap AM2019-SC2 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
 
 line map-connection
   722.5 261.5

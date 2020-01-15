@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CacaXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 389.25 2507.0 cave-pearl
 
@@ -162,7 +162,7 @@ endscrap
 
 
 
-scrap cacaXR10 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap cacaXR10 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 1057.75 1644.25 label -text "50 m non topo."
 
@@ -316,7 +316,7 @@ endscrap
 
 
 
-scrap cacaXR11 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap cacaXR11 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line wall
   1282.0 1075.75
@@ -395,7 +395,7 @@ endscrap
 
 
 
-scrap CacaXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line pit
   463.75 2558.5
@@ -593,7 +593,7 @@ endscrap
 
 
 
-scrap CacaXR3 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR3 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line water-flow
   458.0 2601.25
@@ -723,7 +723,7 @@ endscrap
 
 
 
-scrap CacaXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line wall -outline in
 endline
@@ -1253,7 +1253,7 @@ endscrap
 
 
 
-scrap CacaXR5 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR5 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line wall -id l208-560-2462
   555.0 2459.5
@@ -1355,7 +1355,7 @@ endscrap
 
 
 
-scrap CacaXR6 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR6 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 968.25 2374.0 air-draught -orientation 144.1 -scale xs
 
@@ -1432,7 +1432,7 @@ endscrap
 
 
 
-scrap CacaXR7 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR7 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line water-flow
   1136.5 1950.75
@@ -1594,7 +1594,7 @@ endscrap
 
 
 
-scrap CacaXR8 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR8 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line rock-border -close on
   1165.0 2021.0
@@ -2071,7 +2071,7 @@ endscrap
 
 
 
-scrap CacaXR9 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap CacaXR9 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 1152.8129999999996 1804.6399999999999 station -name A101@cacapishco
 
@@ -2173,7 +2173,7 @@ endscrap
 
 
 
-scrap cacaXR12 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap cacaXR12 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99500000000018 -128.0 1820.9193 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 1264.5 829.0 altitude -align right
 

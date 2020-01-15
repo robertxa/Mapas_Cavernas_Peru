@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap AM_2019_SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
+scrap AM_2019_SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
 
 point 439.5 274.25 height -value [-3 m]
 
@@ -179,7 +179,7 @@ endscrap
 
 
 
-scrap AM_2019_SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
+scrap AM_2019_SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
 
 point 512.75 258.75 continuation -attr Code A -text "Départ remontant non exploré"
 

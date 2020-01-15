@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap santa2018-SP-1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+scrap santa2018-SP-1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
 
 point 1664.25 508.25 label -text "<center>poissons<br>blancs"
 

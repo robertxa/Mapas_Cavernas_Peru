@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap aren-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-227.91469999999998 -165.054 264.3059 -165.054 0.0 0.0 12.50240324 0.0 m]
+scrap aren-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-227.91469999999998 -165.054 264.3059 -165.054 0.0 0.0 12.50240324 0.0 m]
 
 line wall
   144.5 33.75

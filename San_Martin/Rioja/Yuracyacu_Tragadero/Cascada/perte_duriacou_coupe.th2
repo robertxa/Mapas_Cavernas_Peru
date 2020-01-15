@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Casc-c1 -projection extended -author 2017 "Naomi Mazzilli" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-187.056 -128.0 482.32899999999995 -128.0 0.0 0.0 17.002378999999998 0.0 m]
+scrap Casc-c1 -projection extended -author 2017 "Naomi Mazzilli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-187.056 -128.0 482.32899999999995 -128.0 0.0 0.0 17.002378999999998 0.0 m]
 
 point 56.5 526.5 altitude -align left
 

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap ancayrrumo-sp1 -projection plan -author 2018 "Xavier Robert" -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+scrap ancayrrumo-sp1 -projection plan -author 2018 "Xavier Robert" -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
 line wall
   653.0 -726.5
@@ -513,7 +513,7 @@ endscrap
 
 
 
-scrap ancayrrume-sp2 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+scrap ancayrrume-sp2 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
 point 73.5 -349.5 label -text "<center>siphon<br>temporaire"
 
@@ -585,7 +585,7 @@ endscrap
 
 
 
-scrap ancayrrumo-sp3 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+scrap ancayrrumo-sp3 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
 area blocks
   l114-144--223
@@ -888,7 +888,7 @@ endline
 
 point 117.5 -0.5 air-draught -orientation 34.2
 
-point 236.0 45.5 continuation -attr Code A -text "Exploration à continuer lorsque le siphon est vide (étiage) ; courant d'air
+point 236.0 45.5 continuation -attr Code A -text "Exploration à continuer lorsque le siphon est vide (étiage) ; courant d'air"
 
 line wall -subtype unsurveyed
   189.5 26.5

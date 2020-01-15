@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bella2018a-sc1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
+scrap bella2018a-sc1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
 
 point 2267.0 1787.25 height -value [+4 m]
 

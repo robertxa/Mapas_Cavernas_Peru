@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap G12-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-167.3715 -128.0074 167.3687 -128.0074 0.0 0.0 8.502401079999999 0.0 m]
+scrap G12-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-167.3715 -128.0074 167.3687 -128.0074 0.0 0.0 8.502401079999999 0.0 m]
 
 line rock-border -close on
   23.0 37.25

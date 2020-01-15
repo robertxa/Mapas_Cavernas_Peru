@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap sajinoc1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
+scrap sajinoc1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
 
 point 318.81100000000004 436.554 station -name 32@sajinoc
 
@@ -606,7 +606,7 @@ endscrap
 
 
 
-scrap sajinoc2 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
+scrap sajinoc2 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
 
 point 1595.3609999999999 318.464 station -name 14B@sajinoc
 
@@ -896,7 +896,7 @@ endscrap
 
 
 
-scrap sajinoc3 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
+scrap sajinoc3 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
 
 point 1391.0610000000001 288.544 station -name 20C@sajinoc
 

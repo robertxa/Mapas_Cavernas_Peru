@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap NM4 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
+scrap NM4 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
 
 point 1158.5 -1858.5 pebbles
 
@@ -651,7 +651,7 @@ endscrap
 
 
 
-scrap NM6 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
+scrap NM6 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
 
 area water
   l176-178--139
@@ -1077,7 +1077,7 @@ endscrap
 
 
 
-scrap NM5 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
+scrap NM5 -projection plan -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
 
 line label -text "rivière principale"
   1778.0 -2060.0

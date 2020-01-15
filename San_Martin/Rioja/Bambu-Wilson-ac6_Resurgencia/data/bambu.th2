@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bambu2017 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 994.1422 -128.0 0.0 0.0 28.50241188 0.0 m]
+scrap bambu2017 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 994.1422 -128.0 0.0 0.0 28.50241188 0.0 m]
 
 area water
   l33-270-757

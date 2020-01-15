@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bella2017c1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap bella2017c1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 3336.48 1139.75 station -name 3@bellavista3
 
@@ -198,7 +198,7 @@ endscrap
 
 
 
-scrap bella2017c2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap bella2017c2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 3225.5 1054.25 stalactites
 
@@ -496,7 +496,7 @@ endscrap
 
 
 
-scrap bella2017c3 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap bella2017c3 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 area water
   l171-3957-933
@@ -862,7 +862,7 @@ endscrap
 
 
 
-scrap Bella2017c4 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap Bella2017c4 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 4943.0 700.25 label -text "R2"
 

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Monsalve1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+scrap Monsalve1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
 
 point 70.75 57.5 label -text "Lat : -5.9708<br>Long : -77.3235<br>Alt = 1190 m"
 

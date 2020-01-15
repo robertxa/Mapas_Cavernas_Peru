@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap EZ1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 line wall
 endline
@@ -294,7 +294,7 @@ endscrap
 
 
 
-scrap EZ2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 line wall
   412.0 471.75
@@ -758,7 +758,7 @@ endscrap
 
 
 
-scrap EZ3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 line rock-border -close on
   634.25 494.5
@@ -1146,7 +1146,7 @@ endscrap
 
 
 
-scrap EZ4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 921.75 563.75 label -text "R3"
 
@@ -1422,7 +1422,7 @@ endscrap
 
 
 
-scrap EZ5 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ5 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 line rock-border -close on
   1096.75 868.0

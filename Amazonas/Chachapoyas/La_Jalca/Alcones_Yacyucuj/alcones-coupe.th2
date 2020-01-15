@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap YacXRc1 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 954.7721 -128.0 0.0 0.0 27.502411340000002 0.0 m]
+scrap YacXRc1 -projection extended -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 954.7721 -128.0 0.0 0.0 27.502411340000002 0.0 m]
 
 point 1237.0 254.0 rope
 

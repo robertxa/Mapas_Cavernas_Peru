@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap mano2017_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 3041.3874 -128.0 0.0 0.0 80.50243996 0.0 m]
+scrap mano2017_1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3041.3874 -128.0 0.0 0.0 80.50243996 0.0 m]
 
 point 460.25 410.25 continuation -attr Code D -text "Bloques con corriente de aire, para desobstruir"
 
@@ -418,7 +418,7 @@ endscrap
 
 
 
-scrap mano2017_2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 3041.3874 -128.0 0.0 0.0 80.50243996 0.0 m]
+scrap mano2017_2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3041.3874 -128.0 0.0 0.0 80.50243996 0.0 m]
 
 line rock-border -close on
   691.5 1117.0

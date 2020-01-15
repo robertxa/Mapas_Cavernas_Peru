@@ -1,5 +1,9 @@
 encoding utf-8
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 input bellavista.th
 input bellavista3.th
 equate 1@bellavista3 E.85@bellavista

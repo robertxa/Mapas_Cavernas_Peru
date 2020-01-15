@@ -4,7 +4,7 @@ encoding  utf-8
 
 
 
-scrap scrap23-SC1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m]
+scrap scrap23-SC1 -projection extended -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m]
 
 point 486.987 148.107 station -name A12@calavera
 

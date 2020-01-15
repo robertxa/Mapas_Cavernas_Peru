@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap lobo1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap lobo1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 point 157.11200000000002 183.66199999999992 station -name 2017a21@LoboPerdido
 

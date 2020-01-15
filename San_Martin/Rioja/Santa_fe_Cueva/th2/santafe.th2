@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap santafe_XR1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+scrap santafe_XR1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
 
 point 2442.0 3288.5 height -value [+4 m]
 
@@ -330,7 +330,7 @@ endscrap
 
 
 
-scrap santaXR2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+scrap santaXR2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
 
 point 1614.2999999999997 588.9599999999996 station -name XR2017a-68@santafe
 
@@ -1587,7 +1587,7 @@ endscrap
 
 
 
-scrap santaXR3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+scrap santaXR3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
 
 line pit
   1808.0 639.0
@@ -1693,7 +1693,7 @@ endscrap
 
 
 
-scrap santaMP1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+scrap santaMP1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
 
 point 2219.0 4167.5 rimstone-dam
 
@@ -2386,7 +2386,7 @@ endscrap
 
 
 
-scrap santaMP2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
+scrap santaMP2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3198.8678 -128.0 0.0 0.0 84.50244212 0.0 m]
 
 point 1359.5 4051.5 stalagmites
 

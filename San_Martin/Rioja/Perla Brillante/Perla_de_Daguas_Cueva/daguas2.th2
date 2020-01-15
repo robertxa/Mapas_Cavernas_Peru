@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap daguasXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR4 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 area water
   l58-2109-1085
@@ -888,7 +888,7 @@ endscrap
 
 
 
-scrap daguasXR5 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR5 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 line water-flow
   1194.75 1629.0
@@ -1510,7 +1510,7 @@ endscrap
 
 
 
-scrap daguasXR6 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR6 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 line wall
   411.75 2133.5
@@ -1894,7 +1894,7 @@ endscrap
 
 
 
-scrap daguasXR7 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR7 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 line wall
   1204.25 1238.75

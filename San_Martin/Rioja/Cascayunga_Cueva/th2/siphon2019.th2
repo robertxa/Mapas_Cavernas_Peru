@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Casc2019-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
+scrap Casc2019-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
 
 point 1276.0 853.5 label -text "-15 m"
 
@@ -77,7 +77,7 @@ endscrap
 
 
 
-scrap Casc2019-SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
+scrap Casc2019-SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
 
 line water-flow
   1365.5 759.5

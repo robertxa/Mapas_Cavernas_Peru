@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap manoDV1 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV1 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 point 713.25 -1157.25 continuation
 
@@ -228,7 +228,7 @@ endscrap
 
 
 
-scrap manoDV2 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV2 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 point 867.25 -977.75 station -name 30@manonegra
 
@@ -696,7 +696,7 @@ endscrap
 
 
 
-scrap manoDV3 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV3 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 line slope
   1495.5 -293.0

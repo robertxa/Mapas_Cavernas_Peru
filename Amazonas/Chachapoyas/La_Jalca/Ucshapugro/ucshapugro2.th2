@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Ucsha-1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1601 2389 -1601 0.0 0.0 63.931799999999996 0.0 m]
+scrap Ucsha-1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1601 2389 -1601 0.0 0.0 63.931799999999996 0.0 m]
 
 line wall
   1720.5 -331.5

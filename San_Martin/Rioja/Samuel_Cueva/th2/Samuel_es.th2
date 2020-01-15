@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Sam17-1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap Sam17-1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 point 6581.25 5253.5 u:boss -scale xs -clip on
 
@@ -288,7 +288,7 @@ endscrap
 
 
 
-scrap Sam17-2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap Sam17-2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 line rock-border -close on
   6304.25 5664.0
@@ -695,7 +695,7 @@ endscrap
 
 
 
-scrap Sam17-3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap Sam17-3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 point 5990.75 6028.75 label -text "<center>suelo suspendido"  -scale l
 
@@ -1248,7 +1248,7 @@ endscrap
 
 
 
-scrap Sam17-4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap Sam17-4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 area water
   l273-5588-6355
@@ -1668,7 +1668,7 @@ endscrap
 
 
 
-scrap Sam17-5 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap Sam17-5 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 point 5412.25 6858.75 height -value [+2 m]
 
@@ -1878,7 +1878,7 @@ endscrap
 
 
 
-scrap Sam17-6 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap Sam17-6 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 point 6802.25 4142.5 continuation -attr Code E -text "Chimenea"  -scale l
 

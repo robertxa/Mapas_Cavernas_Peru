@@ -4,7 +4,7 @@ encoding  utf-8
 
 
 
-scrap calaveraJL-SP-1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+scrap calaveraJL-SP-1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
 point 73.87 138.24 altitude -align bottom-left
 

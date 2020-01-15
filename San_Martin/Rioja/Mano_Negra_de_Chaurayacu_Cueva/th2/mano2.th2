@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap manoDV4 -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV4 -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 point 223.5 -2262.75 sand
 
@@ -270,7 +270,7 @@ endscrap
 
 
 
-scrap manoDV5 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV5 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 line wall -subtype presumed
   567.0 -1750.0
@@ -490,7 +490,7 @@ endscrap
 
 
 
-scrap manoDV6 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV6 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 line wall -subtype blocks
   941.25 -1197.25
@@ -628,7 +628,7 @@ endscrap
 
 
 
-scrap manoDV7 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
+scrap manoDV7 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2466 1780 -2466 0.0 0.0 48.4632 0.0 m]
 
 line slope
   1131.25 -1004.0

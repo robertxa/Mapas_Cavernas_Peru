@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Ciocta-coupe1 -projection extended -author 2017 "Olivier Fabre" -scale [-546.3039999999999 -546.31 2170.326 -546.31 0.0 0.0 69.002402 0.0 m]
+scrap Ciocta-coupe1 -projection extended -author 2017 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-546.3039999999999 -546.31 2170.326 -546.31 0.0 0.0 69.002402 0.0 m]
 
 point 6120.57 822.527 station -name 40@quiocta
 

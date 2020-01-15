@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SamOld-4 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap SamOld-4 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 point 980.0 -1116.0 continuation -attr Code E -text "Chimenea"  -scale l
 

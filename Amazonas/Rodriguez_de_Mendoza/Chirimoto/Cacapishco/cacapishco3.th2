@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CacaJY3 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
+scrap CacaJY3 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
 
 area water
   l40-1186--1014
@@ -468,7 +468,7 @@ endscrap
 
 
 
-scrap CacaJY4 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
+scrap CacaJY4 -projection plan -author 2016 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2468 1828 -2468 0.0 0.0 49.6824 0.0 m]
 
 area water
   l89-1180--630

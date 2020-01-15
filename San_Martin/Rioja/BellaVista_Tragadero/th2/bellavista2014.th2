@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap BVJY1 -projection plan -author 2014 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap BVJY1 -projection plan -author 2014 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 1142.0 -892.0 station -name 10@bellavista
 
@@ -510,7 +510,7 @@ endscrap
 
 
 
-scrap bvJY2 -projection plan -author 2014 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap bvJY2 -projection plan -author 2014 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 line rock-border -close on
   1102.0 -1138.0

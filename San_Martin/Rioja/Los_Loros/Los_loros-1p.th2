@@ -4,7 +4,7 @@ encoding  utf-8
 
 
 
-scrap Los_loros-1p -projection plan -author 2017 "Naomi Mazzilli" -author 2017 "Damien Vignoles" -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [0 0 100 0 0 0 1 0 m]
+scrap Los_loros-1p -projection plan -author 2017 "Naomi Mazzilli" -author 2017 "Damien Vignoles" -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 100 0 0 0 1 0 m]
 
 # 2017.08.30 created by TopoDroid v. 3.3.1d
 

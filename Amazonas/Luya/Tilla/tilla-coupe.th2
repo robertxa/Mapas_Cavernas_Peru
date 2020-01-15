@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap tilla1c -projection extended -author 2019 "Jean Loup/Guyot" -author 2015 "Jean Yves/Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 639.8113000000001 -128.0 0.0 0.0 19.50240702 0.0 m]
+scrap tilla1c -projection extended -author 2019 "Jean Loup/Guyot" -author 2015 "Jean Yves/Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 639.8113000000001 -128.0 0.0 0.0 19.50240702 0.0 m]
 
 point 519.0 73.6 station -name 19@tilla
 

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bella2018b-sp1 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
+scrap bella2018b-sp1 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
 
 point 395.5 -455.5 station -name 2018b-12@bella2018_b
 
@@ -190,7 +190,7 @@ endscrap
 
 
 
-scrap bella2018b-sp2 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
+scrap bella2018b-sp2 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
 
 line rock-border -close on
   303.5 -653.0
@@ -452,7 +452,7 @@ endscrap
 
 
 
-scrap bella2018_b-sp3 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
+scrap bella2018_b-sp3 -projection plan -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1978.3947 -128.0 0.0 0.0 53.50242537999999 0.0 m]
 
 line rock-edge
   1519.5 -1439.0

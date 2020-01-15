@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap maronal1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap maronal1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 point 545.5 2157.0 label -text "Lat : -6.0428<br>Long : -77.29880<br>Alt = 1080 m"
 
@@ -197,7 +197,7 @@ endscrap
 
 
 
-scrap maronal2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap maronal2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
 
 point 578.536 686.7400000000001 station -name JL2017-21@maronal
 

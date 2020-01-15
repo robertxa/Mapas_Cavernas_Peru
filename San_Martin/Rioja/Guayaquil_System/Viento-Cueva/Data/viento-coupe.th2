@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap viento-SC1 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SC1 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 line water-flow
   1305.5 -843.5
@@ -438,7 +438,7 @@ endscrap
 
 
 
-scrap viento-sc2 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-sc2 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 area water
   l83-551--288
@@ -495,7 +495,7 @@ endscrap
 
 
 
-scrap viento-SC3 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SC3 -projection extended -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 1603.5 -1107.5 continuation -attr Code A -text "Suite à voir ?"
 

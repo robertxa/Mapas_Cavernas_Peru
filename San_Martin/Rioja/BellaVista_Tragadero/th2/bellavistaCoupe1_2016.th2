@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap EZc1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
+scrap EZc1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
 
 point 3151.0 508.0 stalactites -clip on
 
@@ -840,7 +840,7 @@ endscrap
 
 
 
-scrap EZc2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
+scrap EZc2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
 
 point 938.4500000000002 1174.4889999999998 station -name E.19@bellavista
 
@@ -1531,7 +1531,7 @@ endscrap
 
 
 
-scrap ZEc3 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
+scrap ZEc3 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
 
 area water
   l389-755-1194
@@ -1955,7 +1955,7 @@ endscrap
 
 
 
-scrap JYBc1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
+scrap JYBc1 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
 
 point 738.7500000000002 1439.2389999999998 station -name JL.1@bellavista
 
@@ -2106,7 +2106,7 @@ endscrap
 
 
 
-scrap JYBc2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
+scrap JYBc2 -projection extended -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.99999999999977 -128.0000000000001 3710.6791000000003 -128.0000000000001 0.0 0.0 97.50244914000001 0.0 m]
 
 point 683.5 1476.0 pebbles
 

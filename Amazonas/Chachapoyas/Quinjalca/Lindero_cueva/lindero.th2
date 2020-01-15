@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap lind-SP1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap lind-SP1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line slope -clip off
   1565.0 160.5
@@ -545,7 +545,7 @@ endscrap
 
 
 
-scrap lind-SP3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap lind-SP3 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line pit -reverse on
   410.75 916.5
@@ -955,7 +955,7 @@ endscrap
 
 
 
-scrap lind-SP5 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap lind-SP5 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 line u:fault -clip off
   596.25 840.75
@@ -1292,7 +1292,7 @@ endscrap
 
 
 
-scrap lind-SP4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap lind-SP4 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 195.19499999999994 1116.379 station -name 75@lindero
 
@@ -1419,7 +1419,7 @@ endscrap
 
 
 
-scrap lind-SP2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
+scrap lind-SP2 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1820.9143000000001 -128.0 0.0 0.0 49.502423220000004 0.0 m]
 
 point 1282.5 299.75 label -text "R1.5"
 

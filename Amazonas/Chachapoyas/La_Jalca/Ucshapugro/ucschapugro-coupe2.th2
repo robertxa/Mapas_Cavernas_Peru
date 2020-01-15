@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap UcshaJY1c -projection extended -author 2014 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
+scrap UcshaJY1c -projection extended -author 2014 "Jean-Yves Bigot" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1325 2405 -1325 0.0 0.0 64.3382 0.0 m]
 
 line wall -subtype debris
   1630.0 -554.0

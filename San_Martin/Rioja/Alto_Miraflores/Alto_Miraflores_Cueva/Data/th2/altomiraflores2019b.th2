@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap AM2019b-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
+scrap AM2019b-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
 
 line pit
   782.75 223.5
@@ -110,7 +110,7 @@ endscrap
 
 
 
-scrap AM2019b_SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
+scrap AM2019b_SP2 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
 
 point 762.5 183.75 height -value [-20 m]
 
@@ -405,7 +405,7 @@ endscrap
 
 
 
-scrap AM2019b_SP3 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
+scrap AM2019b_SP3 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
 
 line pit
   836.75 160.25
@@ -482,7 +482,7 @@ endscrap
 
 
 
-scrap AM2019b_SP4 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
+scrap AM2019b_SP4 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1033.5122999999999 -128.0 0.0 0.0 29.502412419999995 0.0 m]
 
 point 667.5 219.5 height -value [+5 m]
 

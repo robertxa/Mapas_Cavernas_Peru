@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap frioDN3 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
+scrap frioDN3 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
 
 point 605.0 -280.5 rope
 
@@ -120,7 +120,7 @@ endscrap
 
 
 
-scrap frioDN4 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
+scrap frioDN4 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1780 2466 -1780 0.0 0.0 65.88759999999999 0.0 m]
 
 point 1926.5 -1499.0 station -name ND.65@frio
 

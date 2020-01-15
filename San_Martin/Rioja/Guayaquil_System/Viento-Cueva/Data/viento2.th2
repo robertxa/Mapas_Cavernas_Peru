@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap viento-SP8 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP8 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 point 1475.5 -1173.5 station -name 54@viento
 
@@ -377,7 +377,7 @@ endscrap
 
 
 
-scrap viento-SP9 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
+scrap viento-SP9 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1828 2467 -1828 0.0 0.0 65.913 0.0 m]
 
 line slope
   939.0 -250.0

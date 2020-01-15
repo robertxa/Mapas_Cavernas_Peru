@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap EZ6 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ6 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 1685.25 945.0 rope
 
@@ -400,7 +400,7 @@ endscrap
 
 
 
-scrap EZ7 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap EZ7 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 point 1673.25 993.5 sand
 

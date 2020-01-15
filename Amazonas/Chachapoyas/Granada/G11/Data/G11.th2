@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap G11-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-127.9926 -127.9999 167.3775 -127.9999 0.0 0.0 7.502400539999999 0.0 m]
+scrap G11-SP1 -projection plan -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-127.9926 -127.9999 167.3775 -127.9999 0.0 0.0 7.502400539999999 0.0 m]
 
 line arrow
   44.75 61.5

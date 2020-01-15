@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap DVc1 -projection extended -author 2017 "Naomi Mazzilli" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
+scrap DVc1 -projection extended -author 2017 "Naomi Mazzilli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -3636 5088 -3636 0.0 0.0 132.4864 0.0 m]
 
 area water
   l98-3842--1192

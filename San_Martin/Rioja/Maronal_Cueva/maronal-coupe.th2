@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap MAronC1 -projection extended -author 2017 "Marc Pouilly" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -127.99999999999989 3120.1276000000003 -127.99999999999989 0.0 0.0 82.50244104000001 0.0 m]
+scrap MAronC1 -projection extended -author 2017 "Marc Pouilly" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -127.99999999999989 3120.1276000000003 -127.99999999999989 0.0 0.0 82.50244104000001 0.0 m]
 
 point 1126.0 1098.0 station -name JL2017-27@maronal
 

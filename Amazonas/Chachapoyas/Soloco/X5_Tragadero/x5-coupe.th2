@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap x5-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1262 966 -1262 0.0 0.0 27.787599999999998 0.0 m]
+scrap x5-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1262 966 -1262 0.0 0.0 27.787599999999998 0.0 m]
 
 point 107.0 -432.5 station -name 2@x5
 

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap zuta-SP1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 940.0079000000001 -128.0 0.0 0.0 27.12740066 0.0 m]
+scrap zuta-SP1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 940.0079000000001 -128.0 0.0 0.0 27.12740066 0.0 m]
 
 line slope
   143.0 631.0

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap XR2016_1 -projection plan -author 2016 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+scrap XR2016_1 -projection plan -author 2016 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
 
 line rock-border -close on
   823.5 752.0

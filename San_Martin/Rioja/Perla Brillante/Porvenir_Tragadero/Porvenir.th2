@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap porvenir-SP1 -projection plan -author 2016 "Constance Picque" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
+scrap porvenir-SP1 -projection plan -author 2016 "Constance Picque" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 324.8505 -128.0 0.0 0.0 11.5024027 0.0 m]
 
 line rock-edge
   142.5 170.75
@@ -76,12 +76,6 @@ point 107.25 261.25 passage-height -value [3 m]
 point 138.25 299.75 passage-height -value [2 m]
 
 point 112.5 300.75 label -text "colm."
-
-line rock-border
-endline
-
-line rock-edge
-endline
 
 line rock-edge
   138.0 190.75
@@ -178,9 +172,6 @@ line rock-border -close on
   111.0 233.0
 endline
 
-line rock-edge
-endline
-
 point 146.0 185.0 blocks
 
 point 117.5 182.25 blocks
@@ -188,9 +179,6 @@ point 117.5 182.25 blocks
 line rock-edge
   76.0 194.0
   86.5 193.75
-endline
-
-line rock-edge
 endline
 
 line rock-edge
@@ -226,9 +214,6 @@ line rock-edge
   90.5 179.0
 endline
 
-area water
-endarea
-
 point 108.5 203.25 guano
 
 point 113.25 209.5 guano
@@ -242,9 +227,6 @@ point 110.75 221.75 guano
 point 105.25 216.0 guano
 
 point 153.75 139.0 blocks
-
-line rock-edge
-endline
 
 line rock-edge
   103.5 177.5
@@ -280,9 +262,6 @@ line rock-border -close on
   89.0 183.0
 endline
 
-line rock-border
-endline
-
 line rock-border -close on
   92.5 197.5
   92.5 204.25
@@ -300,21 +279,6 @@ point 169.5 102.25 blocks
 point 162.75 100.75 blocks
 
 point 90.25 213.25 blocks
-
-line rock-border
-endline
-
-line arrow
-endline
-
-area pebbles -clip off
-endarea
-
-line arrow
-endline
-
-area water
-endarea
 
 line arrow
   161.25 110.5
@@ -348,9 +312,6 @@ line rock-edge
   137.5 259.25
   144.0 254.0
 endline
-
-area pebbles -clip off
-endarea
 
 line rock-edge
   137.0 253.75

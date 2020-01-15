@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap af3000_1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+scrap af3000_1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
 
 line floor-step
   912.0 -236.5

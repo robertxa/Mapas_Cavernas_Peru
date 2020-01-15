@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection plan -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 447.88190000000003 -128.0 0.0 0.0 14.627400260000002 0.0 m]
+scrap scrap1 -projection plan -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 447.88190000000003 -128.0 0.0 0.0 14.627400260000002 0.0 m]
 
 area water
   l20-208-150

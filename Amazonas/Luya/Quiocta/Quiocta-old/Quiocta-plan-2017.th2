@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Ciocta-plan1 -projection plan -author 2017 "Olivier Fabre" -scale [-546.3039999999999 -546.31 2170.326 -546.31 0.0 0.0 69.002402 0.0 m]
+scrap Ciocta-plan1 -projection plan -author 2017 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-546.3039999999999 -546.31 2170.326 -546.31 0.0 0.0 69.002402 0.0 m]
 
 point 101.316 795.27 station -name 9@quiocta
 

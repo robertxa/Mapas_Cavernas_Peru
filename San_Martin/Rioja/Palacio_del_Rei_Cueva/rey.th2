@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap rey-SP1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1778 2381 -1778 0.0 0.0 63.7286 0.0 m]
+scrap rey-SP1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1778 2381 -1778 0.0 0.0 63.7286 0.0 m]
 
 line rock-border -close on
   1796.0 -1522.0

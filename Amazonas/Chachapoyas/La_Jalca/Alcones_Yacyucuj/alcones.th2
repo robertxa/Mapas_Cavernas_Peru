@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap AlcXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 954.7721 -128.0 0.0 0.0 27.502411340000002 0.0 m]
+scrap AlcXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 954.7721 -128.0 0.0 0.0 27.502411340000002 0.0 m]
 
 line u:doline -id l35-712-1053 -clip off
   873.5 1105.0

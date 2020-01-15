@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap maplo-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
+scrap maplo-SP1 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
 point 1072.0 -1214.0 label -text "Lat : -5.73932<br>Long : -77.57023<br>Alt = 1305 m"
 
@@ -48,7 +48,7 @@ endscrap
 
 
 
-scrap mpalo-SP2 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
+scrap mpalo-SP2 -projection plan -author 2019 "Jean-Yves Bigot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2467 1828 -2467 0.0 0.0 49.6824 0.0 m]
 
 line pit
   827.0 -1257.0

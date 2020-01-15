@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap NO_c1 -projection extended -author 2017 "Patrice Baby" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2607 3632 -2607 0.0 0.0 95.50399999999999 0.0 m]
+scrap NO_c1 -projection extended -author 2017 "Patrice Baby" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2607 3632 -2607 0.0 0.0 95.50399999999999 0.0 m]
 
 point 2567.0 -1354.0 height -value [-8 m]
 
@@ -282,7 +282,7 @@ endscrap
 
 
 
-scrap NO-c2 -projection extended -author 2017 "Patrice Baby" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2607 3632 -2607 0.0 0.0 95.50399999999999 0.0 m]
+scrap NO-c2 -projection extended -author 2017 "Patrice Baby" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2607 3632 -2607 0.0 0.0 95.50399999999999 0.0 m]
 
 point 2797.0 -1438.0 continuation
 

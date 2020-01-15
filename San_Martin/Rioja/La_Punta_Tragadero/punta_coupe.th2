@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrapc1 -projection extended -author 2017 "Naomi Mazzilli" -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [0 0 100 0 0 0 1 0 m] -scale [-128 -1487 3194 -1487 0.0 0.0 84.3788 0.0 m]
+scrap scrapc1 -projection extended -author 2017 "Naomi Mazzilli" -author 2017 "Damien Vignoles" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 100 0 0 0 1 0 m] -scale [-128 -1487 3194 -1487 0.0 0.0 84.3788 0.0 m]
 
 point 1140.708 428.5 station -name 11@punta2
 

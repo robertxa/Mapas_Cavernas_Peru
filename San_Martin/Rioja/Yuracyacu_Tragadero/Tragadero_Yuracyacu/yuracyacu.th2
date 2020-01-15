@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap Yurac1 -projection plan -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128 -1074 1769 -1074 0.0 0.0 48.1838 0.0 m]
+scrap Yurac1 -projection plan -author 2014 "Ezio Rubbioli" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1074 1769 -1074 0.0 0.0 48.1838 0.0 m]
 
 line wall -outline in -subtype unsurveyed
   646.25 -497.75

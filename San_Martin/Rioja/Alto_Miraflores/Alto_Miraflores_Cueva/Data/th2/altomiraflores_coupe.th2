@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap mira1c -projection extended -author 2018 "Jean loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
+scrap mira1c -projection extended -author 2018 "Jean loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
 
 point 509.228 134.89600000000002 station -name 18@altomiraflores
 
@@ -352,7 +352,7 @@ endscrap
 
 
 
-scrap mira2c -projection extended -author 2018 "Jean loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
+scrap mira2c -projection extended -author 2018 "Jean loup/Guyot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 797.2917 -128.0 0.0 0.0 23.502409179999997 0.0 m]
 
 point 631.088 74.396 station -name 28@altomiraflores
 

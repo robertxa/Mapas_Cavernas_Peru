@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap tio-SP1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -698 938 -698 0.0 0.0 27.0764 0.0 m]
+scrap tio-SP1 -projection plan -author 2013 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -698 938 -698 0.0 0.0 27.0764 0.0 m]
 
 line slope
   555.5 -311.5

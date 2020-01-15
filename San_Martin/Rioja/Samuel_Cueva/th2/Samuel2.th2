@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SamOld-2 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
+scrap SamOld-2 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-144.0 -144.0 8704.7818 -144.0 0.0 0.0 224.75905772000002 0.0 m]
 
 point 511.5 -1082.5 station -name B503@samuel
 

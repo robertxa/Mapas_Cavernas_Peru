@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap ancay-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
+scrap ancay-SC-1 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
 
 point 647.5 -489.5 entrance -orientation 241.2
 
@@ -60,7 +60,7 @@ endscrap
 
 
 
-scrap ancay-SC-2 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
+scrap ancay-SC-2 -projection extended -author 2018 "Jean-Yves Bigot" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1120 958 -1120 0.0 0.0 27.5844 0.0 m]
 
 line wall -subtype invisible
   818.5 -139.5

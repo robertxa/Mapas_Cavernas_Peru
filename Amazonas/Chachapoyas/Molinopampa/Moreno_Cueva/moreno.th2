@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 561.0711 -128.0 0.0 0.0 17.50240594 0.0 m]
+scrap scrap1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 561.0711 -128.0 0.0 0.0 17.50240594 0.0 m]
 
 line overhang -clip off
   93.38842975206612 380.9917355371901

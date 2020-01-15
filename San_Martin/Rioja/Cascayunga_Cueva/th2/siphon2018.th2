@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap casc2018-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
+scrap casc2018-sp1 -projection plan -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -5453 4944 -5453 0.0 0.0 128.8288 0.0 m]
 
 line rock-border -close on
   873.0 736.5

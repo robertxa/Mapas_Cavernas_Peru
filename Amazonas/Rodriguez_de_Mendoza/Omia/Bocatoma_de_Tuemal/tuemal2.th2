@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap tuemalND1 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3435 2467 -3435 0.0 0.0 65.913 0.0 m]
+scrap tuemalND1 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -3435 2467 -3435 0.0 0.0 65.913 0.0 m]
 
 point 431.0 -209.5 water-flow -orientation 92.4
 
@@ -545,7 +545,7 @@ endscrap
 
 
 
-scrap tuemalND2 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-128 -3435 2467 -3435 0.0 0.0 65.913 0.0 m]
+scrap tuemalND2 -projection plan -author 2016 "Damien Vignoles" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -3435 2467 -3435 0.0 0.0 65.913 0.0 m]
 
 area water
   l124-1702--2013

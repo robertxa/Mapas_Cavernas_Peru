@@ -1,5 +1,9 @@
 encoding utf-8
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 input Santa_Fe.th
 input th2/santafe.th2
 input th2/santafe2018.th2

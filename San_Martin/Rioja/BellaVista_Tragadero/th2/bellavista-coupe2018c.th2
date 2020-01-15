@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap bella2018c-sc1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
+scrap bella2018c-sc1 -projection extended -author 2018 "Xavier Robert" -copyright 2018 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -1594 2468 -1594 0.0 0.0 65.9384 0.0 m]
 
 line water-flow
   5757.75 597.75

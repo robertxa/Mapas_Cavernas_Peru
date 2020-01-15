@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap pal1 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+scrap pal1 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
 
 line wall -close on -outline in
   1849.0 -581.0
@@ -1030,7 +1030,7 @@ endscrap
 
 
 
-scrap PalO2 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+scrap PalO2 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
 
 point 2279.0 -1585.0 sand
 
@@ -2253,7 +2253,7 @@ endscrap
 
 
 
-scrap palO3 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+scrap palO3 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
 
 point 2639.5 -3920.5 flowstone
 
@@ -4744,7 +4744,7 @@ endscrap
 
 
 
-scrap PalO4 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
+scrap PalO4 -projection plan -author 2011 "Olivier Fabre" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -6107 3022 -6107 0.0 0.0 80.00999999999999 0.0 m]
 
 point 432.5 -5934.0 station -name 113@palestina
 

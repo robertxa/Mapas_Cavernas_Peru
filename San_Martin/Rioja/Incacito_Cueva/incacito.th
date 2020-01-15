@@ -1,5 +1,9 @@
 encoding utf-8
 
+# Copyright (C) 2019 Xavier Robert <xavier.robert01@gmail.com>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey incacito -title "Cueva del Incacito" -entrance "0"
    
 centerline -title "Cueva del Incacito"
@@ -7,15 +11,11 @@ centerline -title "Cueva del Incacito"
 	#fix 0	-5.892157	-77.41258	1445 # Coordonnées données par le GPS? mais elles semblent fausses
 	fix 0	-5.891745	-77.412046	1420 # Coordonnées estimées avec google earth, elles doivent être plus vraies...
 	date 2016.09.12
-		#team "ECA"
-		#team "G.S. Vulcain"
-		team "Jean-Sébastien/Moquet"# (ECA)"
-		team "Xavier/Robert"# (ECA, Vulcain)"
+		team "Jean-Sébastien/Moquet"
+		team "Xavier/Robert"
 	explo-date 2016.09.12
-		#explo-team "ECA"
-		#explo-team "G.S Vulcain"
-		explo-team "Jean-Sébastien/Moquet"# (ECA)"
-		explo-team "Xavier/Robert"# (ECA, Vulcain)"
+		explo-team "Jean-Sébastien/Moquet"
+		explo-team "Xavier/Robert"
 	units lenght meters
 	units compass degrees
 	units clino degrees

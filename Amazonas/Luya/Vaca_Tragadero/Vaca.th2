@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap surf1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-282.42499999999995 -113.28800000000001 1627.115 -113.28800000000001 0.0 0.0 48.502316 0.0 m]
+scrap surf1 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-282.42499999999995 -113.28800000000001 1627.115 -113.28800000000001 0.0 0.0 48.502316 0.0 m]
 
 line u:doline -clip off
   -279.0 1281.0
@@ -181,7 +181,7 @@ endscrap
 
 
 
-scrap scrap32 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-282.42499999999995 -113.28800000000001 1627.115 -113.28800000000001 0.0 0.0 48.502316 0.0 m]
+scrap scrap32 -projection plan -author 2017 "Xavier Robert" -copyright 2017 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/4.0/" -scale [-282.42499999999995 -113.28800000000001 1627.115 -113.28800000000001 0.0 0.0 48.502316 0.0 m]
 
 point 1329.0 297.5 pebbles
 

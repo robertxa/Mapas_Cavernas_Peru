@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap daguasXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR1 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 line wall -id l21-2955-1222
   2779.0 1357.5
@@ -233,7 +233,7 @@ endscrap
 
 
 
-scrap daguasXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR2 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 line wall
   3452.5 682.25
@@ -456,7 +456,7 @@ endscrap
 
 
 
-scrap daguasXR3 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc : http://creativecommons.org/licenses/by-nc/3.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
+scrap daguasXR3 -projection plan -author 2016 "Xavier Robert" -copyright 2016 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4852.412 -128.0 0.0 0.0 126.5024648 0.0 m]
 
 point 3485.5 571.75 label -text "<center>conduite<br>forcée"
 

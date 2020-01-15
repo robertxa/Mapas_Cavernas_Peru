@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap AM2019b-SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
+scrap AM2019b-SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
 
 point 1222.75 181.25 height -value [-20 m]
 
@@ -229,7 +229,7 @@ endscrap
 
 
 
-scrap AM2019b-SC2 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
+scrap AM2019b-SC2 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1466.5834 -128.0 0.0 0.0 40.50241836 0.0 m]
 
 line u:rope
   1156.5 253.5

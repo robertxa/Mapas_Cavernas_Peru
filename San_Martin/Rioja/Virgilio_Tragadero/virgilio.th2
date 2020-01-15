@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap virgi-SP1 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2018 1539 -2018 0.0 0.0 42.3418 0.0 m]
+scrap virgi-SP1 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2018 1539 -2018 0.0 0.0 42.3418 0.0 m]
 
 point 902.5 -897.0 station -name 20@virgilio
 
@@ -1135,7 +1135,7 @@ endscrap
 
 
 
-scrap virgi-SP2 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-128 -2018 1539 -2018 0.0 0.0 42.3418 0.0 m]
+scrap virgi-SP2 -projection plan -author 2015 "Jean-Yves Bigot" -copyright 2017 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128 -2018 1539 -2018 0.0 0.0 42.3418 0.0 m]
 
 point 510.0 -549.5 label -text "Lat : -6.0761<br>Long : -77.2818<br>Alt = 1400 m"
 

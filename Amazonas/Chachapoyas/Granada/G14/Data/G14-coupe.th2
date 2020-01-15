@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap G14-SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/3.0/" -scale [-167.3707 -128.0072 167.3695 -128.0072 0.0 0.0 8.502401079999999 0.0 m]
+scrap G14-SC1 -projection extended -author 2019 "Xavier Robert" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-167.3707 -128.0072 167.3695 -128.0072 0.0 0.0 8.502401079999999 0.0 m]
 
 line wall -subtype invisible
   94.75 112.25
