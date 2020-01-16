@@ -47,6 +47,11 @@ Database conception author
 
 Xavier Robert
 
+How to cite
+-----------
+
+[![DOI](https://zenodo.org/badge/162199392.svg)](https://zenodo.org/badge/latestdoi/162199392)
+
 Contact
 -------
 
