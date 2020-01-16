@@ -42,8 +42,8 @@ Licence
 Released under a Creative Commons Attribution-ShareAlike-NonCommecial License:
 	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-Author
-------
+Database conception author
+--------------------------
 
 Xavier Robert
 
