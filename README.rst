@@ -50,7 +50,8 @@ Xavier Robert
 How to cite
 -----------
 
-[![DOI](https://zenodo.org/badge/162199392.svg)](https://zenodo.org/badge/latestdoi/162199392)
+.. image:: https://zenodo.org/badge/162199392.svg
+   :target: https://zenodo.org/badge/latestdoi/162199392
 
 Contact
 -------
