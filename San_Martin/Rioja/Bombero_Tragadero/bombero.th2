@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -204.0 -3636 2607 144.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Scan_carnet/plan.ppm 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Scan_carnet/plan.gif 0 {}
 
 
 

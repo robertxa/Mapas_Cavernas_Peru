@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -3636 5150.0 144.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Scan_carnet/chalan_chalan_coupe1.ppm 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Scan_carnet/chalan_chalan_coupe1.gif 0 {}
 
 
 

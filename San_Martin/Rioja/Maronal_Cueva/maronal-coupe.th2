@@ -2,7 +2,7 @@ encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -135.8739999999999 3120.1276000000003 1971.0246000000002
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {393.70000000000005 0 1.0} {1488.188 JL2017-0} Maronal-coupe2017.xvi 0 {}
-##XTHERION## xth_me_image_insert {0.0 1 1.0} {1843.0246000000002 {}} scans_topo/Maronal_coupe.ppm 0 {}
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {1843.0246000000002 {}} scans_topo/Maronal_coupe.gif 0 {}
 
 
 

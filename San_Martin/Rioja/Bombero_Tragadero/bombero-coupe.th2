@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -3636 2607 141.0
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Scan_carnet/Coupe.ppm 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Scan_carnet/Coupe.gif 0 {}
 
 
 

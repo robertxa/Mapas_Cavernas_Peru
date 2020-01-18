@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -5090 7144 139.5
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../OLD/2014/Cueva_Samuel.ppm 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../OLD/2014/Cueva_Samuel.gif 0 {}
 
 
 

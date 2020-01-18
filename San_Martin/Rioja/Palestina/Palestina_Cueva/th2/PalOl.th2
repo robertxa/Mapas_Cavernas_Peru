@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -6179.0 3022 161.5
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../OLD/PourTherion/Plan-fond-Olivier.ppm 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../OLD/PourTherion/Plan-fond-Olivier.gif 0 {}
 
 
 
