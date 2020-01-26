@@ -741,7 +741,7 @@ point 1139.0 -702.5 entrance -orientation 146.7
 
 point 663.5 -727.0 entrance -orientation 167.3
 
-point 663.0 -630.5 label -text "perte"
+point 663.0 -630.5 label -text "<bf>perte" -scale xl
 
 line wall -subtype debris
   1162.0 -820.0

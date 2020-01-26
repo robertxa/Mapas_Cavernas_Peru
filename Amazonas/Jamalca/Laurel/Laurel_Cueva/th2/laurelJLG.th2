@@ -1,7 +1,9 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1702.804 3907.5296
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -129.5 -129.5 1702.804 3907.5296
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1265.356 1 1.0} {3426.02 0@laurel.laureltot} laurel2018.xvi 0 {}
+
+
 
 scrap Laurel-JLG-SP1 -projection plan -author 2019 "Jean Loup/Guyot" -copyright 2019 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1702.804 -128.0 0.0 0.0 46.5024216 0.0 m]
 
@@ -197,7 +199,7 @@ endline
 
 point 338.2142857142857 382.14285714285717 height -value [-4 m]
 
-point 355.7142857142857 368.57142857142856 continuation -attr Code P -text "P4 à descendre, c'est peut être la suite"
+point 345.0 354.5 label -text "<center>puits<br>borgne"
 
 line slope
   380.0 376.5853658536585
@@ -254,3 +256,5 @@ point 345.1960000000001 415.84000000000015 station -name 8@laurelJLG.laureltot
 point 593.736 849.3700000000001 station -name 15@laurelJLG.laureltot
 
 endscrap
+
+

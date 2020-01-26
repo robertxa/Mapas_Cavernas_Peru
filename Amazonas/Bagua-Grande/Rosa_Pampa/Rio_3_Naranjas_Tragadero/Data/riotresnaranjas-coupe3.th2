@@ -540,6 +540,8 @@ point 955.5 -675.5 label -text "Lat : -5.92801<br>Long :-78.46836<br>Alt = 2461 
 
 point 735.0 -975.5 entrance -orientation 250.9
 
+point 832.0 -1148.0 label -text "<bf>Résurgence" -scale xl
+
 line wall -subtype invisible
   987.5 -1023.0
   987.5 -1023.0 981.5 -1018.0 966.0 -1015.0

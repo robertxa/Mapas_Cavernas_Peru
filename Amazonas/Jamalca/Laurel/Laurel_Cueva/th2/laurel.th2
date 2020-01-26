@@ -40,12 +40,14 @@ point 1009.25 2323.25 guano
 line slope
   968.5 2291.0
   968.5 2291.0 1012.25 2262.5 1032.0 2273.0
+  smooth off
   l-size 5.0
 endline
 
 line slope
   972.5 2307.0
   972.5 2307.0 1015.25 2275.25 1034.25 2289.75
+  smooth off
   l-size 5.0
 endline
 
@@ -64,30 +66,35 @@ endline
 line slope
   1078.75 2404.75
   1078.75 2404.75 1036.75 2418.25 1034.75 2427.5
+  smooth off
   l-size 5.0
 endline
 
 line slope
   1083.25 2419.5
   1083.25 2419.5 1043.25 2427.0 1041.75 2440.5
+  smooth off
   l-size 5.0
 endline
 
 line slope
   1063.5 2489.25
   1063.5 2489.25 1113.75 2472.75 1117.0 2463.75
+  smooth off
   l-size 5.0
 endline
 
 line slope
   1059.25 2475.75
   1059.25 2475.75 1096.25 2462.0 1101.0 2452.75
+  smooth off
   l-size 5.0
 endline
 
 line slope
   1053.25 2463.5
   1053.25 2463.5 1095.25 2453.5 1096.0 2438.0
+  smooth off
   l-size 5.0
 endline
 
@@ -131,14 +138,20 @@ line border -close on
 endline
 
 #point 1271.25 2847.5 label -text "<center>pared<br>construida"
+
+
 point 1271.25 2847.5 label -text "<center>mur<br>construit"
 
 point 1192.75 2757.25 archeo-material
 
 #point 1255.0 2747.0 label -text "<center>sepultura<br>secundaria"
+
+
 point 1255.0 2747.0 label -text "<center>sépulture<br>secondaire"
 
 #point 1115.0 2853.0 label -text "<center>sepultura<br>secundaria"
+
+
 point 1115.0 2853.0 label -text "<center>sépulture<br>secondaire"
 
 point 1179.75 2847.75 archeo-material
@@ -185,11 +198,13 @@ line flowstone
   1173.25 2952.0
   1173.25 2952.0 1163.25 2953.0 1161.0 2955.0
   1158.75 2957.0 1154.5 2959.25 1163.0 2963.5
+  smooth off
 endline
 
 line flowstone
   1185.75 2948.25
   1185.75 2948.25 1171.25 2949.25 1170.5 2957.25
+  smooth off
 endline
 
 line flowstone
@@ -241,6 +256,7 @@ line pit
   1136.5 3040.0
   1136.5 3040.0 1134.75 2988.75 1132.5 2980.5
   1130.25 2972.25 1131.0 2950.5 1133.0 2943.5
+  smooth off
 endline
 
 point 1173.25 2910.25 guano
@@ -330,6 +346,7 @@ endline
 line pit
   1159.5 3219.5
   1159.5 3219.5 1162.75 3207.75 1156.5 3203.0
+  smooth off
 endline
 
 point 1188.5 3066.0 u:bats
@@ -341,9 +358,13 @@ point 1130.75 3150.75 u:bats
 point 1118.0 3194.75 narrow-end
 
 #point 1203.75 3172.5 label -text "vampiros"
+
+
 point 1203.75 3172.5 label -text "vampires"
 
 #point 1293.0 3396.0 label -text "sepultura"
+
+
 point 1293.0 3396.0 label -text "sépulture"
 
 point 1246.25 3436.0 archeo-material
@@ -351,6 +372,8 @@ point 1246.25 3436.0 archeo-material
 point 1262.0 3416.75 archeo-material
 
 #point 1175.5 3398.0 label -text "<center>pared<br>construida"
+
+
 point 1175.5 3398.0 label -text "<center>mur<br>construit"
 
 line border -close on
@@ -379,6 +402,7 @@ endline
 line pit
   1237.5 3447.5
   1237.5 3447.5 1270.5 3432.75 1279.25 3434.75
+  smooth off
 endline
 
 line overhang -clip off
@@ -441,6 +465,12 @@ line wall
   970.25 2257.0 963.75 2245.5 963.75 2245.5
   smooth off
 endline
+
+point 1246.5 3426.5 human-bones
+
+point 1270.25 3443.5 human-bones
+
+point 1251.0 3447.75 human-bones
 
 line wall
   1205.5 3470.25
@@ -647,12 +677,14 @@ endline
 line slope
   759.0 1411.25
   759.0 1411.25 764.75 1428.5 774.25 1430.5
+  smooth off
   l-size 5.0
 endline
 
 line slope
   751.0 1407.75
   751.0 1407.75 747.75 1431.0 771.5 1435.25
+  smooth off
   l-size 5.0
 endline
 
@@ -668,6 +700,7 @@ endline
 line pit
   702.25 1412.75
   702.25 1412.75 708.25 1408.5 709.0 1397.25
+  smooth off
 endline
 
 area blocks
@@ -689,24 +722,28 @@ endline
 line slope
   860.0 1822.25
   860.0 1822.25 874.0 1788.25 905.75 1803.5
+  smooth off
   l-size 5.0
 endline
 
 line slope
   865.25 1835.5
   865.25 1835.5 878.25 1799.75 910.5 1819.5
+  smooth off
   l-size 5.0
 endline
 
 line slope
   867.5 1849.5
   867.5 1849.5 894.75 1833.5 910.75 1840.0
+  smooth off
   l-size 5.0
 endline
 
 line slope
   871.0 1861.75
   871.0 1861.75 896.75 1839.5 913.0 1851.75
+  smooth off
   l-size 5.0
 endline
 
@@ -730,42 +767,50 @@ endline
 line slope
   924.5 1940.0
   924.5 1940.0 889.0 1939.25 880.25 1951.0
+  smooth off
   l-size 5.0
 endline
 
 line slope
   926.0 1947.75
   926.0 1947.75 889.75 1944.75 883.25 1957.75
+  smooth off
   l-size 5.0
 endline
 
 line slope
   922.75 2133.25
   922.75 2133.25 953.5 2113.0 974.5 2119.25
+  smooth off
   l-size 5.0
 endline
 
 line slope
   929.5 2147.0
   929.5 2147.0 963.25 2126.0 982.5 2132.25
+  smooth off
   l-size 5.0
 endline
 
 line slope
   979.0 2143.0
   979.0 2143.0 955.0 2176.25 929.5 2161.75
+  smooth off
   l-size 5.0
 endline
 
 line slope
   984.25 2155.25
   984.25 2155.25 936.25 2183.0 925.5 2178.5
+  smooth off
   l-size 5.0
 endline
 
 point 928.25 2207.5 continuation -attr Code A -text "Départ non visité"
 
 #point 1055.25 2165.5 label -text "caos de bloques"
+
+
 point 1055.25 2165.5 label -text "trémie"
 
 area blocks
@@ -791,9 +836,13 @@ line rock-border -close on -clip off
 endline
 
 #point 1054.25 2216.25 label -text "<center>piedra<br>en pie"
+
+
 point 1054.25 2216.25 label -text "<center>pierre<br>dressée"
 
 #point 737.0 1180.0 label -text "<center>piedra<br>en pie"
+
+
 point 737.0 1180.0 label -text "<center>pierre<br>dressée"
 
 line rock-border -close on
