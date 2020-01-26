@@ -1,0 +1,61 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>  
+
+
+map MP-Pal-3perlas
+	3perls
+endmap
+
+map MP-Pal-aff3000
+	af3000_1
+endmap
+
+map MP-Pal-affluent
+	Aff_1
+endmap
+
+map MP-Pal-Chicas
+	chicas_1
+endmap
+
+map MP-Pal-Riv
+	palinter1
+	break
+	plafin1
+	break
+	pal1
+	break
+	PalO2
+	break
+	palO3
+	break
+	PalO4
+	break
+endmap
+
+map MP-Pal-siphon
+	shunt_1 
+endmap
+
+map MP-Pal-XR
+	XR2016_1
+endmap
+
+
+#####################################################################
+map MP-Pal-total
+	MP-Pal-siphon
+	break
+	MP-Pal-XR
+	break
+	MP-Pal-Riv
+	break
+	MP-Pal-Chicas
+	break
+	MP-Pal-aff3000
+	break
+	MP-Pal-3perlas
+endmap
