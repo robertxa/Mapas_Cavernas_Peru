@@ -10,6 +10,7 @@ survey 7peces -title "Cueva de los 7 Peces" -entrance "11"
     	team "Thibault Desclos"
     	team "Carol Romero"
     	team "Debra Moya"
+    	team "Ana Lucia/Rodriguez"
     
     cs lat-long
     fix 11 -9.20593	-75.95316	660

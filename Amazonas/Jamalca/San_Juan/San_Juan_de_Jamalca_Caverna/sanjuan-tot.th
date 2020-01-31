@@ -10,6 +10,8 @@ survey SanJuan -title "Caverna de San Juan de Jamalca"
 	input Data/sanjuan.th2
 	input Data/sanjuanb.th2
 	join sanjuan-SP1 sanjuan-SP2
+	input Data/sanjuanfond.th2
+	join sanjuan-SP2 sanjuan-JLG-SP1
 
 
 	# Coupe
@@ -17,6 +19,8 @@ survey SanJuan -title "Caverna de San Juan de Jamalca"
 	input Data/sanjuanb-coupe.th2
 	join sanjuan-SC2 sanjuan-SC3
 	join sanjuan-SC1 sanjuan-SC4
+	input Data/sanjuan-coupefond.th2
+	join sanjuan-SC4 sanjuan-JLG-SC1
 	
 endsurvey
 

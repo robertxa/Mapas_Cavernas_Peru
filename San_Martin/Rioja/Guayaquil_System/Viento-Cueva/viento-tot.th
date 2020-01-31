@@ -12,8 +12,8 @@ survey Viento -title "Cueva del Viento"
 	input Data/viento2.th2
 	join viento-SP1 viento-SP8
 	
-	#input Data/viento3.th2
-	#join viento-SP9 ????
+	input Data/viento-entree.th2
+	#join viento-SP9 viento-JLG-SP1
 
 
 	# Coupe
@@ -21,8 +21,8 @@ survey Viento -title "Cueva del Viento"
 	input Data/viento-coupe2.th2
 	join viento-SC1 viento-SC4
 	
-	#input Data/viento-coupe3.th2
-	#join viento-SC4 ???
+	input Data/viento-coupe-entree.th2
+	join viento-SC4 viento-JLG-SC1
 
 endsurvey
 

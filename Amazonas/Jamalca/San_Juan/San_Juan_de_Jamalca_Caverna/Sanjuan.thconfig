@@ -114,7 +114,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 130 nw
+	map-header 0 90 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -246,7 +246,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 0 20 nw
+	map-header 0 40 nw
 
     
 	# arrière plan de la manchette
@@ -300,8 +300,8 @@ endlayout
  
   
  # 3-EXPORTS   
- #export map -fmt xvi -layout xviexport -o Data/sanjuan-2019.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o Data/sanjuan-coupe2019.xvi
+ export map -fmt xvi -layout xviexport -o Data/sanjuan-2019.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/sanjuan-coupe2019.xvi
   
  export map -o Outputs/sanjuan-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/sanjuan-coupe2019.pdf

@@ -8,12 +8,10 @@ survey infiernillo -title "Infiernillo de Perlamayo" -entrance 0
 
   centerline
     date 2019.10.06
-    	team "Jean Loup/Guyot"
     	team "Gino Staccioli"
     	team "Jean-Denis Klein"
     	team "Antonio/de Pomar" 
     explo-date 2019.10.01
-    	team "Jean Loup/Guyot"
     	team "Gino Staccioli"
     	team "Jean-Denis Klein"
     	team "Antonio/de Pomar" 

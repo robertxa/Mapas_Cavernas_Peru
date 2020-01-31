@@ -90,7 +90,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "Cajaruro, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -166,7 +166,6 @@ layout my_layout
 	\newtoks\expe \expe={Nor Perú 2019}
 	endcode    
 
-	map-image 0 100 sw Outputs/libertad-coupe2019-EV.pdf
 endlayout
  
  
@@ -174,7 +173,7 @@ layout my_layout-coupe
   
   	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
-	#copy header_coupe
+	copy header_coupe
 	copy langue-es
 	
 	# Titre  
@@ -223,25 +222,13 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss>"# - Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "<it>Alzado<ss> - Cajaruro, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
 	statistics explo-length off
 	# Afficher developpement et profondeur de la cavite
 	statistics topo-length off
-	# Afficher les statistiques d explo par équipe/nom. C est lourd
-	# si la cavite est importante et qu il y a beaucoup d explorateurs
-	statistics explo off
-	# Afficher developpement et profondeur de la cavite
-	statistics topo off
-	# Afficher un copyright
-	statistics copyright off
-	statistics carto off
-	code tex-map
-		\cavelength={} %empty
-		\cavedepth={}  %empty
-	endcode
   
 	# Nous voulons une legende pour expliquer les symboles. "on" imprimera
 	# seulement la legende des symboles dessines sur la topo, si l on veut
@@ -250,7 +237,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 20 cm
+	legend-width 20 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -260,7 +247,7 @@ layout my_layout-coupe
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header 0 60 nw
-	map-header 50 -5 nw
+	map-header 0 -5 nw
 
     
 	# arrière plan de la manchette
@@ -283,15 +270,47 @@ layout my_layout-coupe
 	# Si nous ne voulons pas de grille :
 	grid off
   
+	# Afficher un copyright
+	statistics copyright all
+
+	######## Code Metapost pour modifier l aspect des symboles ####### 
+ 
+	# Titre          
 	code tex-map
-	\cavename={}
-	endcode
+		% Output map title as determined by Therion 5.3 is stored in cavename. 
+		% It will be empty if there are multiple maps selected for any one projection
+		% AND there are multiple source surveys identified in the thconfig file 
+		% ie Therion can not infer a unique title from the input data given.
+		% This code allows you to define an output map title {cavename} if it happens to be empty
+  
+		\edef\temp{\the\cavename}   % cavename from Therion
+		\edef\nostring{}            % empty string
+		\ifx\temp\nostring          % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={Cuevas de San Juan de la Libertad} 		
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
+	\newtoks\synth \synth={}
+	\newtoks\wpage \wpage={}
+	\newtoks\expe \expe={Nor Perú 2019}
+	endcode  
   
 endlayout
 
  
   
  # 3-EXPORTS   
- export map -projection extended -layout my_layout-coupe -o Outputs/libertad-coupe2019-EV.pdf  
- export map -o Outputs/libertad-plan2019-Ev.pdf -layout my_layout
-
+# export map -fmt xvi -layout xviexport -o Data/libertad2019.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Data/libertad-coupe2019.xvi
+  
+ export map -o Outputs/libertad-plan2019.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/libertad-coupe2019.pdf
+ export model -o Outputs/libertad_2019.lox
+  
+ # Export des fichiers ESRI
+ export map -proj plan -fmt esri -o Outputs/libertad_2019 -layout my_layout
+  
+ # Export des fichiers kml
+ export map -proj plan -fmt kml -o Outputs/libertad_2019.kml -layout my_layout
+ export model -fmt kml -o Outputs/libertad_2019m.kml

@@ -10,6 +10,7 @@ survey virgenes -title "Cueva de las Virgenes" -entrance "22"
     	team "Thibault Desclos"
     	team "Carol Romero"
     	team "Debra Moya"
+    	team "Ana Lucia/Rodriguez"
     
     cs lat-long
     fix 22 -9.37154	-75.95640	830

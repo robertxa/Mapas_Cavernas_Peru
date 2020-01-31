@@ -91,7 +91,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rupa Rupa, Leoncio Prado, Huánuco, Perú"
+	map-comment "Mariano Damaso Beraun, Leoncio Prado, Huánuco, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -222,7 +222,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss> - Rupa Rupa, Leoncio Prado, Huánuco, Perú"
+	map-comment "<it>Alzado<ss> - Mariano Damaso Beraun, Leoncio Prado, Huánuco, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs

@@ -134,7 +134,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss> - Palestina, Nueva Cajamarca, Rioja, San Martín, Perú"
+	map-comment "<it>Alzado<ss> - Nueva Cajamarca, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -213,7 +213,7 @@ endlayout
   
  # 3-EXPORTS   
 # export map -fmt xvi -layout xviexport -o Data/viento2019.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o Data/viento-coupe2019.xvi
+ #export map -projection extended -fmt xvi -layout xviexport -o Data/viento-coupe2019.xvi
   
  export map -o Outputs/viento-plan2019.pdf -layout my_layout
  export map -projection extended -layout my_layout-coupe -o Outputs/viento-coupe2019.pdf

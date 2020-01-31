@@ -278,8 +278,6 @@ line border -reverse on
   smooth off
 endline
 
-point 1979.5 -542.0 continuation -attr Code A -text "Galerie à poursuivre ?"
-
 area water
   l24-1924--551
 endarea
@@ -364,7 +362,7 @@ line label -id l24-1924--551 -close on
   smooth off
 endline
 
-point 1904.5 -527.0 altitude -align top
+point 1904.5 -527.0 altitude -align top-left
 
 line pit
   1536.0 -750.0

@@ -212,8 +212,6 @@ line wall
   smooth off
 endline
 
-point 1643.0 -1259.0 continuation -attr Code A -text "Galerie à continuer ?"
-
 point 1590.0 -1275.0 altitude -align bottom
 
 point 1584.5 -1261.0 station -name 24@sanjuan

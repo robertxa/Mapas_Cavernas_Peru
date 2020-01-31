@@ -22,7 +22,7 @@ line rock-border -close on
   33.25 39.0
 endline
 
-point -0.75 10.75 label -text "Lat : <br>Long : <br>Alt =  m"
+point 8.75 13.25 label -text "Lat : -6.09215<br>Long : -77.55585<br>Alt = 3765 m"
 
 point -10.5 30.0 narrow-end
 
@@ -43,6 +43,7 @@ line pit -reverse on -clip off
   45.25 28.75 47.25 30.5 46.75 36.5
   46.25 42.5 48.25 47.25 43.75 50.25
   39.25 53.25 37.0 55.5 35.25 56.5
+  smooth off
 endline
 
 line overhang -clip off
@@ -53,6 +54,7 @@ line overhang -clip off
   39.62 35.37 40.0 34.5 39.5 30.0
   38.78 23.48 38.25 21.75 38.25 18.0
   38.25 14.25 39.25 8.0 36.0 6.75
+  smooth off
 endline
 
 line wall -subtype invisible
