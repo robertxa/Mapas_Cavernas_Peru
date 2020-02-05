@@ -164,7 +164,7 @@ layout my_layout3000
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={James Apaéstegui, Jean-yves Bigot, Olivier Fabre, Xavier Robert}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Torreon 2011, Alto Mayo 2013, Nueva Cajamarca 2014, Cerro Blanco 2015, Nord Pérou 2016, Cerro Blanco 2017}
+	\newtoks\expe \expe={Torreon 2011, Alto Mayo 2013, Nueva Cajamarca 2014, Cerro Blanco 2015, Nord Pérou 2016, Cerro Blanco 2017, Nor Perú 2019}
 	endcode    
 
 endlayout
@@ -347,7 +347,7 @@ layout my_layout-coupe
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={}
+	\newtoks\expe \expe={, Nor Perú 2019}
 	endcode  
   
 endlayout

@@ -178,7 +178,7 @@ layout my_layout
 	transparency on
 	opacity 75
 
-	map-comment "Affluent de Las Tres Perlas<br>Palestina, Nueva Cajamarca, Rioja, San Martín, Perú"
+	map-comment "Affluent de Las Tres Perlas<br>Nueva Cajamarca, Rioja, San Martín, Perú"
 	statistics explo-length off
 	statistics topo-length off
 	statistics copyright all

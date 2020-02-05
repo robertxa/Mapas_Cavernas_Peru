@@ -40,7 +40,7 @@ layout my_layout
 
 	# Titre  
 	#doc-title "Cueva de los Bambús o de Wilson/AC6"
-	doc-title "Cueva de los Bambús o Tunnel de los Guacharos"
+	doc-title "Cueva de los Bambús o Tunel de los Guacharos"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -159,7 +159,7 @@ layout my_layout
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
 			%\cavename={Resurgencia de los Bambus \smallbreak o de Wilson/AC6}
-			\cavename={Resurgencia de los Bambus \smallbreak o Tunnel de los Guacharos}
+			\cavename={Resurgencia de los Bambus \smallbreak o Tunel de los Guacharos}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain, Grupo Bambui de Pesquisas Espeleologicas (GBPE)}

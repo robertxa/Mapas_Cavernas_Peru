@@ -87,7 +87,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Rioja, San Martín, Perú"
+	map-comment "Rioja, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -223,7 +223,7 @@ layout my_layout-coupe
 	scale-bar 50 m
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Alzado<ss> - Rioja, San Martín, Perú"
+	map-comment "<it>Alzado<ss> - Rioja, Rioja, San Martín, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs

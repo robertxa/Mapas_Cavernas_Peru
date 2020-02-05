@@ -78,7 +78,7 @@ point 4068.66 1736.92 altitude -align bottom-right
 
 point 4124.5 1446.0 label -text "Lat : -5.73772<br>Long : -77.55922<br>Alt = 1020 m"
 
-point 4125.5 1551.5 label -text "<bf><center>Tunnel<br>de los Guacharos" -scale xl
+point 4125.5 1551.5 label -text "<bf><center>Tunel<br>de los Guacharos" -scale xl
 
 line u:sentier -clip off
   4250.5 1606.0
