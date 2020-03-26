@@ -16,7 +16,7 @@ source Data/pinos.th2
 source Data/pinos-coupe.th2
 
 # Add config file
-input ../../../../config.thc 
+input ../../../config.thc 
   
   
 # 2-LAYOUT   
@@ -90,7 +90,7 @@ layout my_layout
 	opacity 75
     
 	# Un commentaire a ajounter au titule,
-	map-comment "Bagua Grande, Utcubamba, Amazonas, Perú"
+	map-comment "Yamon, Utcubamba, Amazonas, Perú"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
