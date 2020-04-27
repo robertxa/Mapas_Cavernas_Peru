@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -134.0 -2467 1828 142.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -131.0 -2467 1828 140.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} San-Jose-Plan.gif 0 {}
 
 
