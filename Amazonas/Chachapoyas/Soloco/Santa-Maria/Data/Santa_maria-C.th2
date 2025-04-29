@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SC-SantaMaria-1 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-SantaMaria-1 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 #line arrow
 #  -2528.0 224.0
@@ -2913,7 +2913,7 @@ endscrap
 
 
 
-scrap SC-SantaMaria-2 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-SantaMaria-2 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 point -7550.850000000004 1067.5500000000002 station -name 132
 
@@ -2935,23 +2935,23 @@ line border
   smooth off
 endline
 
-line wall -reverse on -clip off -visibility on -place bottom
+line wall -reverse on
   -7866.0 1154.0
   -7382.0 1150.0 -7536.0 1116.0 -7496.0 956.0
   -7463.52 826.06 -7037.65 1016.53 -7012.0 1016.0
 endline
 
-line wall -reverse on -clip off -visibility on -place bottom
+line wall -reverse on
   -6948.0 1004.0
   -6856.63 1002.1 -6844.88 941.88 -6760.0 908.0
 endline
 
-line wall -clip off -visibility on -place bottom -subtype invisible
+line wall -subtype invisible
   -6916.0 1108.0
   -7016.0 1100.0
 endline
 
-line wall -clip off -visibility on -place bottom -subtype invisible
+line wall -subtype invisible
   -6596.0 948.0
   -6708.0 988.0
 endline
@@ -2973,7 +2973,7 @@ line wall
   smooth off
 endline
 
-line wall -reverse on -clip off -visibility on -place bottom
+line wall -reverse on
   -6672.0 880.0
   -6439.51 787.2 -6300.67 709.44 -6058.0 648.0
   -5775.95 576.59 -5469.51 611.21 -5196.0 512.0
@@ -2982,7 +2982,7 @@ line wall -reverse on -clip off -visibility on -place bottom
   smooth off
 endline
 
-line wall -reverse on -clip off -visibility on -place bottom
+line wall -reverse on
   -4960.0 -108.0
   -5063.16 -124.37 -5228.58 -128.03 -5328.0 -96.0
   -5492.22 -43.08 -5594.72 134.43 -5728.0 244.0
@@ -3075,9 +3075,9 @@ endscrap
 
 
 
-scrap SC-SantaMaria-4 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-SantaMaria-4 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
-line wall -clip off -visibility on -place bottom
+line wall
   -4116.0 -32.0
   -4116.0 -32.0 -4624.0 -50.0 -4688.0 -64.0
   -4752.0 -78.0 -5014.0 -140.0 -5042.0 -154.0
@@ -3085,20 +3085,20 @@ line wall -clip off -visibility on -place bottom
   smooth off
 endline
 
-line wall -reverse on -clip off -visibility on -place bottom
+line wall -reverse on
   -4116.0 -32.0
   -3652.09 -101.84 -3209.85 -221.57 -2748.0 -304.0
   -2732.14 -306.83 -2576.23 -403.34 -2592.0 -400.0
 endline
 
-line wall -reverse on -clip off -visibility on -place bottom
+line wall -reverse on
   -2680.0 -400.0
   -2888.0 -356.0 -3141.33 -337.22 -3348.0 -332.0
   -3556.09 -326.74 -3796.0 -324.0 -3864.0 -324.0
   altitude .
 endline
 
-line wall -clip off -visibility on -place bottom
+line wall
   -3864.0 -324.0
   -3864.0 -324.0 -3942.0 -252.0 -4022.0 -240.0
   -4102.0 -228.0 -4528.0 -200.0 -4596.0 -208.0
@@ -3177,7 +3177,7 @@ endscrap
 
 
 
-scrap SC-SantaMaria-3 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-SantaMaria-3 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 point -7663.0 1328.0 blocks
 

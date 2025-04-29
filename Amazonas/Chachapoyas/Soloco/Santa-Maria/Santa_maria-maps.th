@@ -4,10 +4,17 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
+# Map pour le plan ; ça permet de gérer la transparence, savoir qui est dessus et qui est dessous
 map MP-SantaMaria -title "Tragadero de Santa Maria"
+	SP-SantaMaria-0
+	break
 	SP-SantaMaria-1
+	break
+	SP-SantaMaria-2
 endmap
 
+########################################################
+# Maps pour les coupe développées
 map MC-SantaMaria-1 -title "Tragadero de Santa Maria"
 	SC-SantaMaria-1
 endmap
@@ -20,8 +27,10 @@ map MC-SantaMaria-2 -title "Tragadero de Santa Maria"
 	SC-SantaMaria-3
 endmap
 
+# Agencement des maps pour les coupes développées
 map MC-SantaMaria -title "Tragadero de Santa Maria"
 	MC-SantaMaria-1
 	break
+	# Pour décaler la map (on ne peut pas décaler juste un scrap, il faut qu'il soit inclus dans une map)
 	MC-SantaMaria-2 [-130 0 m] below
 endmap

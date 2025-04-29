@@ -1,12 +1,14 @@
 encoding  utf-8
 # 2025.03.12 created by TopoDroid v 6.3.20
 
+# Appel du fichier source qui appelle les données, les dessins, les maps et qui les assemble si besoin
+# (i.e. lorsqu'il y a plusieurs fichiers de données/dessins)
 source Santa_maria-tot.th
 
 # Add config file
 input config.thc 
 
-
+# Mon layout pour créer un xvi. J'y mets juste l'échelle (généralement, je suis au 1/500 ou 1/1000) et la grille
 layout xviexport
 	#cs UTM32
 	# echelle a laquelle on veut dessiner la topo
@@ -59,7 +61,7 @@ layout my_layout
 	# une echelle 1:200. Si on a utilise une autre echelle, il faudrait enlever le "#" et especifier l'echelle vraiment 
 	# employee, comme c'est le cas apres avoir dessine la topo sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1000
+	base-scale 1 1200	# Ici, j'ai mis 1200 pour augmenter un peu la casse et les traits
 
 	# Maitenant on va mettre une ligne "scale" pour specifier l'echelle
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -82,7 +84,7 @@ layout my_layout
 	#color map-fg [100 100 80]  # jaunasse
   #  color map-fg scraps
   #  color-legend off
-	color map-fg altitude
+	color map-fg altitude	# Ca, c'est pour colorer en fonction de l'altitude
 	color-legend smooth  
   
 	# la topo est transparente (on peut voir les galeries sousjacentes)
@@ -106,7 +108,7 @@ layout my_layout
 	# soit place en bas, a gauche, ou une autre combination
 	#map-header 0 100 nw
 	#map-header 5 50 e
-	map-header 25 35 se
+	map-header 23 35 se
 
 	# arrière plan de la manchette
 	map-header-bg off
@@ -118,14 +120,13 @@ layout my_layout
 	legend on
 
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 14 cm
+	legend-width 14.5 cm
 	legend-columns 2
 
 	# echelle graphique 100 m ampleur. Généralement, je mets scale-bar = scale/10
 	scale-bar 100 m
 
 	# Un commentaire a ajounter au titule, on pourrait indiquer ici
-	# la mairie ou est place la cavite dont le nom est probablement le titule de la topo.
 	map-comment "<it>Plano<ss> - Soloco, Chachapoyas, Amazonas, Perú"
  
 	# Afficher les statistiques d'explo par équipe/nom. C'est lourd
@@ -146,7 +147,8 @@ layout my_layout
 
 	layers on
                 
-	# Titre                         
+	# Titre
+	# Les /newtoks sont des variables que j'ai définies dans le config.thc                         
     code tex-map
 		% Output map title as determined by Therion 5.3 is stored in cavename. 
 		% It will be empty if there are multiple maps selected for any one projection
@@ -173,6 +175,7 @@ layout my_layout
 	
 endlayout
 # Fin de la definition du Layout "normal"
+
 
 # Layout pour la coupe développée
 layout my_layout-coupe
@@ -233,7 +236,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 14 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur occuppe par le titule, auteurs, etc. Nous pouvons indiquer
 	# les cordonnes du point de la topo ou l on veut la manchette :
@@ -391,6 +394,12 @@ endlayout
 # Exports
 
 # Select maps
+# Ca permet de choisir ce qu'on veut exporter ; En faisant comme ça, on peut sans refaire de dessin/thconfig exporter une partie de la cavité
+# il suffit d'isoler cette partie de cavité dans une mapp qu'on appelle
+# Le @SantaMaria vient du fait que le fichier de maps est appelé à l'intérieur d'une survey nommée SantaMaria
+# C'est une notion importante à comprendre parce qu'elle permet de gérer efficacement un système complexe,
+# que ce soit pour les maps, les dessins ou les données
+# Tu as des exemples sur mon github (va voir le karst de Samoëns par ex.)
 	select MP-SantaMaria@SantaMaria
 	select MC-SantaMaria@SantaMaria
 
@@ -399,10 +408,12 @@ export map -projection extended -o Data/Coupe.xvi -layout xviexport
 #export map -projection extended -o ./topos/Santana_maria_et_arriba_coupe_200eme.pdf -layout echelle200 -layout water-blue -layout coupe
 #export map -projection plan -o ./topos/Santana_maria_et_arriba_plan_200eme.pdf -layout water-blue -layout grille -layout coupe -layout topodroid
 
-export map -projection extended -o Outputs/Santana_maria_coupe.pdf -layout my_layout-coupe
-export map -projection plan -o Outputs/Santana_maria_et_arriba_plan.pdf -layout my_layout
+export map -projection extended -o Outputs/Santa_maria_coupe.pdf -layout my_layout-coupe
+export map -projection plan -o Outputs/Santa_maria_et_arriba_plan.pdf -layout my_layout
 
 export model -o Outputs/SantaMaria.lox
 
 export model -enable all -o Outputs/SantaMaria_m.kml
 export map -o Outputs/SantaMaria.kml -layout layout-kml
+
+export map -proj plan -fmt esri -o Outputs/SM
