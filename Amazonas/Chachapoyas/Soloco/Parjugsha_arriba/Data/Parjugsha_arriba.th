@@ -2,7 +2,7 @@ encoding  utf-8
 
 
 #survey Santana_maria_et_arriba -title "Parjugsha de Arriba"
-survey Santa_maria -title "Tragadero de Santa Maria"
+survey Parjugsha_arriba -title "Tragadero de Parjugsha Arriba"
 
   # input "Santana_maria_et_arriba-1p.th2"
   # input "Santana_maria_et_arriba-arribap.th2"
@@ -31,10 +31,14 @@ survey Santa_maria -title "Tragadero de Santa Maria"
       explo-team "Flo ??"
       explo-team "Thibault ??"
       explo-team "Julien ??"
+  explo-date 2005.07.04
+		explo-team "Jean-François Perret"
+		explo-team "Benoît/Le Falher"
 
     cs lat-long
-    fix 44 -6.315866 -77.732805 3015 # Altitude GoogleEarth
-    station 44 "Tragadero de Santa Maria" entrance
+    fix 44	-6.3097	-77.7346	3000 
+    #fix 44 -6.315866 -77.732805 3015 # Altitude GoogleEarth
+    station 44 "Tragadero de Parjugsha Arriba" entrance
     
     units length meters
     units compass clino degrees

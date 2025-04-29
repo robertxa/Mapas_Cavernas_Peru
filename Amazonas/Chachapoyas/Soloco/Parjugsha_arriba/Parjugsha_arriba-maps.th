@@ -5,32 +5,32 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
 # Map pour le plan ; ça permet de gérer la transparence, savoir qui est dessus et qui est dessous
-map MP-SantaMaria -title "Tragadero de Santa Maria"
-	SP-SantaMaria-0
+map MP-ParjugshaArriba -title "Tragadero de Parjugsha Arriba"
+	SP-Parjugshaarriba-0
 	break
-	SP-SantaMaria-1
+	SP-Parjugshaarriba-1
 	break
-	SP-SantaMaria-2
+	SP-Parjugshaarriba-2
 endmap
 
 ########################################################
 # Maps pour les coupe développées
-map MC-SantaMaria-1 -title "Tragadero de Santa Maria"
-	SC-SantaMaria-1
+map MC-ParjugshaArriba-1 -title "Tragadero de Parjugsha Arriba"
+	SC-Parjugshaarriba-1
 endmap
 
-map MC-SantaMaria-2 -title "Tragadero de Santa Maria"
-	SC-SantaMaria-4
+map MC-ParjugshaArriba-2 -title "Tragadero de Parjugsha Arriba"
+	SC-Parjugshaarriba-4
 	break
-	SC-SantaMaria-2
+	SC-Parjugshaarriba-2
 	break
-	SC-SantaMaria-3
+	SC-Parjugshaarriba-3
 endmap
 
 # Agencement des maps pour les coupes développées
-map MC-SantaMaria -title "Tragadero de Santa Maria"
-	MC-SantaMaria-1
+map MC-ParjugshaArriba -title "Tragadero de Parjugsha Arriba"
+	MC-ParjugshaArriba-1
 	break
 	# Pour décaler la map (on ne peut pas décaler juste un scrap, il faut qu'il soit inclus dans une map)
-	MC-SantaMaria-2 [-130 0 m] below
+	MC-ParjugshaArriba-2 [-130 0 m] below
 endmap

@@ -9,7 +9,7 @@ encoding  utf-8
 # J'ai ajouté un suffixe pour indiquer à quelle survey appartiennent les stations (vu que l'appel des dessins est hors de la survey de données)
 # J'ai ajouté un auteur
 # J'ai ajouté un Copyright Créative Commons
-scrap SP-SantaMaria-1 -projection plan -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-Parjugshaarriba-1 -projection plan -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall -reverse on -outline in
   9372.0 -4900.0
@@ -2165,7 +2165,7 @@ endscrap
 
 
 
-scrap SP-SantaMaria-2 -projection plan -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-Parjugshaarriba-2 -projection plan -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 area water
   l338-3016--2708
@@ -2473,7 +2473,7 @@ line pit
   3206.5 -1420.5
 endline
 
-#scrap SP-SantaMaria-0 -projection plan -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
+#scrap SP-Parjugshaarriba-0 -projection plan -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 
 line wall -close on -reverse on -outline in
@@ -3131,7 +3131,7 @@ endscrap
 
 
 
-scrap SP-SantaMaria-0 -projection plan -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SP-Parjugshaarriba-0 -projection plan -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall
   8590.0 -7538.0
@@ -3140,7 +3140,7 @@ line wall
   smooth off
 endline
 
-point 9246.0 -7114.0 label -text "<center><bf>Tragadero de<br>Santa Maria"
+point 9246.0 -7114.0 label -text "<center><bf>Tragadero de<br>Parjugsha Arriba"
 
 point 8692.0 -7166.0 entrance -orientation 232.1
 

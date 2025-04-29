@@ -3,7 +3,7 @@ encoding  utf-8
 
 # Appel du fichier source qui appelle les données, les dessins, les maps et qui les assemble si besoin
 # (i.e. lorsqu'il y a plusieurs fichiers de données/dessins)
-source Santa_maria-tot.th
+source Parjugsha_arriba-tot.th
 
 # Add config file
 input config.thc 
@@ -94,7 +94,7 @@ layout my_layout
 	opacity 75
 
 	# Titule
-	doc-title "Tragadero de Santa Maria (Soloco)"
+	doc-title "Tragadero de Parjugsha Arriba (Soloco)"
   doc-author "Adeline Ferrandez"
 
 	# Maitenant on va specifier la position de la manchette, dont l'interieur
@@ -160,13 +160,13 @@ layout my_layout
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de Santa Maria} 
+			\cavename={Tragadero de Parjugsha Arriba} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 		\newtoks\synth \synth={}
 		\newtoks\thdatat \thdatat={https://github.com/robertxa/Mapas_Cavernas_Peru}
-    \newtoks\expe \expe={2024}
+    \newtoks\expe \expe={2005, 2024}
 		
 	endcode   
 	
@@ -186,7 +186,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero de Santa Maria"
+	doc-title "Tragadero de Parjugsha Arriba"
     doc-author "Adeline Ferrandez"
   
 	# "base-scale" specifie l echelle auquel nous avons dessine nos croquis. Par defaut, c est 1/200.
@@ -284,7 +284,7 @@ layout my_layout-coupe
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de Santa Maria} 
+			\cavename={Tragadero de Parjugsha Arriba} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
@@ -396,24 +396,24 @@ endlayout
 # Select maps
 # Ca permet de choisir ce qu'on veut exporter ; En faisant comme ça, on peut sans refaire de dessin/thconfig exporter une partie de la cavité
 # il suffit d'isoler cette partie de cavité dans une mapp qu'on appelle
-# Le @SantaMaria vient du fait que le fichier de maps est appelé à l'intérieur d'une survey nommée SantaMaria
+# Le @ParjugshaArriba vient du fait que le fichier de maps est appelé à l'intérieur d'une survey nommée ParjugshaArriba
 # C'est une notion importante à comprendre parce qu'elle permet de gérer efficacement un système complexe,
 # que ce soit pour les maps, les dessins ou les données
 # Tu as des exemples sur mon github (va voir le karst de Samoëns par ex.)
-	select MP-SantaMaria@SantaMaria
-	select MC-SantaMaria@SantaMaria
+	select MP-ParjugshaArriba@ParjugshaArriba
+	select MC-ParjugshaArriba@ParjugshaArriba
 
 export map -projection extended -o Data/Coupe.xvi -layout xviexport
 
 #export map -projection extended -o ./topos/Santana_maria_et_arriba_coupe_200eme.pdf -layout echelle200 -layout water-blue -layout coupe
 #export map -projection plan -o ./topos/Santana_maria_et_arriba_plan_200eme.pdf -layout water-blue -layout grille -layout coupe -layout topodroid
 
-export map -projection extended -o Outputs/Santa_maria_coupe.pdf -layout my_layout-coupe
-export map -projection plan -o Outputs/Santa_maria_et_arriba_plan.pdf -layout my_layout
+export map -projection extended -o Outputs/Parjugsha_arriba_coupe.pdf -layout my_layout-coupe
+export map -projection plan -o Outputs/Parjugsha_arriba_et_arriba_plan.pdf -layout my_layout
 
-export model -o Outputs/SantaMaria.lox
+export model -o Outputs/ParjugshaArriba.lox
 
-export model -enable all -o Outputs/SantaMaria_m.kml
-export map -o Outputs/SantaMaria.kml -layout layout-kml
+export model -enable all -o Outputs/ParjugshaArriba_m.kml
+export map -o Outputs/ParjugshaArriba.kml -layout layout-kml
 
-export map -proj plan -fmt esri -o Outputs/SM
+#export map -proj plan -fmt esri -o Outputs/PA

@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SC-SantaMaria-1 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-Parjugshaarriba-1 -projection extended -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 #line arrow
 #  -2528.0 224.0
@@ -409,7 +409,7 @@ point -10585.0 9117.0 label -text [<center>tube de<br>l'Escargot] -align top-rig
 # endline
 
 
-point -11714.0 9792.0 label -text "<center><bf>Tragadero de<br>Santa Maria" -scale xl
+point -11714.0 9792.0 label -text "<center><bf>Tragadero de<br>Parjugsha Arriba" -scale xl
 
 point -10048.0 8612.0 label -text [<center>puits de<br>la Vache] -align top-right
 
@@ -2913,7 +2913,7 @@ endscrap
 
 
 
-scrap SC-SantaMaria-2 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-Parjugshaarriba-2 -projection extended -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 point -7550.850000000004 1067.5500000000002 station -name 132
 
@@ -3075,7 +3075,7 @@ endscrap
 
 
 
-scrap SC-SantaMaria-4 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-Parjugshaarriba-4 -projection extended -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 line wall
   -4116.0 -32.0
@@ -3177,7 +3177,7 @@ endscrap
 
 
 
-scrap SC-SantaMaria-3 -projection extended -station-names "" "@Santa_maria" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
+scrap SC-Parjugshaarriba-3 -projection extended -station-names "" "@Parjugsha_arriba" -author 2025 "Adeline Ferrandez" -copyright 2025 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0.0 0.0 39.3701 0.0 0 0 1 0 m]
 
 point -7663.0 1328.0 blocks
 
