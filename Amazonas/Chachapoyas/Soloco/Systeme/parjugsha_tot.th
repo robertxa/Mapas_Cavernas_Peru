@@ -8,6 +8,7 @@ encoding utf-8
 #input ../Chaquil_resurgencia/chaquil.th
 #input ../Chaquil_Tragadero/chaquil.th
 
+input ../Santa-Maria/Santana_maria_et_arriba-tot.th
 input ../Parjugsha_alto/alto.th
 input ../Parjugsha_arriba/arriba.th
 input ../Parjugsha_chico/pchico.th

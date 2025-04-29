@@ -1,0 +1,115 @@
+encoding  utf-8
+# 2025.03.12 created by TopoDroid v 6.3.20
+
+source "./Santana_maria_et_arriba.th"
+
+ #lookup altitude -title "Echelle des profondeurs"
+  # 0 [7 7 0 0] "0 - Surface altitude 2990m"
+  # -55
+  # -110 [35 15 0 0]
+  # -166
+  # -221 [85 20 0 0] "-221 - Terminus"
+  # endlookup
+   
+layout grille
+  #debug station-names
+  #debug scrap-names
+  #symbol-hide line survey
+   #scale 1 200
+   #color map-fg 95
+   color map-bg 100
+  #color map-fg altitude
+  #color map-fg scrap
+  symbol-colour line contour  [96 50 17]
+  symbol-colour line floor-step  [90 10 10]
+  symbol-colour line water-flow [22 22 95]
+endlayout
+
+layout water-blue
+  language fr
+  legend on
+  #scale 1 200  
+  
+  code metapost
+  def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.6, 1.0);
+  enddef;
+  
+  def a_ice (expr p) =
+    T:=identity;
+    thfill p withcolor (0.7, 0.7, 0.6);
+  enddef;
+  
+  def a_snow (expr p) =
+     T:=identity;
+     thfill p withcolor (0.8, 0.8, 0.6);
+  enddef;
+  
+  
+  def a_bedrock (expr p) =
+    T:=identity;
+    thfill p withcolor (0.5, 0.2, 0.0);
+ #thfill p withcolor (0.90, 0.90, 0.90);
+  enddef;
+  
+  def a_pebbles (expr p) =
+    T:=identity;
+    thfill p withcolor (0.6, 0.3, 0.0);
+  enddef;
+  
+  def a_blocks (expr p) =
+    T:=identity;
+    thfill p withcolor (0.5, 0.3, 0.1);
+  enddef;
+  endcode
+  
+ color map-bg 80
+  
+ #def p_entrance_UIS (expr P,R,S,A)=
+ #U:=(.2u,.5u);
+ #T:=identity aligned A rotated R scaled S shifted P;
+ #thfill (-.2u,-.5u)--(0,.5u)--(.2u,-.5u)--cycle;
+ #enddef;
+ #initsymbol("p_entrance_UIS");
+ #debug station-names
+ #debug scrap-names
+   symbol-hide line survey
+   symbol-hide point station
+
+endlayout
+
+layout coupe
+   #scale 1 200
+   color map-fg [100 100 80]
+   color map-bg 100
+  #color map-fg altitude
+  #color map-fg scrap
+   map-header 100 100 ne
+   symbol-colour line water-flow [22 22 95]
+  #map-header -10 105 ne
+  
+endlayout
+
+layout echelle200
+  copy water-blue
+  #scale 1 200
+  map-comment "GSBM <br>Expédition Pérou 2024<br>X:403586-Y:4669408-Z:3276m(UTM44)" 
+  #map-header 70 10 ne   
+  symbol-assign line overhang AUT
+  #color map-fg scrap
+endlayout
+
+
+layout topodroid
+  legend on
+  legend-width 40 cm
+  symbol-hide group centerline
+  symbol-show point station
+  debug station-names
+  
+endlayout
+
+export map -projection extended -o ./topos/Santana_maria_et_arriba_coupe_200eme.pdf -layout echelle200 -layout water-blue -layout coupe
+
+ export map -projection plan -o ./topos/Santana_maria_et_arriba_plan_200eme.pdf -layout water-blue -layout grille -layout coupe -layout topodroid

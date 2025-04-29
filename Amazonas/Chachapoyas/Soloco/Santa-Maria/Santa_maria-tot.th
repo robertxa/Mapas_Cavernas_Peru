@@ -1,0 +1,21 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+#survey Santana_maria_et_arriba -title "Parjugsha de Arriba"
+survey SantaMaria -title "Tragadero de Santa Maria"
+	## Appel des données topos
+	##	Si tu veux ajouter des données topos, le faire dans un autre fichier/dossier, et ajouter des equate
+	input Data/Santa_maria.th
+	
+	## Appel des dessins
+	##    Je sors les dessins des données topos car si tu mélanges plusieurs fichiers topos 
+	##    et plusieurs dessins, ça devient vite le bazar à gérer
+	input Data/Santa_maria-P.th2
+   	input Data/Santa_maria-C.th2
+	
+	## Appel des maps
+	input Santa_maria-maps.th
+endsurvey

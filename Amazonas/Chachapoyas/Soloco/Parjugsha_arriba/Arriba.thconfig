@@ -167,6 +167,7 @@ layout my_layout
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
+	\newtoks\datat \thdatat={https://github.com/robertxa/Mapas_Cavernas_Peru}
 	\newtoks\expe \expe={2005}
 	endcode    
 
@@ -299,6 +300,7 @@ layout my_layout-coupe
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
+	\newtoks\datat \thdatat={https://github.com/robertxa/Mapas_Cavernas_Peru}
 	\newtoks\expe \expe={2005}
 	endcode  
   

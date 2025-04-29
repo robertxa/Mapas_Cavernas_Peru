@@ -1,0 +1,408 @@
+encoding  utf-8
+# 2025.03.12 created by TopoDroid v 6.3.20
+
+source Santa_maria-tot.th
+
+# Add config file
+input config.thc 
+
+
+layout xviexport
+	#cs UTM32
+	# echelle a laquelle on veut dessiner la topo
+	#scale 1 500 # pour le plan
+	scale 1 100 # pour la coupe
+	# taille de la grille
+	grid-size 10 10 10 m
+	# mettre la grille en arrière plan
+	grid bottom
+endlayout
+# fin de la définition du layout "xviexport" 
+
+
+ #lookup altitude -title "Echelle des profondeurs"
+  # 0 [7 7 0 0] "0 - Surface altitude 2990m"
+  # -55
+  # -110 [35 15 0 0]
+  # -166
+  # -221 [85 20 0 0] "-221 - Terminus"
+  # endlookup
+   
+layout grille
+  #debug station-names
+  #debug scrap-names
+  #symbol-hide line survey
+   #scale 1 200
+   #color map-fg 95
+   color map-bg 100
+  #color map-fg altitude
+  #color map-fg scrap
+  symbol-colour line contour  [96 50 17]
+  symbol-colour line floor-step  [90 10 10]
+  symbol-colour line water-flow [22 22 95]
+endlayout
+
+
+#debut de la definition du layout "my_layout"
+layout my_layout
+
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig		# Pour modifier les symboles
+	copy headerl 			# Pour modifier le header/cartouche
+	#copy langue-fr			# Pour avoir la langue française dans le header et les légendes
+  copy langue-es			# Pour avoir la langue espagnole dans le header et les légendes
+
+  # Set the projection for the plan view
+	cs UTM18
+  
+	# La ligne base-scale specifie l'echelle auquel nous avons dessine nos croquis. Par defaut, therion pense que c'est
+	# une echelle 1:200. Si on a utilise une autre echelle, il faudrait enlever le "#" et especifier l'echelle vraiment 
+	# employee, comme c'est le cas apres avoir dessine la topo sur un cheminement exporte avec le layout "xviexport"
+	# (voir en bas)
+	base-scale 1 1000
+
+	# Maitenant on va mettre une ligne "scale" pour specifier l'echelle
+	# pour imprimer la topo. La combination entre scale et base-scale
+	# controlle le gros des lignes, rotation, etc, convenable
+	# pour faire l'ampliation-reduction entre dessin et le resultat de l'imprimante
+	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
+	# ou similaire, sinon, l'echelle sera change pendant l'impression! 
+	scale 1 1000
+
+	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo :
+	#grid bottom
+	# Une ligne pour specifier que la grille est 1000x1000x1000 metres
+	# (Trois dimensions, oui, ça sert pour la coupe aussi)
+	#grid-size 1000 1000 1000 m  
+	grid off
+ 
+	# une couleur de fond, 85% blanc = 15% noir
+	#color map-bg 90
+	#color map-bg 85
+	#color map-fg [100 100 80]  # jaunasse
+  #  color map-fg scraps
+  #  color-legend off
+	color map-fg altitude
+	color-legend smooth  
+  
+	# la topo est transparente (on peut voir les galeries sousjacentes)
+	# C'est on par defaut, donc, pas vraiment besoin de specifier
+	transparency on
+	# ça marche seulement si transparency est "on" 90% blanc= 10% noir
+	opacity 75
+
+	# Titule
+	doc-title "Tragadero de Santa Maria (Soloco)"
+  doc-author "Adeline Ferrandez"
+
+	# Maitenant on va specifier la position de la manchette, dont l'interieur
+	# sera ocuppe par le titule, auteurs, etc. Nous pouvons indiquer
+	# les cordonnes du point de la topo ou l'on veut la manchette:
+	# 0 0, c'est en bas, a gauche
+	# 100 100, c'est en haut, a droite
+	# La manchette a des "points cardinaux" autour: n, s, ne, sw, etc.
+	# Il faut specifier un de ces points comme ce que sera place sur les cordonnees.
+	# Alors nous pouvons specifier que le sud-ouest de la manchette
+	# soit place en bas, a gauche, ou une autre combination
+	#map-header 0 100 nw
+	#map-header 5 50 e
+	map-header 25 35 se
+
+	# arrière plan de la manchette
+	map-header-bg off
+  
+	# Nous voulons une legende pour expliquer les symboles. "on" imprimera
+	# seulement la legende des symboles dessines sur la topo, si l'on veut
+	# pour tous les symboles, utilises ou pas, il faut indiquer "all".
+	# "legend off" = pas de legende
+	legend on
+
+	# Par defaut, la legende est de 14 cm de largeur
+	legend-width 14 cm
+	legend-columns 2
+
+	# echelle graphique 100 m ampleur. Généralement, je mets scale-bar = scale/10
+	scale-bar 100 m
+
+	# Un commentaire a ajounter au titule, on pourrait indiquer ici
+	# la mairie ou est place la cavite dont le nom est probablement le titule de la topo.
+	map-comment "<it>Plano<ss> - Soloco, Chachapoyas, Amazonas, Perú"
+ 
+	# Afficher les statistiques d'explo par équipe/nom. C'est lourd
+	# si la cavité est importante et qu'il y a beaucoup d'explorateurs
+	statistics explo-length off
+	# Afficher le developpement et la profondeur de la cavite
+	statistics topo-length off
+	# Afficher un copyright
+	statistics copyright all
+  
+	# Dessin ou pas du cheminement topo
+	#debug station-names
+	#debug scrap-names
+  #debug on
+  symbol-hide line survey
+	symbol-hide point rope
+	symbol-hide point station-name
+
+	layers on
+                
+	# Titre                         
+    code tex-map
+		% Output map title as determined by Therion 5.3 is stored in cavename. 
+		% It will be empty if there are multiple maps selected for any one projection
+		% AND there are multiple source surveys identified in the thconfig file 
+		% ie Therion can not infer a unique title from the input data given.
+		% This code allows you to define an output map title {cavename} if it happens to be empty
+   
+		\edef\temp{\the\cavename}        % cavename from Therion   
+		\edef\nostring{}                 % empty string 
+		\ifx\temp\nostring             % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={Tragadero de Santa Maria} 
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+		\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
+		\newtoks\synth \synth={}
+		\newtoks\thdatat \thdatat={https://github.com/robertxa/Mapas_Cavernas_Peru}
+    \newtoks\expe \expe={2024}
+		
+	endcode   
+	
+	# Add logos to the map
+	#map-image 12 65	nw	../../../Logos/vulcain.jpg
+	
+endlayout
+# Fin de la definition du Layout "normal"
+
+# Layout pour la coupe développée
+layout my_layout-coupe
+  
+  	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy header_coupe
+	copy langue-es
+	
+	# Titre  
+	doc-title "Tragadero de Santa Maria"
+    doc-author "Adeline Ferrandez"
+  
+	# "base-scale" specifie l echelle auquel nous avons dessine nos croquis. Par defaut, c est 1/200.
+	# Si on a utilise une autre echelle, il faut enlever le "#" et specifier l echelle vraiment
+	# employee, c est le cas apres avoir dessine la topo sur un cheminement exporte avec le layout "xviexport"
+	# (voir en bas)
+	base-scale 1 1200
+	# "scale" : specification de l echelle, pour imprimer la topo. La combination entre scale et base-scale
+	# controlle le gros des lignes, rotation, etc, convenable pour faire l amplificaation-reduction entre dessin et
+	# le resultat de l imprimante. C est tres important s assurer que la configuration de
+	# l imprimante ne specifie pas l option "Fit in page" ou similaire, sinon, l echelle sera change pendant
+	# l impression
+	scale 1 1000
+	# echelle graphique 100 m ampleur
+	scale-bar 100 m
+  
+	# Une couleur de fond, 85% blanc = 15% noir
+	#color map-bg 85
+  
+	# Une couleur de topo (RVB)
+	#color map-fg [100 100 80]
+  #  color map-fg scraps
+  #  color-legend off
+	color map-fg altitude
+	color-legend smooth  
+  
+	# la topo est transparente (on peut voir les galeries sousjacentes)
+	# Par defaut, donc, pas vraiment besoin de specifier
+	transparency on
+  
+	# Pourcentage de transparence, marche seulement si transparency est "on"
+	opacity 75
+  
+	# Un commentaire a ajounter au titule,
+	map-comment "<it>Alzado<ss>, Soloco, Chachapoyas, Amazonas, Perú"
+  
+	# Afficher les statistiques d explo par équipe/nom. C est lourd
+	# si la cavite est importante et qu il y a beaucoup d explorateurs
+	statistics explo-length off
+	# Afficher developpement et profondeur de la cavite
+	statistics topo-length off
+  
+	# Nous voulons une legende pour expliquer les symboles. "on" imprimera
+	# seulement la legende des symboles dessines sur la topo, si l on veut
+	# pour tous les symboles, utilises ou pas, il faut indiquer "all".
+	# "legend off" = pas de legende
+	legend off
+  
+	# Par defaut, la legende est de 14 cm de largeur
+	legend-width 14 cm
+  
+	# Specification la position de la manchette : interieur occuppe par le titule, auteurs, etc. Nous pouvons indiquer
+	# les cordonnes du point de la topo ou l on veut la manchette :
+	# 0 0, c est en bas, a gauche
+	# 100 100, c est en haut, a droite
+	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
+	# Il faut specifier un de ces points 
+	#map-header 0 60 nw
+	#map-header 60 100 nw
+    map-header 0 80 ne
+
+	# arrière plan de la manchette
+	map-header-bg off
+  
+	layers on
+  
+	# Options pour afficher le squelette topo,
+	# les points et le nom des stations topos
+	symbol-hide line survey
+	#debug station-names
+  
+	# Specifier qu il faut imprimer une grille au dessous de la topo  
+	grid bottom
+	# Specifier le pas de la grille, ici 100x100x100 m (Trois dimensions, oui, ça sert pour la coupe aussi) 
+	grid-size 100 100 50 m
+	# Ajouter les coordonnées de la grille
+	grid-coords border
+	# Si nous ne voulons pas de grille :
+	#grid off
+  
+	# Afficher un copyright
+	statistics copyright all
+
+	######## Code Metapost pour modifier l aspect des symboles ####### 
+ 
+	# Titre          
+	code tex-map
+		% Output map title as determined by Therion 5.3 is stored in cavename. 
+		% It will be empty if there are multiple maps selected for any one projection
+		% AND there are multiple source surveys identified in the thconfig file 
+		% ie Therion can not infer a unique title from the input data given.
+		% This code allows you to define an output map title {cavename} if it happens to be empty
+   
+		\edef\temp{\the\cavename}        % cavename from Therion   
+		\edef\nostring{}                 % empty string 
+		\ifx\temp\nostring             % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={Tragadero de Santa Maria} 
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+		\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
+		\newtoks\synth \synth={}
+		\newtoks\datat \thdatat={https://github.com/robertxa/Mapas_Cavernas_Peru}
+    \newtoks\expe \expe={2024}
+		
+	endcode  
+  
+endlayout
+
+
+# layout water-blue
+#   language fr
+#   legend on
+#   #scale 1 200  
+  
+#   code metapost
+#   def a_water (expr p) =
+#     T:=identity;
+#     thfill p withcolor (0.0, 0.6, 1.0);
+#   enddef;
+  
+#   def a_ice (expr p) =
+#     T:=identity;
+#     thfill p withcolor (0.7, 0.7, 0.6);
+#   enddef;
+  
+#   def a_snow (expr p) =
+#      T:=identity;
+#      thfill p withcolor (0.8, 0.8, 0.6);
+#   enddef;
+  
+  
+#   def a_bedrock (expr p) =
+#     T:=identity;
+#     thfill p withcolor (0.5, 0.2, 0.0);
+#  #thfill p withcolor (0.90, 0.90, 0.90);
+#   enddef;
+  
+#   def a_pebbles (expr p) =
+#     T:=identity;
+#     thfill p withcolor (0.6, 0.3, 0.0);
+#   enddef;
+  
+#   def a_blocks (expr p) =
+#     T:=identity;
+#     thfill p withcolor (0.5, 0.3, 0.1);
+#   enddef;
+#   endcode
+  
+#  color map-bg 80
+  
+#  #def p_entrance_UIS (expr P,R,S,A)=
+#  #U:=(.2u,.5u);
+#  #T:=identity aligned A rotated R scaled S shifted P;
+#  #thfill (-.2u,-.5u)--(0,.5u)--(.2u,-.5u)--cycle;
+#  #enddef;
+#  #initsymbol("p_entrance_UIS");
+#  #debug station-names
+#  #debug scrap-names
+#    symbol-hide line survey
+#    symbol-hide point station
+# endlayout
+
+#layout coupe
+#   #scale 1 200
+#   color map-fg [100 100 80]
+#   color map-bg 100
+#  #color map-fg altitude
+#  #color map-fg scrap
+#   map-header 100 100 ne
+#   symbol-colour line water-flow [22 22 95]
+#  #map-header -10 105 ne 
+#endlayout
+
+#layout echelle200
+#  copy water-blue
+#  #scale 1 200
+#  map-comment "GSBM <br>Expédition Pérou 2024<br>X:403586-Y:4669408-Z:3276m(UTM44)" 
+#  #map-header 70 10 ne   
+#  symbol-assign line overhang AUT
+#  #color map-fg scrap
+#endlayout
+
+
+layout topodroid
+  legend on
+  legend-width 40 cm
+  symbol-hide group centerline
+  symbol-show point station
+  debug station-names
+  
+endlayout
+
+layout layout-kml
+  # Définition du système de projection du plan
+  cs UTM18
+  # Couleur de la topographie
+  # Rouge-Orange = 255,69,0 -->
+  # Orange = 255,165,0 -->
+  # Orange Sombre = 255,140,0 -->
+  # Bleu --> 0, 0 255
+  color map-fg [0 0 100]
+endlayout
+
+# Exports
+
+# Select maps
+	select MP-SantaMaria@SantaMaria
+	select MC-SantaMaria@SantaMaria
+
+export map -projection extended -o Data/Coupe.xvi -layout xviexport
+
+#export map -projection extended -o ./topos/Santana_maria_et_arriba_coupe_200eme.pdf -layout echelle200 -layout water-blue -layout coupe
+#export map -projection plan -o ./topos/Santana_maria_et_arriba_plan_200eme.pdf -layout water-blue -layout grille -layout coupe -layout topodroid
+
+export map -projection extended -o Outputs/Santana_maria_coupe.pdf -layout my_layout-coupe
+export map -projection plan -o Outputs/Santana_maria_et_arriba_plan.pdf -layout my_layout
+
+export model -o Outputs/SantaMaria.lox
+
+export model -enable all -o Outputs/SantaMaria_m.kml
+export map -o Outputs/SantaMaria.kml -layout layout-kml

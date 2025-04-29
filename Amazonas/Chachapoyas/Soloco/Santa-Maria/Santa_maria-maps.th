@@ -1,0 +1,27 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-SantaMaria -title "Tragadero de Santa Maria"
+	SP-SantaMaria-1
+endmap
+
+map MC-SantaMaria-1 -title "Tragadero de Santa Maria"
+	SC-SantaMaria-1
+endmap
+
+map MC-SantaMaria-2 -title "Tragadero de Santa Maria"
+	SC-SantaMaria-4
+	break
+	SC-SantaMaria-2
+	break
+	SC-SantaMaria-3
+endmap
+
+map MC-SantaMaria -title "Tragadero de Santa Maria"
+	MC-SantaMaria-1
+	break
+	MC-SantaMaria-2 [-130 0 m] below
+endmap
