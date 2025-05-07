@@ -1,0 +1,49 @@
+encoding  utf-8
+
+survey Campamento_SantaMaria -title "Cueva del Campamento de SantaMaria"
+
+  centerline
+    date 2024.09.24 
+      team "Jean Loup/Guyot"
+      team "Jean-Yves Bigot"
+      team "C. K."
+    explo-date 2024.09.24
+      explo-team "Jean Loup/Guyot"
+      explo-team "Jean-Yves Bigot"
+      explo-team "C. K."
+
+    cs UTM18S
+    fix 1	197666 9301016 3060
+    station 1 "Cueva del Campamento de Santa Maria" entrance
+    
+    units length meters
+    units compass clino degrees
+    
+    data normal from to length compass clino left right up down
+    #Param Deca Degd Clino Degd -4.0133 Dir,Dir,Dir Dep Std 24/09/2024 A ;
+    #Topo du 24/09/2024 : Grotte du camp � Sta Maria (JYB, JL, CK);
+
+1          1b                         0.00    0.00    0.00   3.50   0.50   3.00   0.70
+1          2                         4.04  143.10    3.80   0.00   2.70   2.80   0.60
+2          3                         6.27  225.40  -21.40   1.60   1.50   1.10   0.50
+3          4                         2.57  277.20  -31.90   1.10   0.00   0.00   1.10
+4          5                         2.35  114.00  -55.90   0.00   0.60   1.50   0.40
+5          6                         2.84  233.50  -27.00   1.50   0.60   3.00   0.00
+6          7                         3.34   87.10  -12.50   0.80   0.90   0.40   0.00
+6          8                         2.87  293.80   67.00   0.60   0.00   0.80   1.20
+8          9                         2.55  243.50   20.10   0.50   0.00   0.20   0.15
+9          10                        3.57  187.40    4.70   0.00   1.50   2.80   0.80
+10         11                        2.03  246.10   -0.10   0.70   1.30   2.00   0.40
+1          12                        7.55   43.90   -5.00   6.00   1.00   0.00   1.60
+12         13                       10.59   19.50  -13.00   6.00   1.50   0.00   1.60
+13         14                       25.92   23.20  -43.70  10.00   6.00   7.00   1.60
+14         15                        9.62  340.00  -21.50   1.50   6.00   9.00   1.50
+15         16                       12.32    2.70  -15.30   0.00   7.00  13.00   1.20
+16         17                       10.78   84.30  -18.50   1.30   0.00   0.80   0.70
+15         18                        8.60  103.60   -5.50  10.00   2.50   0.00   1.60
+18         19                        9.77   15.70  -39.30   0.30   0.50   0.60   0.00
+18         20                        7.12  146.60   18.20   3.00   0.00   5.00   0.20
+      endcenterline
+
+endsurvey
+

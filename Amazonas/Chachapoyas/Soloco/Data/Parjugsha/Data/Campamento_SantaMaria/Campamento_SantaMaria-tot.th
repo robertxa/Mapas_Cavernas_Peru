@@ -1,0 +1,20 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Campamento_SantaMaria -title "Cueva del Campamento_SantaMaria"
+	## Appel des données topos
+	##	Si tu veux ajouter des données topos, le faire dans un autre fichier/dossier, et ajouter des equate
+	input Data/Campamento_SantaMaria.th
+	
+	## Appel des dessins
+	##    Je sors les dessins des données topos car si tu mélanges plusieurs fichiers topos 
+	##    et plusieurs dessins, ça devient vite le bazar à gérer
+	#input Data/Campamento_SantaMaria-P.th2
+   	#input Data/Campamento_SantaMaria-C.th2
+	
+	## Appel des maps
+	#input Campamento_SantaMaria-maps.th
+endsurvey

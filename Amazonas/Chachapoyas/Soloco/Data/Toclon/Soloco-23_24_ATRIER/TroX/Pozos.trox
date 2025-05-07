@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VisualTopo>
+	<Version>5.23</Version>
+	<Verification>1</Verification>
+	<Lignes>12</Lignes>
+	<Cavite>
+		<Nom>Tragadero de los Pozos (Toclon 23)</Nom>
+		<Club>ECA GSBM</Club>
+		<Projection>UTM18S</Projection>
+		<Entrees>
+			<Entree X="191.731000" Y="9303.339000" Z="3060.000000" Station="1" Ref="1" Ligne="0"/>
+		</Entrees>
+		<Toporobot>0</Toporobot>
+		<Couleur>0,0,0</Couleur>
+	</Cavite>
+	<Mesures>
+		<Param InstrDist="Deca" UnitDir="Degd" InstrPte="Clino" UnitPte="Degd" Declin="-3.5015" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Arr" Coul="Std" Date="19/11/2023" DeclinAuto="A">
+			<Commentaire>Topo du 19-11-2023 Tragadero de los Pozos (Toclon 23) Jean Loup Guyot et Jean-Yves Bigot.</Commentaire>
+			<Visee Dep="1" Arr="1" Long="0.00" Az="0.00" Pte="0.00" G="0.50" D="2.50" H="0.00" B="4.00" Ref="1" Suiv="2"/>
+			<Visee Dep="1" Arr="2" Long="6.63" Az="102.20" Pte="-48.60" G="1.20" D="2.00" H="3.00" B="1.60" Ref="1" Suiv="3"/>
+			<Visee Dep="2" Arr="3" Long="3.92" Az="144.60" Pte="-33.90" G="1.00" D="3.00" H="0.50" B="7.00" Ref="2" Suiv="4"/>
+			<Visee Dep="3" Arr="4" Long="4.87" Az="107.60" Pte="-70.10" G="0.80" D="4.50" H="3.00" B="10.00" Ref="3" Suiv="5"/>
+			<Visee Dep="4" Arr="5" Long="11.34" Az="152.50" Pte="-65.00" G="1.60" D="0.00" H="4.00" B="1.50" Ref="4" Suiv="6"/>
+			<Visee Dep="5" Arr="6" Long="2.01" Az="56.20" Pte="5.90" G="0.00" D="2.00" H="3.00" B="1.60" Ref="5" Suiv="7"/>
+			<Visee Dep="6" Arr="7" Long="7.08" Az="177.10" Pte="-14.70" G="0.60" D="0.00" H="2.00" B="0.80" Ref="6" Suiv="8"/>
+			<Visee Dep="7" Arr="8" Long="2.82" Az="155.50" Pte="-13.50" G="0.40" D="0.00" H="0.20" B="0.40" Ref="7" Suiv="9"/>
+			<Visee Dep="8" Arr="9" Long="3.76" Az="168.00" Pte="-11.40" G="0.40" D="0.00" H="0.30" B="0.50" Ref="8" Suiv="10"/>
+			<Visee Dep="9" Arr="10" Long="2.12" Az="150.80" Pte="-1.20" G="0.60" D="0.60" H="0.00" B="0.80" Ref="9" Suiv="11"/>
+			<Visee Dep="10" Arr="11" Long="2.86" Az="247.80" Pte="-26.10" G="0.15" D="0.15" H="0.20" B="0.00" Ref="10"/>
+		</Param>
+	</Mesures>
+	<Configuration>
+		<Application Position="0,1,-1,-1,-1,-1,1795,123,3299,946">
+			<Toolbar>1</Toolbar>
+			<Statusbar>1</Statusbar>
+			<Commentaires>1</Commentaires>
+		</Application>
+		<Calcul Position="2,3,-1,-1,-8,-31,0,0,901,284">
+			<Entree0>1</Entree0>
+			<Bissectrices>1</Bissectrices>
+			<Perpendiculaires>0</Perpendiculaires>
+			<Hauteurs>1</Hauteurs>
+			<Boucles>0</Boucles>
+			<Controles>1</Controles>
+			<Nord>2</Nord>
+			<Commentaires>0</Commentaires>
+			<Calcul>1</Calcul>
+			<Active>1</Active>
+		</Calcul>
+		<ExportDxf>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="1">1</Cheminement>
+			<Points Couleur="6">1</Points>
+			<Stations Couleur="7">1</Stations>
+			<Largeurs Couleur="4">1</Largeurs>
+			<Hauteurs Couleur="4">0</Hauteurs>
+			<ContoursLargeurs Couleur="3">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="3">0</ContoursHauteurs>
+			<Profondeurs Couleur="2">0</Profondeurs>
+			<Echelle Couleur="7">1</Echelle>
+			<Quadrillage Couleur="9">0</Quadrillage>
+			<Radiales Couleur="9">1</Radiales>
+			<Contours3D Couleur="3">0</Contours3D>
+		</ExportDxf>
+		<ExportSvg>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="165,42,0">1</Cheminement>
+			<Points Couleur="127,127,127">1</Points>
+			<Stations Couleur="0,0,255">1</Stations>
+			<Largeurs Couleur="0,147,0">1</Largeurs>
+			<Hauteurs Couleur="0,147,0">0</Hauteurs>
+			<ContoursLargeurs Couleur="0,0,139">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="0,0,139">0</ContoursHauteurs>
+			<Profondeurs Couleur="255,0,0">1</Profondeurs>
+			<Echelle Couleur="0,0,0">1</Echelle>
+			<Quadrillage Couleur="127,127,127">0</Quadrillage>
+			<Radiales Couleur="60,179,113">1</Radiales>
+			<Remplissage Couleur="255,173,91">0</Remplissage>
+			<Fond Couleur="192,192,192">0</Fond>
+			<Contours3D Couleur="0,0,139">0</Contours3D>
+		</ExportSvg>
+		<ExportKml>
+			<TypeCouleur>0</TypeCouleur>
+			<TypeKml>1</TypeKml>
+			<Altitudes>0</Altitudes>
+		</ExportKml>
+		<ExportShp>
+			<Coordonnees>0</Coordonnees>
+			<TypeFichier>0</TypeFichier>
+			<Forme3D>0</Forme3D>
+		</ExportShp>
+		<ExportGcp>
+			<TypeCouleur>0</TypeCouleur>
+		</ExportGcp>
+		<Colonnes>
+			<Départ>87</Départ>
+			<Arrivée>87</Arrivée>
+			<DepTopofil>71</DepTopofil>
+			<ArrTopofil>71</ArrTopofil>
+			<Longueur>71</Longueur>
+			<Azimut>71</Azimut>
+			<Pente>71</Pente>
+			<Gauche>71</Gauche>
+			<Droite>71</Droite>
+			<Haut>71</Haut>
+			<Bas>71</Bas>
+			<Inverse>15</Inverse>
+			<Exclusion>23</Exclusion>
+			<Detail>15</Detail>
+			<Section>15</Section>
+			<ComPhot>31</ComPhot>
+			<Separ1>2</Separ1>
+			<X>71</X>
+			<Y>71</Y>
+			<Z>71</Z>
+			<LDev>71</LDev>
+			<Dist>71</Dist>
+			<Separ2>2</Separ2>
+			<Commentaire>0</Commentaire>
+			<Photo>0</Photo>
+		</Colonnes>
+		<Plan Position="0,1,-1,-1,-8,-31,26,26,1660,636">
+			<Cheminement>1</Cheminement>
+			<Points>1</Points>
+			<Stations>1</Stations>
+			<Largeurs>1</Largeurs>
+			<ContoursLargeurs>1</ContoursLargeurs>
+			<Hauteurs>0</Hauteurs>
+			<ContoursHauteurs>0</ContoursHauteurs>
+			<Cube>0</Cube>
+			<Contours3D>0</Contours3D>
+			<Epaisseurs>0</Epaisseurs>
+			<Echelle>1</Echelle>
+			<Zoom>1</Zoom>
+			<Maillage>0</Maillage>
+			<Courbes>0</Courbes>
+			<Profondeurs>1</Profondeurs>
+			<Marqueurs>1</Marqueurs>
+			<Radiales>0</Radiales>
+			<Remplissage>0</Remplissage>
+			<Exclues>0</Exclues>
+			<Entrees>0</Entrees>
+			<Dilatation>1.00</Dilatation>
+			<Equidistance>25</Equidistance>
+			<Quadrillage>0</Quadrillage>
+			<TypeCouleur>3</TypeCouleur>
+			<DateMin>0</DateMin>
+			<DateMax>0</DateMax>
+			<Impression>
+				<Type>0</Type>
+				<Pages>1</Pages>
+				<Echelle>0</Echelle>
+			</Impression>
+			<Active>0</Active>
+		</Plan>
+		<Projection Position="0,1,-1,-1,-8,-31,52,52,1686,662">
+			<Cheminement>1</Cheminement>
+			<Points>1</Points>
+			<Stations>1</Stations>
+			<Largeurs>1</Largeurs>
+			<ContoursLargeurs>1</ContoursLargeurs>
+			<Hauteurs>1</Hauteurs>
+			<ContoursHauteurs>1</ContoursHauteurs>
+			<Cube>1</Cube>
+			<Contours3D>0</Contours3D>
+			<Epaisseurs>0</Epaisseurs>
+			<Echelle>1</Echelle>
+			<Zoom>1</Zoom>
+			<Maillage>0</Maillage>
+			<Courbes>0</Courbes>
+			<Profondeurs>1</Profondeurs>
+			<Marqueurs>1</Marqueurs>
+			<Radiales>0</Radiales>
+			<Remplissage>0</Remplissage>
+			<Exclues>0</Exclues>
+			<Entrees>0</Entrees>
+			<Dilatation>1.00</Dilatation>
+			<Equidistance>25</Equidistance>
+			<Theta>90</Theta>
+			<Phi>0</Phi>
+			<TypeCouleur>3</TypeCouleur>
+			<Forme>0</Forme>
+			<DateMin>0</DateMin>
+			<DateMax>0</DateMax>
+			<Impression>
+				<Type>0</Type>
+				<Pages>1</Pages>
+				<Echelle>0</Echelle>
+			</Impression>
+			<Active>0</Active>
+		</Projection>
+	</Configuration>
+</VisualTopo>

@@ -1,0 +1,25 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+# Map pour le plan ; ça permet de gérer la transparence, savoir qui est dessus et qui est dessous
+map MP-Santa_Maria -title "Tragadero de Santa Maria"
+	SP-Santa_Maria-0
+	break
+	SP-Santa_Maria-1
+	break
+	SP-Santa_Maria-2
+endmap
+
+########################################################
+# Maps pour les coupe développées
+
+# Agencement des maps pour les coupes développées
+#map MC-Santa_Maria -title "Tragadero de Santa Maria"
+#	MC-Santa_Maria-1
+#	break
+#	# Pour décaler la map (on ne peut pas décaler juste un scrap, il faut qu'il soit inclus dans une map)
+#	MC-Santa_Maria-2 [-130 0 m] below
+#endmap
