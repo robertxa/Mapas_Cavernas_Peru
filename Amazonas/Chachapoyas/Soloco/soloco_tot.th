@@ -4,76 +4,42 @@ encoding utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-# add topos :
-input ../Chaquil_resurgencia/chaquil.th
-input ../Chaquil_Tragadero/chaquil.th
+survey Soloco -title "Sistema de Soloco"
+    # add topos :
+    # Chaquil
+    input Data/Chaquil/Chaquil-tot.th
 
-#input ../Santa-Maria/Santana_maria_et_arriba-tot.th
-input ../Parjugsha_alto/alto.th
-input ../Parjugsha_arriba/Parjugsha_arriba-tot.th
-#input ../Parjugsha_arriba/OLD/arriba.th
-input ../Parjugsha_chico/pchico.th
-input ../Parjugsha_grande/grande.th
-input ../Parjugsha_leonidas/leonidas.th
-input ../Parjugsha_mega/mega.th
+    # Parjugsha
+    input Data/Parjugsha/Parjugsha-tot.th
 
-equate PM63@chico PM63@mega
-equate PM22@grande PM22@mega
-
-input ../Pumatushuna_Tragadero/pumatushuna.th
-input ../Purum_Llacta/purum_llacta.th
-
-input ../rio_seco/rioseco.th
-
-input ../Vaca_Negra_Tragadero/vacanegra.th
-
-input ../Trocadero_tragadero/trocadero.th
+    # Toclon
+    input Data/Toclon/Toclon-tot.th
 
 
-# Topos 2018
-input ../Ancayrrumo-Tragadero/ancayrrumo.th
-input ../Ancayrrumo-Tragadero/ancayrrumo.th2
-input ../Ancayrrumo-Tragadero/ancayrrumo-coupe.th2
+    # Topos 2018 --> Non_def
+    input Data/Non_def/Ancayrrumo-Tragadero/ancayrrumo.th
+    input Data/Non_def/Ancayrrumo-Tragadero/ancayrrumo.th2
+    input Data/Non_def/Ancayrrumo-Tragadero/ancayrrumo-coupe.th2
 
-input ../Areniscas-Tragadero/areniscas.th
-input ../Areniscas-Tragadero/areniscas.th2
-input ../Areniscas-Tragadero/areniscas-coupe.th2
+    input Data/Non_def/Bloques_Tragadero/tragz.th
+    input Data/Non_def/Bloques_Tragadero/bloques.th2
+    input Data/Non_def/Bloques_Tragadero/bloques-coupe.th2
 
-input ../Bloques_Tragadero/tragz.th
-input ../Bloques_Tragadero/bloques.th2
-input ../Bloques_Tragadero/bloques-coupe.th2
+    input Data/Non_def/Hache-Tragadero/hache.th
+    input Data/Non_def/Hache-Tragadero/hache.th2
+    input Data/Non_def/Hache-Tragadero/hache-coupe.th2
 
-input ../Calavera-Cueva/calavera-tot.th
+    input Data/Non_def/Ojo_Negro_Cueva/ojo_negro.th
+    input Data/Non_def/Ojo_Negro_Cueva/ojo_negro.th2
 
-input ../Hache-Tragadero/hache.th
-input ../Hache-Tragadero/hache.th2
-input ../Hache-Tragadero/hache-coupe.th2
+    input Data/Non_def/Oso-Tragadero/oso.th
+    input Data/Non_def/Oso-Tragadero/oso.th2
+    input Data/Non_def/Oso-Tragadero/oso-coupe.th2
 
-input ../Ojo_Negro_Cueva/ojo_negro.th
-input ../Ojo_Negro_Cueva/ojo_negro.th2
+    input Data/Non_def/Siphon-Tragadero/siphon1.th
+    input Data/Non_def/Siphon-Tragadero/siphon.th2
+    input Data/Non_def/Siphon-Tragadero/siphon1-coupe.th2
 
-input ../Oso-Tragadero/oso.th
-input ../Oso-Tragadero/oso.th2
-input ../Oso-Tragadero/oso-coupe.th2
+    # add maps
 
-input ../Refugio-Cueva/refugio.th
-input ../Refugio-Cueva/refugio.th2
-
-input ../Siphon-Tragadero/siphon1.th
-input ../Siphon-Tragadero/siphon.th2
-input ../Siphon-Tragadero/siphon1-coupe.th2
-
-input ../Torreon-Tragadero/torreon.th
-input ../Torreon-Tragadero/torreon.th2
-input ../Torreon-Tragadero/torreon-coupe.th2
-
-input ../X5_Tragadero/x5.th
-input ../X5_Tragadero/x5.th2
-input ../X5_Tragadero/x5-coupe.th2
-
-# add DEM :
-
-
-# add drawings :
-
-
+endsurvey

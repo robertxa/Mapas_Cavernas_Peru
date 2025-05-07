@@ -1,0 +1,18 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey X5 -title "Tragadero X5"
+	## Appel des données topos
+	##	Si tu veux ajouter des données topos, le faire dans un autre fichier/dossier, et ajouter des equate
+	input Data/x5.th
+	
+	## Appel des dessins
+	input Data/x5.th2
+	input Data/x5-coupe.th2
+
+	## Appel des maps
+	input X5-maps.th
+endsurvey

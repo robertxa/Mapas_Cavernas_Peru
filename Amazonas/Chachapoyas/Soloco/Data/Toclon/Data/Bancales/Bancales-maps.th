@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+# Map pour le plan ; ça permet de gérer la transparence, savoir qui est dessus et qui est dessous
+map MP-Bancales -title "Tragadero de Toclon 2 (Bancales)"
+	Bancales-SP1
+endmap
+
+########################################################
+# Maps pour les coupe développées
+map MC-Bancales -title "Tragadero de Toclon 2 (Bancale"
+	Bancales-SC-1
+endmap

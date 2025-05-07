@@ -12,10 +12,11 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Toclon_tot.th
+source Toclon-tot.th
 
 # DEM
-source ../DEM/Soloco.th
+source ../DEM/DEM-Soloco-test.th
+#source ../DEM/Soloco.th
 #source ../DEM/DEM-Toclon.th
 
 # Add config file

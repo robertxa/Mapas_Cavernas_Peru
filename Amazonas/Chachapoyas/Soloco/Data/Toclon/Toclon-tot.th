@@ -1,0 +1,34 @@
+encoding utf-8
+
+# Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Toclon -title "Système de Toclon"
+    # add topos :
+    
+    input Data/Bancales/Bancales-tot.th
+    input Data/Bosque/Bosque-tot.th
+    input Data/Copiachuclla/Copiachuclla-tot.th
+    input Data/Moscas/Moscas-tot.th
+    input Data/Olvidado/Olvidado-tot.th
+    input Data/Pozos/Pozos-tot.th
+    input Data/Pumatushuna/pumatushuna.th
+    input Data/RellenosNegros/RellenosNegros-tot.th
+
+    input Data/Temor/Temor-tot.th
+    input Data/Toclon/Toclon-tot.th
+    input Data/Ventanilla/Ventanilla-tot.th
+
+
+    input Data/X4/X4-tot.th
+    input Data/X5/X5-tot.th
+
+    # Ajout de la résurgence ?
+    #input ../Parjugsha/Data/rio_seco/rioseco.th
+
+    # Input maps definition
+    #input Toclon-maps.th
+    
+endsurvey
+

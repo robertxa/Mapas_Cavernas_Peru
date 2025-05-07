@@ -22,18 +22,22 @@ survey Parjugsha_arriba -title "Tragadero de Parjugsha Arriba"
     date 2024.09.27 
       # team Ade, Flo, Thib, Julien 
       team "Adeline Ferrandez"
-      team "Flo ??"
-      team "Thibault ??"
-      team "Julien ??"
+      team "Florian Richard"
+      team "Thibault Duchateau"
+      team "Julien Jeannin"
 
     explo-date 2024.09.27
       explo-team "Adeline Ferrandez"
-      explo-team "Flo R??"
-      explo-team "Thibault D??"
-      explo-team "Julien ??"
-  explo-date 2005.07.04
-		explo-team "Jean-François Perret"
-		explo-team "Benoît/Le Falher"
+      explo-team "Florian Richard"
+      explo-team "Thibaud Duchateau"
+      explo-team "Julien Jeannin"
+    explo-date 2005.07.04
+		  explo-team "Jean-François Perret"
+		  explo-team "Benoît/Le Falher"
+      explo-team "Pierre Bevengut"
+      explo-team "Gino Staccioli"
+      explo-team "J. Raimbourg"
+      explo-team "Jean-Denis Klein"
 
     cs lat-long
     fix 44	-6.3097	-77.7346	3000 

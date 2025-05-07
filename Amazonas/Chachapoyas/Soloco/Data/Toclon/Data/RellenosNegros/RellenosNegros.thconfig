@@ -1,6 +1,6 @@
 encoding  utf-8
     
-# Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>   
     
@@ -11,26 +11,17 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source soloco_tot.th
-#source bellavista_tot.th
-#source bellavista.th2
-#source bellavista2014.th2
-#source bellavista2.th2
-
-# DEM
-#source DEM/Soloco.th
-#source DEM/DEM-Solocoproj.th
-source Data/DEM/DEM-Soloco-test.th
+source RellenosNegros-tot.th
 
 # Add config file
-input ../../../config.thc 
+input ../../../../../../../config.thc 
   
   
 # 2-LAYOUT   
 # Debut de la definition du Layout "xviexport"
 layout xviexport
 	# echelle a laquelle on veut dessiner la topo
-	scale 1 1000
+	scale 1 500
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
@@ -47,7 +38,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Systema de Soloco"
+	doc-title "Tragadero RellenosNegros"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -60,24 +51,22 @@ layout my_layout
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1350
+	base-scale 1 1000
      
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
 	# controlle le gros des lignes, rotation, etc, convenable
-	# pour faire l amplificaation-reduction entre dessin et
+	# pour faire l amplification-reduction entre dessin et
 	# le resultat de l imprimante
 	# C est tres important s assurer que la configuration de
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	#scale 1 1000
 	scale 1 1000
 
 	# echelle graphique 100 m ampleur
 	scale-bar 100 m
-	#scale-bar 50 m
-  
+	  
 	# Pour faire une rotation
 	#rotate 2.25
   
@@ -111,12 +100,11 @@ layout my_layout
 	# seulement la legende des symboles dessines sur la topo, si l on veut
 	# pour tous les symboles, utilises ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	#legend on
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 18 cm
-	
-	legend-columns 3
+	legend-width 15 cm
+	#legend-columns 3
 
     
 	# Specification la position de la manchette : interieur
@@ -126,7 +114,7 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 63 75 nw
+	#map-header 63 75 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -166,13 +154,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Systema de Soloco} 		
+			\cavename={Tragadero RellenosNegros} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={2005}
+	\newtoks\expe \expe={Nor Perú 2024}
 	endcode    
 
 endlayout
@@ -186,7 +174,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero de Parugsha Chico"
+	doc-title "Tragadero RellenosNegros"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -195,7 +183,7 @@ layout my_layout-coupe
 	# employee, c est le cas apres avoir dessine la topo
 	# sur un cheminement exporte avec le layout "xviexport"
 	# (voir en bas)
-	base-scale 1 1750
+	base-scale 1 1000
   
 	# "scale" : specification de l echelle,
 	# pour imprimer la topo. La combination entre scale et base-scale
@@ -206,12 +194,10 @@ layout my_layout-coupe
 	# l imprimante ne specifie pas l option "Fit in page"
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
-	scale 1 1500
-	#scale 1 500
+	scale 1 1000
 
 	# echelle graphique 100 m ampleur
-	#scale-bar 100 m
-	scale-bar 150 m  
+	scale-bar 100 m  
 
 	# Pour faire une rotation
 	#rotate 2.25
@@ -248,7 +234,7 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 20 cm
+	legend-width 15 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -257,13 +243,11 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	#map-header 0 60 nw
-	map-header 50 50 sw
+	map-header 0 30 nw
+	#map-header 50 50 sw
 
-    
 	# arrière plan de la manchette
 	map-header-bg off
-  
 	layers on
   
 	# Options pour afficher le squelette topo,
@@ -298,13 +282,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero de Parugsha Chico} 		
+			\cavename={Tragadero RellenosNegros} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
+	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={2005}
+	\newtoks\expe \expe={Nor Perú 2024}
 	endcode  
   
 endlayout
@@ -312,16 +296,16 @@ endlayout
  
   
  # 3-EXPORTS   
- #export map -fmt xvi -layout xviexport -o bellavista2016.xvi
- #export map -projection extended -fmt xvi -layout xviexport -o bellavista-coupe2016.xvi
+ #export map -fmt xvi -layout xviexport -o RellenosNegros_2018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o RellenosNegros-coupe2018.xvi
   
- #export map -o soloco-plan2017.pdf -layout my_layout
- #export map -projection extended -layout my_layout-coupe -o Chico-coupe2005.pdf
- export model -o Outputs/Soloco.lox
+ export map -o Outputs/RellenosNegros-plan.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/RellenosNegros-coupe.pdf
+ export model -o Outputs/RellenosNegros.lox
   
  # Export des fichiers ESRI
- #export map -proj plan -fmt esri -o chico_2005 -layout my_layout
+ #export map -proj plan -fmt esri -o Outputs/RellenosNegros -layout my_layout
   
  # Export des fichiers kml
- #export map -proj plan -fmt kml -o chico_2005.kml -layout my_layout
- #export model -fmt kml -o chico_2005m.kml
+ #export map -proj plan -fmt kml -o Outputs/RellenosNegros.kml -layout my_layout
+ export model -fmt kml -o Outputs/RellenosNegros_m.kml

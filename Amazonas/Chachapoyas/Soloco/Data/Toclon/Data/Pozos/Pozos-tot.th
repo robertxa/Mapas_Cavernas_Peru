@@ -1,0 +1,18 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Pozos -title "Tragadero de los Pozos"
+	## Appel des données topos
+	##	Si tu veux ajouter des données topos, le faire dans un autre fichier/dossier, et ajouter des equate
+	input Data/Pozos.th
+	
+	## Appel des dessins
+	#input Data/Pozos.th2
+	#input Data/Pozos-coupe.th2
+
+	## Appel des maps
+	#input Pozos-maps.th
+endsurvey

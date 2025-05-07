@@ -1,0 +1,50 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey RellenosNegros -title "Tragadero de los Rellenos Negros (Toclon 1)"
+
+  centerline
+    date 2023.11.14
+      team "Jean-Yves Bigot"
+      team "Jean Loup/Guyot"
+	  explo-date 2023.11.14
+      explo-team "Jean-Yves Bigot"
+      explo-team "Jean Loup/Guyot"
+      
+    cs UTM18S
+    fix 1	 192904  9303769 3090
+	  station 1 "Tragadero los Rellenos Negros (Toclon 11)" entrance
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino	left	right	up	down
+      #Param Deca Degd Clino Degd -3.5037 Dir,Dir,Dir Arr Std 14/11/2023 A ;
+      #Topo du 14-11-2023 Tragadero de los Rellenos Negros (Toclon 11) Jean Loup Guyot et Jean-Yves Bigot.;
+
+1          1b                         0.00    0.00    0.00   0.00   1.70   1.60   1.60
+1          2                         2.80  204.30  -20.60   1.50   2.10   3.50   0.40
+2          3                         5.30   89.90  -35.40   0.00   1.30   1.60   2.00
+3          4                         3.70  189.10  -48.40   2.50   2.00   1.70   0.00
+4          5                         4.26  125.90   -7.90   0.00   0.80   1.00   0.50
+5          6                         2.86  134.20   33.80   1.00   0.00   3.00   3.00
+6          7                         3.69   99.60  -56.50   2.00   2.00   3.00   0.80
+7          8                         5.53  338.90  -29.70   1.20   1.00   0.00   2.00
+8          9                         4.84   83.60  -41.40   1.60   0.00   2.80   1.20
+9          10                        3.66   47.80   -5.10   0.70   1.10   3.00   1.80
+10         11                        6.78   81.00  -21.50   0.30   0.60   3.00   3.00
+11         12                        2.77   53.06  -73.60   1.20   0.00   2.00   1.10
+12         13                        4.76  224.90  -60.50   1.00   5.00   3.00   1.00
+13         14                        6.66  273.80  -11.20   2.50   1.20   2.00   0.20
+13         15                        2.23   22.00  -23.30   2.50   2.50   3.60   1.60
+15         16                        2.51   79.70  -49.90   0.40   0.00   0.15   0.20
+16         17                        2.43   53.90  -23.30   0.00   0.60   1.00   6.00
+17         18                        7.83   47.70  -56.10   0.00   3.00   3.50   7.00
+18         19                        7.44  217.80  -81.20   0.60   2.50   7.00   1.50
+19         20                        6.50  335.80  -38.40   0.80   2.00   6.00   0.00
+
+  endcenterline
+
+endsurvey

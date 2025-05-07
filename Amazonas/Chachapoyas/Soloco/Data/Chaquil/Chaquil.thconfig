@@ -2,7 +2,8 @@ encoding  utf-8
     
 # Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
-#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>   
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+  
     
 # 1-SOURCES 
 # La ligne source specifie le fichier ou sont les donnees topo
@@ -11,19 +12,14 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source soloco_tot.th
-#source bellavista_tot.th
-#source bellavista.th2
-#source bellavista2014.th2
-#source bellavista2.th2
+source Chaquil-tot.th
 
 # DEM
-#source DEM/Soloco.th
-#source DEM/DEM-Solocoproj.th
-source Data/DEM/DEM-Soloco-test.th
+source ../DEM/Soloco.th
+#source ../DEM/DEM-Parugsha.th
 
 # Add config file
-input ../../../config.thc 
+input ../../../../../config.thc 
   
   
 # 2-LAYOUT   
@@ -47,7 +43,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Systema de Soloco"
+	doc-title "Systema de Chaquil"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -72,10 +68,10 @@ layout my_layout
 	# ou similaire, sinon, l echelle sera change pendant
 	# l impression
 	#scale 1 1000
-	scale 1 1000
+	scale 1 5000
 
 	# echelle graphique 100 m ampleur
-	scale-bar 100 m
+	scale-bar 500 m
 	#scale-bar 50 m
   
 	# Pour faire une rotation
@@ -166,13 +162,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Systema de Soloco} 		
+			\cavename={Systema de Chaquil} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={2005}
+	\newtoks\expe \expe={2005, 2024}
 	endcode    
 
 endlayout
@@ -304,7 +300,7 @@ layout my_layout-coupe
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM)}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={2005}
+	\newtoks\expe \expe={2005, 2024}
 	endcode  
   
 endlayout
@@ -317,7 +313,7 @@ endlayout
   
  #export map -o soloco-plan2017.pdf -layout my_layout
  #export map -projection extended -layout my_layout-coupe -o Chico-coupe2005.pdf
- export model -o Outputs/Soloco.lox
+ export model -o Outputs/Chaquil_3D.lox
   
  # Export des fichiers ESRI
  #export map -proj plan -fmt esri -o chico_2005 -layout my_layout
@@ -325,3 +321,5 @@ endlayout
  # Export des fichiers kml
  #export map -proj plan -fmt kml -o chico_2005.kml -layout my_layout
  #export model -fmt kml -o chico_2005m.kml
+
+ export database -o Outputs/Chaquil.sql

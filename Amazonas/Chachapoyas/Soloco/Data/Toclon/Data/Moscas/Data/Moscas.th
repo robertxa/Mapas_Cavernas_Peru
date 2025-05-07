@@ -1,0 +1,69 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Moscas -title "Tragadero de las Moscas (Toclon 9)"
+
+  centerline
+    date 2023.11.12
+      team "Jean-Yves Bigot"
+      team "Jean Loup/Guyot"
+	  explo-date 2023.11.12
+      explo-team "Jean-Yves Bigot"
+      explo-team "Jean Loup/Guyot"
+      
+    cs UTM18S
+    fix 1	 192523  9303309 3040
+	  station 1 "Tragadero Moscas (Toclon 9)" entrance
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino	left	right	up	down
+      #Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Arr Std 14/11/2023 M ;
+      #Topo du 12-11-2023 Tragadero de las Moscas (Toclon 9) Jean Loup Guyot et Jean-Yves Bigot.;
+
+1          1b                         0.00    0.00    0.00   0.00   1.70   0.00   1.50
+1          2                         3.07  195.60  -71.70   5.00   1.50   1.70   7.00
+2          3                         8.76  255.60  -72.50   6.00   1.70   5.00   1.50
+3          4                         2.82  323.40  -34.10   0.00   2.70   5.00   1.80
+4          5                         8.05   69.00  -56.00   4.00   0.00   0.30   5.00
+5          6                         6.55   22.50  -76.30   1.00   3.50   3.00   1.60
+6          7                         3.17  105.00  -26.10   1.00   0.50   3.00   1.30
+7          8                         1.75  105.80  -44.80   0.50   0.00   0.50   0.20
+8          9                         2.67   38.20  -37.40   0.00   1.00   2.00   5.00
+  endcenterline
+  
+  
+  centerline
+    date 2023.11.13
+      team "Jean-Yves Bigot"
+      team "Jean Loup/Guyot"
+	  explo-date 2023.11.13
+      explo-team "Jean-Yves Bigot"
+      explo-team "Jean Loup/Guyot"
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino	left	right	up	down
+      #Param Deca Degd Clino Degd 0.0000 Dir,Dir,Dir Inc Std 12/11/2023 M ;
+      #Topo du 13-11-2023 Tragadero de las Moscas (Toclon 9) Jean Loup Guyot et Jean-Yves Bigot.;
+
+9          10                        8.34  133.80  -60.70   3.50   3.50   2.50   0.00
+10         11                        5.03   91.60   37.00   0.50   1.00   0.60   1.60
+11         12                        5.39  156.40    7.30   0.50   1.00   3.50   1.60
+12         13                        7.27   23.20  -13.50   4.00   1.60   1.00   3.00
+13         14                        2.93  111.20  -69.70   2.00   2.00   1.00   1.00
+14         15                        2.12   11.70  -32.70   1.50   2.00   0.50   1.20
+15         16                        3.86  127.60  -35.50   0.50   1.50   1.60   1.30
+10         17                        5.57  330.60  -21.00   1.00   0.00   1.00   1.50
+17         18                        3.20  210.80  -45.80   1.00   1.20   1.50   0.00
+18         19                        3.44  149.30   -3.10   1.00   0.50   2.00   4.00
+19         20                        4.24  310.80  -68.80   0.30   1.60   1.50   0.30
+20         21                        3.85   14.30  -21.60   2.00   0.50   1.00   2.00
+21         22                        2.45  265.50    8.90   0.20   3.50   1.60   6.00
+22         23                        7.70  250.90  -65.90   0.50   1.00   5.00   0.00
+  endcenterline
+
+endsurvey

@@ -1,0 +1,58 @@
+# 2018.08.19 created by TopoDroid v 4.1.0c
+
+# Copyright (C) 2025 Jean-Yves Bigot
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Temor -title "Tragadero de Toclon 6 (Temor)" -entrance 1
+
+  centerline
+    date 2022.10.07
+    	team "Jean-Yves Bigot"
+    	team "Jean Loup/Guyot"
+      team "Antonio/de Pomar"
+	explo-date 2022.10.07 
+    	explo-team "Jean-Yves Bigot"
+    	explo-team "Jean Loup/Guyot"
+      explo-team "Antonio/de Pomar"
+    
+    cs UTM18S
+    fix 1	 192685  9302078 3050
+	  station 1 "Tragadero de Toclon 6 (Temor)" entrance
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino	left	right	up	down
+      #Param Deca Degd Clino Degd -3.3830 Dir,Dir,Dir Arr Std 08/10/2022 M ;
+      # Topo du 07-10-2022 par Antonio de Pomar et Jean-Yves Bigot. Disto X en degr�s;
+
+1          1b                         0.00    0.00    0.00   4.00   4.00   3.00   2.00
+1          2                         8.43  352.20  -24.60   1.50   2.00   0.00   0.30
+2          3                         2.25  328.30  -20.70   1.00   2.00   1.00   3.00
+3          4                         4.52   91.40  -69.10   2.00   1.00   1.00   3.00
+4          5                         3.92  116.30  -76.00   1.50   1.00   3.50   3.00
+5          6                         3.46  281.40  -74.10   2.50   1.00   1.00   1.30
+6          7                         3.44  207.10  -35.60   2.20   1.50   0.50   1.70
+7          8                         2.36   83.70  -44.70   1.00   1.70   1.50   2.50
+8          9                         5.77  321.50  -47.40   1.50   3.00   0.00   6.00
+9          10                        5.77  292.20  -57.60   0.00   3.00   2.00   3.00
+10         11                        5.11  340.00  -49.20   4.00   1.00   2.00   1.70
+11         12                        4.28  212.20   -5.10   0.70   3.00   0.70   5.00
+12         13                        4.64  258.20  -56.20   1.00   1.00   0.00   5.00
+13         14                        3.32   70.60  -33.10   0.70   0.00   1.20   3.00
+14         15                        2.64    8.70  -41.80   2.50   3.50   5.00   2.00
+15         16                        2.78  245.80  -36.20   2.00   1.00   2.00  10.00
+16         17                        3.71  202.40  -34.50   6.00   3.00   5.00  10.00
+17         18                        7.13  279.30  -83.20   0.70   0.70   8.00  10.00
+18         19                        4.32  113.90  -80.20   0.90   0.30  10.00  10.00
+19         20                       11.28   36.90  -80.80   2.00   0.00  10.00   1.90
+20         21                        6.31    1.50   -6.80   3.20   0.00  10.00   2.20
+21         22                        3.03  237.40  -31.60   0.00   1.00   2.00   1.00
+22         23                        7.43  254.00  -74.10   4.50   1.00   6.00   2.00
+23         24                        5.80   37.80  -44.50   0.50   0.40   1.00   0.00
+24         25                        2.15  354.30  -22.70   0.00   0.40   0.40   0.20
+25         26                        2.13   60.50  -33.10   1.20   0.00   1.50   0.30
+26         27                        5.65  302.90  -23.10      .      .      .      .
+  endcenterline
+
+endsurvey

@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+# Map pour le plan ; ça permet de gérer la transparence, savoir qui est dessus et qui est dessous
+map MP-Toclon -title "Tragadero de Toclon"
+	Toclon-SP1
+endmap
+
+########################################################
+# Maps pour les coupe développées
+map MC-Toclon -title "Tragadero de Toclon"
+	Toclon-SC-1
+endmap

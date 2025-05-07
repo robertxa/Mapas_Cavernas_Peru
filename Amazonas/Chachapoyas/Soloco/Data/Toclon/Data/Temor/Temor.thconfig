@@ -1,6 +1,6 @@
 encoding  utf-8
     
-# Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>   
     
@@ -11,12 +11,10 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source x5.th
-source x5.th2
-source x5-coupe.th2
+source Temor-tot.th
 
 # Add config file
-input ../../../../config.thc 
+input ../../../../../../../config.thc 
   
   
 # 2-LAYOUT   
@@ -40,7 +38,7 @@ layout my_layout
 	copy langue-es
 
 	# Titre  
-	doc-title "Tragadero X5"
+	doc-title "Tragadero Temor"
   
 	# Pour faire la topo dans le system UTM  
 	# Decommenter la ligne, et remplacer xx par la zone UTM
@@ -156,13 +154,13 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero X5} 		
+			\cavename={Tragadero de Toclon 6 (Temor)} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Nor Perú 2022}
 	endcode    
 
 endlayout
@@ -176,7 +174,7 @@ layout my_layout-coupe
 	copy langue-es
 	
 	# Titre  
-	doc-title "Tragadero X5"
+	doc-title "Tragadero Temor"
   
 	# "base-scale" specifie l echelle auquel nous avons
 	# dessine nos croquis. Par defaut, c est 1/200.
@@ -284,13 +282,13 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Tragadero X5} 		
+			\cavename={Tragadero de Toclon 6 (Temor)} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 	\newtoks\club \club={Espeleo Club Andino (ECA), Groupe Spéléologique de Bagnols Marcoule (GSBM), Groupe Spéléologique Vulcain}
 	\newtoks\synth \synth={}
 	\newtoks\wpage \wpage={}
-	\newtoks\expe \expe={Nor Perú 2018}
+	\newtoks\expe \expe={Nor Perú 2022}
 	endcode  
   
 endlayout
@@ -298,16 +296,16 @@ endlayout
  
   
  # 3-EXPORTS   
- #export map -fmt xvi -layout xviexport -o x5_2018.xvi
-# export map -projection extended -fmt xvi -layout xviexport -o x5-coupe2018.xvi
+ #export map -fmt xvi -layout xviexport -o Temor_2018.xvi
+# export map -projection extended -fmt xvi -layout xviexport -o Temor-coupe2018.xvi
   
- export map -o x5-plan2018.pdf -layout my_layout
- export map -projection extended -layout my_layout-coupe -o x5-coupe2018.pdf
- export model -o x5_2018.lox
+ export map -o Outputs/Temor-plan.pdf -layout my_layout
+ export map -projection extended -layout my_layout-coupe -o Outputs/Temor-coupe.pdf
+ export model -o Outputs/Temor_2018.lox
   
  # Export des fichiers ESRI
- export map -proj plan -fmt esri -o x5_2018 -layout my_layout
+ #export map -proj plan -fmt esri -o Outputs/Temor -layout my_layout
   
  # Export des fichiers kml
- export map -proj plan -fmt kml -o x5_2018.kml -layout my_layout
- export model -fmt kml -o x5_2018m.kml
+ #export map -proj plan -fmt kml -o Outputs/Temor.kml -layout my_layout
+ export model -fmt kml -o Outputs/Temor_m.kml
